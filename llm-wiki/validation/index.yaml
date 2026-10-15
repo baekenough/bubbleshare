@@ -1,0 +1,38 @@
+version: 1
+title: 검증과 품질 한계
+repository_root: ../..
+path_base: 저장소 루트
+no_secrets: true
+guide:
+  path: llm-wiki/validation/guide.md
+  title: 검증 안내
+  purpose: 변경별 테스트와 고정 품질 기준
+sources:
+- path: tests
+  title: 회귀 테스트
+  purpose: 로컬 기능·정책·저장·비용 검사
+- path: evals/action-cases.json
+  title: 기존 심화 평가 사례
+  purpose: 별도 평가 흐름의 입력
+- path: scripts/validate_product_v2.py
+  title: 운영 품질 실행
+  purpose: 실제 단일 호출 검증과 기록
+- path: scripts/analyze_optimization_costs.py
+  title: 비용 집계
+  purpose: 공급사 영수증과 품질 결과 대사
+- path: output/cost-table-gpt54-low/quality-audit.json
+  title: 채택 설정 평가
+  purpose: 원문·최종 계약의 독립 내용 검토
+- path: output/cost-optimization-costs.json
+  title: 실험 비용 기록
+  purpose: 성공·실패 실험을 포함한 비용
+- path: docs/cost-optimization-results.md
+  title: 실험 설명
+  purpose: 설정별 품질과 비용 한계
+related:
+- path: llm-wiki/agent/index.yaml
+  title: 계약 변경 위치
+  purpose: 후보·실행·측정 코드 안내
+- path: llm-wiki/runtime/index.yaml
+  title: 실행 설정
+  purpose: 모델·예산·관측 변경 안내

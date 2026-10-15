@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.vivi/
+.omx/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.env
+.env.*
+!.env.example
+
+node_modules/
+frontend/dist/
+*.duckdb
+*.duckdb.wal

@@ -1,0 +1,50 @@
+﻿source_id,domain,url,source_type,title,is_brand_owned,brand_id
+SRC001,orbitcrm.example,https://orbitcrm.example/features,product,OrbitCRM 제품 기능,true,BR001
+SRC002,orbitcrm.example,https://orbitcrm.example/pricing,pricing,OrbitCRM 요금 안내,true,BR001
+SRC003,orbitcrm.example,https://orbitcrm.example/guides/crm,guide,OrbitCRM CRM 활용 가이드,true,BR001
+SRC004,orbitcrm.example,https://orbitcrm.example/stories/customer,case-study,OrbitCRM 고객 사례,true,BR001
+SRC005,novadesk.example,https://novadesk.example/features,product,NovaDesk 제품 기능,true,BR002
+SRC006,novadesk.example,https://novadesk.example/pricing,pricing,NovaDesk 요금 안내,true,BR002
+SRC007,novadesk.example,https://novadesk.example/guides/crm,guide,NovaDesk CRM 활용 가이드,true,BR002
+SRC008,novadesk.example,https://novadesk.example/stories/customer,case-study,NovaDesk 고객 사례,true,BR002
+SRC009,leadflow.example,https://leadflow.example/features,product,LeadFlow 제품 기능,true,BR003
+SRC010,leadflow.example,https://leadflow.example/pricing,pricing,LeadFlow 요금 안내,true,BR003
+SRC011,leadflow.example,https://leadflow.example/guides/crm,guide,LeadFlow CRM 활용 가이드,true,BR003
+SRC012,leadflow.example,https://leadflow.example/stories/customer,case-study,LeadFlow 고객 사례,true,BR003
+SRC013,clientnest.example,https://clientnest.example/features,product,ClientNest 제품 기능,true,BR004
+SRC014,clientnest.example,https://clientnest.example/pricing,pricing,ClientNest 요금 안내,true,BR004
+SRC015,clientnest.example,https://clientnest.example/guides/crm,guide,ClientNest CRM 활용 가이드,true,BR004
+SRC016,clientnest.example,https://clientnest.example/stories/customer,case-study,ClientNest 고객 사례,true,BR004
+SRC017,picosales.example,https://picosales.example/features,product,PicoSales 제품 기능,true,BR005
+SRC018,picosales.example,https://picosales.example/pricing,pricing,PicoSales 요금 안내,true,BR005
+SRC019,picosales.example,https://picosales.example/guides/crm,guide,PicoSales CRM 활용 가이드,true,BR005
+SRC020,picosales.example,https://picosales.example/stories/customer,case-study,PicoSales 고객 사례,true,BR005
+SRC021,orbitcrm.example,https://orbitcrm.example/security,guide,OrbitCRM 보안·개인정보 보호 정책,true,BR001
+SRC022,orbitcrm.example,https://orbitcrm.example/guides/lead-scoring,guide,OrbitCRM 리드 스코어링 가이드,true,BR001
+SRC023,clientnest.example,https://clientnest.example/guides/migration,guide,ClientNest 데이터 이전 가이드: 엑셀에서 CRM으로,true,BR004
+SRC024,blog.orbitcrm.example,https://blog.orbitcrm.example/automation-recipes,blog,영업 자동화 레시피 20선,true,
+SRC025,leadflow.example,https://leadflow.example/blog/lead-routing,blog,LeadFlow 리드 자동 배정 사례,true,BR003
+SRC026,bizreview.example,https://bizreview.example/review/crm-2026,review,2026 중소기업 CRM 사용자 리뷰 종합,false,
+SRC027,bizreview.example,https://bizreview.example/review/crm-mobile,review,CRM 모바일 앱 실사용 리뷰,false,
+SRC028,bizreview.example,https://bizreview.example/review/crm-security,review,CRM 보안 기능 리뷰,false,
+SRC029,saascompare.example,https://saascompare.example/compare/crm-pricing,comparison,CRM 요금제 비교표 2026,false,
+SRC030,saascompare.example,https://saascompare.example/compare/smb-crm,comparison,중소기업 CRM 기능 비교,false,
+SRC031,saascompare.example,https://saascompare.example/compare/crm-integrations,comparison,CRM 연동 지원 비교,false,
+SRC032,techguide.example,https://techguide.example/crm/checklist,editorial,CRM 도입 체크리스트,false,
+SRC033,techguide.example,https://techguide.example/crm/migration,editorial,CRM 데이터 마이그레이션 가이드,false,
+SRC034,techguide.example,https://techguide.example/crm/dashboard,editorial,영업 대시보드 설계법,false,
+SRC035,workflowhub.example,https://workflowhub.example/blog/crm-automation,blog,CRM 업무 자동화 시나리오 모음,false,
+SRC036,workflowhub.example,https://workflowhub.example/blog/slack-calendar,blog,슬랙·캘린더 연동 실전,false,
+SRC037,workflowhub.example,https://workflowhub.example/blog/team-crm,blog,팀 협업을 위한 CRM 활용법,false,
+SRC038,startupnotes.example,https://startupnotes.example/community/crm-pick,community,스타트업 CRM 추천 스레드,false,
+SRC039,startupnotes.example,https://startupnotes.example/community/crm-mobile-issues,community,CRM 모바일 앱 불편 사항 모음,false,
+SRC040,startupnotes.example,https://startupnotes.example/community/churn,community,,false,
+SRC041,marketbrief.example,https://marketbrief.example/report/crm-market-2026,report,2026 국내 CRM 시장 리포트,false,
+SRC042,marketbrief.example,https://marketbrief.example/report/retention,report,고객 이탈 관리 트렌드,false,
+SRC043,marketbrief.example,https://marketbrief.example/report/lead-benchmark,report,B2B 리드 전환 벤치마크,false,
+SRC044,crm-insights.example,https://crm-insights.example/lead-scoring-101,editorial,리드 스코어링 입문,false,
+SRC045,crm-insights.example,https://crm-insights.example/privacy-law,editorial,개인정보보호법과 CRM,false,
+SRC046,crm-insights.example,https://crm-insights.example/industry-cases,editorial,업종별 CRM 활용 사례,false,
+SRC047,work-tools.example,https://work-tools.example/compare/scalable-crm,comparison,확장형 CRM 비교,false,
+SRC048,work-tools.example,https://work-tools.example/compare/crm-training,comparison,교육 지원이 좋은 CRM,false,
+SRC049,work-tools.example,https://work-tools.example/compare/agency-crm,comparison,,false,

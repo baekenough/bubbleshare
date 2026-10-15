@@ -1,0 +1,76 @@
+﻿question_id,topic_id,topic_label,query,search_intent,importance_score,estimated_monthly_interest,language,country
+Q001,crm_basics,CRM 도입,직원 10명 이하 스타트업에 맞는 CRM 추천해줘,commercial,80,1100,ko,KR
+Q002,crm_basics,CRM 도입,직원 10명 이하 스타트업에 적합한 CRM이 뭐야?,commercial,78,1100,ko,KR
+Q003,crm_basics,CRM 도입,엑셀로 고객을 관리하던 팀이 CRM으로 넘어가면 뭐가 달라져?,informational,60,720,ko,KR
+Q004,crm_basics,CRM 도입,B2B 영업팀에 CRM이 꼭 필요한 이유가 뭐야?,informational,67,720,ko,KR
+Q005,crm_basics,CRM 도입,무료 체험이 가능한 국내 CRM 서비스 알려줘,transactional,78,480,ko,KR
+Q006,pricing,가격·비용,20명 규모 영업팀이 쓰기에 가성비 좋은 CRM은 어디야?,commercial,75,1800,ko,KR
+Q007,pricing,가격·비용,CRM 요금제를 비교할 때 좌석 과금이랑 숨은 비용은 어떻게 따져야 해?,commercial,88,1100,ko,KR
+Q008,pricing,가격·비용,중소기업 CRM 도입 비용은 보통 한 달에 얼마 정도 들어?,informational,86,1800,ko,KR
+Q009,pricing,가격·비용,CRM 무료 플랜으로 어디까지 쓸 수 있어?,informational,76,1100,ko,KR
+Q010,pricing,가격·비용,직원 10명 기준으로 CRM 월 요금을 바로 비교해줘,transactional,85,720,ko,KR
+Q011,migration,마이그레이션,엑셀과 구글 시트 데이터를 쉽게 옮길 수 있는 CRM 추천해줘,commercial,90,1100,ko,KR
+Q012,migration,마이그레이션,다른 CRM으로 갈아탈 때 데이터 이전 기능은 무엇을 비교해야 해?,commercial,84,1100,ko,KR
+Q013,migration,마이그레이션,기존 CRM에서 새 CRM으로 고객 데이터를 옮기는 순서가 궁금해,informational,67,1100,ko,KR
+Q014,migration,마이그레이션,CRM 데이터를 이전할 때 중복 고객은 어떻게 정리해?,informational,68,720,ko,KR
+Q015,migration,마이그레이션,데이터 이전을 대행해 주는 CRM 업체 알려줘,transactional,76,480,ko,KR
+Q016,automation,업무 자동화,반복 업무를 자동화하기 좋은 CRM 추천해줘,commercial,84,1100,ko,KR
+Q017,automation,업무 자동화,소규모 마케팅 에이전시용 CRM을 고를 때 자동화 기능은 뭘 봐야 해?,commercial,84,1100,ko,KR
+Q018,automation,업무 자동화,CRM으로 후속 연락이나 리마인드를 자동화하는 방법은?,informational,82,1100,ko,KR
+Q019,automation,업무 자동화,영업 담당자 배정을 자동으로 하려면 CRM을 어떻게 설정해야 해?,informational,80,720,ko,KR
+Q020,automation,업무 자동화,업무 자동화 템플릿을 바로 쓸 수 있는 CRM 무료 체험 알려줘,transactional,82,720,ko,KR
+Q021,analytics,리포팅,영업 지표 대시보드가 강한 CRM 추천해줘,commercial,72,720,ko,KR
+Q022,analytics,리포팅,국내 B2B SaaS 기업이 CRM 리포트 기능을 비교할 때 기준은?,commercial,68,720,ko,KR
+Q023,analytics,리포팅,CRM에서 파이프라인 전환율은 어떻게 보는 거야?,informational,70,480,ko,KR
+Q024,analytics,리포팅,영업 리포트를 주간 회의에 쓰려면 어떤 지표를 봐야 해?,informational,60,480,ko,KR
+Q025,analytics,리포팅,영업 대시보드 템플릿을 제공하는 CRM 데모를 신청하고 싶어,transactional,48,480,ko,KR
+Q026,security,보안·권한,고객 정보 보호가 중요한 회사에 맞는 CRM 추천해줘,commercial,87,480,ko,KR
+Q027,security,보안·권한,CRM 보안을 비교할 때 접근 권한이랑 감사 로그는 어떻게 확인해?,commercial,86,1100,ko,KR
+Q028,security,보안·권한,개인정보보호법 기준으로 CRM을 쓸 때 주의할 점은?,informational,57,480,ko,KR
+Q029,security,보안·권한,팀별로 고객 데이터 열람 권한을 나누는 방법이 궁금해,informational,81,480,ko,KR
+Q030,security,보안·권한,보안 인증을 받은 국내 CRM 견적을 받아보고 싶어,transactional,71,240,ko,KR
+Q031,integration,연동,슬랙이랑 구글 캘린더 연동이 잘 되는 CRM 추천해줘,commercial,71,720,ko,KR
+Q032,integration,연동,CRM 연동 기능을 비교할 때 API랑 웹훅 지원은 어떻게 봐야 해?,commercial,66,240,ko,KR
+Q033,integration,연동,이메일과 CRM을 연동하면 영업 업무가 어떻게 달라져?,informational,49,240,ko,KR
+Q034,integration,연동,쓰고 있는 업무 도구를 CRM과 연결하는 방법은?,informational,56,240,ko,KR
+Q035,integration,연동,카카오톡 채널 연동이 되는 CRM을 바로 써볼 수 있어?,transactional,53,240,ko,KR
+Q036,onboarding,도입·교육,직원들이 금방 익힐 수 있는 쉬운 CRM 추천해줘,commercial,68,480,ko,KR
+Q037,onboarding,도입·교육,CRM 도입 후 팀 교육 지원은 업체별로 무엇을 비교해야 해?,commercial,58,480,ko,KR
+Q038,onboarding,도입·교육,CRM을 도입했는데 팀원들이 안 쓰면 어떻게 해야 해?,informational,42,480,ko,KR
+Q039,onboarding,도입·교육,새로 온 영업 담당자에게 CRM 사용법을 빨리 가르치는 방법은?,informational,58,480,ko,KR
+Q040,onboarding,도입·교육,도입 교육을 무료로 해주는 CRM 업체 상담을 받고 싶어,transactional,57,120,ko,KR
+Q041,mobile,모바일,외근이 많은 영업팀이 쓰기 좋은 모바일 CRM 추천해줘,commercial,76,1100,ko,KR
+Q042,mobile,모바일,CRM 모바일 앱을 비교할 때 오프라인 기능이랑 알림은 어떻게 봐야 해?,commercial,69,1100,ko,KR
+Q043,mobile,모바일,이동 중에 고객 미팅 기록을 CRM에 남기는 방법은?,informational,78,1100,ko,KR
+Q044,mobile,모바일,모바일에서 CRM을 쓸 때 보안은 괜찮을까?,informational,58,1100,ko,KR
+Q045,mobile,모바일,모바일 앱 평점이 높은 CRM을 바로 설치해 보고 싶어,transactional,66,480,ko,KR
+Q046,collaboration,협업,영업팀과 마케팅팀이 같이 쓰기 좋은 CRM 추천해줘,commercial,66,720,ko,KR
+Q047,collaboration,협업,CRM 협업 기능을 비교할 때 메모 공유랑 담당자 이관은 어떻게 봐?,commercial,64,720,ko,KR
+Q048,collaboration,협업,부서 간에 고객 정보를 공유할 때 생기는 문제를 줄이는 방법은?,informational,52,720,ko,KR
+Q049,collaboration,협업,담당자가 퇴사했을 때 고객 이력을 CRM으로 인수인계하는 방법은?,informational,62,720,ko,KR
+Q050,collaboration,협업,팀 단위로 바로 쓸 수 있는 협업형 CRM 무료 체험 알려줘,transactional,62,480,ko,KR
+Q051,scale,확장성,회사가 커져도 계속 쓸 수 있는 CRM 추천해줘,commercial,58,480,ko,KR
+Q052,scale,확장성,직원이 50명에서 200명으로 늘 때 CRM은 무엇을 비교해야 해?,commercial,60,480,ko,KR
+Q053,scale,확장성,스타트업이 성장하면서 CRM을 바꾸는 시점은 언제야?,informational,36,480,ko,KR
+Q054,scale,확장성,고객 수가 많아지면 CRM 성능 문제가 생기지 않을까?,informational,47,480,ko,KR
+Q055,scale,확장성,엔터프라이즈 플랜이 있는 CRM 견적을 문의하고 싶어,transactional,71,240,ko,KR
+Q056,comparison,제품 비교,중소기업용 CRM 순위 알려줘,commercial,88,1800,ko,KR
+Q057,comparison,제품 비교,중소기업에서 많이 쓰는 CRM 순위가 궁금해,commercial,88,1800,ko,KR
+Q058,comparison,제품 비교,국산 CRM과 해외 CRM은 뭐가 달라?,informational,78,1100,ko,KR
+Q059,comparison,제품 비교,CRM 리뷰를 볼 때 무엇을 믿어야 해?,informational,81,1100,ko,KR
+Q060,comparison,제품 비교,중소기업 CRM 비교표를 바로 볼 수 있는 곳 알려줘,transactional,86,720,ko,KR
+Q061,retention,고객 유지,재구매와 이탈 관리를 잘하는 CRM 추천해줘,commercial,76,480,ko,KR
+Q062,retention,고객 유지,구독형 서비스 회사가 이탈 관리 CRM을 고를 때 기준은?,commercial,66,480,ko,KR
+Q063,retention,고객 유지,CRM 데이터로 이탈 징후를 미리 알아내는 방법은?,informational,62,480,ko,KR
+Q064,retention,고객 유지,기존 고객 재구매율을 높이려면 CRM을 어떻게 써야 해?,informational,67,480,ko,KR
+Q065,retention,고객 유지,고객 이탈 분석 기능이 있는 CRM 데모를 보고 싶어,transactional,63,240,ko,KR
+Q066,lead,리드 관리,잠재고객 관리에 강한 CRM 추천해줘,commercial,98,1100,ko,KR
+Q067,lead,리드 관리,리드 관리를 잘하는 CRM 추천해줘,commercial,95,1100,ko,KR
+Q068,lead,리드 관리,웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?,informational,83,1100,ko,KR
+Q069,lead,리드 관리,리드를 영업 기회로 전환하는 비율을 높이려면 어떻게 해야 해?,informational,88,1100,ko,KR
+Q070,lead,리드 관리,리드 관리 CRM을 무료로 써볼 수 있는 곳 알려줘,transactional,92,720,ko,KR
+Q071,industry,업종별 활용,소규모 마케팅 에이전시에 맞는 CRM 추천해줘,commercial,59,240,ko,KR
+Q072,industry,업종별 활용,교육 업종에서 CRM을 고를 때 무엇을 비교해야 해?,commercial,47,240,ko,KR
+Q073,industry,업종별 활용,전문 서비스 회사는 CRM을 어떻게 활용해?,informational,46,240,ko,KR
+Q074,industry,업종별 활용,제조업 B2B 영업에 CRM이 도움이 될까?,informational,48,240,ko,KR
+Q075,industry,업종별 활용,업종별 템플릿을 제공하는 CRM 상담을 받고 싶어,transactional,46,120,ko,KR

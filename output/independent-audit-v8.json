@@ -1,0 +1,31 @@
+{
+  "reviewer": "separate_codex_subagent",
+  "scope": "P1/P2 read-only audit of final saved outputs against original evidence; not product integration execution or human validation",
+  "cases": [
+    {
+      "id": "lead_capability_unsupported",
+      "run_id": "bf8f75b1cae314ddabe33a472aea771ef24f79bbcbb6eb2240048b2ac4be5c5e",
+      "blocking_findings": [],
+      "checks": [
+        "false capability and receipt confirmed; integration_procedure null",
+        "unsupported manual-registration claims removed",
+        "six owned assets assessed; SRC022 reuse considered",
+        "primary Q068 0/3; no secondary metrics; 3 pairs per round; 6 total",
+        "missing paired data cannot count as success; final asset/source registration required"
+      ]
+    },
+    {
+      "id": "lead_capability_confirmed",
+      "run_id": "2e8c37ff8741f130aa03ed32203f948eae5e7ee60e6c2f72dc94d440be85468b",
+      "blocking_findings": [],
+      "checks": [
+        "true capability, route A and exact receipt preserved; free_trial unknown",
+        "all six integration phases concrete; unknown policies not invented",
+        "primary Q068 0/3; secondary Perplexity 0/5; 7 pairs per round; 14 total",
+        "six owned assets assessed; primary asset vs supplemental security link distinguished",
+        "unknown operational details block publication; asset registration gates follow-up"
+      ]
+    }
+  ],
+  "artifact_correction": "A temporary export filename incorrectly labeled the confirmed run unsupported. Removed and re-exported from evaluated case; evidence contexts were asserted before final export."
+}

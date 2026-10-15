@@ -1,0 +1,71 @@
+{
+  "kind": "one_local_resource_snapshot_not_monthly_cloud_cost",
+  "services": [
+    {
+      "BlockIO": "340kB / 149MB",
+      "CPUPerc": "2.85%",
+      "Container": "2f8063bea535f81dba8968d313811b338bcaa96583108f1147431d3cee407f61",
+      "ID": "2f8063bea535",
+      "MemPerc": "9.40%",
+      "MemUsage": "1.466GiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-clickhouse-1",
+      "NetIO": "811kB / 640kB",
+      "PIDs": "742"
+    },
+    {
+      "BlockIO": "0B / 8.19kB",
+      "CPUPerc": "0.94%",
+      "Container": "bf4ecbd429a92a0237f96d5afda2063accdf16cdbbc467a666464b3908d3333b",
+      "ID": "bf4ecbd429a9",
+      "MemPerc": "6.11%",
+      "MemUsage": "976.6MiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-langfuse-web-1",
+      "NetIO": "1.63MB / 9.18MB",
+      "PIDs": "23"
+    },
+    {
+      "BlockIO": "0B / 0B",
+      "CPUPerc": "0.37%",
+      "Container": "d52af038c7cd1ed3876b6ae3fed16bd30a8ef8031909e4aa32d46cdbbd76de10",
+      "ID": "d52af038c7cd",
+      "MemPerc": "2.83%",
+      "MemUsage": "451.4MiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-langfuse-worker-1",
+      "NetIO": "3.91MB / 12.6MB",
+      "PIDs": "23"
+    },
+    {
+      "BlockIO": "0B / 1.05MB",
+      "CPUPerc": "0.04%",
+      "Container": "5845e2c83c097dc6802a2f6a529ff78b4906d35332793458f070d1f1922a708d",
+      "ID": "5845e2c83c09",
+      "MemPerc": "0.62%",
+      "MemUsage": "98.8MiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-minio-1",
+      "NetIO": "350kB / 296kB",
+      "PIDs": "15"
+    },
+    {
+      "BlockIO": "0B / 106MB",
+      "CPUPerc": "0.01%",
+      "Container": "c9b95a7b85766b80c6116e29b150e0030f6ad9442635807b818860c32806cd17",
+      "ID": "c9b95a7b8576",
+      "MemPerc": "0.39%",
+      "MemUsage": "62.24MiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-postgres-1",
+      "NetIO": "3.94MB / 2.06MB",
+      "PIDs": "16"
+    },
+    {
+      "BlockIO": "4.37MB / 1.16MB",
+      "CPUPerc": "0.41%",
+      "Container": "1835933eeb02526d015388ff0e7e949fae58eac93e1efe2510251c0f3a5928fb",
+      "ID": "1835933eeb02",
+      "MemPerc": "0.10%",
+      "MemUsage": "15.68MiB / 15.6GiB",
+      "Name": "bubbleshare-langfuse-redis-1",
+      "NetIO": "14.5MB / 5.3MB",
+      "PIDs": "6"
+    }
+  ]
+}

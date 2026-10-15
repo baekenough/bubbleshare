@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-15T04:24:01.600118+00:00",
+  "policy_version": "product-one-call.v2.3",
+  "kind": "provided_synthetic_dataset_real_model_not_effectiveness_validation",
+  "customer": "demo",
+  "cases": [
+    {
+      "case": "security",
+      "result_type": "cache_hit",
+      "model_calls": 0,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.0,
+      "cache_hit": true,
+      "actual_vendor_cost_usd": 0,
+      "ledger": {
+        "run_key": "02ad57392ea2503239dcbe9920387053881312592811e46b86ede86b04702ab3",
+        "month": "2026-10",
+        "calls": 1,
+        "attempted_calls": 1,
+        "released": 0,
+        "completed": 1,
+        "failed": 0,
+        "reserved": 0,
+        "charged_cost_usd": 0.018,
+        "monthly_calls": 14,
+        "monthly_charged_cost_usd": 0.252,
+        "monthly_total_cogs_usd": 10.752,
+        "remaining": 0
+      },
+      "errors": []
+    },
+    {
+      "case": "automation",
+      "result_type": "no_action",
+      "model_calls": 0,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.0,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0,
+      "ledger": {
+        "run_key": "57cc06366aaa587294b829bfad493bf8536b676d4c0043e4b4cb07eb14cc2906",
+        "month": "2026-10",
+        "calls": 0,
+        "attempted_calls": 0,
+        "released": 0,
+        "completed": 0,
+        "failed": 0,
+        "reserved": 0,
+        "charged_cost_usd": 0.0,
+        "monthly_calls": 14,
+        "monthly_charged_cost_usd": 0.252,
+        "monthly_total_cogs_usd": 10.752,
+        "remaining": 1
+      },
+      "errors": []
+    },
+    {
+      "case": "scale",
+      "result_type": "insufficient_evidence",
+      "model_calls": 0,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.0,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0,
+      "ledger": {
+        "run_key": "b156251131ab5ca78a5a41bb60b6acb1a967610bdabb60d5caed84331eb8716a",
+        "month": "2026-10",
+        "calls": 0,
+        "attempted_calls": 0,
+        "released": 0,
+        "completed": 0,
+        "failed": 0,
+        "reserved": 0,
+        "charged_cost_usd": 0.0,
+        "monthly_calls": 14,
+        "monthly_charged_cost_usd": 0.252,
+        "monthly_total_cogs_usd": 10.752,
+        "remaining": 1
+      },
+      "errors": []
+    }
+  ],
+  "model_calls": 0,
+  "known_actual_vendor_cost_usd": 0,
+  "unknown_cost_cases": []
+}

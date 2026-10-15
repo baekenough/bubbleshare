@@ -1,0 +1,443 @@
+[
+  {
+    "source_id": "SRC001",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/features",
+    "source_type": "product",
+    "title": "OrbitCRM 제품 기능",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC002",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/pricing",
+    "source_type": "pricing",
+    "title": "OrbitCRM 요금 안내",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC003",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/guides/crm",
+    "source_type": "guide",
+    "title": "OrbitCRM CRM 활용 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC004",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/stories/customer",
+    "source_type": "case-study",
+    "title": "OrbitCRM 고객 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC005",
+    "domain": "novadesk.example",
+    "url": "https://novadesk.example/features",
+    "source_type": "product",
+    "title": "NovaDesk 제품 기능",
+    "is_brand_owned": true,
+    "brand_id": "BR002"
+  },
+  {
+    "source_id": "SRC006",
+    "domain": "novadesk.example",
+    "url": "https://novadesk.example/pricing",
+    "source_type": "pricing",
+    "title": "NovaDesk 요금 안내",
+    "is_brand_owned": true,
+    "brand_id": "BR002"
+  },
+  {
+    "source_id": "SRC007",
+    "domain": "novadesk.example",
+    "url": "https://novadesk.example/guides/crm",
+    "source_type": "guide",
+    "title": "NovaDesk CRM 활용 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR002"
+  },
+  {
+    "source_id": "SRC008",
+    "domain": "novadesk.example",
+    "url": "https://novadesk.example/stories/customer",
+    "source_type": "case-study",
+    "title": "NovaDesk 고객 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR002"
+  },
+  {
+    "source_id": "SRC009",
+    "domain": "leadflow.example",
+    "url": "https://leadflow.example/features",
+    "source_type": "product",
+    "title": "LeadFlow 제품 기능",
+    "is_brand_owned": true,
+    "brand_id": "BR003"
+  },
+  {
+    "source_id": "SRC010",
+    "domain": "leadflow.example",
+    "url": "https://leadflow.example/pricing",
+    "source_type": "pricing",
+    "title": "LeadFlow 요금 안내",
+    "is_brand_owned": true,
+    "brand_id": "BR003"
+  },
+  {
+    "source_id": "SRC011",
+    "domain": "leadflow.example",
+    "url": "https://leadflow.example/guides/crm",
+    "source_type": "guide",
+    "title": "LeadFlow CRM 활용 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR003"
+  },
+  {
+    "source_id": "SRC012",
+    "domain": "leadflow.example",
+    "url": "https://leadflow.example/stories/customer",
+    "source_type": "case-study",
+    "title": "LeadFlow 고객 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR003"
+  },
+  {
+    "source_id": "SRC013",
+    "domain": "clientnest.example",
+    "url": "https://clientnest.example/features",
+    "source_type": "product",
+    "title": "ClientNest 제품 기능",
+    "is_brand_owned": true,
+    "brand_id": "BR004"
+  },
+  {
+    "source_id": "SRC014",
+    "domain": "clientnest.example",
+    "url": "https://clientnest.example/pricing",
+    "source_type": "pricing",
+    "title": "ClientNest 요금 안내",
+    "is_brand_owned": true,
+    "brand_id": "BR004"
+  },
+  {
+    "source_id": "SRC015",
+    "domain": "clientnest.example",
+    "url": "https://clientnest.example/guides/crm",
+    "source_type": "guide",
+    "title": "ClientNest CRM 활용 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR004"
+  },
+  {
+    "source_id": "SRC016",
+    "domain": "clientnest.example",
+    "url": "https://clientnest.example/stories/customer",
+    "source_type": "case-study",
+    "title": "ClientNest 고객 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR004"
+  },
+  {
+    "source_id": "SRC017",
+    "domain": "picosales.example",
+    "url": "https://picosales.example/features",
+    "source_type": "product",
+    "title": "PicoSales 제품 기능",
+    "is_brand_owned": true,
+    "brand_id": "BR005"
+  },
+  {
+    "source_id": "SRC018",
+    "domain": "picosales.example",
+    "url": "https://picosales.example/pricing",
+    "source_type": "pricing",
+    "title": "PicoSales 요금 안내",
+    "is_brand_owned": true,
+    "brand_id": "BR005"
+  },
+  {
+    "source_id": "SRC019",
+    "domain": "picosales.example",
+    "url": "https://picosales.example/guides/crm",
+    "source_type": "guide",
+    "title": "PicoSales CRM 활용 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR005"
+  },
+  {
+    "source_id": "SRC020",
+    "domain": "picosales.example",
+    "url": "https://picosales.example/stories/customer",
+    "source_type": "case-study",
+    "title": "PicoSales 고객 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR005"
+  },
+  {
+    "source_id": "SRC021",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/security",
+    "source_type": "guide",
+    "title": "OrbitCRM 보안·개인정보 보호 정책",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC022",
+    "domain": "orbitcrm.example",
+    "url": "https://orbitcrm.example/guides/lead-scoring",
+    "source_type": "guide",
+    "title": "OrbitCRM 리드 스코어링 가이드",
+    "is_brand_owned": true,
+    "brand_id": "BR001"
+  },
+  {
+    "source_id": "SRC023",
+    "domain": "clientnest.example",
+    "url": "https://clientnest.example/guides/migration",
+    "source_type": "guide",
+    "title": "ClientNest 데이터 이전 가이드: 엑셀에서 CRM으로",
+    "is_brand_owned": true,
+    "brand_id": "BR004"
+  },
+  {
+    "source_id": "SRC024",
+    "domain": "blog.orbitcrm.example",
+    "url": "https://blog.orbitcrm.example/automation-recipes",
+    "source_type": "blog",
+    "title": "영업 자동화 레시피 20선",
+    "is_brand_owned": true,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC025",
+    "domain": "leadflow.example",
+    "url": "https://leadflow.example/blog/lead-routing",
+    "source_type": "blog",
+    "title": "LeadFlow 리드 자동 배정 사례",
+    "is_brand_owned": true,
+    "brand_id": "BR003"
+  },
+  {
+    "source_id": "SRC026",
+    "domain": "bizreview.example",
+    "url": "https://bizreview.example/review/crm-2026",
+    "source_type": "review",
+    "title": "2026 중소기업 CRM 사용자 리뷰 종합",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC027",
+    "domain": "bizreview.example",
+    "url": "https://bizreview.example/review/crm-mobile",
+    "source_type": "review",
+    "title": "CRM 모바일 앱 실사용 리뷰",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC028",
+    "domain": "bizreview.example",
+    "url": "https://bizreview.example/review/crm-security",
+    "source_type": "review",
+    "title": "CRM 보안 기능 리뷰",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC029",
+    "domain": "saascompare.example",
+    "url": "https://saascompare.example/compare/crm-pricing",
+    "source_type": "comparison",
+    "title": "CRM 요금제 비교표 2026",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC030",
+    "domain": "saascompare.example",
+    "url": "https://saascompare.example/compare/smb-crm",
+    "source_type": "comparison",
+    "title": "중소기업 CRM 기능 비교",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC031",
+    "domain": "saascompare.example",
+    "url": "https://saascompare.example/compare/crm-integrations",
+    "source_type": "comparison",
+    "title": "CRM 연동 지원 비교",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC032",
+    "domain": "techguide.example",
+    "url": "https://techguide.example/crm/checklist",
+    "source_type": "editorial",
+    "title": "CRM 도입 체크리스트",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC033",
+    "domain": "techguide.example",
+    "url": "https://techguide.example/crm/migration",
+    "source_type": "editorial",
+    "title": "CRM 데이터 마이그레이션 가이드",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC034",
+    "domain": "techguide.example",
+    "url": "https://techguide.example/crm/dashboard",
+    "source_type": "editorial",
+    "title": "영업 대시보드 설계법",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC035",
+    "domain": "workflowhub.example",
+    "url": "https://workflowhub.example/blog/crm-automation",
+    "source_type": "blog",
+    "title": "CRM 업무 자동화 시나리오 모음",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC036",
+    "domain": "workflowhub.example",
+    "url": "https://workflowhub.example/blog/slack-calendar",
+    "source_type": "blog",
+    "title": "슬랙·캘린더 연동 실전",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC037",
+    "domain": "workflowhub.example",
+    "url": "https://workflowhub.example/blog/team-crm",
+    "source_type": "blog",
+    "title": "팀 협업을 위한 CRM 활용법",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC038",
+    "domain": "startupnotes.example",
+    "url": "https://startupnotes.example/community/crm-pick",
+    "source_type": "community",
+    "title": "스타트업 CRM 추천 스레드",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC039",
+    "domain": "startupnotes.example",
+    "url": "https://startupnotes.example/community/crm-mobile-issues",
+    "source_type": "community",
+    "title": "CRM 모바일 앱 불편 사항 모음",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC040",
+    "domain": "startupnotes.example",
+    "url": "https://startupnotes.example/community/churn",
+    "source_type": "community",
+    "title": null,
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC041",
+    "domain": "marketbrief.example",
+    "url": "https://marketbrief.example/report/crm-market-2026",
+    "source_type": "report",
+    "title": "2026 국내 CRM 시장 리포트",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC042",
+    "domain": "marketbrief.example",
+    "url": "https://marketbrief.example/report/retention",
+    "source_type": "report",
+    "title": "고객 이탈 관리 트렌드",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC043",
+    "domain": "marketbrief.example",
+    "url": "https://marketbrief.example/report/lead-benchmark",
+    "source_type": "report",
+    "title": "B2B 리드 전환 벤치마크",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC044",
+    "domain": "crm-insights.example",
+    "url": "https://crm-insights.example/lead-scoring-101",
+    "source_type": "editorial",
+    "title": "리드 스코어링 입문",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC045",
+    "domain": "crm-insights.example",
+    "url": "https://crm-insights.example/privacy-law",
+    "source_type": "editorial",
+    "title": "개인정보보호법과 CRM",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC046",
+    "domain": "crm-insights.example",
+    "url": "https://crm-insights.example/industry-cases",
+    "source_type": "editorial",
+    "title": "업종별 CRM 활용 사례",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC047",
+    "domain": "work-tools.example",
+    "url": "https://work-tools.example/compare/scalable-crm",
+    "source_type": "comparison",
+    "title": "확장형 CRM 비교",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC048",
+    "domain": "work-tools.example",
+    "url": "https://work-tools.example/compare/crm-training",
+    "source_type": "comparison",
+    "title": "교육 지원이 좋은 CRM",
+    "is_brand_owned": false,
+    "brand_id": null
+  },
+  {
+    "source_id": "SRC049",
+    "domain": "work-tools.example",
+    "url": "https://work-tools.example/compare/agency-crm",
+    "source_type": "comparison",
+    "title": null,
+    "is_brand_owned": false,
+    "brand_id": null
+  }
+]

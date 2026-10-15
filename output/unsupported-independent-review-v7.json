@@ -1,0 +1,17 @@
+{
+  "origin": "independent_artifact_audit",
+  "run_id": "7b9e43d4149c8d3ee233e2dd6389a3128b30ea0dc1d1b4c4c32141d5c9e0fdf9",
+  "issues": [
+    {
+      "path": "actions[0].deliverables: asset selection checklist",
+      "problem": "The checklist says any 3 of 4 items permits revision, while selection_rule requires direct coverage of the customer task plus at least two execution sections. If direct task coverage is no and all other three are yes, the decisions conflict.",
+      "required_change": "Use one identical rule throughout selection_rule, checklist, steps and acceptance: direct task coverage is mandatory AND at least two of the three execution sections; otherwise create the new guide. Explicitly show that the no/yes/yes/yes case means create."
+    },
+    {
+      "path": "actions[0].steps and acceptance_criteria: source ID gate",
+      "problem": "The computed source_citation_check requires exact source ID selection/registration before publication. The draft only requests registration after publication or confirms registration is possible.",
+      "required_change": "Match the existing execution contract: before publication finalize the existing source ID or register the planned exact publication URL and target-owned source ID; verify the published URL afterward. Do not start source-specific follow-up collection while registration is pending. Put completion, not merely a request, in acceptance criteria."
+    }
+  ],
+  "uses_existing_two_call_repair_budget": true
+}

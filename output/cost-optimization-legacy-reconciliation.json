@@ -1,0 +1,23 @@
+{
+  "kind": "attach_original_provider_receipts_to_historical_failed_attempts",
+  "assignment_charges_changed": false,
+  "model_calls": 0,
+  "rows": [
+    {
+      "ledger_receipt_id": "5fc7932f75f1450eb54dafcbd6a47c87",
+      "run_key": "a714a13eec6000242bfeb8147c8532eb45f729b98bc88172249a123a2d3086aa",
+      "invocation_id": "5aa941f648d74975924a24aa19fc3618",
+      "source": "output/product-v2-run1/lead.json",
+      "sha256": "bb95a6f122a536ffacafc0c095a97c32a6c7dffeb9b7c7e9cbd88e4fc3894fab",
+      "actual_cost_usd": 0.2120225
+    },
+    {
+      "ledger_receipt_id": "787465ed2df2484a86b4da40d6415b4c",
+      "run_key": "6dc807f4931b415d07d4c1093bb3d0807d137d5c25841af8d46d5aca2b91dc92",
+      "invocation_id": "ab14bdec6d0740179aa6af6bac60a7dc",
+      "source": "output/product-v2-run1/unsupported.json",
+      "sha256": "a9cc58c7a090ffcbd26c59224695e667a6e9728af89f0f71a3f68f108c18e395",
+      "actual_cost_usd": 0.21225
+    }
+  ]
+}

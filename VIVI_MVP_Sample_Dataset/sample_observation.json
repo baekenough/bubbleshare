@@ -1,0 +1,57 @@
+{
+  "question": {
+    "question_id": "Q001",
+    "topic_id": "crm_basics",
+    "topic_label": "CRM 도입",
+    "query": "직원 10명 이하 스타트업에 맞는 CRM 추천해줘",
+    "search_intent": "commercial",
+    "importance_score": 80,
+    "estimated_monthly_interest": 1100,
+    "language": "ko",
+    "country": "KR"
+  },
+  "observations": [
+    {
+      "observation_id": "OBS0001",
+      "question_id": "Q001",
+      "channel": "ChatGPT",
+      "collected_at": "2026-09-15T09:00:00+09:00",
+      "response_text": "고객 목록, 영업 기회, 활동 기록이 한 화면에서 이어지는지가 체감 차이를 만듭니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) OrbitCRM: 소규모 팀 요금제가 강점으로 꼽힙니다. 2) LeadFlow: 직관적인 기본 화면이 특히 좋은 평가를 받습니다. 3) ClientNest: 빠른 초기 설정이 강점으로 꼽힙니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 3,
+      "citation_count": 2,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-1",
+      "quality_flag": null
+    },
+    {
+      "observation_id": "OBS0002",
+      "question_id": "Q001",
+      "channel": "Gemini",
+      "collected_at": "2026-09-15T10:30:00+09:00",
+      "response_text": "고객 목록, 영업 기회, 활동 기록이 한 화면에서 이어지는지가 체감 차이를 만듭니다. NovaDesk는 고객 정보 통합 관리를 갖추고 있어 검토할 만합니다. 또한 ClientNest는 빠른 초기 설정을 갖추고 있어 검토할 만합니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-1",
+      "quality_flag": null
+    },
+    {
+      "observation_id": "OBS0003",
+      "question_id": "Q001",
+      "channel": "Perplexity",
+      "collected_at": "2026-09-15T14:00:00+09:00",
+      "response_text": "처음 CRM을 도입한다면 고객 정보를 한곳에 모으는 기능부터 확인하는 것이 좋습니다. 여러 비교 자료에서는 PicoSales, ClientNest, NovaDesk가 자주 언급됩니다. PicoSales는 직관적인 기본 화면 측면에서 좋은 평가를 받습니다[1]. ClientNest는 고객 정보 통합 관리 측면에서 좋은 평가를 받습니다[2]. NovaDesk는 소규모 팀 요금제 측면에서 좋은 평가를 받습니다[3]. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 3,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-1",
+      "quality_flag": null
+    }
+  ]
+}

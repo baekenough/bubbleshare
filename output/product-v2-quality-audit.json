@@ -1,0 +1,501 @@
+{
+  "status": "complete",
+  "reviewer": "Independent Codex subagent /root/selection_ui; model-based artifact review, not external human validation",
+  "reviewed_at": "2026-10-15T04:25:08.386607+00:00",
+  "rubric": {
+    "fixed_before_reading_outputs": true,
+    "axes": [
+      "evidence_problem_fit",
+      "same_problem_candidate_selection",
+      "execution_feasibility",
+      "fact_asset_publication_consistency",
+      "measurement"
+    ],
+    "score_range": [
+      0,
+      2
+    ],
+    "pass_threshold": 8,
+    "minimum_each_axis": 1,
+    "no_P1_or_P2": true,
+    "all_mandatory_regressions": true,
+    "fallback_is_success": false
+  },
+  "scope_limitations": [
+    "제공된 합성 분석 데이터에 대한 실제 모델 응답을 검토했다. 실제 고객 운영 효과를 검증한 것은 아니다.",
+    "unsupported/confirmed는 synthetic_eval_fixture 제품 사실·연동 조건을 포함한다.",
+    "최신 정책으로 재컴파일한 기존 실제 응답은 신규 모델 호출 성공률에 포함하지 않는다.",
+    "게시, 자산 본문 검사, 연동 실행, D7/D14 후속 관측은 수행하지 않았다."
+  ],
+  "cases": [
+    {
+      "case": "lead",
+      "artifact": "output/product-v2-final/lead.json",
+      "artifact_sha256": "ea2ecf4bf1e0e1fbc5d8c8b3d08840814e099ccfe22369d6b2abad79eaa82970",
+      "result_type": "propose",
+      "validation_mode": "deterministic_recompilation_of_real_provider_response",
+      "generation_invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+      "generation_provider_calls": 1,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 1,
+          "reason": "Q068 실제 세 응답의 일반론 위주 답변과 0/3 언급·추천·인용 공백을 정확히 짚는다. 다만 본문 접근 없이 자산 부재/불일치를 가장 유력한 원인으로 순위화한 근거는 제한적이다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "같은 Q068의 재사용 우선, 즉시 신규, 사실 검증 단독을 비교하며 중복 위험·대외 가시성·투입과 변경 조건을 구체화한다."
+        },
+        "execution_feasibility": {
+          "score": 2,
+          "reason": "담당 역할, 전체 후보 본문 검사, 첫 산출물, 검증 전 보류, 제품 사실 확인 및 게시 조건이 실행 순서로 이어진다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "SRC021은 보조 전용이며 편집/최종인용 후보에서 제외된다. 지원 여부와 연동 경로는 미확인으로 남기며 공개 전 확정 또는 삭제한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 Q068 언급/추천 3페어와 인용 보조 3페어, D7/D14, 결측 제외, 동일 분모, 인용만 개선될 때 성공 금지가 일치한다."
+        }
+      },
+      "total": 9,
+      "findings": [
+        {
+          "priority": "P3",
+          "location": "plan.action_selection.selection_reason",
+          "finding": "본문 미확인 상태에서 자산 부재 또는 질문 불일치를 가장 유력한 원인으로 서술한다. 다른 원인 대비 우선순위는 입증되지 않았다.",
+          "suggestion": "검증할 우선 가설로 표현하고 본문 점검 결과에 따라 원인 판단을 갱신한다."
+        }
+      ],
+      "mandatory_regressions": [
+        {
+          "id": "supporting_SRC021_excluded_from_edit_and_final_citation",
+          "passed": true
+        },
+        {
+          "id": "unknown_capability_not_asserted",
+          "passed": true
+        },
+        {
+          "id": "three_same_question_interventions_with_tradeoffs_and_reversal",
+          "passed": true
+        },
+        {
+          "id": "question_denominator_and_missingness_and_day7_day14",
+          "passed": true
+        },
+        {
+          "id": "secondary_citation_alone_not_success",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "reviewed_content_from": {
+        "artifact": "output/product-v2-run3/lead.json",
+        "artifact_sha256": "135f2cd1744562e466d65386c368487416bb08b0a85bc3b1ec0b265148f43ba9",
+        "comparison_to_final": {
+          "plan_identical": true,
+          "execution_contracts_identical": true,
+          "evidence_summary_identical": true
+        },
+        "reviewed_content_sha256": "46cd1a05cf1f88aabea13acfacf5ba1c0e2161817448fa14e0a350c41dc52571"
+      },
+      "final_policy_version": "product-one-call.v2.3",
+      "final_recompilation_model_calls": 0,
+      "original_generation": {
+        "artifact": "output/product-v2-run3/lead.json",
+        "artifact_sha256": "135f2cd1744562e466d65386c368487416bb08b0a85bc3b1ec0b265148f43ba9",
+        "policy_version": "product-one-call.v2.2",
+        "invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+        "actual_provider_calls": 1
+      }
+    },
+    {
+      "case": "unsupported",
+      "artifact": "output/product-v2-final/unsupported.json",
+      "artifact_sha256": "7727585405bab165d43020c036e4a468ff7b17a997cec8ba6b4b93f14087aa84",
+      "result_type": "propose",
+      "validation_mode": "deterministic_recompilation_of_real_provider_response",
+      "generation_invocation_id": "7ccf09d2736b43e2a63a1f4cc2acebc4",
+      "generation_provider_calls": 1,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068 0/3 공백과 명시적 미지원 fixture를 반영해 기능 광고 대신 지원 여부 직답 자산을 제안한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "재사용·즉시 신규·제품 변경의 중복 위험과 투입을 비교한다. 다만 제품 변경 배제에 단일 호출의 콘텐츠 실행 범위라는 암묵적 제약이 섞여 있다."
+        },
+        "execution_feasibility": {
+          "score": 2,
+          "reason": "후보 3개 본문 확인, 사실 매트릭스, 담당, 원고 또는 HOLD 산출물이 명확하다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "미지원 자동등록을 지원한다고 쓰지 않고 대체 경로도 발명하지 않는다. placeholder 확정/삭제 및 필수정보 미해결 시 게시 보류, 정확한 URL AND 자사 source_id 등록 완료가 일치한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "재컴파일 결과 주요 언급/추천과 인용 보조를 분리한다. 같은 Q068 3페어의 D7/D14, 결측≠0, 보조 개선만 성공 금지를 유지한다."
+        }
+      },
+      "total": 9,
+      "findings": [
+        {
+          "priority": "P3",
+          "location": "plan.action_selection.candidates[cand_q068_product].effort.assumptions",
+          "finding": "제품 변경 후보가 단일 호출의 콘텐츠 실행 범위를 벗어난다는 이유를 포함한다. 이는 사업적 가치 비교보다 현재 생성 경로의 범위를 제약으로 쓰는 설명이다.",
+          "suggestion": "승인·개발 자원·기간이라는 실제 실행 제약과 현재 근거 부족을 배제/보류 사유로 명시한다."
+        }
+      ],
+      "mandatory_regressions": [
+        {
+          "id": "known_false_not_promoted_or_replaced_with_invented_route",
+          "passed": true
+        },
+        {
+          "id": "placeholders_resolved_or_removed_else_hold",
+          "passed": true
+        },
+        {
+          "id": "exact_url_AND_owned_source_id_registered_before_measurement",
+          "passed": true
+        },
+        {
+          "id": "same_question_candidates_and_conditional_reselection",
+          "passed": true
+        },
+        {
+          "id": "scope_missingness_and_secondary_only_not_success",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "reviewed_content_from": {
+        "artifact": "output/product-v2-recompiled/unsupported.json",
+        "artifact_sha256": "0f83bb4c63b94a35a85b041ca8503eba7db634208424a7fec221f761bca3f297",
+        "comparison_to_final": {
+          "plan_identical": true,
+          "execution_contracts_identical": true,
+          "evidence_summary_identical": true
+        },
+        "reviewed_content_sha256": "0535b649cac3e641d5d81d0909052b2c4457d6e4cfc44cd59d845e79e86fbd4b"
+      },
+      "final_policy_version": "product-one-call.v2.3",
+      "final_recompilation_model_calls": 0,
+      "original_generation": {
+        "artifact": "output/product-v2-run2/unsupported.json",
+        "artifact_sha256": "290f6e4400bef7db10983c0f760b6b8a7fb881f671f688c4c7b964bc8feae203",
+        "policy_version": "product-one-call.v2.1",
+        "invocation_id": "7ccf09d2736b43e2a63a1f4cc2acebc4",
+        "actual_provider_calls": 1
+      }
+    },
+    {
+      "case": "confirmed",
+      "artifact": "output/product-v2-final/confirmed.json",
+      "artifact_sha256": "018ea1b01007c2aaa866975201e3553aa203fadd967feb98e7f15ea0dee91c9a",
+      "result_type": "propose",
+      "validation_mode": "deterministic_recompilation_of_real_provider_response",
+      "generation_invocation_id": "1c0e8c5753124db787130ae3bae6aa44",
+      "generation_provider_calls": 1,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 관측 공백과 eval-product-check-001로 확인된 경로 A 범위를 구분하며 실제 지원 조건을 과장하지 않는다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "기존 자산 우선, 검증 단독, 즉시 신규의 중복·정확성·가시성 trade-off를 비교하고 운영 정보 부족 시 검증 전용으로 축소한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "입력·매핑·정상·중복·필수값 누락·대조의 6단계와 확인 기록을 제시한다. 다만 초안 표에서 전화번호를 필수 누락 예시로 고정한 문구가 운영자 확인 조건보다 구체적이다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "경로 A와 receipt만 사용하며 네이티브 기능·정책 확대 해석을 금지한다. 보조 SRC021/022 제외와 공개 전 placeholder 제거, URL+source_id 조건이 일관된다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "재컴파일 결과 주요 언급/추천과 인용 보조를 분리한다. Q068 3페어 D7/D14와 결측·고정 분모·보조만 개선 금지 규칙이 정확하다."
+        }
+      },
+      "total": 9,
+      "findings": [
+        {
+          "priority": "P3",
+          "location": "plan.actions[0].deliverables[role=content].example_content / 필수값 누락 테스트 표",
+          "finding": "전화번호 공란을 필수값 누락 테스트로 예시한다. 실제 전화번호 필수 여부는 미확인이다. 본문과 integration_procedure에는 운영자가 확인한 필수값을 선택한다는 조건이 있어 차단 이슈는 아니다.",
+          "suggestion": "테스트 표도 운영자가 확인한 필수 항목 1개를 공란으로 둔다고 통일한다."
+        }
+      ],
+      "mandatory_regressions": [
+        {
+          "id": "verified_route_and_receipt_only",
+          "passed": true
+        },
+        {
+          "id": "six_integration_phases_and_operator_confirmed_policies",
+          "passed": true
+        },
+        {
+          "id": "no_native_or_unverified_capability_claim",
+          "passed": true
+        },
+        {
+          "id": "publication_identity_AND_gate",
+          "passed": true
+        },
+        {
+          "id": "measurement_scope_and_secondary_only_not_success",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "reviewed_content_from": {
+        "artifact": "output/product-v2-recompiled/confirmed.json",
+        "artifact_sha256": "9851495c60670c4c88537fd980603f0911e06e73cb5e2170935bb73a0b940873",
+        "comparison_to_final": {
+          "plan_identical": true,
+          "execution_contracts_identical": true,
+          "evidence_summary_identical": true
+        },
+        "reviewed_content_sha256": "ce5acc07bfd2ce2e6e4656bbc202863fb6527e1bea260b644fc9d4026e932257"
+      },
+      "final_policy_version": "product-one-call.v2.3",
+      "final_recompilation_model_calls": 0,
+      "original_generation": {
+        "artifact": "output/product-v2-control/confirmed.json",
+        "artifact_sha256": "1ac75c074244da6febb5e8e9a4eabd17e54563cb0e1610b2bde8663b7d04c6c4",
+        "policy_version": "product-one-call.v2.1",
+        "invocation_id": "1c0e8c5753124db787130ae3bae6aa44",
+        "actual_provider_calls": 1
+      }
+    },
+    {
+      "case": "security",
+      "artifact": "output/product-v2-final/security.json",
+      "artifact_sha256": "2c4ef924d4ba5d2f5b848cf4bb5d8c4cf4d0fc9ce206883e82092fbffb9da2a8",
+      "result_type": "propose",
+      "validation_mode": "deterministic_recompilation_of_real_provider_response",
+      "generation_invocation_id": "51699c06206f4e328550dbf7f8c6f2df",
+      "generation_provider_calls": 1,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q026 언급·추천 0/3, 자사 인용 1/3 및 OBS0156/SRC021의 citation-only 현상을 정확히 연결한다. 주제 기준 언급 0/12·인용 6/12와 질문 분모를 혼동하지 않는다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "같은 Q026의 재사용 우선·즉시 신규·관찰을 비교한다. 실제 인용 단서, 중복 위험, 본문/승인 의존성, 투입 가정과 전체 후보 실패·정직한 공개 불가 조건의 전략 전환을 명시한다."
+        },
+        "execution_feasibility": {
+          "score": 2,
+          "reason": "첫 작업은 SRC001·SRC003·SRC021 전체 본문 검사이며 각 기준 판정과 최종 대상/신규 결정이 산출물이다. 담당, 접근·편집 권한, 승인, 문장별 사실 검토, 게시 및 등록 조건이 실행 순서로 이어진다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "후보 rationale는 메타데이터 관련성 설명에 한정된다. 전체 후보에 동일한 ALL 기준 적용, 개별 실패 후보 제외, 전체 검사 완료 후 통과 후보 선택, 모두 실패할 때만 신규라는 분기가 summary·selection·reversal·steps·checklist에 일관된다. 미확인 기능 주장과 미해결 공개 placeholder를 허용하지 않는다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 지표는 Q026 언급/추천 3페어, 인용1/3은 보조다. D7/D14 각 3페어 총6응답, URL AND 자사 source_id 등록 완료, 결측≠0, 동일 분모, 인용 또는 보조만 개선될 때 성공 금지를 지킨다. 토픽 보조 지표는 선택하지 않아 12분모를 질문 3분모와 섞지 않는다."
+        }
+      },
+      "total": 10,
+      "findings": [],
+      "mandatory_regressions": [
+        {
+          "id": "all_candidates_all_criteria_in_every_execution_instruction",
+          "passed": true
+        },
+        {
+          "id": "failed_candidate_not_revised_or_immediate_create",
+          "passed": true
+        },
+        {
+          "id": "all_fail_only_then_create",
+          "passed": true
+        },
+        {
+          "id": "topic_and_question_counts_correct",
+          "passed": true
+        },
+        {
+          "id": "unknown_security_facts_not_asserted",
+          "passed": true
+        },
+        {
+          "id": "Q026_primary_3_and_topic_12_not_conflated",
+          "passed": true
+        },
+        {
+          "id": "citation_only_improvement_not_success",
+          "passed": true
+        },
+        {
+          "id": "exact_url_AND_owned_source_id_registered_before_measurement",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "reviewed_content_from": {
+        "artifact": "output/product-v2-run4/security.json",
+        "artifact_sha256": "fb126b1bd82c25d34cf77f264ef0ae3762297221eea2a7c26747a6c29ebaee21",
+        "comparison_to_final": {
+          "plan_identical": true,
+          "execution_contracts_identical": true,
+          "evidence_summary_identical": true
+        },
+        "reviewed_content_sha256": "578acb6fb773f1d74fc79172a54af49d3cfc23a0bb215cf0509932ce704fdef9"
+      },
+      "final_policy_version": "product-one-call.v2.3",
+      "final_recompilation_model_calls": 0,
+      "original_generation": {
+        "artifact": "output/product-v2-run4/security.json",
+        "artifact_sha256": "fb126b1bd82c25d34cf77f264ef0ae3762297221eea2a7c26747a6c29ebaee21",
+        "policy_version": "product-one-call.v2.3",
+        "invocation_id": "51699c06206f4e328550dbf7f8c6f2df",
+        "actual_provider_calls": 1
+      }
+    }
+  ],
+  "historical_failures": [
+    {
+      "artifact": "output/product-v2-run1/lead.json",
+      "result": "fallback",
+      "reason": "출력 길이 제한",
+      "count_as_success": false
+    },
+    {
+      "artifact": "output/product-v2-run1/unsupported.json",
+      "result": "fallback",
+      "reason": "출력 길이 제한",
+      "count_as_success": false
+    },
+    {
+      "artifact": "output/product-v2-run1/security.json",
+      "result": "fallback",
+      "reason": "의미가 같은 선행조건의 정확한 문자열 검사 실패",
+      "count_as_success": false
+    },
+    {
+      "artifact": "output/product-v2-run2/security.json",
+      "result": "quality_failed",
+      "reason": "인용만 증가해도 브랜드 연결 개선의 긍정 판정 가능(P2)",
+      "resolved_in": "output/product-v2-run3/security.json"
+    },
+    {
+      "artifact": "output/product-v2-run3/security.json",
+      "artifact_sha256": "47f93a8d81e45edeef8fa5461688b62cf4197da4790527a7dda617a74be09066",
+      "result": "quality_failed",
+      "reason": "SRC003 한 후보 실패 시 신규 작성 지시가 전체 후보 검사 규칙과 충돌(P2)",
+      "resolved_in": "output/product-v2-run4/security.json",
+      "full_review": {
+        "case": "security",
+        "artifact": "output/product-v2-run3/security.json",
+        "artifact_sha256": "47f93a8d81e45edeef8fa5461688b62cf4197da4790527a7dda617a74be09066",
+        "result_type": "propose",
+        "validation_mode": "fresh_real_provider_call",
+        "generation_invocation_id": "8b028e32e96646ca93b5609e1c72f815",
+        "generation_provider_calls": 1,
+        "scores": {
+          "evidence_problem_fit": {
+            "score": 2,
+            "reason": "Q026 0/3 언급·추천, 1/3 인용과 SRC021 실제 인용을 연결하며 토픽 0/12 언급·6/12 인용 수치와 모순이 없다."
+          },
+          "same_problem_candidate_selection": {
+            "score": 2,
+            "reason": "재사용·즉시 신규·관찰을 비교하고 중복 위험, 확인 부담, 직접 개입 가치 및 승인 불가 조건을 구체화한다."
+          },
+          "execution_feasibility": {
+            "score": 2,
+            "reason": "전체 후보 검사표, 본문·원고 산출물, 담당자, 사실 검증과 게시 보류 순서가 실행 가능하다."
+          },
+          "fact_asset_publication_consistency": {
+            "score": 1,
+            "reason": "주 실행 규칙은 전체 후보 ALL 기준 검사를 강제하지만 SRC003 개별 rationale에 하나 실패 시 신규 작성 지시가 남아 있어 필수 회귀와 충돌한다."
+          },
+          "measurement": {
+            "score": 2,
+            "reason": "주요 언급/추천은 Q026 3페어, 보조 인용1/3과 topic cited_without_mention6/12는 각각 분모를 유지한다. 12페어×D7/D14, 결측≠0, 인용·보조만 개선 성공 금지를 충족한다."
+          }
+        },
+        "total": 9,
+        "findings": [
+          {
+            "priority": "P2",
+            "location": "plan.actions[0].target_asset.assessments[source_id=SRC003].rationale",
+            "finding": "SRC003 본문이 Q026를 끝까지 답하지 못하면 신규 문서를 만든다고 지시한다. SRC021까지 검사한 뒤 모든 후보가 모든 기준에 실패한 경우만 신규로 가야 하는 주 실행 규칙과 충돌한다.",
+            "suggestion": "개별 자산 평가는 메타데이터 관련성/재사용 여부의 판단 근거로 제한하고, 실행 분기는 전체 후보 검사를 마친 공통 규칙에서만 정의한다."
+          },
+          {
+            "priority": "P3",
+            "location": "plan.action_selection.reversal_conditions[2]",
+            "finding": "한 자산이 질문을 거의 완전히 충족하면 해당 자산 수정으로 범위를 좁힌다는 표현은 ALL 필수 기준 통과 조건보다 약하다.",
+            "suggestion": "전체 후보 검사 완료 및 모든 필수 기준 충족을 전제로 명시한다."
+          }
+        ],
+        "mandatory_regressions": [
+          {
+            "id": "all_candidates_all_criteria_in_every_execution_instruction",
+            "passed": false
+          },
+          {
+            "id": "failed_candidate_not_revised_in_canonical_policy",
+            "passed": true
+          },
+          {
+            "id": "topic_and_question_counts_correct",
+            "passed": true
+          },
+          {
+            "id": "unknown_security_facts_not_asserted",
+            "passed": true
+          },
+          {
+            "id": "Q026_primary_3_and_topic_secondary_12_separated",
+            "passed": true
+          },
+          {
+            "id": "citation_only_improvement_not_success",
+            "passed": true
+          }
+        ],
+        "passed": false
+      }
+    }
+  ],
+  "summary": {
+    "reviewed_final_artifacts": 4,
+    "passed": 4,
+    "failed": 0,
+    "scores": {
+      "lead": 9,
+      "unsupported": 9,
+      "confirmed": 9,
+      "security": 10
+    },
+    "final_P1_P2_findings": 0,
+    "remaining_P3_findings": 3,
+    "newest_policy_fresh_generation_cases": [
+      "security"
+    ],
+    "earlier_policy_fresh_generation_cases": [
+      "lead",
+      "unsupported",
+      "confirmed"
+    ],
+    "existing_response_recompile_cases": [
+      "lead",
+      "unsupported",
+      "confirmed",
+      "security"
+    ],
+    "interpretation": "고정 루브릭에서 최종 검토용 초안 4개가 통과했다. 운영 효과·장기 성공률·모든 새 호출의 성공을 뜻하지 않으며, 기본 1회로 생성된 초안은 사람 검토가 필요하다.",
+    "final_recompilation_additional_model_calls": 0
+  },
+  "historical_failures_scope": "이 검토자가 읽고 평가한 중간 실패 이력이며 전체 모델 호출 장부가 아니다."
+}

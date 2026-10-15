@@ -1,0 +1,20 @@
+# 선택형 앱 설정이다. compose.langfuse.yaml을 먼저 실행한다.
+# 브라우저는 localhost:3000을 쓰고, 앱 컨테이너만 서비스 이름으로 접속한다.
+services:
+  web:
+    environment:
+      LANGFUSE_BASE_URL: http://langfuse-web:3000
+    networks:
+      - default
+      - observability
+  agent:
+    environment:
+      LANGFUSE_BASE_URL: http://langfuse-web:3000
+    networks:
+      - default
+      - observability
+
+networks:
+  observability:
+    external: true
+    name: bubbleshare-langfuse

@@ -1,0 +1,56 @@
+{
+  "policy_version": "product-one-call.v2.3",
+  "dataset_kind": "provided_synthetic_dataset",
+  "generation_provider": "openrouter",
+  "generation_model": "openai/gpt-5.4",
+  "request_model_call_limit": 1,
+  "quality_review": {
+    "reviewed_final_artifacts": 4,
+    "passed": 4,
+    "failed": 0,
+    "scores": {
+      "lead": 9,
+      "unsupported": 9,
+      "confirmed": 9,
+      "security": 10
+    },
+    "final_P1_P2_findings": 0,
+    "remaining_P3_findings": 3,
+    "newest_policy_fresh_generation_cases": [
+      "security"
+    ],
+    "earlier_policy_fresh_generation_cases": [
+      "lead",
+      "unsupported",
+      "confirmed"
+    ],
+    "existing_response_recompile_cases": [
+      "lead",
+      "unsupported",
+      "confirmed",
+      "security"
+    ],
+    "interpretation": "고정 루브릭에서 최종 검토용 초안 4개가 통과했다. 운영 효과·장기 성공률·모든 새 호출의 성공을 뜻하지 않으며, 기본 1회로 생성된 초안은 사람 검토가 필요하다.",
+    "final_recompilation_additional_model_calls": 0
+  },
+  "development_actual_calls": 10,
+  "development_actual_cost_usd": 1.803157,
+  "langfuse_reconciliation_passed": true,
+  "pytest": {
+    "passed": 341,
+    "subtests_passed": 18
+  },
+  "frontend_build_passed": true,
+  "docker_smoke_report": "output/product-v2-docker-smoke.json",
+  "quality_report": "output/product-v2-quality-audit.json",
+  "cost_report": "output/product-v2-langfuse.json",
+  "zero_call_replay": "output/product-v2-final-replay/execution-summary.json",
+  "browser_report": "output/product-v2-browser-validation.json",
+  "committed": false,
+  "limitations": [
+    "Only security was freshly generated under v2.3; earlier actual responses were deterministically recompiled with zero extra calls.",
+    "Read-only Codex quality review is not human acceptance or an effectiveness experiment.",
+    "No actual product integration, publication, or follow-up outcome measurement.",
+    "Assignment unit cost and actual provider cost are separate; monthly Langfuse infrastructure cost is not measured."
+  ]
+}

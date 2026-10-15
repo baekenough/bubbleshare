@@ -1,0 +1,7828 @@
+[
+  {
+    "citation_id": "C00001",
+    "observation_id": "OBS0001",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00002",
+    "observation_id": "OBS0001",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00003",
+    "observation_id": "OBS0002",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00004",
+    "observation_id": "OBS0002",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00005",
+    "observation_id": "OBS0002",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00006",
+    "observation_id": "OBS0003",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00007",
+    "observation_id": "OBS0003",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00008",
+    "observation_id": "OBS0003",
+    "source_id": "SRC033",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00009",
+    "observation_id": "OBS0004",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00010",
+    "observation_id": "OBS0005",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00011",
+    "observation_id": "OBS0006",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00012",
+    "observation_id": "OBS0006",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00013",
+    "observation_id": "OBS0006",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00014",
+    "observation_id": "OBS0006",
+    "source_id": "SRC011",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00015",
+    "observation_id": "OBS0007",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00016",
+    "observation_id": "OBS0008",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00017",
+    "observation_id": "OBS0008",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00018",
+    "observation_id": "OBS0009",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00019",
+    "observation_id": "OBS0009",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00020",
+    "observation_id": "OBS0009",
+    "source_id": "SRC032",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00021",
+    "observation_id": "OBS0010",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00022",
+    "observation_id": "OBS0010",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00023",
+    "observation_id": "OBS0010",
+    "source_id": "SRC015",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00024",
+    "observation_id": "OBS0011",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00025",
+    "observation_id": "OBS0011",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00026",
+    "observation_id": "OBS0011",
+    "source_id": "SRC032",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00027",
+    "observation_id": "OBS0011",
+    "source_id": "SRC030",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00028",
+    "observation_id": "OBS0012",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00029",
+    "observation_id": "OBS0012",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00030",
+    "observation_id": "OBS0012",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00031",
+    "observation_id": "OBS0013",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00032",
+    "observation_id": "OBS0013",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00033",
+    "observation_id": "OBS0013",
+    "source_id": "SRC008",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00034",
+    "observation_id": "OBS0014",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00035",
+    "observation_id": "OBS0014",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00036",
+    "observation_id": "OBS0014",
+    "source_id": "SRC008",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00037",
+    "observation_id": "OBS0015",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00038",
+    "observation_id": "OBS0015",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00039",
+    "observation_id": "OBS0015",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00040",
+    "observation_id": "OBS0015",
+    "source_id": "SRC032",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00041",
+    "observation_id": "OBS0016",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00042",
+    "observation_id": "OBS0016",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00043",
+    "observation_id": "OBS0016",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00044",
+    "observation_id": "OBS0017",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00045",
+    "observation_id": "OBS0017",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00046",
+    "observation_id": "OBS0018",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00047",
+    "observation_id": "OBS0018",
+    "source_id": "SRC003",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00048",
+    "observation_id": "OBS0018",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00049",
+    "observation_id": "OBS0018",
+    "source_id": "SRC032",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00050",
+    "observation_id": "OBS0018",
+    "source_id": "SRC030",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00051",
+    "observation_id": "OBS0019",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00052",
+    "observation_id": "OBS0019",
+    "source_id": "SRC043",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00053",
+    "observation_id": "OBS0020",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00054",
+    "observation_id": "OBS0021",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00055",
+    "observation_id": "OBS0021",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00056",
+    "observation_id": "OBS0021",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00057",
+    "observation_id": "OBS0021",
+    "source_id": "SRC045",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00058",
+    "observation_id": "OBS0022",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00059",
+    "observation_id": "OBS0022",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00060",
+    "observation_id": "OBS0022",
+    "source_id": "SRC005",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00061",
+    "observation_id": "OBS0023",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00062",
+    "observation_id": "OBS0023",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00063",
+    "observation_id": "OBS0024",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00064",
+    "observation_id": "OBS0024",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00065",
+    "observation_id": "OBS0024",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00066",
+    "observation_id": "OBS0025",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00067",
+    "observation_id": "OBS0025",
+    "source_id": "SRC047",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00068",
+    "observation_id": "OBS0026",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00069",
+    "observation_id": "OBS0027",
+    "source_id": "SRC004",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00070",
+    "observation_id": "OBS0027",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00071",
+    "observation_id": "OBS0027",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00072",
+    "observation_id": "OBS0027",
+    "source_id": "SRC003",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00073",
+    "observation_id": "OBS0027",
+    "source_id": "SRC030",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00074",
+    "observation_id": "OBS0029",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00075",
+    "observation_id": "OBS0029",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00076",
+    "observation_id": "OBS0029",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00077",
+    "observation_id": "OBS0030",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00078",
+    "observation_id": "OBS0030",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00079",
+    "observation_id": "OBS0030",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00080",
+    "observation_id": "OBS0030",
+    "source_id": "SRC038",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00081",
+    "observation_id": "OBS0030",
+    "source_id": "SRC019",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00082",
+    "observation_id": "OBS0032",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00083",
+    "observation_id": "OBS0032",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00084",
+    "observation_id": "OBS0033",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00085",
+    "observation_id": "OBS0033",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00086",
+    "observation_id": "OBS0033",
+    "source_id": "SRC044",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00087",
+    "observation_id": "OBS0034",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00088",
+    "observation_id": "OBS0034",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00089",
+    "observation_id": "OBS0034",
+    "source_id": "SRC044",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00090",
+    "observation_id": "OBS0035",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00091",
+    "observation_id": "OBS0035",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00092",
+    "observation_id": "OBS0035",
+    "source_id": "SRC039",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00093",
+    "observation_id": "OBS0036",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00094",
+    "observation_id": "OBS0036",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00095",
+    "observation_id": "OBS0036",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00096",
+    "observation_id": "OBS0038",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00097",
+    "observation_id": "OBS0038",
+    "source_id": "SRC014",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00098",
+    "observation_id": "OBS0038",
+    "source_id": "SRC029",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00099",
+    "observation_id": "OBS0039",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00100",
+    "observation_id": "OBS0039",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00101",
+    "observation_id": "OBS0039",
+    "source_id": "SRC006",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00102",
+    "observation_id": "OBS0039",
+    "source_id": "SRC029",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00103",
+    "observation_id": "OBS0041",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00104",
+    "observation_id": "OBS0041",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00105",
+    "observation_id": "OBS0041",
+    "source_id": "SRC029",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00106",
+    "observation_id": "OBS0042",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00107",
+    "observation_id": "OBS0042",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00108",
+    "observation_id": "OBS0042",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00109",
+    "observation_id": "OBS0042",
+    "source_id": "SRC042",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00110",
+    "observation_id": "OBS0043",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00111",
+    "observation_id": "OBS0043",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00112",
+    "observation_id": "OBS0044",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00113",
+    "observation_id": "OBS0044",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00114",
+    "observation_id": "OBS0044",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00115",
+    "observation_id": "OBS0044",
+    "source_id": "SRC040",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00116",
+    "observation_id": "OBS0045",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00117",
+    "observation_id": "OBS0045",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00118",
+    "observation_id": "OBS0045",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00119",
+    "observation_id": "OBS0046",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00120",
+    "observation_id": "OBS0046",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00121",
+    "observation_id": "OBS0046",
+    "source_id": "SRC010",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00122",
+    "observation_id": "OBS0047",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00123",
+    "observation_id": "OBS0047",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00124",
+    "observation_id": "OBS0047",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00125",
+    "observation_id": "OBS0048",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00126",
+    "observation_id": "OBS0048",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00127",
+    "observation_id": "OBS0048",
+    "source_id": "SRC006",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00128",
+    "observation_id": "OBS0048",
+    "source_id": "SRC026",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00129",
+    "observation_id": "OBS0050",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00130",
+    "observation_id": "OBS0050",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00131",
+    "observation_id": "OBS0051",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00132",
+    "observation_id": "OBS0051",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00133",
+    "observation_id": "OBS0051",
+    "source_id": "SRC029",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00134",
+    "observation_id": "OBS0053",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00135",
+    "observation_id": "OBS0053",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00136",
+    "observation_id": "OBS0054",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00137",
+    "observation_id": "OBS0054",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00138",
+    "observation_id": "OBS0054",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00139",
+    "observation_id": "OBS0054",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00140",
+    "observation_id": "OBS0056",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00141",
+    "observation_id": "OBS0056",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00142",
+    "observation_id": "OBS0056",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00143",
+    "observation_id": "OBS0056",
+    "source_id": "SRC037",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00144",
+    "observation_id": "OBS0057",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00145",
+    "observation_id": "OBS0057",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00146",
+    "observation_id": "OBS0057",
+    "source_id": "SRC048",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00147",
+    "observation_id": "OBS0058",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00148",
+    "observation_id": "OBS0058",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00149",
+    "observation_id": "OBS0059",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00150",
+    "observation_id": "OBS0059",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00151",
+    "observation_id": "OBS0059",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00152",
+    "observation_id": "OBS0060",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00153",
+    "observation_id": "OBS0060",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00154",
+    "observation_id": "OBS0060",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00155",
+    "observation_id": "OBS0062",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00156",
+    "observation_id": "OBS0062",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00157",
+    "observation_id": "OBS0063",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00158",
+    "observation_id": "OBS0063",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00159",
+    "observation_id": "OBS0063",
+    "source_id": "SRC023",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00160",
+    "observation_id": "OBS0063",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00161",
+    "observation_id": "OBS0065",
+    "source_id": "SRC012",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00162",
+    "observation_id": "OBS0065",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00163",
+    "observation_id": "OBS0066",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00164",
+    "observation_id": "OBS0067",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00165",
+    "observation_id": "OBS0067",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00166",
+    "observation_id": "OBS0067",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00167",
+    "observation_id": "OBS0068",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00168",
+    "observation_id": "OBS0068",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00169",
+    "observation_id": "OBS0068",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00170",
+    "observation_id": "OBS0068",
+    "source_id": "SRC015",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00171",
+    "observation_id": "OBS0069",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00172",
+    "observation_id": "OBS0069",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00173",
+    "observation_id": "OBS0069",
+    "source_id": "SRC023",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00174",
+    "observation_id": "OBS0069",
+    "source_id": "SRC033",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00175",
+    "observation_id": "OBS0070",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00176",
+    "observation_id": "OBS0070",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00177",
+    "observation_id": "OBS0070",
+    "source_id": "SRC047",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00178",
+    "observation_id": "OBS0071",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00179",
+    "observation_id": "OBS0071",
+    "source_id": "SRC023",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00180",
+    "observation_id": "OBS0071",
+    "source_id": "SRC033",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00181",
+    "observation_id": "OBS0072",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00182",
+    "observation_id": "OBS0072",
+    "source_id": "SRC014",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00183",
+    "observation_id": "OBS0072",
+    "source_id": "SRC023",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00184",
+    "observation_id": "OBS0072",
+    "source_id": "SRC041",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00185",
+    "observation_id": "OBS0072",
+    "source_id": "SRC013",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00186",
+    "observation_id": "OBS0073",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00187",
+    "observation_id": "OBS0073",
+    "source_id": "SRC023",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00188",
+    "observation_id": "OBS0074",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00189",
+    "observation_id": "OBS0075",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00190",
+    "observation_id": "OBS0075",
+    "source_id": "SRC023",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00191",
+    "observation_id": "OBS0075",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00192",
+    "observation_id": "OBS0075",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00193",
+    "observation_id": "OBS0077",
+    "source_id": "SRC008",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00194",
+    "observation_id": "OBS0077",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00195",
+    "observation_id": "OBS0078",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00196",
+    "observation_id": "OBS0078",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00197",
+    "observation_id": "OBS0078",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00198",
+    "observation_id": "OBS0078",
+    "source_id": "SRC023",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00199",
+    "observation_id": "OBS0078",
+    "source_id": "SRC027",
+    "citation_rank": 5,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00200",
+    "observation_id": "OBS0079",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00201",
+    "observation_id": "OBS0079",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00202",
+    "observation_id": "OBS0080",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00203",
+    "observation_id": "OBS0080",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00204",
+    "observation_id": "OBS0080",
+    "source_id": "SRC023",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00205",
+    "observation_id": "OBS0081",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00206",
+    "observation_id": "OBS0081",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00207",
+    "observation_id": "OBS0081",
+    "source_id": "SRC040",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00208",
+    "observation_id": "OBS0081",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00209",
+    "observation_id": "OBS0081",
+    "source_id": "SRC023",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00210",
+    "observation_id": "OBS0082",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00211",
+    "observation_id": "OBS0083",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00212",
+    "observation_id": "OBS0083",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00213",
+    "observation_id": "OBS0083",
+    "source_id": "SRC040",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00214",
+    "observation_id": "OBS0083",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00215",
+    "observation_id": "OBS0084",
+    "source_id": "SRC023",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00216",
+    "observation_id": "OBS0084",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00217",
+    "observation_id": "OBS0084",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00218",
+    "observation_id": "OBS0085",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00219",
+    "observation_id": "OBS0086",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00220",
+    "observation_id": "OBS0086",
+    "source_id": "SRC020",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00221",
+    "observation_id": "OBS0086",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00222",
+    "observation_id": "OBS0086",
+    "source_id": "SRC023",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00223",
+    "observation_id": "OBS0087",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00224",
+    "observation_id": "OBS0087",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00225",
+    "observation_id": "OBS0087",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00226",
+    "observation_id": "OBS0087",
+    "source_id": "SRC023",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00227",
+    "observation_id": "OBS0089",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00228",
+    "observation_id": "OBS0089",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00229",
+    "observation_id": "OBS0089",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00230",
+    "observation_id": "OBS0090",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00231",
+    "observation_id": "OBS0090",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00232",
+    "observation_id": "OBS0090",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00233",
+    "observation_id": "OBS0091",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00234",
+    "observation_id": "OBS0092",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00235",
+    "observation_id": "OBS0092",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00236",
+    "observation_id": "OBS0092",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00237",
+    "observation_id": "OBS0092",
+    "source_id": "SRC037",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00238",
+    "observation_id": "OBS0093",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00239",
+    "observation_id": "OBS0093",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00240",
+    "observation_id": "OBS0093",
+    "source_id": "SRC006",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00241",
+    "observation_id": "OBS0094",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00242",
+    "observation_id": "OBS0094",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00243",
+    "observation_id": "OBS0095",
+    "source_id": "SRC006",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00244",
+    "observation_id": "OBS0095",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00245",
+    "observation_id": "OBS0095",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00246",
+    "observation_id": "OBS0096",
+    "source_id": "SRC012",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00247",
+    "observation_id": "OBS0096",
+    "source_id": "SRC024",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00248",
+    "observation_id": "OBS0096",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00249",
+    "observation_id": "OBS0096",
+    "source_id": "SRC034",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00250",
+    "observation_id": "OBS0096",
+    "source_id": "SRC035",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00251",
+    "observation_id": "OBS0098",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00252",
+    "observation_id": "OBS0098",
+    "source_id": "SRC043",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00253",
+    "observation_id": "OBS0099",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00254",
+    "observation_id": "OBS0099",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00255",
+    "observation_id": "OBS0099",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00256",
+    "observation_id": "OBS0099",
+    "source_id": "SRC008",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00257",
+    "observation_id": "OBS0099",
+    "source_id": "SRC005",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00258",
+    "observation_id": "OBS0100",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00259",
+    "observation_id": "OBS0100",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00260",
+    "observation_id": "OBS0101",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00261",
+    "observation_id": "OBS0101",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00262",
+    "observation_id": "OBS0102",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00263",
+    "observation_id": "OBS0102",
+    "source_id": "SRC019",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00264",
+    "observation_id": "OBS0102",
+    "source_id": "SRC001",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00265",
+    "observation_id": "OBS0102",
+    "source_id": "SRC024",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00266",
+    "observation_id": "OBS0103",
+    "source_id": "SRC024",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00267",
+    "observation_id": "OBS0103",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00268",
+    "observation_id": "OBS0104",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00269",
+    "observation_id": "OBS0104",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00270",
+    "observation_id": "OBS0104",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00271",
+    "observation_id": "OBS0105",
+    "source_id": "SRC019",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00272",
+    "observation_id": "OBS0105",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00273",
+    "observation_id": "OBS0105",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00274",
+    "observation_id": "OBS0105",
+    "source_id": "SRC012",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00275",
+    "observation_id": "OBS0106",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00276",
+    "observation_id": "OBS0107",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00277",
+    "observation_id": "OBS0108",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00278",
+    "observation_id": "OBS0108",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00279",
+    "observation_id": "OBS0108",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00280",
+    "observation_id": "OBS0109",
+    "source_id": "SRC019",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00281",
+    "observation_id": "OBS0109",
+    "source_id": "SRC031",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00282",
+    "observation_id": "OBS0110",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00283",
+    "observation_id": "OBS0111",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00284",
+    "observation_id": "OBS0111",
+    "source_id": "SRC024",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00285",
+    "observation_id": "OBS0111",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00286",
+    "observation_id": "OBS0113",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00287",
+    "observation_id": "OBS0113",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00288",
+    "observation_id": "OBS0113",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00289",
+    "observation_id": "OBS0113",
+    "source_id": "SRC041",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00290",
+    "observation_id": "OBS0114",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00291",
+    "observation_id": "OBS0114",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00292",
+    "observation_id": "OBS0114",
+    "source_id": "SRC024",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00293",
+    "observation_id": "OBS0114",
+    "source_id": "SRC001",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00294",
+    "observation_id": "OBS0114",
+    "source_id": "SRC026",
+    "citation_rank": 5,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00295",
+    "observation_id": "OBS0115",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00296",
+    "observation_id": "OBS0116",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00297",
+    "observation_id": "OBS0116",
+    "source_id": "SRC031",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00298",
+    "observation_id": "OBS0116",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00299",
+    "observation_id": "OBS0117",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00300",
+    "observation_id": "OBS0117",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00301",
+    "observation_id": "OBS0117",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00302",
+    "observation_id": "OBS0117",
+    "source_id": "SRC040",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00303",
+    "observation_id": "OBS0119",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00304",
+    "observation_id": "OBS0119",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00305",
+    "observation_id": "OBS0120",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00306",
+    "observation_id": "OBS0120",
+    "source_id": "SRC024",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00307",
+    "observation_id": "OBS0120",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00308",
+    "observation_id": "OBS0120",
+    "source_id": "SRC049",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00309",
+    "observation_id": "OBS0120",
+    "source_id": "SRC035",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00310",
+    "observation_id": "OBS0122",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00311",
+    "observation_id": "OBS0123",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00312",
+    "observation_id": "OBS0123",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00313",
+    "observation_id": "OBS0123",
+    "source_id": "SRC008",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00314",
+    "observation_id": "OBS0125",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00315",
+    "observation_id": "OBS0125",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00316",
+    "observation_id": "OBS0126",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00317",
+    "observation_id": "OBS0126",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00318",
+    "observation_id": "OBS0126",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00319",
+    "observation_id": "OBS0127",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00320",
+    "observation_id": "OBS0127",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00321",
+    "observation_id": "OBS0128",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00322",
+    "observation_id": "OBS0128",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00323",
+    "observation_id": "OBS0129",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00324",
+    "observation_id": "OBS0129",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00325",
+    "observation_id": "OBS0129",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00326",
+    "observation_id": "OBS0130",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00327",
+    "observation_id": "OBS0130",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00328",
+    "observation_id": "OBS0131",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00329",
+    "observation_id": "OBS0131",
+    "source_id": "SRC007",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00330",
+    "observation_id": "OBS0131",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00331",
+    "observation_id": "OBS0132",
+    "source_id": "SRC004",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00332",
+    "observation_id": "OBS0132",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00333",
+    "observation_id": "OBS0132",
+    "source_id": "SRC048",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00334",
+    "observation_id": "OBS0133",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00335",
+    "observation_id": "OBS0133",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00336",
+    "observation_id": "OBS0133",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00337",
+    "observation_id": "OBS0134",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00338",
+    "observation_id": "OBS0134",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00339",
+    "observation_id": "OBS0135",
+    "source_id": "SRC003",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00340",
+    "observation_id": "OBS0135",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00341",
+    "observation_id": "OBS0135",
+    "source_id": "SRC001",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00342",
+    "observation_id": "OBS0135",
+    "source_id": "SRC015",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00343",
+    "observation_id": "OBS0136",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00344",
+    "observation_id": "OBS0137",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00345",
+    "observation_id": "OBS0138",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00346",
+    "observation_id": "OBS0138",
+    "source_id": "SRC006",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00347",
+    "observation_id": "OBS0138",
+    "source_id": "SRC005",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00348",
+    "observation_id": "OBS0138",
+    "source_id": "SRC045",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00349",
+    "observation_id": "OBS0139",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00350",
+    "observation_id": "OBS0139",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00351",
+    "observation_id": "OBS0139",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00352",
+    "observation_id": "OBS0140",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00353",
+    "observation_id": "OBS0140",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00354",
+    "observation_id": "OBS0140",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00355",
+    "observation_id": "OBS0141",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00356",
+    "observation_id": "OBS0141",
+    "source_id": "SRC007",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00357",
+    "observation_id": "OBS0141",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00358",
+    "observation_id": "OBS0142",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00359",
+    "observation_id": "OBS0143",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00360",
+    "observation_id": "OBS0143",
+    "source_id": "SRC010",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00361",
+    "observation_id": "OBS0143",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00362",
+    "observation_id": "OBS0143",
+    "source_id": "SRC018",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00363",
+    "observation_id": "OBS0144",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00364",
+    "observation_id": "OBS0144",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00365",
+    "observation_id": "OBS0144",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00366",
+    "observation_id": "OBS0144",
+    "source_id": "SRC001",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00367",
+    "observation_id": "OBS0145",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00368",
+    "observation_id": "OBS0145",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00369",
+    "observation_id": "OBS0145",
+    "source_id": "SRC031",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00370",
+    "observation_id": "OBS0146",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00371",
+    "observation_id": "OBS0146",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00372",
+    "observation_id": "OBS0146",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00373",
+    "observation_id": "OBS0146",
+    "source_id": "SRC026",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00374",
+    "observation_id": "OBS0147",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00375",
+    "observation_id": "OBS0147",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00376",
+    "observation_id": "OBS0147",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00377",
+    "observation_id": "OBS0148",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00378",
+    "observation_id": "OBS0149",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00379",
+    "observation_id": "OBS0149",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00380",
+    "observation_id": "OBS0150",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00381",
+    "observation_id": "OBS0150",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00382",
+    "observation_id": "OBS0150",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00383",
+    "observation_id": "OBS0150",
+    "source_id": "SRC019",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00384",
+    "observation_id": "OBS0151",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00385",
+    "observation_id": "OBS0151",
+    "source_id": "SRC021",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00386",
+    "observation_id": "OBS0152",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00387",
+    "observation_id": "OBS0153",
+    "source_id": "SRC007",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00388",
+    "observation_id": "OBS0155",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00389",
+    "observation_id": "OBS0155",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00390",
+    "observation_id": "OBS0155",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00391",
+    "observation_id": "OBS0156",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00392",
+    "observation_id": "OBS0156",
+    "source_id": "SRC021",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00393",
+    "observation_id": "OBS0156",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00394",
+    "observation_id": "OBS0156",
+    "source_id": "SRC014",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00395",
+    "observation_id": "OBS0157",
+    "source_id": "SRC021",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00396",
+    "observation_id": "OBS0158",
+    "source_id": "SRC021",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00397",
+    "observation_id": "OBS0158",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00398",
+    "observation_id": "OBS0159",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00399",
+    "observation_id": "OBS0159",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00400",
+    "observation_id": "OBS0159",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00401",
+    "observation_id": "OBS0159",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00402",
+    "observation_id": "OBS0160",
+    "source_id": "SRC021",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00403",
+    "observation_id": "OBS0160",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00404",
+    "observation_id": "OBS0161",
+    "source_id": "SRC045",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00405",
+    "observation_id": "OBS0161",
+    "source_id": "SRC021",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00406",
+    "observation_id": "OBS0161",
+    "source_id": "SRC020",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00407",
+    "observation_id": "OBS0162",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00408",
+    "observation_id": "OBS0164",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00409",
+    "observation_id": "OBS0164",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00410",
+    "observation_id": "OBS0164",
+    "source_id": "SRC008",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00411",
+    "observation_id": "OBS0165",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00412",
+    "observation_id": "OBS0165",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00413",
+    "observation_id": "OBS0165",
+    "source_id": "SRC021",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00414",
+    "observation_id": "OBS0166",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00415",
+    "observation_id": "OBS0166",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00416",
+    "observation_id": "OBS0166",
+    "source_id": "SRC021",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00417",
+    "observation_id": "OBS0167",
+    "source_id": "SRC021",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00418",
+    "observation_id": "OBS0167",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00419",
+    "observation_id": "OBS0167",
+    "source_id": "SRC039",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00420",
+    "observation_id": "OBS0167",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00421",
+    "observation_id": "OBS0168",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00422",
+    "observation_id": "OBS0170",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00423",
+    "observation_id": "OBS0170",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00424",
+    "observation_id": "OBS0170",
+    "source_id": "SRC021",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00425",
+    "observation_id": "OBS0170",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00426",
+    "observation_id": "OBS0171",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00427",
+    "observation_id": "OBS0171",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00428",
+    "observation_id": "OBS0171",
+    "source_id": "SRC021",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00429",
+    "observation_id": "OBS0173",
+    "source_id": "SRC045",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00430",
+    "observation_id": "OBS0173",
+    "source_id": "SRC021",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00431",
+    "observation_id": "OBS0175",
+    "source_id": "SRC021",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00432",
+    "observation_id": "OBS0176",
+    "source_id": "SRC045",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00433",
+    "observation_id": "OBS0176",
+    "source_id": "SRC021",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00434",
+    "observation_id": "OBS0176",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00435",
+    "observation_id": "OBS0177",
+    "source_id": "SRC045",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00436",
+    "observation_id": "OBS0177",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00437",
+    "observation_id": "OBS0177",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00438",
+    "observation_id": "OBS0177",
+    "source_id": "SRC021",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00439",
+    "observation_id": "OBS0179",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00440",
+    "observation_id": "OBS0179",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00441",
+    "observation_id": "OBS0179",
+    "source_id": "SRC042",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00442",
+    "observation_id": "OBS0180",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00443",
+    "observation_id": "OBS0180",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00444",
+    "observation_id": "OBS0180",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00445",
+    "observation_id": "OBS0180",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00446",
+    "observation_id": "OBS0181",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00447",
+    "observation_id": "OBS0181",
+    "source_id": "SRC048",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00448",
+    "observation_id": "OBS0182",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00449",
+    "observation_id": "OBS0182",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00450",
+    "observation_id": "OBS0182",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00451",
+    "observation_id": "OBS0182",
+    "source_id": "SRC020",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00452",
+    "observation_id": "OBS0183",
+    "source_id": "SRC016",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00453",
+    "observation_id": "OBS0183",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00454",
+    "observation_id": "OBS0183",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00455",
+    "observation_id": "OBS0185",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00456",
+    "observation_id": "OBS0185",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00457",
+    "observation_id": "OBS0185",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00458",
+    "observation_id": "OBS0186",
+    "source_id": "SRC018",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00459",
+    "observation_id": "OBS0186",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00460",
+    "observation_id": "OBS0186",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00461",
+    "observation_id": "OBS0188",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00462",
+    "observation_id": "OBS0188",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00463",
+    "observation_id": "OBS0189",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00464",
+    "observation_id": "OBS0189",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00465",
+    "observation_id": "OBS0189",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00466",
+    "observation_id": "OBS0189",
+    "source_id": "SRC019",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00467",
+    "observation_id": "OBS0190",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00468",
+    "observation_id": "OBS0191",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00469",
+    "observation_id": "OBS0191",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00470",
+    "observation_id": "OBS0192",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00471",
+    "observation_id": "OBS0194",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00472",
+    "observation_id": "OBS0194",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00473",
+    "observation_id": "OBS0194",
+    "source_id": "SRC015",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00474",
+    "observation_id": "OBS0195",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00475",
+    "observation_id": "OBS0195",
+    "source_id": "SRC045",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00476",
+    "observation_id": "OBS0195",
+    "source_id": "SRC015",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00477",
+    "observation_id": "OBS0195",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00478",
+    "observation_id": "OBS0195",
+    "source_id": "SRC031",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00479",
+    "observation_id": "OBS0196",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00480",
+    "observation_id": "OBS0196",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00481",
+    "observation_id": "OBS0197",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00482",
+    "observation_id": "OBS0197",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00483",
+    "observation_id": "OBS0198",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00484",
+    "observation_id": "OBS0198",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00485",
+    "observation_id": "OBS0198",
+    "source_id": "SRC031",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00486",
+    "observation_id": "OBS0199",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00487",
+    "observation_id": "OBS0199",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00488",
+    "observation_id": "OBS0200",
+    "source_id": "SRC019",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00489",
+    "observation_id": "OBS0201",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00490",
+    "observation_id": "OBS0201",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00491",
+    "observation_id": "OBS0201",
+    "source_id": "SRC031",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00492",
+    "observation_id": "OBS0201",
+    "source_id": "SRC036",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00493",
+    "observation_id": "OBS0201",
+    "source_id": "SRC047",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00494",
+    "observation_id": "OBS0202",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00495",
+    "observation_id": "OBS0202",
+    "source_id": "SRC031",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00496",
+    "observation_id": "OBS0203",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00497",
+    "observation_id": "OBS0203",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00498",
+    "observation_id": "OBS0203",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00499",
+    "observation_id": "OBS0204",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00500",
+    "observation_id": "OBS0204",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00501",
+    "observation_id": "OBS0204",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00502",
+    "observation_id": "OBS0204",
+    "source_id": "SRC037",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00503",
+    "observation_id": "OBS0206",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00504",
+    "observation_id": "OBS0207",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00505",
+    "observation_id": "OBS0207",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00506",
+    "observation_id": "OBS0207",
+    "source_id": "SRC005",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00507",
+    "observation_id": "OBS0208",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00508",
+    "observation_id": "OBS0209",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00509",
+    "observation_id": "OBS0210",
+    "source_id": "SRC008",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00510",
+    "observation_id": "OBS0210",
+    "source_id": "SRC012",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00511",
+    "observation_id": "OBS0210",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00512",
+    "observation_id": "OBS0212",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00513",
+    "observation_id": "OBS0212",
+    "source_id": "SRC003",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00514",
+    "observation_id": "OBS0213",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00515",
+    "observation_id": "OBS0213",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00516",
+    "observation_id": "OBS0213",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00517",
+    "observation_id": "OBS0213",
+    "source_id": "SRC003",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00518",
+    "observation_id": "OBS0214",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00519",
+    "observation_id": "OBS0214",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00520",
+    "observation_id": "OBS0215",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00521",
+    "observation_id": "OBS0216",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00522",
+    "observation_id": "OBS0216",
+    "source_id": "SRC048",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00523",
+    "observation_id": "OBS0216",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00524",
+    "observation_id": "OBS0217",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00525",
+    "observation_id": "OBS0217",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00526",
+    "observation_id": "OBS0217",
+    "source_id": "SRC019",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00527",
+    "observation_id": "OBS0218",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00528",
+    "observation_id": "OBS0218",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00529",
+    "observation_id": "OBS0219",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00530",
+    "observation_id": "OBS0219",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00531",
+    "observation_id": "OBS0219",
+    "source_id": "SRC010",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00532",
+    "observation_id": "OBS0219",
+    "source_id": "SRC048",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00533",
+    "observation_id": "OBS0220",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00534",
+    "observation_id": "OBS0220",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00535",
+    "observation_id": "OBS0220",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00536",
+    "observation_id": "OBS0221",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00537",
+    "observation_id": "OBS0221",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00538",
+    "observation_id": "OBS0221",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00539",
+    "observation_id": "OBS0222",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00540",
+    "observation_id": "OBS0222",
+    "source_id": "SRC047",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00541",
+    "observation_id": "OBS0222",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00542",
+    "observation_id": "OBS0223",
+    "source_id": "SRC003",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00543",
+    "observation_id": "OBS0223",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00544",
+    "observation_id": "OBS0224",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00545",
+    "observation_id": "OBS0224",
+    "source_id": "SRC033",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00546",
+    "observation_id": "OBS0224",
+    "source_id": "SRC032",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00547",
+    "observation_id": "OBS0224",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00548",
+    "observation_id": "OBS0225",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00549",
+    "observation_id": "OBS0225",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00550",
+    "observation_id": "OBS0225",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00551",
+    "observation_id": "OBS0225",
+    "source_id": "SRC045",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00552",
+    "observation_id": "OBS0226",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00553",
+    "observation_id": "OBS0227",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00554",
+    "observation_id": "OBS0227",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00555",
+    "observation_id": "OBS0228",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00556",
+    "observation_id": "OBS0228",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00557",
+    "observation_id": "OBS0228",
+    "source_id": "SRC047",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00558",
+    "observation_id": "OBS0228",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00559",
+    "observation_id": "OBS0228",
+    "source_id": "SRC005",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00560",
+    "observation_id": "OBS0230",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00561",
+    "observation_id": "OBS0231",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00562",
+    "observation_id": "OBS0231",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00563",
+    "observation_id": "OBS0231",
+    "source_id": "SRC048",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00564",
+    "observation_id": "OBS0232",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00565",
+    "observation_id": "OBS0232",
+    "source_id": "SRC006",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00566",
+    "observation_id": "OBS0233",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00567",
+    "observation_id": "OBS0234",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00568",
+    "observation_id": "OBS0234",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00569",
+    "observation_id": "OBS0234",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00570",
+    "observation_id": "OBS0234",
+    "source_id": "SRC015",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00571",
+    "observation_id": "OBS0234",
+    "source_id": "SRC013",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00572",
+    "observation_id": "OBS0236",
+    "source_id": "SRC019",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00573",
+    "observation_id": "OBS0237",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00574",
+    "observation_id": "OBS0237",
+    "source_id": "SRC019",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00575",
+    "observation_id": "OBS0237",
+    "source_id": "SRC018",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00576",
+    "observation_id": "OBS0239",
+    "source_id": "SRC011",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00577",
+    "observation_id": "OBS0239",
+    "source_id": "SRC048",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00578",
+    "observation_id": "OBS0239",
+    "source_id": "SRC010",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00579",
+    "observation_id": "OBS0240",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00580",
+    "observation_id": "OBS0240",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00581",
+    "observation_id": "OBS0240",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00582",
+    "observation_id": "OBS0240",
+    "source_id": "SRC009",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00583",
+    "observation_id": "OBS0241",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00584",
+    "observation_id": "OBS0241",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00585",
+    "observation_id": "OBS0242",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00586",
+    "observation_id": "OBS0242",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00587",
+    "observation_id": "OBS0243",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00588",
+    "observation_id": "OBS0243",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00589",
+    "observation_id": "OBS0243",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00590",
+    "observation_id": "OBS0243",
+    "source_id": "SRC044",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00591",
+    "observation_id": "OBS0244",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00592",
+    "observation_id": "OBS0245",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00593",
+    "observation_id": "OBS0245",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00594",
+    "observation_id": "OBS0245",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00595",
+    "observation_id": "OBS0246",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00596",
+    "observation_id": "OBS0246",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00597",
+    "observation_id": "OBS0246",
+    "source_id": "SRC001",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00598",
+    "observation_id": "OBS0247",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00599",
+    "observation_id": "OBS0248",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00600",
+    "observation_id": "OBS0248",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00601",
+    "observation_id": "OBS0249",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00602",
+    "observation_id": "OBS0249",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00603",
+    "observation_id": "OBS0249",
+    "source_id": "SRC028",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00604",
+    "observation_id": "OBS0249",
+    "source_id": "SRC041",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00605",
+    "observation_id": "OBS0249",
+    "source_id": "SRC017",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00606",
+    "observation_id": "OBS0250",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00607",
+    "observation_id": "OBS0250",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00608",
+    "observation_id": "OBS0251",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00609",
+    "observation_id": "OBS0251",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00610",
+    "observation_id": "OBS0252",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00611",
+    "observation_id": "OBS0252",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00612",
+    "observation_id": "OBS0252",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00613",
+    "observation_id": "OBS0254",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00614",
+    "observation_id": "OBS0254",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00615",
+    "observation_id": "OBS0255",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00616",
+    "observation_id": "OBS0255",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00617",
+    "observation_id": "OBS0255",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00618",
+    "observation_id": "OBS0255",
+    "source_id": "SRC038",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00619",
+    "observation_id": "OBS0257",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00620",
+    "observation_id": "OBS0257",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00621",
+    "observation_id": "OBS0257",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00622",
+    "observation_id": "OBS0258",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00623",
+    "observation_id": "OBS0258",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00624",
+    "observation_id": "OBS0258",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00625",
+    "observation_id": "OBS0260",
+    "source_id": "SRC029",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00626",
+    "observation_id": "OBS0261",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00627",
+    "observation_id": "OBS0261",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00628",
+    "observation_id": "OBS0261",
+    "source_id": "SRC018",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00629",
+    "observation_id": "OBS0261",
+    "source_id": "SRC048",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00630",
+    "observation_id": "OBS0262",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00631",
+    "observation_id": "OBS0262",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00632",
+    "observation_id": "OBS0263",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00633",
+    "observation_id": "OBS0263",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00634",
+    "observation_id": "OBS0264",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00635",
+    "observation_id": "OBS0264",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00636",
+    "observation_id": "OBS0264",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00637",
+    "observation_id": "OBS0264",
+    "source_id": "SRC027",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00638",
+    "observation_id": "OBS0265",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00639",
+    "observation_id": "OBS0265",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00640",
+    "observation_id": "OBS0265",
+    "source_id": "SRC039",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00641",
+    "observation_id": "OBS0266",
+    "source_id": "SRC033",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00642",
+    "observation_id": "OBS0266",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00643",
+    "observation_id": "OBS0266",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00644",
+    "observation_id": "OBS0267",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00645",
+    "observation_id": "OBS0267",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00646",
+    "observation_id": "OBS0267",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00647",
+    "observation_id": "OBS0269",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00648",
+    "observation_id": "OBS0269",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00649",
+    "observation_id": "OBS0270",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00650",
+    "observation_id": "OBS0270",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00651",
+    "observation_id": "OBS0270",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00652",
+    "observation_id": "OBS0270",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00653",
+    "observation_id": "OBS0271",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00654",
+    "observation_id": "OBS0271",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00655",
+    "observation_id": "OBS0272",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00656",
+    "observation_id": "OBS0272",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00657",
+    "observation_id": "OBS0272",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00658",
+    "observation_id": "OBS0273",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00659",
+    "observation_id": "OBS0273",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00660",
+    "observation_id": "OBS0273",
+    "source_id": "SRC047",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00661",
+    "observation_id": "OBS0273",
+    "source_id": "SRC036",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00662",
+    "observation_id": "OBS0274",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00663",
+    "observation_id": "OBS0274",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00664",
+    "observation_id": "OBS0275",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00665",
+    "observation_id": "OBS0276",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00666",
+    "observation_id": "OBS0276",
+    "source_id": "SRC014",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00667",
+    "observation_id": "OBS0276",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00668",
+    "observation_id": "OBS0276",
+    "source_id": "SRC016",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00669",
+    "observation_id": "OBS0278",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00670",
+    "observation_id": "OBS0278",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00671",
+    "observation_id": "OBS0278",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00672",
+    "observation_id": "OBS0279",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00673",
+    "observation_id": "OBS0279",
+    "source_id": "SRC028",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00674",
+    "observation_id": "OBS0279",
+    "source_id": "SRC034",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00675",
+    "observation_id": "OBS0279",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00676",
+    "observation_id": "OBS0280",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00677",
+    "observation_id": "OBS0281",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00678",
+    "observation_id": "OBS0282",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00679",
+    "observation_id": "OBS0282",
+    "source_id": "SRC045",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00680",
+    "observation_id": "OBS0282",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00681",
+    "observation_id": "OBS0282",
+    "source_id": "SRC010",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00682",
+    "observation_id": "OBS0283",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00683",
+    "observation_id": "OBS0283",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00684",
+    "observation_id": "OBS0283",
+    "source_id": "SRC020",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00685",
+    "observation_id": "OBS0284",
+    "source_id": "SRC018",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00686",
+    "observation_id": "OBS0284",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00687",
+    "observation_id": "OBS0285",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00688",
+    "observation_id": "OBS0285",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00689",
+    "observation_id": "OBS0285",
+    "source_id": "SRC031",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00690",
+    "observation_id": "OBS0287",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00691",
+    "observation_id": "OBS0287",
+    "source_id": "SRC007",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00692",
+    "observation_id": "OBS0287",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00693",
+    "observation_id": "OBS0287",
+    "source_id": "SRC045",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00694",
+    "observation_id": "OBS0288",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00695",
+    "observation_id": "OBS0288",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00696",
+    "observation_id": "OBS0288",
+    "source_id": "SRC033",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00697",
+    "observation_id": "OBS0288",
+    "source_id": "SRC041",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00698",
+    "observation_id": "OBS0289",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00699",
+    "observation_id": "OBS0290",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00700",
+    "observation_id": "OBS0290",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00701",
+    "observation_id": "OBS0291",
+    "source_id": "SRC037",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00702",
+    "observation_id": "OBS0291",
+    "source_id": "SRC006",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00703",
+    "observation_id": "OBS0291",
+    "source_id": "SRC036",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00704",
+    "observation_id": "OBS0291",
+    "source_id": "SRC015",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00705",
+    "observation_id": "OBS0293",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00706",
+    "observation_id": "OBS0293",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00707",
+    "observation_id": "OBS0294",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00708",
+    "observation_id": "OBS0294",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00709",
+    "observation_id": "OBS0294",
+    "source_id": "SRC010",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00710",
+    "observation_id": "OBS0295",
+    "source_id": "SRC048",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00711",
+    "observation_id": "OBS0295",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00712",
+    "observation_id": "OBS0295",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00713",
+    "observation_id": "OBS0297",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00714",
+    "observation_id": "OBS0297",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00715",
+    "observation_id": "OBS0297",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00716",
+    "observation_id": "OBS0297",
+    "source_id": "SRC048",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00717",
+    "observation_id": "OBS0297",
+    "source_id": "SRC032",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00718",
+    "observation_id": "OBS0299",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00719",
+    "observation_id": "OBS0300",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00720",
+    "observation_id": "OBS0300",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00721",
+    "observation_id": "OBS0300",
+    "source_id": "SRC015",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00722",
+    "observation_id": "OBS0300",
+    "source_id": "SRC048",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00723",
+    "observation_id": "OBS0301",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00724",
+    "observation_id": "OBS0301",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00725",
+    "observation_id": "OBS0301",
+    "source_id": "SRC020",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00726",
+    "observation_id": "OBS0302",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00727",
+    "observation_id": "OBS0303",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00728",
+    "observation_id": "OBS0303",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00729",
+    "observation_id": "OBS0303",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00730",
+    "observation_id": "OBS0303",
+    "source_id": "SRC020",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00731",
+    "observation_id": "OBS0306",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00732",
+    "observation_id": "OBS0306",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00733",
+    "observation_id": "OBS0306",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00734",
+    "observation_id": "OBS0306",
+    "source_id": "SRC012",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00735",
+    "observation_id": "OBS0306",
+    "source_id": "SRC020",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00736",
+    "observation_id": "OBS0307",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00737",
+    "observation_id": "OBS0308",
+    "source_id": "SRC012",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00738",
+    "observation_id": "OBS0308",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00739",
+    "observation_id": "OBS0308",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00740",
+    "observation_id": "OBS0309",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00741",
+    "observation_id": "OBS0309",
+    "source_id": "SRC047",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00742",
+    "observation_id": "OBS0309",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00743",
+    "observation_id": "OBS0310",
+    "source_id": "SRC006",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00744",
+    "observation_id": "OBS0310",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00745",
+    "observation_id": "OBS0312",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00746",
+    "observation_id": "OBS0312",
+    "source_id": "SRC008",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00747",
+    "observation_id": "OBS0312",
+    "source_id": "SRC005",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00748",
+    "observation_id": "OBS0314",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00749",
+    "observation_id": "OBS0314",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00750",
+    "observation_id": "OBS0314",
+    "source_id": "SRC047",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00751",
+    "observation_id": "OBS0314",
+    "source_id": "SRC005",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00752",
+    "observation_id": "OBS0315",
+    "source_id": "SRC045",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00753",
+    "observation_id": "OBS0315",
+    "source_id": "SRC004",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00754",
+    "observation_id": "OBS0315",
+    "source_id": "SRC020",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00755",
+    "observation_id": "OBS0315",
+    "source_id": "SRC047",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00756",
+    "observation_id": "OBS0316",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00757",
+    "observation_id": "OBS0318",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00758",
+    "observation_id": "OBS0318",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00759",
+    "observation_id": "OBS0318",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00760",
+    "observation_id": "OBS0319",
+    "source_id": "SRC018",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00761",
+    "observation_id": "OBS0319",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00762",
+    "observation_id": "OBS0320",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00763",
+    "observation_id": "OBS0320",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00764",
+    "observation_id": "OBS0320",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00765",
+    "observation_id": "OBS0321",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00766",
+    "observation_id": "OBS0321",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00767",
+    "observation_id": "OBS0321",
+    "source_id": "SRC001",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00768",
+    "observation_id": "OBS0321",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00769",
+    "observation_id": "OBS0321",
+    "source_id": "SRC039",
+    "citation_rank": 5,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00770",
+    "observation_id": "OBS0322",
+    "source_id": "SRC019",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00771",
+    "observation_id": "OBS0322",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00772",
+    "observation_id": "OBS0323",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00773",
+    "observation_id": "OBS0324",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00774",
+    "observation_id": "OBS0326",
+    "source_id": "SRC012",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00775",
+    "observation_id": "OBS0326",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00776",
+    "observation_id": "OBS0326",
+    "source_id": "SRC047",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00777",
+    "observation_id": "OBS0326",
+    "source_id": "SRC009",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00778",
+    "observation_id": "OBS0327",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00779",
+    "observation_id": "OBS0327",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00780",
+    "observation_id": "OBS0327",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00781",
+    "observation_id": "OBS0329",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00782",
+    "observation_id": "OBS0329",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00783",
+    "observation_id": "OBS0329",
+    "source_id": "SRC004",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00784",
+    "observation_id": "OBS0329",
+    "source_id": "SRC020",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00785",
+    "observation_id": "OBS0331",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00786",
+    "observation_id": "OBS0331",
+    "source_id": "SRC039",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00787",
+    "observation_id": "OBS0332",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00788",
+    "observation_id": "OBS0332",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00789",
+    "observation_id": "OBS0333",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00790",
+    "observation_id": "OBS0333",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00791",
+    "observation_id": "OBS0333",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00792",
+    "observation_id": "OBS0333",
+    "source_id": "SRC005",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00793",
+    "observation_id": "OBS0333",
+    "source_id": "SRC030",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00794",
+    "observation_id": "OBS0335",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00795",
+    "observation_id": "OBS0335",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00796",
+    "observation_id": "OBS0336",
+    "source_id": "SRC018",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00797",
+    "observation_id": "OBS0336",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00798",
+    "observation_id": "OBS0336",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00799",
+    "observation_id": "OBS0336",
+    "source_id": "SRC020",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00800",
+    "observation_id": "OBS0337",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00801",
+    "observation_id": "OBS0337",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00802",
+    "observation_id": "OBS0338",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00803",
+    "observation_id": "OBS0338",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00804",
+    "observation_id": "OBS0338",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00805",
+    "observation_id": "OBS0339",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00806",
+    "observation_id": "OBS0339",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00807",
+    "observation_id": "OBS0339",
+    "source_id": "SRC014",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00808",
+    "observation_id": "OBS0339",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00809",
+    "observation_id": "OBS0339",
+    "source_id": "SRC030",
+    "citation_rank": 5,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00810",
+    "observation_id": "OBS0340",
+    "source_id": "SRC028",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00811",
+    "observation_id": "OBS0341",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00812",
+    "observation_id": "OBS0342",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00813",
+    "observation_id": "OBS0342",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00814",
+    "observation_id": "OBS0342",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00815",
+    "observation_id": "OBS0342",
+    "source_id": "SRC019",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00816",
+    "observation_id": "OBS0342",
+    "source_id": "SRC037",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00817",
+    "observation_id": "OBS0343",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00818",
+    "observation_id": "OBS0343",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00819",
+    "observation_id": "OBS0344",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00820",
+    "observation_id": "OBS0344",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00821",
+    "observation_id": "OBS0345",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00822",
+    "observation_id": "OBS0345",
+    "source_id": "SRC026",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00823",
+    "observation_id": "OBS0345",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00824",
+    "observation_id": "OBS0346",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00825",
+    "observation_id": "OBS0346",
+    "source_id": "SRC010",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00826",
+    "observation_id": "OBS0347",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00827",
+    "observation_id": "OBS0348",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00828",
+    "observation_id": "OBS0348",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00829",
+    "observation_id": "OBS0348",
+    "source_id": "SRC018",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00830",
+    "observation_id": "OBS0348",
+    "source_id": "SRC026",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00831",
+    "observation_id": "OBS0349",
+    "source_id": "SRC006",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00832",
+    "observation_id": "OBS0349",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00833",
+    "observation_id": "OBS0349",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00834",
+    "observation_id": "OBS0350",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00835",
+    "observation_id": "OBS0350",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00836",
+    "observation_id": "OBS0351",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00837",
+    "observation_id": "OBS0351",
+    "source_id": "SRC003",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00838",
+    "observation_id": "OBS0351",
+    "source_id": "SRC030",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00839",
+    "observation_id": "OBS0351",
+    "source_id": "SRC049",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00840",
+    "observation_id": "OBS0352",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00841",
+    "observation_id": "OBS0352",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00842",
+    "observation_id": "OBS0352",
+    "source_id": "SRC026",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00843",
+    "observation_id": "OBS0353",
+    "source_id": "SRC027",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00844",
+    "observation_id": "OBS0353",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00845",
+    "observation_id": "OBS0353",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00846",
+    "observation_id": "OBS0354",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00847",
+    "observation_id": "OBS0355",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00848",
+    "observation_id": "OBS0356",
+    "source_id": "SRC015",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00849",
+    "observation_id": "OBS0356",
+    "source_id": "SRC012",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00850",
+    "observation_id": "OBS0356",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00851",
+    "observation_id": "OBS0357",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00852",
+    "observation_id": "OBS0357",
+    "source_id": "SRC030",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00853",
+    "observation_id": "OBS0357",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00854",
+    "observation_id": "OBS0357",
+    "source_id": "SRC041",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00855",
+    "observation_id": "OBS0359",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00856",
+    "observation_id": "OBS0359",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00857",
+    "observation_id": "OBS0359",
+    "source_id": "SRC012",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00858",
+    "observation_id": "OBS0360",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00859",
+    "observation_id": "OBS0360",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00860",
+    "observation_id": "OBS0360",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00861",
+    "observation_id": "OBS0361",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00862",
+    "observation_id": "OBS0361",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00863",
+    "observation_id": "OBS0362",
+    "source_id": "SRC047",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00864",
+    "observation_id": "OBS0362",
+    "source_id": "SRC019",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00865",
+    "observation_id": "OBS0363",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00866",
+    "observation_id": "OBS0363",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00867",
+    "observation_id": "OBS0363",
+    "source_id": "SRC012",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00868",
+    "observation_id": "OBS0363",
+    "source_id": "SRC028",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00869",
+    "observation_id": "OBS0364",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00870",
+    "observation_id": "OBS0365",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00871",
+    "observation_id": "OBS0365",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00872",
+    "observation_id": "OBS0366",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00873",
+    "observation_id": "OBS0366",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00874",
+    "observation_id": "OBS0366",
+    "source_id": "SRC042",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00875",
+    "observation_id": "OBS0366",
+    "source_id": "SRC027",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00876",
+    "observation_id": "OBS0368",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00877",
+    "observation_id": "OBS0368",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00878",
+    "observation_id": "OBS0368",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00879",
+    "observation_id": "OBS0369",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00880",
+    "observation_id": "OBS0369",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00881",
+    "observation_id": "OBS0369",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00882",
+    "observation_id": "OBS0370",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00883",
+    "observation_id": "OBS0370",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00884",
+    "observation_id": "OBS0371",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00885",
+    "observation_id": "OBS0371",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00886",
+    "observation_id": "OBS0371",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00887",
+    "observation_id": "OBS0372",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00888",
+    "observation_id": "OBS0372",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00889",
+    "observation_id": "OBS0372",
+    "source_id": "SRC042",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00890",
+    "observation_id": "OBS0373",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00891",
+    "observation_id": "OBS0374",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00892",
+    "observation_id": "OBS0374",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00893",
+    "observation_id": "OBS0375",
+    "source_id": "SRC030",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00894",
+    "observation_id": "OBS0375",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00895",
+    "observation_id": "OBS0375",
+    "source_id": "SRC039",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00896",
+    "observation_id": "OBS0375",
+    "source_id": "SRC014",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00897",
+    "observation_id": "OBS0375",
+    "source_id": "SRC040",
+    "citation_rank": 5,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00898",
+    "observation_id": "OBS0377",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00899",
+    "observation_id": "OBS0377",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00900",
+    "observation_id": "OBS0378",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00901",
+    "observation_id": "OBS0378",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00902",
+    "observation_id": "OBS0378",
+    "source_id": "SRC037",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00903",
+    "observation_id": "OBS0378",
+    "source_id": "SRC046",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00904",
+    "observation_id": "OBS0379",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00905",
+    "observation_id": "OBS0380",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00906",
+    "observation_id": "OBS0380",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00907",
+    "observation_id": "OBS0381",
+    "source_id": "SRC001",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00908",
+    "observation_id": "OBS0381",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00909",
+    "observation_id": "OBS0381",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00910",
+    "observation_id": "OBS0381",
+    "source_id": "SRC040",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00911",
+    "observation_id": "OBS0382",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00912",
+    "observation_id": "OBS0382",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00913",
+    "observation_id": "OBS0383",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00914",
+    "observation_id": "OBS0383",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00915",
+    "observation_id": "OBS0383",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00916",
+    "observation_id": "OBS0383",
+    "source_id": "SRC028",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00917",
+    "observation_id": "OBS0384",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00918",
+    "observation_id": "OBS0384",
+    "source_id": "SRC011",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00919",
+    "observation_id": "OBS0384",
+    "source_id": "SRC028",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00920",
+    "observation_id": "OBS0385",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00921",
+    "observation_id": "OBS0385",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00922",
+    "observation_id": "OBS0386",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00923",
+    "observation_id": "OBS0386",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00924",
+    "observation_id": "OBS0387",
+    "source_id": "SRC017",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00925",
+    "observation_id": "OBS0387",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00926",
+    "observation_id": "OBS0387",
+    "source_id": "SRC040",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00927",
+    "observation_id": "OBS0388",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00928",
+    "observation_id": "OBS0389",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00929",
+    "observation_id": "OBS0389",
+    "source_id": "SRC006",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00930",
+    "observation_id": "OBS0390",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00931",
+    "observation_id": "OBS0390",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00932",
+    "observation_id": "OBS0390",
+    "source_id": "SRC005",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00933",
+    "observation_id": "OBS0390",
+    "source_id": "SRC042",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00934",
+    "observation_id": "OBS0390",
+    "source_id": "SRC011",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00935",
+    "observation_id": "OBS0391",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00936",
+    "observation_id": "OBS0391",
+    "source_id": "SRC029",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00937",
+    "observation_id": "OBS0391",
+    "source_id": "SRC033",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00938",
+    "observation_id": "OBS0392",
+    "source_id": "SRC039",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00939",
+    "observation_id": "OBS0392",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00940",
+    "observation_id": "OBS0392",
+    "source_id": "SRC003",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00941",
+    "observation_id": "OBS0392",
+    "source_id": "SRC011",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00942",
+    "observation_id": "OBS0393",
+    "source_id": "SRC022",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00943",
+    "observation_id": "OBS0393",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00944",
+    "observation_id": "OBS0393",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00945",
+    "observation_id": "OBS0394",
+    "source_id": "SRC022",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00946",
+    "observation_id": "OBS0395",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00947",
+    "observation_id": "OBS0395",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00948",
+    "observation_id": "OBS0395",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00949",
+    "observation_id": "OBS0396",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00950",
+    "observation_id": "OBS0396",
+    "source_id": "SRC025",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00951",
+    "observation_id": "OBS0396",
+    "source_id": "SRC042",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00952",
+    "observation_id": "OBS0398",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00953",
+    "observation_id": "OBS0398",
+    "source_id": "SRC009",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00954",
+    "observation_id": "OBS0398",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00955",
+    "observation_id": "OBS0398",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00956",
+    "observation_id": "OBS0399",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00957",
+    "observation_id": "OBS0399",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00958",
+    "observation_id": "OBS0399",
+    "source_id": "SRC022",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00959",
+    "observation_id": "OBS0399",
+    "source_id": "SRC005",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00960",
+    "observation_id": "OBS0401",
+    "source_id": "SRC034",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00961",
+    "observation_id": "OBS0401",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00962",
+    "observation_id": "OBS0401",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00963",
+    "observation_id": "OBS0401",
+    "source_id": "SRC022",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00964",
+    "observation_id": "OBS0402",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00965",
+    "observation_id": "OBS0402",
+    "source_id": "SRC018",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00966",
+    "observation_id": "OBS0402",
+    "source_id": "SRC025",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00967",
+    "observation_id": "OBS0402",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00968",
+    "observation_id": "OBS0403",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00969",
+    "observation_id": "OBS0403",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00970",
+    "observation_id": "OBS0403",
+    "source_id": "SRC014",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00971",
+    "observation_id": "OBS0404",
+    "source_id": "SRC014",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00972",
+    "observation_id": "OBS0404",
+    "source_id": "SRC034",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00973",
+    "observation_id": "OBS0404",
+    "source_id": "SRC044",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00974",
+    "observation_id": "OBS0404",
+    "source_id": "SRC047",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00975",
+    "observation_id": "OBS0405",
+    "source_id": "SRC022",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00976",
+    "observation_id": "OBS0405",
+    "source_id": "SRC035",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00977",
+    "observation_id": "OBS0405",
+    "source_id": "SRC012",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00978",
+    "observation_id": "OBS0406",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00979",
+    "observation_id": "OBS0406",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00980",
+    "observation_id": "OBS0406",
+    "source_id": "SRC016",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00981",
+    "observation_id": "OBS0407",
+    "source_id": "SRC044",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00982",
+    "observation_id": "OBS0407",
+    "source_id": "SRC040",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C00983",
+    "observation_id": "OBS0408",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00984",
+    "observation_id": "OBS0408",
+    "source_id": "SRC025",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00985",
+    "observation_id": "OBS0408",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00986",
+    "observation_id": "OBS0409",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00987",
+    "observation_id": "OBS0410",
+    "source_id": "SRC036",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00988",
+    "observation_id": "OBS0410",
+    "source_id": "SRC001",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00989",
+    "observation_id": "OBS0410",
+    "source_id": "SRC022",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00990",
+    "observation_id": "OBS0410",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00991",
+    "observation_id": "OBS0411",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00992",
+    "observation_id": "OBS0411",
+    "source_id": "SRC048",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C00993",
+    "observation_id": "OBS0411",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00994",
+    "observation_id": "OBS0411",
+    "source_id": "SRC022",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00995",
+    "observation_id": "OBS0411",
+    "source_id": "SRC045",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00996",
+    "observation_id": "OBS0413",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C00997",
+    "observation_id": "OBS0413",
+    "source_id": "SRC043",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00998",
+    "observation_id": "OBS0413",
+    "source_id": "SRC044",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C00999",
+    "observation_id": "OBS0413",
+    "source_id": "SRC028",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01000",
+    "observation_id": "OBS0414",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01001",
+    "observation_id": "OBS0414",
+    "source_id": "SRC025",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01002",
+    "observation_id": "OBS0414",
+    "source_id": "SRC044",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01003",
+    "observation_id": "OBS0414",
+    "source_id": "SRC020",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01004",
+    "observation_id": "OBS0414",
+    "source_id": "SRC017",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01005",
+    "observation_id": "OBS0415",
+    "source_id": "SRC012",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01006",
+    "observation_id": "OBS0415",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01007",
+    "observation_id": "OBS0416",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01008",
+    "observation_id": "OBS0416",
+    "source_id": "SRC044",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01009",
+    "observation_id": "OBS0416",
+    "source_id": "SRC007",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01010",
+    "observation_id": "OBS0416",
+    "source_id": "SRC017",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01011",
+    "observation_id": "OBS0417",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01012",
+    "observation_id": "OBS0417",
+    "source_id": "SRC022",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01013",
+    "observation_id": "OBS0417",
+    "source_id": "SRC041",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01014",
+    "observation_id": "OBS0417",
+    "source_id": "SRC043",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01015",
+    "observation_id": "OBS0418",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01016",
+    "observation_id": "OBS0418",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01017",
+    "observation_id": "OBS0419",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01018",
+    "observation_id": "OBS0419",
+    "source_id": "SRC005",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01019",
+    "observation_id": "OBS0419",
+    "source_id": "SRC038",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01020",
+    "observation_id": "OBS0420",
+    "source_id": "SRC043",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01021",
+    "observation_id": "OBS0420",
+    "source_id": "SRC025",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01022",
+    "observation_id": "OBS0420",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01023",
+    "observation_id": "OBS0421",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01024",
+    "observation_id": "OBS0422",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01025",
+    "observation_id": "OBS0422",
+    "source_id": "SRC006",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01026",
+    "observation_id": "OBS0422",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01027",
+    "observation_id": "OBS0423",
+    "source_id": "SRC016",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01028",
+    "observation_id": "OBS0423",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01029",
+    "observation_id": "OBS0423",
+    "source_id": "SRC013",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01030",
+    "observation_id": "OBS0424",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01031",
+    "observation_id": "OBS0424",
+    "source_id": "SRC012",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01032",
+    "observation_id": "OBS0425",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01033",
+    "observation_id": "OBS0426",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01034",
+    "observation_id": "OBS0426",
+    "source_id": "SRC013",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01035",
+    "observation_id": "OBS0426",
+    "source_id": "SRC045",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01036",
+    "observation_id": "OBS0426",
+    "source_id": "SRC036",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01037",
+    "observation_id": "OBS0426",
+    "source_id": "SRC046",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01038",
+    "observation_id": "OBS0427",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01039",
+    "observation_id": "OBS0427",
+    "source_id": "SRC017",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01040",
+    "observation_id": "OBS0428",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01041",
+    "observation_id": "OBS0428",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01042",
+    "observation_id": "OBS0429",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01043",
+    "observation_id": "OBS0429",
+    "source_id": "SRC012",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01044",
+    "observation_id": "OBS0429",
+    "source_id": "SRC009",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01045",
+    "observation_id": "OBS0431",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01046",
+    "observation_id": "OBS0431",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01047",
+    "observation_id": "OBS0431",
+    "source_id": "SRC014",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01048",
+    "observation_id": "OBS0431",
+    "source_id": "SRC009",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01049",
+    "observation_id": "OBS0432",
+    "source_id": "SRC041",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01050",
+    "observation_id": "OBS0432",
+    "source_id": "SRC020",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01051",
+    "observation_id": "OBS0432",
+    "source_id": "SRC017",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01052",
+    "observation_id": "OBS0432",
+    "source_id": "SRC029",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01053",
+    "observation_id": "OBS0433",
+    "source_id": "SRC035",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01054",
+    "observation_id": "OBS0434",
+    "source_id": "SRC005",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01055",
+    "observation_id": "OBS0434",
+    "source_id": "SRC008",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01056",
+    "observation_id": "OBS0434",
+    "source_id": "SRC012",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01057",
+    "observation_id": "OBS0434",
+    "source_id": "SRC007",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01058",
+    "observation_id": "OBS0435",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01059",
+    "observation_id": "OBS0435",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01060",
+    "observation_id": "OBS0435",
+    "source_id": "SRC042",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01061",
+    "observation_id": "OBS0435",
+    "source_id": "SRC036",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01062",
+    "observation_id": "OBS0435",
+    "source_id": "SRC016",
+    "citation_rank": 5,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01063",
+    "observation_id": "OBS0436",
+    "source_id": "SRC031",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01064",
+    "observation_id": "OBS0436",
+    "source_id": "SRC032",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01065",
+    "observation_id": "OBS0437",
+    "source_id": "SRC016",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01066",
+    "observation_id": "OBS0437",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01067",
+    "observation_id": "OBS0437",
+    "source_id": "SRC027",
+    "citation_rank": 3,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01068",
+    "observation_id": "OBS0437",
+    "source_id": "SRC049",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01069",
+    "observation_id": "OBS0438",
+    "source_id": "SRC042",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01070",
+    "observation_id": "OBS0438",
+    "source_id": "SRC008",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01071",
+    "observation_id": "OBS0438",
+    "source_id": "SRC046",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01072",
+    "observation_id": "OBS0438",
+    "source_id": "SRC049",
+    "citation_rank": 4,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01073",
+    "observation_id": "OBS0438",
+    "source_id": "SRC034",
+    "citation_rank": 5,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01074",
+    "observation_id": "OBS0439",
+    "source_id": "SRC020",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01075",
+    "observation_id": "OBS0439",
+    "source_id": "SRC038",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01076",
+    "observation_id": "OBS0439",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01077",
+    "observation_id": "OBS0440",
+    "source_id": "SRC040",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01078",
+    "observation_id": "OBS0441",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01079",
+    "observation_id": "OBS0441",
+    "source_id": "SRC046",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01080",
+    "observation_id": "OBS0441",
+    "source_id": "SRC019",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01081",
+    "observation_id": "OBS0442",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01082",
+    "observation_id": "OBS0442",
+    "source_id": "SRC027",
+    "citation_rank": 2,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01083",
+    "observation_id": "OBS0443",
+    "source_id": "SRC010",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01084",
+    "observation_id": "OBS0443",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01085",
+    "observation_id": "OBS0443",
+    "source_id": "SRC008",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01086",
+    "observation_id": "OBS0444",
+    "source_id": "SRC046",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01087",
+    "observation_id": "OBS0444",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01088",
+    "observation_id": "OBS0444",
+    "source_id": "SRC043",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01089",
+    "observation_id": "OBS0445",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01090",
+    "observation_id": "OBS0445",
+    "source_id": "SRC049",
+    "citation_rank": 2,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01091",
+    "observation_id": "OBS0446",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01092",
+    "observation_id": "OBS0446",
+    "source_id": "SRC020",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01093",
+    "observation_id": "OBS0447",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01094",
+    "observation_id": "OBS0447",
+    "source_id": "SRC042",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01095",
+    "observation_id": "OBS0447",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01096",
+    "observation_id": "OBS0448",
+    "source_id": "SRC009",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01097",
+    "observation_id": "OBS0448",
+    "source_id": "SRC045",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01098",
+    "observation_id": "OBS0449",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01099",
+    "observation_id": "OBS0449",
+    "source_id": "SRC041",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01100",
+    "observation_id": "OBS0450",
+    "source_id": "SRC013",
+    "citation_rank": 1,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01101",
+    "observation_id": "OBS0450",
+    "source_id": "SRC037",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01102",
+    "observation_id": "OBS0450",
+    "source_id": "SRC049",
+    "citation_rank": 3,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01103",
+    "observation_id": "OBS0450",
+    "source_id": "SRC028",
+    "citation_rank": 4,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01104",
+    "observation_id": "OBS0451",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01105",
+    "observation_id": "OBS0451",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01106",
+    "observation_id": "OBS0451",
+    "source_id": "SRC001",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01107",
+    "observation_id": "OBS0451",
+    "source_id": "SRC013",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01108",
+    "observation_id": "OBS0451",
+    "source_id": "SRC039",
+    "citation_rank": 5,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01109",
+    "observation_id": "OBS0452",
+    "source_id": "SRC049",
+    "citation_rank": 1,
+    "citation_context": "comparison_table"
+  },
+  {
+    "citation_id": "C01110",
+    "observation_id": "OBS0453",
+    "source_id": "SRC032",
+    "citation_rank": 1,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01111",
+    "observation_id": "OBS0453",
+    "source_id": "SRC036",
+    "citation_rank": 2,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01112",
+    "observation_id": "OBS0453",
+    "source_id": "SRC035",
+    "citation_rank": 3,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01113",
+    "observation_id": "OBS0453",
+    "source_id": "SRC003",
+    "citation_rank": 4,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01114",
+    "observation_id": "OBS0454",
+    "source_id": "SRC026",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  },
+  {
+    "citation_id": "C01115",
+    "observation_id": "OBS0454",
+    "source_id": "SRC015",
+    "citation_rank": 2,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01116",
+    "observation_id": "OBS0454",
+    "source_id": "SRC011",
+    "citation_rank": 3,
+    "citation_context": "brand_official"
+  },
+  {
+    "citation_id": "C01117",
+    "observation_id": "OBS0454",
+    "source_id": "SRC032",
+    "citation_rank": 4,
+    "citation_context": "supporting_reference"
+  },
+  {
+    "citation_id": "C01118",
+    "observation_id": "OBS0456",
+    "source_id": "SRC038",
+    "citation_rank": 1,
+    "citation_context": "user_review"
+  }
+]

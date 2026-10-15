@@ -1,0 +1,132 @@
+{
+  "currency": "USD",
+  "scenario": "fictional_assignment_only",
+  "customer_monthly_subscription_usd": 100,
+  "monthly_requests_per_customer": 1000,
+  "request_definition": "고객이 분석·추천 기능을 1회 실행하는 것(예: 주제 분석 요청, 액션 추천 생성). 단순 목록 조회·액션 상태 변경은 요청에 포함하지 않는다. 기준 구조에서는 요청 1회마다 AI-M 모델 호출 1회와 외부 분석 API 호출 1회가 발생한다. AI 답변 수집은 요청과 별개의 시스템 작업이며 COL001로 계산한다.",
+  "initial_customers": 100,
+  "target_gross_margin_pct": 80,
+  "maximum_cogs_per_customer_usd": 20,
+  "cost_items": [
+    {
+      "cost_id": "AI-S",
+      "name": "LLM processing — Small tier",
+      "billing_unit": "model_call",
+      "unit_cost_usd": 0.003,
+      "assumption": "빠르고 저렴하지만 판단·생성 품질이 낮은 가상 모델 티어"
+    },
+    {
+      "cost_id": "AI-M",
+      "name": "LLM processing — Medium tier",
+      "billing_unit": "model_call",
+      "unit_cost_usd": 0.018,
+      "assumption": "기준 구조에서 쓰는 가상 모델 티어"
+    },
+    {
+      "cost_id": "AI-L",
+      "name": "LLM processing — Large tier",
+      "billing_unit": "model_call",
+      "unit_cost_usd": 0.06,
+      "assumption": "비싸지만 복잡한 추론·생성에 강한 가상 모델 티어"
+    },
+    {
+      "cost_id": "COL001",
+      "name": "AI answer collection",
+      "billing_unit": "collection",
+      "unit_cost_usd": 0.004,
+      "assumption": "질문 1개 × 채널 1개의 AI 답변을 1회 수집하는 가상 비용(크롤링·스크레이핑)"
+    },
+    {
+      "cost_id": "API001",
+      "name": "external analysis API",
+      "billing_unit": "executed_request",
+      "unit_cost_usd": 0.012,
+      "assumption": "가상의 외부 호출 평균 비용"
+    },
+    {
+      "cost_id": "INF001",
+      "name": "infrastructure and storage allocation",
+      "billing_unit": "customer_month",
+      "unit_cost_usd": 6.0,
+      "assumption": "고객당 배분된 월 직접 운영 원가"
+    }
+  ],
+  "collection": {
+    "description": "AI 답변 수집 주기는 지원자가 정한다(선택). 기준은 주 1회. 질문마다 주기를 다르게 해도 된다.",
+    "per_round": "고객당 질문 75개 × 채널 3개 = 회당 225건",
+    "baseline_frequency": "weekly",
+    "weeks_per_month": 4.3,
+    "freshness_metric": "평균 변화 감지 지연 ≈ 수집 주기 ÷ 2",
+    "reference_frequencies": [
+      {
+        "frequency": "monthly",
+        "collections_per_month": 225,
+        "cost_usd": 0.9,
+        "avg_detection_delay_days": 15
+      },
+      {
+        "frequency": "biweekly",
+        "collections_per_month": 450,
+        "cost_usd": 1.8,
+        "avg_detection_delay_days": 7
+      },
+      {
+        "frequency": "weekly",
+        "collections_per_month": 968,
+        "cost_usd": 3.87,
+        "avg_detection_delay_days": 3.5
+      },
+      {
+        "frequency": "daily",
+        "collections_per_month": 6750,
+        "cost_usd": 27.0,
+        "avg_detection_delay_days": 0.5
+      }
+    ]
+  },
+  "model_tier_quality": {
+    "description": "작업 유형별 티어 성능(가상). 실제 모델을 호출하지 않아도 이 수치로 품질 영향을 계산한다.",
+    "tasks": [
+      {
+        "task_id": "classify",
+        "name": "응답 분류",
+        "example": "브랜드 언급·감성·인용 맥락 판별",
+        "metric": "정확도",
+        "S": 0.94,
+        "M": 0.97,
+        "L": 0.98
+      },
+      {
+        "task_id": "diagnose",
+        "name": "원인 진단",
+        "example": "특정 주제·채널에서 자사가 보이지 않는 이유 판단",
+        "metric": "정확도",
+        "S": 0.58,
+        "M": 0.81,
+        "L": 0.92
+      },
+      {
+        "task_id": "draft_action",
+        "name": "액션 초안 생성",
+        "example": "개선 액션 제목·근거·실행 단계 작성",
+        "metric": "담당자 채택률",
+        "S": 0.35,
+        "M": 0.68,
+        "L": 0.83
+      }
+    ]
+  },
+  "unit_cost_rules": [
+    "단가와 티어별 성능 수치는 변경할 수 없다. 다른 LLM·저가 모델·무료 티어·자체 호스팅 등 어떤 서비스를 쓰더라도 AI-S·AI-M·AI-L 중 하나로 환산해 계산한다.",
+    "환산 규칙: 모델 추론 호출(LLM·임베딩 등) 1회 = 선택한 티어 1회, AI 답변 수집 1회(질문 1개 × 채널 1개) = COL001, 그 밖의 외부 유료 API 호출(검색·분석 등) 1회 = API001, 호스팅·DB·저장은 INF001에 포함. 요청 1회에 호출이 여러 번이면 호출 수만큼 센다.",
+    "티어는 작업마다 다르게 고를 수 있다(선택 사항). 티어를 바꿨다면 model_tier_quality를 근거로 품질 영향을 함께 계산한다.",
+    "수집 주기는 선택 사항이다. 바꿨다면 freshness_metric으로 감지 지연의 변화를 함께 계산한다.",
+    "원가를 줄이는 방법은 호출 횟수·구조(캐시, 사전 계산, 규칙 기반 대체, 호출 생략), 작업별 티어 선택, 수집 주기 설계뿐이다."
+  ],
+  "notes": [
+    "가상 단가·성능이며 실제 공급사 요금·모델과 무관함",
+    "인건비·마케팅비 등 간접 비용은 원가 계산에서 제외",
+    "호출 구조나 티어를 바꿨다면 그 내용과 품질 영향을 README에 명시",
+    "무료 티어 및 Mock 실행은 실서비스 원가 0의 근거가 아님"
+  ]
+}

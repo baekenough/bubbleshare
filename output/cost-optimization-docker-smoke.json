@@ -1,0 +1,101 @@
+{
+  "recorded_at": "2026-10-15T07:07:27.657427+00:00",
+  "kind": "isolated_docker_zero_model_call_smoke",
+  "image_tag": "vivi-agent:local",
+  "build": {
+    "docker": "passed",
+    "frontend": "Docker frontend build stage passed (cached)"
+  },
+  "isolation": {
+    "host_port": 8001,
+    "customer": "cost-smoke-isolated",
+    "state": "container tmpfs /app/.vivi/smoke-state",
+    "host_state_mounts": false,
+    "provider_credentials_disabled": true
+  },
+  "profile_note": "This smoke checks image and zero-call policy only; no inference profile is validated or designated as final.",
+  "ui": {
+    "http": 200,
+    "root_html_bytes": 611,
+    "assets": [
+      {
+        "path": "/assets/index-HINWXsM9.js",
+        "http": 200,
+        "bytes": 260986
+      },
+      {
+        "path": "/assets/index-1HKbTq4h.css",
+        "http": 200,
+        "bytes": 24406
+      }
+    ]
+  },
+  "topics": {
+    "http": 200,
+    "count": 15,
+    "dataset_version": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034"
+  },
+  "cases": {
+    "automation": {
+      "http": 200,
+      "result_type": "no_action",
+      "policy_version": "product-one-call.v3.0",
+      "model_calls": 0,
+      "actual_vendor_cost_usd": 0,
+      "assignment_cost_usd": 0.0,
+      "unknown_cost_calls": 0,
+      "held_calls": 0
+    },
+    "scale": {
+      "http": 200,
+      "result_type": "insufficient_evidence",
+      "policy_version": "product-one-call.v3.0",
+      "model_calls": 0,
+      "actual_vendor_cost_usd": 0,
+      "assignment_cost_usd": 0.0,
+      "unknown_cost_calls": 0,
+      "held_calls": 0
+    }
+  },
+  "container_checks": {
+    "policy_version": "product-one-call.v3.0",
+    "draft_schema_version": "compact_action_draft.v1",
+    "langfuse_authenticated_http": 200,
+    "langfuse_project_count": 1,
+    "provider_keys_disabled": true,
+    "temporary_ledger_rows": {
+      "model_calls": 0,
+      "actual_calls": 0
+    },
+    "source_sha256": {
+      "product.py": "973ae28819c02605a01cb179eb58827acd5f7a6a8ea272e715a810bcfb5e3994",
+      "compact.py": "18656c687d63146e344cdbfae943c542f9429850fdfb0a0cc2b3e06aab6d7409",
+      "provider.py": "bf71d8d12bd5f40c0651aaf973e658e2bf436902c432f780bed435ef5fbf32cf",
+      "actual_budget.py": "8c39453ea58511dc7d916734dae0fc311b740956f554067979d355b93b381c52"
+    }
+  },
+  "host_source_matches_image": {
+    "product.py": true,
+    "compact.py": true,
+    "provider.py": true,
+    "actual_budget.py": true
+  },
+  "image_id": "sha256:53bc57835135eb5babc00cf733ae577214835745141a185ff31b8e3c8502a593",
+  "model_calls": 0,
+  "status": "passed",
+  "cleanup_pending": false,
+  "smoke_container_removed": true,
+  "temporary_state_removed": "Container tmpfs removed with its smoke container; no host state mounts were used.",
+  "preserved_services": {
+    "localhost_8000_http": 200,
+    "langfuse_health": {
+      "bubbleshare-langfuse-langfuse-web-1": "healthy",
+      "bubbleshare-langfuse-langfuse-worker-1": "healthy",
+      "bubbleshare-langfuse-postgres-1": "healthy",
+      "bubbleshare-langfuse-redis-1": "healthy",
+      "bubbleshare-langfuse-clickhouse-1": "healthy",
+      "bubbleshare-langfuse-minio-1": "healthy"
+    }
+  },
+  "completed_at": "2026-10-15T07:07:57.705335+00:00"
+}

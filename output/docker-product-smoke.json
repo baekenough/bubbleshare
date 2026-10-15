@@ -1,0 +1,17 @@
+{
+  "html_status": 200,
+  "topics_status": 200,
+  "topic_count": 15,
+  "detail_status": 200,
+  "analytics_backend": "duckdb",
+  "automation": "no_action",
+  "automation_calls": 0,
+  "relation_backend": "latticedb",
+  "scale": "insufficient_evidence",
+  "scale_calls": 0,
+  "real_generated_proposal_seeded": true,
+  "status_updated_via_http": true,
+  "restart_persistence": true,
+  "saved_action_id": "act_52aa05ff4f0e4ca7a0053a6ccc3825e1",
+  "observed_outcome": null
+}

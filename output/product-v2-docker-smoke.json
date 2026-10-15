@@ -1,0 +1,81 @@
+{
+  "validated_at_utc": "2026-10-15T04:28:34.854136+00:00",
+  "expected_policy_version": "product-one-call.v2.3",
+  "build": {
+    "frontend": "passed",
+    "docker": "passed"
+  },
+  "model_calls": 0,
+  "frontend_served": true,
+  "frontend_assets": [
+    {
+      "path": "/assets/index-HINWXsM9.js",
+      "http": 200,
+      "bytes": 260986
+    },
+    {
+      "path": "/assets/index-1HKbTq4h.css",
+      "http": 200,
+      "bytes": 24406
+    }
+  ],
+  "api_topics_status": 200,
+  "topic_count": 15,
+  "dataset_version": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034",
+  "cases": {
+    "automation": {
+      "http": 200,
+      "result_type": "no_action",
+      "model_calls": 0,
+      "policy_version": "product-one-call.v2.3"
+    },
+    "scale": {
+      "http": 200,
+      "result_type": "insufficient_evidence",
+      "model_calls": 0,
+      "policy_version": "product-one-call.v2.3"
+    }
+  },
+  "langfuse": {
+    "authenticated_http_status": 200,
+    "project_count": 1,
+    "policy_version": "product-one-call.v2.3",
+    "paid_provider_keys_disabled": true
+  },
+  "container_to_langfuse_authenticated": true,
+  "image_id": "sha256:1017e192970ae6132b23eb07583c667dfbc5cdadce4fd2bd540cbcb0dac4196d",
+  "status": "passed",
+  "smoke_container_removed": true,
+  "preserved_services": {
+    "localhost_8000_http": 200,
+    "langfuse_health": {
+      "bubbleshare-langfuse-langfuse-web-1": "healthy",
+      "bubbleshare-langfuse-langfuse-worker-1": "healthy",
+      "bubbleshare-langfuse-postgres-1": "healthy",
+      "bubbleshare-langfuse-redis-1": "healthy",
+      "bubbleshare-langfuse-clickhouse-1": "healthy",
+      "bubbleshare-langfuse-minio-1": "healthy"
+    }
+  },
+  "previous_smoke": {
+    "api_topics_status": 200,
+    "topic_count": 15,
+    "frontend_served": true,
+    "cases": {
+      "automation": {
+        "http": 200,
+        "result_type": "no_action",
+        "model_calls": 0,
+        "policy_version": "product-one-call.v2"
+      },
+      "scale": {
+        "http": 200,
+        "result_type": "insufficient_evidence",
+        "model_calls": 0,
+        "policy_version": "product-one-call.v2"
+      }
+    },
+    "container_to_langfuse_authenticated": true,
+    "model_calls": 0
+  }
+}

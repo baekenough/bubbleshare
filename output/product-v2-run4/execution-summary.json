@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-15T04:22:15.069652+00:00",
+  "policy_version": "product-one-call.v2.3",
+  "kind": "provided_synthetic_dataset_real_model_not_effectiveness_validation",
+  "customer": "demo",
+  "cases": [
+    {
+      "case": "security",
+      "result_type": "propose",
+      "model_calls": 1,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.018,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0.1973825,
+      "ledger": {
+        "run_key": "02ad57392ea2503239dcbe9920387053881312592811e46b86ede86b04702ab3",
+        "month": "2026-10",
+        "calls": 1,
+        "attempted_calls": 1,
+        "released": 0,
+        "completed": 1,
+        "failed": 0,
+        "reserved": 0,
+        "charged_cost_usd": 0.018,
+        "monthly_calls": 14,
+        "monthly_charged_cost_usd": 0.252,
+        "monthly_total_cogs_usd": 10.752,
+        "remaining": 0
+      },
+      "errors": []
+    }
+  ],
+  "model_calls": 1,
+  "known_actual_vendor_cost_usd": 0.1973825,
+  "unknown_cost_cases": []
+}

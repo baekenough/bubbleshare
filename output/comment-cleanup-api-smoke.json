@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "topic": "lead",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "topic": "security",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "topic": "automation",
+      "result_type": "no_action",
+      "model_calls": 0
+    },
+    {
+      "topic": "scale",
+      "result_type": "insufficient_evidence",
+      "model_calls": 0
+    }
+  ],
+  "additional_provider_calls": 0
+}

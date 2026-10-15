@@ -1,0 +1,109 @@
+{
+  "artifact_status": "authored_reference_example_not_agent_output",
+  "measured_quality": null,
+  "scope": {
+    "target_brand_id": "BR001",
+    "topic_id": "lead",
+    "source_snapshot_id": "SNAP-2",
+    "primary_question_id": "Q068",
+    "supporting_question_ids": ["Q066", "Q067", "Q069", "Q070"],
+    "channels": ["ChatGPT", "Gemini", "Perplexity"]
+  },
+  "facts": [
+    {
+      "claim": "Q068은 세 채널에서 정상 수집됐고 모두 OrbitCRM을 언급하지 않는다.",
+      "metric": {"name": "target_mention_rate", "numerator": 0, "denominator": 3},
+      "observation_ids": ["OBS0406", "OBS0407", "OBS0408"]
+    },
+    {
+      "claim": "최신 리드 관리 Perplexity 5개 응답 모두 SRC025를 인용한다.",
+      "metric": {"name": "source_citation_rate", "numerator": 5, "denominator": 5},
+      "observation_ids": ["OBS0396", "OBS0402", "OBS0408", "OBS0414", "OBS0420"],
+      "source_ids": ["SRC025"],
+      "citation_ids": ["C00950", "C00966", "C00984", "C01001", "C01021"]
+    },
+    {
+      "claim": "자사 SRC022의 제목은 OrbitCRM 리드 스코어링 가이드다. 본문은 제공되지 않았다.",
+      "source_ids": ["SRC022"]
+    }
+  ],
+  "hypothesis": {
+    "statement": "문의 등록과 담당자 인계를 검증된 제품 사용 절차로 설명하는 실습 자료가 고객 질문에 답하는 근거를 보완할 수 있다.",
+    "unverified": ["현재 SRC022 본문이 이 절차를 이미 설명하는지", "실제 제품의 문의 등록·배정 지원 방식", "해당 변경이 AI 추천에 영향을 줄지"],
+    "alternative_explanations": ["제품 기능 또는 타깃 적합성 차이", "출처 선택의 변동성", "콘텐츠 접근 또는 수집 시점 차이"]
+  },
+  "action": {
+    "title": "웹 문의 등록부터 담당자 인계까지 재현하는 OrbitCRM 실습 가이드 제작",
+    "action_type": "owned_content_improvement",
+    "readiness": "needs_input",
+    "work_ready_now": "콘텐츠 담당자가 목차, 세 가지 입력 예제, 기능 확인표를 작성할 수 있다.",
+    "owner_role": "콘텐츠 담당자, 제품 담당자 확인 필요; 실제 담당자는 미지정",
+    "target_asset": {
+      "existing_source_id": "SRC022",
+      "selection_rule": "기존 본문에 해당 절차가 있으면 개정하고, 없으면 별도 실습 문서를 만들어 연결한다. 새 URL은 담당자가 정한다."
+    },
+    "deliverables": [
+      {
+        "name": "실습 가이드",
+        "outline": [
+          {"section": "대상 팀·준비물·확인된 요금제와 권한", "question_ids": ["Q066", "Q067"]},
+          {"section": "웹 문의 입력을 실제 CRM 필드로 매핑하는 표", "question_ids": ["Q068"]},
+          {"section": "신규·중복·필수값 누락 문의의 실제 처리 결과", "question_ids": ["Q068"]},
+          {"section": "확인된 방식으로 리드 우선순위를 정하고 담당자에게 인계하는 절차", "question_ids": ["Q069"]},
+          {"section": "단계별 기대 결과와 실패 시 조치", "question_ids": ["Q068", "Q069"]},
+          {"section": "실제로 제공하는 체험 또는 상담 경로와 조건", "question_ids": ["Q070"]}
+        ]
+      },
+      {
+        "name": "예제 입력·결과 표",
+        "input_fields": ["email", "company", "inquiry_type", "source_url", "received_at"],
+        "examples": ["신규 문의", "같은 이메일로 다시 보낸 문의", "필수값이 빠진 문의"],
+        "constraint": "필드와 테스트 입력은 초안 예시다. 실제 제품 필드·동작으로 확인한 뒤 문서에 반영한다."
+      },
+      {
+        "name": "기능 근거표",
+        "rows": ["문의 수신", "중복 처리", "담당자 배정", "리드 스코어링", "적용 요금제", "체험 조건"],
+        "columns": ["지원 여부", "검증 근거", "제약", "확인자"]
+      }
+    ],
+    "steps": [
+      "SRC022 본문을 확인해 기존 설명과 추가할 절을 구분한다.",
+      "콘텐츠 담당자가 질문에 연결된 목차와 세 가지 입력 예제를 준비한다.",
+      "제품 담당자가 지원 여부·실제 경로·요금제·체험 조건을 확인한다.",
+      "검증된 경로로 예제를 재현하고 기대 결과·실제 결과·실패 조치를 기록한다.",
+      "확인된 내용만 문서화하고 기존 자산과 연결해 게시한 뒤 산출물 URL·게시일을 액션에 저장한다."
+    ],
+    "prerequisites": [
+      {"question": "네이티브 또는 공식 연동을 통한 문의 자동 등록이 가능한가?", "verifier_role": "제품 담당자", "blocks": "자동화 기능 주장과 해당 실습 게시"},
+      {"question": "실제 중복 처리·배정·스코어링 동작과 제약은 무엇인가?", "verifier_role": "제품 담당자", "blocks": "제품 동작 설명 확정"},
+      {"question": "체험 가능 여부·요금제·신청 경로는 무엇인가?", "verifier_role": "제품 또는 영업 담당자", "blocks": "체험 CTA 확정"}
+    ],
+    "capability_branches": {
+      "supported": "검증된 네이티브 또는 공식 연동 경로로 실습을 작성한다.",
+      "unsupported": "자동 등록 홍보를 제외한다. 자동화 대응은 제품 요청으로 분리하고, 지원이 확인된 수동 경로가 있을 때만 별도 문서화한다.",
+      "unknown": "목차·입력 예제·확인표 작성은 진행하되, 기능을 단정하는 게시 내용은 보류한다."
+    },
+    "acceptance_criteria": [
+      "모든 제품 기능 주장에 검증 근거와 확인자가 연결돼 있다.",
+      "세 가지 입력 예제마다 기대 결과·실제 결과·실패 조치가 있다.",
+      "대상 질문별 답변 위치가 명확하고 체험 조건과 CTA가 확인돼 있다.",
+      "게시된 산출물 URL·게시일과 다음 검증 대상이 저장돼 있다."
+    ],
+    "measurement_plan": {
+      "baseline": [
+        {"metric": "Q068 자사 언급", "numerator": 0, "denominator": 3},
+        {"metric": "Perplexity 리드 관리 자사 언급", "numerator": 0, "denominator": 5}
+      ],
+      "schedule": "게시 후 예정된 다음 두 번의 주간 수집",
+      "comparison": "동일 질문·채널·언어의 유효 관측을 비교하고, 변경된 분모와 미수집 항목을 표시한다.",
+      "metrics": ["새 문서 또는 개정 문서 인용", "OrbitCRM 추천", "브랜드 첫 등장 순위"],
+      "positive_signal": "Q068에서 문서 인용 또는 OrbitCRM 추천이 새로 관측되고 다음 회차에서도 유지된다.",
+      "interpretation": "긍정적 신호는 관측 결과이며 인과 입증이 아니다. 제작 완료와 가시성 개선을 별도 상태로 관리한다."
+    }
+  },
+  "rejected_alternatives": [
+    {"proposal": "리드 관리 일반 소개 글을 새로 작성", "reason": "기존 SRC022와 중복될 수 있고 문의 등록이라는 구체적 질문을 충분히 해결하지 못한다."},
+    {"proposal": "자동 배정 기능과 무료 체험을 단정해 홍보", "reason": "실제 제품 기능과 체험 조건이 검증되지 않았다."}
+  ],
+  "review": {"status": "reference_pending_real_agent_evaluation", "scores": null}
+}

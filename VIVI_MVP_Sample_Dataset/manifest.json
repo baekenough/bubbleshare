@@ -1,0 +1,65 @@
+{
+  "dataset_name": "VIVI MVP Synthetic AI Search Dataset",
+  "version": "2.0",
+  "generated_at": "2026-10-13",
+  "fictional": true,
+  "target_brand_id": "BR001",
+  "record_counts": {
+    "brands": 5,
+    "questions": 75,
+    "sources": 49,
+    "observations": 456,
+    "mentions": 976,
+    "citations": 1118
+  },
+  "primary_keys": {
+    "brands": "brand_id",
+    "questions": "question_id",
+    "sources": "source_id",
+    "observations": "observation_id",
+    "mentions": "mention_id",
+    "citations": "citation_id"
+  },
+  "foreign_keys": {
+    "observations.question_id": "questions.question_id",
+    "mentions.observation_id": "observations.observation_id",
+    "mentions.brand_id": "brands.brand_id",
+    "citations.observation_id": "observations.observation_id",
+    "citations.source_id": "sources.source_id",
+    "sources.brand_id": "brands.brand_id"
+  },
+  "enums": {
+    "questions.search_intent": [
+      "informational",
+      "commercial",
+      "transactional"
+    ],
+    "observations.collection_status": [
+      "complete",
+      "partial",
+      "failed"
+    ],
+    "observations.quality_flag": [
+      null,
+      "truncated",
+      "possible_duplicate",
+      "language_mismatch",
+      "collection_failed"
+    ],
+    "mentions.mention_context": [
+      "recommended",
+      "listed"
+    ],
+    "mentions.sentiment": [
+      "positive",
+      "neutral",
+      "negative"
+    ],
+    "citations.citation_context": [
+      "brand_official",
+      "comparison_table",
+      "user_review",
+      "supporting_reference"
+    ]
+  }
+}

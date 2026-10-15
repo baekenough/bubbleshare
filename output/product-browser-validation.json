@@ -1,0 +1,17 @@
+{
+  "scenario": "Real local API and previously generated real-model draft; browser interactions, not a mock UI",
+  "topic": "lead",
+  "generation": "cache_hit",
+  "additional_model_calls": 0,
+  "saved_action_id": "act_846a0dc0c5874e54a2c162134b2ba2d8",
+  "proposal_id": "prp_a12133ea5c4a458fabd428da87c9da3a",
+  "verified": [
+    "title and notes saved explicitly",
+    "draft visible in action list",
+    "status changed to in_progress",
+    "browser reload retained status title notes",
+    "final status dismissed, no active test work"
+  ],
+  "outcome": "not_observed",
+  "final_status": "dismissed"
+}

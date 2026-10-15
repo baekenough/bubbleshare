@@ -1,0 +1,3225 @@
+{
+  "result_type": "propose",
+  "scope": {
+    "topic_id": "lead",
+    "snapshot_id": "SNAP-2",
+    "target_brand_id": "BR001"
+  },
+  "topic_id": "lead",
+  "dataset_version": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034",
+  "policy_version": "product-one-call.v2.3",
+  "plan": {
+    "decision": "recommend",
+    "summary": "Q068 ‘웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?’의 적격 응답 기준: 자사 언급 0/3 · 자사 추천 0/3 · 자사 출처 인용 0/3입니다. 현재는 Q068 전용 자산 부재 또는 자산-질문 불일치가 가장 유력한 문제로 보입니다. 따라서 기존 OrbitCRM 자산을 먼저 점검하고, 조건을 만족하는 자산을 개정하거나 없으면 신규 제작하는 방식이 가장 실행 가능하고 정책에도 맞습니다.",
+    "actions": [
+      {
+        "title": "웹사이트 문의→CRM 리드 자동 등록 직답 가이드 자산 선별 후 개정/신규 제작",
+        "action_type": "owned_content_update",
+        "question_ids": [
+          "Q068"
+        ],
+        "channels": [
+          "ChatGPT",
+          "Gemini",
+          "Perplexity"
+        ],
+        "evidence_ids": [
+          "Q068",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "question.Q068.target_mentions",
+          "question.Q068.target_recommendations",
+          "question.Q068.target_owned_citations",
+          "SRC001",
+          "SRC003",
+          "SRC022",
+          "source.SRC001.citation_responses",
+          "source.SRC022.citation_responses",
+          "OBS0394",
+          "OBS0401"
+        ],
+        "opportunity": "Q068의 현재 관측 응답은 OrbitCRM 언급·추천·자사 인용이 없고, 답변도 질문의 핵심인 웹사이트 문의→CRM 리드 등록 절차를 직접 설명하지 못했습니다.",
+        "mechanism_hypothesis": "가설: 질문과 동일한 한국어 직답 구조의 자사 문서를 확인·발행하면, 모델이 일반론 대신 OrbitCRM 관련 출처를 연결할 가능성이 있습니다. 단, 이는 가설이며 가시성 변화는 발행 후 측정으로만 확인할 수 있습니다.",
+        "target_asset": {
+          "mode": "verify_then_choose",
+          "source_ids": [
+            "SRC001",
+            "SRC003",
+            "SRC022"
+          ],
+          "proposed_title": "웹사이트 문의를 CRM 리드로 자동 등록하는 방법",
+          "selection_rule": "개정 후보(SRC001·SRC003·SRC022)의 본문을 모두 열람하고 각 후보에 동일한 필수 기준(OrbitCRM 소유 자산이어야 한다. / 웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다. / Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다. / 미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다.)을 전부 적용합니다. 후보 하나의 기준 미충족은 그 후보의 제외 사유이며, 해당 후보를 개정하거나 즉시 신규 작성으로 넘어가지 않습니다. 남은 후보를 모두 검사한 뒤, 모든 기준을 충족한 후보가 있으면 질문 직접성과 개정 노력을 비교해 그중 1건만 개정합니다. 모든 후보의 검사가 완료되고 전체 기준을 충족한 후보가 하나도 없을 때만 신규 자산을 작성합니다. 미확인 기준이 남으면 자산 선택·신규 작성을 보류합니다. 보조 참고(SRC004·SRC021)는 근거·링크용이며 개정 후보와 최종 인용 추적 대상에 포함하지 않습니다.",
+          "assessments": [
+            {
+              "source_id": "SRC001",
+              "reuse_decision": "inspect_for_reuse",
+              "rationale": "제품 기능 페이지 메타데이터상 웹사이트 문의 등록 관련 제품 설명이 있을 수 있어, Q068의 메인 편집 후보로 본문 확인이 필요합니다."
+            },
+            {
+              "source_id": "SRC002",
+              "reuse_decision": "exclude_for_this_task",
+              "rationale": "요금 안내 메타데이터만으로는 '어떻게 자동 등록하는가'라는 방법 질문의 메인 답변 자산이 되기 어렵습니다."
+            },
+            {
+              "source_id": "SRC003",
+              "reuse_decision": "inspect_for_reuse",
+              "rationale": "일반 CRM 활용 가이드이므로 웹 문의 접수부터 리드 등록까지의 절차를 직접 다루는지 본문 확인 후 메인 개정 후보로 판단해야 합니다."
+            },
+            {
+              "source_id": "SRC004",
+              "reuse_decision": "supporting_only",
+              "rationale": "고객 사례는 보조 예시나 결과 설명에는 쓸 수 있어도, 메타데이터상 Q068의 메인 직답 자산으로 보기에는 간접적입니다."
+            },
+            {
+              "source_id": "SRC021",
+              "reuse_decision": "supporting_only",
+              "rationale": "보안·개인정보 보호 정책은 문의 데이터 처리 주의사항의 보조 근거에는 유용할 수 있으나, 자동 등록 방법 자체를 설명하는 메인 자산은 아닙니다."
+            },
+            {
+              "source_id": "SRC022",
+              "reuse_decision": "inspect_for_reuse",
+              "rationale": "제목은 리드 스코어링에 더 좁지만, 문의 접수 후 리드 처리 흐름과 겹칠 가능성이 있는 전문 가이드이므로 직접 과업 중복 여부를 본문으로 확인해야 합니다."
+            }
+          ],
+          "mandatory_reuse_criteria": [
+            "OrbitCRM 소유 자산이어야 한다.",
+            "웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다.",
+            "Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다.",
+            "미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다."
+          ]
+        },
+        "owner_role": "콘텐츠 마케터(초안) + 제품 운영 담당(사실 확인)",
+        "deliverables": [
+          {
+            "name": "Q068 직답형 가이드 초안",
+            "outline": [
+              "질문 한 줄 답변",
+              "공개 전 확인표",
+              "필드 매핑 표",
+              "확인 결과별 공개 문구 분기"
+            ],
+            "example_content": "제목: 웹사이트 문의를 CRM 리드로 자동 등록하는 방법\n\n한 줄 답변: 웹사이트 문의를 CRM 리드로 자동 등록하려면 문의 수집 지점, CRM 등록 경로, 필드 매핑, 필수 입력값, 중복 처리 정책을 먼저 확인해야 합니다. OrbitCRM에서 이 흐름을 자동화할 수 있는지는 아래 항목이 확인된 경우에만 공개 문구로 확정합니다.\n\n공개 전 확인표\n- 문의 수집 지점: [제품 확인 후 입력]\n- OrbitCRM 등록 경로: [제품 확인 후 입력]\n- 생성 대상 레코드: [제품 확인 후 입력]\n- 필수 입력값 규칙: [제품 확인 후 입력]\n- 중복 처리 정책: [제품 확인 후 입력]\n\n필드 매핑 초안\n| 웹 문의 항목 | CRM 대상 항목 | 확인 상태 |\n| 이름 | [제품 확인 후 입력] | 미확정 |\n| 회사명 | [제품 확인 후 입력] | 미확정 |\n| 이메일 | [제품 확인 후 입력] | 미확정 |\n| 연락처 | [제품 확인 후 입력] | 미확정 |\n| 문의 내용 | [제품 확인 후 입력] | 미확정 |\n\n공개 문구 분기\n- 자동 등록이 확인된 경우: \"웹사이트 문의가 [확인된 등록 경로]를 통해 CRM 리드로 생성되도록 설정할 수 있습니다. 공개 전에는 필드 매핑, 필수 입력값, 중복 처리 규칙을 함께 확인하세요.\"\n- 자동 등록이 확인되지 않은 경우: \"현재 자동 등록 제공 여부가 확인되지 않은 항목은 공개 문구에서 제외하고, 문의 접수 후 CRM 반영 절차는 [확인된 운영 방식] 기준으로 안내합니다.\"",
+            "role": "content"
+          },
+          {
+            "role": "operational_checklist",
+            "name": "자산 선정·게시·후속 수집 실행 확인표",
+            "outline": [
+              "동일한 필수 기준으로 전체 후보 검사",
+              "통과 후보 중 선택 또는 전체 실패 후 신규 작성",
+              "미확정 주장·placeholder 해소",
+              "정확한 URL과 자사 source_id 등록 완료"
+            ],
+            "example_content": "내부 실행 확인표 — 원고에 공개할 콘텐츠가 아닙니다.\n\n필수 재사용 기준\n- reuse_1: OrbitCRM 소유 자산이어야 한다.\n- reuse_2: 웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다.\n- reuse_3: Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다.\n- reuse_4: 미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다.\n\n| 개정 후보 | 모든 기준의 판정과 본문 근거 | 미충족 시 조치 |\n|---|---|---|\n| SRC001 | 각 기준 통과/실패/미확인 및 근거 기록 | 이 후보 제외, 나머지 후보 검사 계속 |\n| SRC003 | 각 기준 통과/실패/미확인 및 근거 기록 | 이 후보 제외, 나머지 후보 검사 계속 |\n| SRC022 | 각 기준 통과/실패/미확인 및 근거 기록 | 이 후보 제외, 나머지 후보 검사 계속 |\n\n개정 후보(SRC001·SRC003·SRC022)의 본문을 모두 열람하고 각 후보에 동일한 필수 기준(OrbitCRM 소유 자산이어야 한다. / 웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다. / Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다. / 미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다.)을 전부 적용합니다. 후보 하나의 기준 미충족은 그 후보의 제외 사유이며, 해당 후보를 개정하거나 즉시 신규 작성으로 넘어가지 않습니다. 남은 후보를 모두 검사한 뒤, 모든 기준을 충족한 후보가 있으면 질문 직접성과 개정 노력을 비교해 그중 1건만 개정합니다. 모든 후보의 검사가 완료되고 전체 기준을 충족한 후보가 하나도 없을 때만 신규 자산을 작성합니다. 미확인 기준이 남으면 자산 선택·신규 작성을 보류합니다. 보조 참고(SRC004·SRC021)는 근거·링크용이며 개정 후보와 최종 인용 추적 대상에 포함하지 않습니다.\n\n게시 승인 조건\n게시 전 제품·보안·연동 주장의 근거를 확인하고, 확인되지 않은 주장과 항목은 근거로 확정하거나 공개 원고에서 삭제합니다. 필수 정보가 해결되지 않으면 게시를 보류합니다. [제품 확인 후 입력] 등 미확정 placeholder는 내부 초안·확인표에만 허용하며 최종 공개 원고에 하나도 남기지 않습니다. 미지원이 확인된 기능을 지원한다고 표현하지 않습니다.\n\n후속 수집 시작 조건\n후속 수집 전에 최종 게시물의 정확한 URL과 그 URL을 가리키는 자사 소유 source_id를 모두 확정하고 등록을 완료합니다. 확정 게시일시도 기록합니다. URL 또는 source_id 중 하나만 있거나 후보 목록·등록 요청만 있는 상태로는 수집을 시작하지 않습니다. 실제 선택한 최종 source_id만 자산 인용을 추적하며 보조 참고 자료는 최종 대상에서 제외합니다."
+          }
+        ],
+        "steps": [
+          {
+            "role": "asset_selection",
+            "instruction": "후보(SRC001·SRC003·SRC022)를 모두 열람하고 필수 기준별 통과/실패/미확인을 기록한 뒤, 아래 자산 선정 규칙으로 1건을 결정합니다. 보조 참고 자료는 개정 대상에서 제외합니다.",
+            "expected_output": "전체 후보×전체 필수 기준의 판정·본문 근거, 최종 자산 1건 또는 신규 결정, 선정·배제 사유"
+          },
+          {
+            "instruction": "선정 결과에 맞춰 Q068 직답형 초안을 편집하고, 웹 문의 항목·리드 생성 대상·검증 필요 항목을 표로 정리합니다.",
+            "expected_output": "질문 한 줄 답변, 확인표, 필드 매핑 표, 공개 문구 분기가 포함된 초안 1부.",
+            "role": "content_work"
+          },
+          {
+            "instruction": "제품 담당자에게 등록 가능 여부, 실제 경로, 필수 입력값, 중복 처리 정책을 확인받아 초안의 모든 [제품 확인 후 입력]을 대체하거나 삭제합니다. 확인되지 않는 공개 문구는 HOLD로 표시합니다.",
+            "expected_output": "공개 가능 문장만 남은 최종 원고 또는 보류 사유가 명시된 HOLD 버전.",
+            "role": "content_work"
+          },
+          {
+            "role": "publication",
+            "instruction": "게시 전 제품·보안·연동 주장의 근거를 확인하고, 확인되지 않은 주장과 항목은 근거로 확정하거나 공개 원고에서 삭제합니다. 필수 정보가 해결되지 않으면 게시를 보류합니다. [제품 확인 후 입력] 등 미확정 placeholder는 내부 초안·확인표에만 허용하며 최종 공개 원고에 하나도 남기지 않습니다. 미지원이 확인된 기능을 지원한다고 표현하지 않습니다.",
+            "expected_output": "미확정 주장과 placeholder가 없는 승인 원고 및 게시 기록, 또는 구체적인 게시 보류 사유"
+          },
+          {
+            "role": "publication",
+            "instruction": "후속 수집 전에 최종 게시물의 정확한 URL과 그 URL을 가리키는 자사 소유 source_id를 모두 확정하고 등록을 완료합니다. 확정 게시일시도 기록합니다. URL 또는 source_id 중 하나만 있거나 후보 목록·등록 요청만 있는 상태로는 수집을 시작하지 않습니다. 실제 선택한 최종 source_id만 자산 인용을 추적하며 보조 참고 자료는 최종 대상에서 제외합니다.",
+            "expected_output": "동일 게시물을 가리키는 정확한 URL AND 자사 소유 source_id의 등록 완료 기록과 확정 게시일시"
+          }
+        ],
+        "prerequisites": [
+          "SRC001·SRC003·SRC022 본문 접근 권한과 현재 게시 상태 확인",
+          "제품 담당자가 웹사이트 문의→CRM 리드 등록 가능 여부, 실제 경로, 필수 입력값, 중복 처리 정책을 확인",
+          "발행 가능한 최종 target-owned source_id와 URL 확정",
+          "전체 개정 후보의 본문과 필수 기준별 검사 근거 확보",
+          "최종 공개 원고의 미확정 주장 해소 및 정확한 URL·자사 소유 source_id 등록 담당 확인"
+        ],
+        "acceptance_criteria": [
+          "초안이 Q068를 직접 답하며, 웹사이트 문의 접수부터 CRM 리드 생성까지 필요한 확인 항목을 명확히 제시한다.",
+          "공개용 원고에는 미확인 사실이나 [제품 확인 후 입력] 자리표시자가 남지 않는다.",
+          "자동 등록이 확인되지 않은 경우 이를 광고성 문구로 채우지 않고, 제거 또는 보류 분기가 명시된다.",
+          "선정된 자산 또는 신규 문서는 OrbitCRM 소유 source_id와 실제 게시 URL이 확인된 뒤에만 발행 대상으로 넘어간다.",
+          "개정 후보(SRC001·SRC003·SRC022)의 본문을 모두 열람하고 각 후보에 동일한 필수 기준(OrbitCRM 소유 자산이어야 한다. / 웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다. / Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다. / 미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다.)을 전부 적용합니다. 후보 하나의 기준 미충족은 그 후보의 제외 사유이며, 해당 후보를 개정하거나 즉시 신규 작성으로 넘어가지 않습니다. 남은 후보를 모두 검사한 뒤, 모든 기준을 충족한 후보가 있으면 질문 직접성과 개정 노력을 비교해 그중 1건만 개정합니다. 모든 후보의 검사가 완료되고 전체 기준을 충족한 후보가 하나도 없을 때만 신규 자산을 작성합니다. 미확인 기준이 남으면 자산 선택·신규 작성을 보류합니다. 보조 참고(SRC004·SRC021)는 근거·링크용이며 개정 후보와 최종 인용 추적 대상에 포함하지 않습니다.",
+          "게시 전 제품·보안·연동 주장의 근거를 확인하고, 확인되지 않은 주장과 항목은 근거로 확정하거나 공개 원고에서 삭제합니다. 필수 정보가 해결되지 않으면 게시를 보류합니다. [제품 확인 후 입력] 등 미확정 placeholder는 내부 초안·확인표에만 허용하며 최종 공개 원고에 하나도 남기지 않습니다. 미지원이 확인된 기능을 지원한다고 표현하지 않습니다.",
+          "후속 수집 전에 최종 게시물의 정확한 URL과 그 URL을 가리키는 자사 소유 source_id를 모두 확정하고 등록을 완료합니다. 확정 게시일시도 기록합니다. URL 또는 source_id 중 하나만 있거나 후보 목록·등록 요청만 있는 상태로는 수집을 시작하지 않습니다. 실제 선택한 최종 source_id만 자산 인용을 추적하며 보조 참고 자료는 최종 대상에서 제외합니다."
+        ],
+        "measurement": {
+          "baseline_metric_ids": [
+            "question.Q068.target_mentions",
+            "question.Q068.target_recommendations"
+          ],
+          "secondary_metric_ids": [
+            "question.Q068.target_owned_citations"
+          ],
+          "follow_up": "확정 게시일을 기준으로 7일 후·14일 후 각각 1회, 질문/채널 페어마다 1개 응답을 수집합니다. 회차별 고정 수집 범위는 3페어(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)이며, 총 6개 응답을 예정합니다. 주요 지표는 question.Q068.target_mentions 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity); question.Q068.target_recommendations 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)입니다. 보조 지표는 question.Q068.target_owned_citations 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)입니다. 각 지표에 나열된 전체 질문/채널을 별도로 수집하고 참고용으로만 보고합니다. 질문 원문·언어·국가·AI 채널을 기준선과 동일하게 유지하고 모델·수집 설정 변경을 기록합니다. 동일 회차·질문·채널의 중복 수집은 계약의 canonical_preference 순서로 1건만 선택합니다. complete이면서 질문 언어와 response_language가 일치하는 응답만 적격입니다. superseded, partial, failed, language_mismatch는 제외하고 누락을 미노출 0으로 대체하지 않습니다. 고정 페어가 하나라도 빠진 지표는 insufficient_data로 보고하고 실제 관측 분모를 표시하며, 기준선 고정 분모와 비교해 개선을 판정하지 않습니다. 자산 선택·등록 상태는 pending_asset_selection_or_registration입니다(후보: SRC001, SRC003, SRC022). 게시 전에 최종 자산의 정확한 URL과 자사 소유 source ID 등록을 완료하고, 기존 자산 개정이면 실제 선택한 source ID를 확정합니다. 후보 목록이나 등록 요청만으로 완료 처리하지 않으며, 이 조건이 해결될 때까지 후속 수집을 보류합니다. 선택한 최종 source ID의 인용 여부는 일반적인 자사 인용 지표와 구분하여 기록합니다.",
+          "positive_signal": "모든 주요 지표의 기준선과 동일한 질문/채널 고정 페어가 적격 응답으로 완전히 확보된 회차에서만 판단합니다. 주요 지표 중 하나 이상이 다음 조건을 만족하면 긍정 신호입니다: question.Q068.target_mentions 0/3 → 1/3 이상; question.Q068.target_recommendations 0/3 → 1/3 이상. 주요 지표의 분모가 줄거나 누락이 있으면 insufficient_data이며 성공으로 처리하지 않습니다. 보조 지표의 개선만으로는 액션 성공으로 처리하지 않습니다. 동일 분모에서 분자가 그대로이거나 줄면 개선이 아니며, 0 노출 유지도 긍정 신호가 아닙니다. 이는 게시 전후의 기술적 비교 신호이며 인과 효과나 통계적 유의성을 입증하지 않습니다.",
+          "stop_or_revise": "각 회차에서 고정 페어가 빠진 지표는 효과 결론을 내리지 말고 해당 질문/채널을 추가 수집합니다. partial·failed·언어 불일치를 0 노출로 간주하거나 더 작은 분모로 성공률을 비교하지 않습니다. 보조 지표의 결측은 해당 보조 지표의 판정을 보류하며, 주요 지표의 결과를 대체하지 않습니다. 게시 후 14일 시점의 주요 지표가 모두 완전한 고정 표본인데도 하나도 개선되지 않았거나 악화되면 선택한 자산·제목·서두·FAQ 및 개입 가설을 재검토합니다. 표본이 불완전하면 실패나 무효과를 선언하지 않고 추가 수집이 우선입니다. 자산 선택·등록 상태는 pending_asset_selection_or_registration입니다(후보: SRC001, SRC003, SRC022). 게시 전에 최종 자산의 정확한 URL과 자사 소유 source ID 등록을 완료하고, 기존 자산 개정이면 실제 선택한 source ID를 확정합니다. 후보 목록이나 등록 요청만으로 완료 처리하지 않으며, 이 조건이 해결될 때까지 후속 수집을 보류합니다."
+        },
+        "integration_procedure": null,
+        "priority_reason": "현재는 Q068 전용 자산 부재 또는 자산-질문 불일치가 가장 유력한 문제로 보입니다. 따라서 기존 OrbitCRM 자산을 먼저 점검하고, 조건을 만족하는 자산을 개정하거나 없으면 신규 제작하는 방식이 가장 실행 가능하고 정책에도 맞습니다.",
+        "effort_assumptions": "중간 범위 작업입니다. 콘텐츠 담당 1명과 제품 확인 담당 1명이 본문 점검, 초안 편집, 사실 확인을 1회씩 수행한다는 가정입니다.",
+        "readiness": "needs_input"
+      }
+    ],
+    "rejected_alternatives": [
+      {
+        "title": "Q068 전용 신규 가이드 즉시 제작",
+        "rejection_reason": "관련 소유 자산 후보가 이미 보이는 상황에서 즉시 신규 제작은 중복 가능성을 먼저 키우므로, 재사용 우선 원칙을 충족하는 cand_q068_reuse보다 후순위입니다."
+      },
+      {
+        "title": "자동 등록 워크플로우 사실 검증만 선행",
+        "rejection_reason": "사실 검증은 필수 보조 작업이지만 단독 개입으로는 외부에 인용 가능한 직답 자산을 만들지 못하므로, 같은 검증을 포함하면서도 출판 준비까지 이어지는 cand_q068_reuse보다 가치가 낮습니다."
+      }
+    ],
+    "monitoring_plan": "확정 게시일을 기준으로 7일 후·14일 후 각각 1회, 질문/채널 페어마다 1개 응답을 수집합니다. 회차별 고정 수집 범위는 3페어(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)이며, 총 6개 응답을 예정합니다. 주요 지표는 question.Q068.target_mentions 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity); question.Q068.target_recommendations 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)입니다. 보조 지표는 question.Q068.target_owned_citations 기준선 0/3, 고정 분모 3개 응답(Q068/ChatGPT, Q068/Gemini, Q068/Perplexity)입니다. 각 지표에 나열된 전체 질문/채널을 별도로 수집하고 참고용으로만 보고합니다. 질문 원문·언어·국가·AI 채널을 기준선과 동일하게 유지하고 모델·수집 설정 변경을 기록합니다. 동일 회차·질문·채널의 중복 수집은 계약의 canonical_preference 순서로 1건만 선택합니다. complete이면서 질문 언어와 response_language가 일치하는 응답만 적격입니다. superseded, partial, failed, language_mismatch는 제외하고 누락을 미노출 0으로 대체하지 않습니다. 고정 페어가 하나라도 빠진 지표는 insufficient_data로 보고하고 실제 관측 분모를 표시하며, 기준선 고정 분모와 비교해 개선을 판정하지 않습니다. 자산 선택·등록 상태는 pending_asset_selection_or_registration입니다(후보: SRC001, SRC003, SRC022). 게시 전에 최종 자산의 정확한 URL과 자사 소유 source ID 등록을 완료하고, 기존 자산 개정이면 실제 선택한 source ID를 확정합니다. 후보 목록이나 등록 요청만으로 완료 처리하지 않으며, 이 조건이 해결될 때까지 후속 수집을 보류합니다. 선택한 최종 source ID의 인용 여부는 일반적인 자사 인용 지표와 구분하여 기록합니다.\n모든 주요 지표의 기준선과 동일한 질문/채널 고정 페어가 적격 응답으로 완전히 확보된 회차에서만 판단합니다. 주요 지표 중 하나 이상이 다음 조건을 만족하면 긍정 신호입니다: question.Q068.target_mentions 0/3 → 1/3 이상; question.Q068.target_recommendations 0/3 → 1/3 이상. 주요 지표의 분모가 줄거나 누락이 있으면 insufficient_data이며 성공으로 처리하지 않습니다. 보조 지표의 개선만으로는 액션 성공으로 처리하지 않습니다. 동일 분모에서 분자가 그대로이거나 줄면 개선이 아니며, 0 노출 유지도 긍정 신호가 아닙니다. 이는 게시 전후의 기술적 비교 신호이며 인과 효과나 통계적 유의성을 입증하지 않습니다.\n각 회차에서 고정 페어가 빠진 지표는 효과 결론을 내리지 말고 해당 질문/채널을 추가 수집합니다. partial·failed·언어 불일치를 0 노출로 간주하거나 더 작은 분모로 성공률을 비교하지 않습니다. 보조 지표의 결측은 해당 보조 지표의 판정을 보류하며, 주요 지표의 결과를 대체하지 않습니다. 게시 후 14일 시점의 주요 지표가 모두 완전한 고정 표본인데도 하나도 개선되지 않았거나 악화되면 선택한 자산·제목·서두·FAQ 및 개입 가설을 재검토합니다. 표본이 불완전하면 실패나 무효과를 선언하지 않고 추가 수집이 우선입니다. 자산 선택·등록 상태는 pending_asset_selection_or_registration입니다(후보: SRC001, SRC003, SRC022). 게시 전에 최종 자산의 정확한 URL과 자사 소유 source ID 등록을 완료하고, 기존 자산 개정이면 실제 선택한 source ID를 확정합니다. 후보 목록이나 등록 요청만으로 완료 처리하지 않으며, 이 조건이 해결될 때까지 후속 수집을 보류합니다.",
+    "data_tasks": [],
+    "limitations": [
+      "body_access=false이므로 소스 제목만으로 본문 내용의 존재·부재를 판단할 수 없습니다.",
+      "verified_product_facts와 verified_integration이 비어 있어, 웹사이트 문의의 자동 등록 제공 여부는 현재 미확인 상태입니다.",
+      "현재 관측은 선택된 스냅샷의 AI 응답 결과이며, 발행 효과의 인과를 증명하지 않습니다."
+    ],
+    "action_selection": {
+      "question_id": "Q068",
+      "candidates": [
+        {
+          "candidate_id": "cand_q068_reuse",
+          "title": "웹사이트 문의→CRM 리드 자동 등록 직답 가이드 자산 선별 후 개정/신규 제작",
+          "intervention_type": "reuse_before_create",
+          "effect_hypothesis": "Q068에서 OrbitCRM이 전혀 연결되지 않는 문제에 대해, 관련 자사 자산을 먼저 점검한 뒤 질문 직답 구조로 개정하거나 필요 시 신규 제작하면 AI가 인용 가능한 OrbitCRM 출처를 더 쉽게 찾을 가능성이 있습니다.",
+          "evidence_ids": [
+            "Q068",
+            "OBS0406",
+            "OBS0407",
+            "OBS0408",
+            "question.Q068.target_mentions",
+            "question.Q068.target_recommendations",
+            "question.Q068.target_owned_citations",
+            "SRC001",
+            "SRC003",
+            "SRC022",
+            "source.SRC001.citation_responses",
+            "source.SRC022.citation_responses"
+          ],
+          "expected_benefit": "중복 자산 생성을 줄이면서도 Q068에 직접 대응하는 자사 문서를 만들 수 있습니다.",
+          "effort": {
+            "size": "medium",
+            "assumptions": "콘텐츠 담당이 후보 본문 3개를 점검하고, 제품 담당이 공개 가능 주장만 확인하는 범위입니다."
+          },
+          "feasibility": "needs_verification",
+          "prerequisites": [
+            "SRC001·SRC003·SRC022 본문 접근 권한과 현재 게시 상태 확인",
+            "제품 담당자가 웹사이트 문의→CRM 리드 등록 가능 여부, 실제 경로, 필수 입력값, 중복 처리 정책을 확인",
+            "발행 가능한 최종 target-owned source_id와 URL 확정"
+          ],
+          "risk": "본문 확인 결과 메인 후보가 없거나, 제품 사실 확인이 지연되면 발행이 늦어질 수 있습니다.",
+          "disposition": "selected",
+          "decision_reason": "기존 자산 재사용 가능성을 먼저 소거해 중복 위험을 줄이면서도, 검증이 끝나면 바로 Q068용 직답 자산으로 이어질 수 있어 즉시 신규 작성안보다 안전하고 순수 검증안보다 가시성 연결성이 높습니다."
+        },
+        {
+          "candidate_id": "cand_q068_new",
+          "title": "Q068 전용 신규 가이드 즉시 제작",
+          "intervention_type": "create_new",
+          "effect_hypothesis": "Q068 전용 문서를 바로 만들면 질문 적합성은 높일 수 있지만, 기존 OrbitCRM 자산과 겹치면 인용 대상이 분산될 수 있습니다.",
+          "evidence_ids": [
+            "Q068",
+            "OBS0406",
+            "OBS0407",
+            "OBS0408",
+            "question.Q068.target_mentions",
+            "question.Q068.target_recommendations",
+            "question.Q068.target_owned_citations",
+            "SRC001",
+            "SRC003",
+            "SRC022"
+          ],
+          "expected_benefit": "가장 빠르게 질문 전용 초안을 만들 수 있습니다.",
+          "effort": {
+            "size": "medium",
+            "assumptions": "기존 자산 점검을 최소화하고 새 문서 구조를 바로 작성하는 범위입니다."
+          },
+          "feasibility": "needs_verification",
+          "prerequisites": [
+            "기존 OrbitCRM 자산이 Q068를 직접 다루지 않는다는 내부 확인",
+            "제품 담당자가 공개 가능한 자동 등록 관련 사실을 확인",
+            "발행 가능한 신규 source_id와 URL 생성 절차 확인"
+          ],
+          "risk": "기존 가이드와 중복되거나 서로 다른 문구가 생기면 자사 신호가 약해질 수 있습니다.",
+          "disposition": "rejected",
+          "decision_reason": "관련 소유 자산 후보가 이미 보이는 상황에서 즉시 신규 제작은 중복 가능성을 먼저 키우므로, 재사용 우선 원칙을 충족하는 cand_q068_reuse보다 후순위입니다."
+        },
+        {
+          "candidate_id": "cand_q068_verify",
+          "title": "자동 등록 워크플로우 사실 검증만 선행",
+          "intervention_type": "verify_workflow",
+          "effect_hypothesis": "자동 등록 관련 제품 사실만 먼저 확인하면 허위 주장 위험은 줄일 수 있지만, 공개 가능한 자사 답변 자산이 바로 생기지는 않습니다.",
+          "evidence_ids": [
+            "Q068",
+            "OBS0406",
+            "OBS0407",
+            "OBS0408",
+            "question.Q068.target_mentions",
+            "question.Q068.target_recommendations",
+            "question.Q068.target_owned_citations"
+          ],
+          "expected_benefit": "공개 문구의 사실 위험을 가장 먼저 낮출 수 있습니다.",
+          "effort": {
+            "size": "small",
+            "assumptions": "제품 담당 인터뷰와 내부 확인 메모 작성만 수행하는 범위입니다."
+          },
+          "feasibility": "needs_verification",
+          "prerequisites": [
+            "제품 담당자가 실제 지원 여부와 운영 정책을 답변",
+            "확인 결과를 기록할 내부 문서 확보"
+          ],
+          "risk": "검증 메모만으로는 AI가 인용할 자사 외부 자산이 늘지 않아 Q068 개선과 직접 연결되지 않을 수 있습니다.",
+          "disposition": "rejected",
+          "decision_reason": "사실 검증은 필수 보조 작업이지만 단독 개입으로는 외부에 인용 가능한 직답 자산을 만들지 못하므로, 같은 검증을 포함하면서도 출판 준비까지 이어지는 cand_q068_reuse보다 가치가 낮습니다."
+        }
+      ],
+      "selected_candidate_id": "cand_q068_reuse",
+      "selection_reason": "현재는 Q068 전용 자산 부재 또는 자산-질문 불일치가 가장 유력한 문제로 보입니다. 따라서 기존 OrbitCRM 자산을 먼저 점검하고, 조건을 만족하는 자산을 개정하거나 없으면 신규 제작하는 방식이 가장 실행 가능하고 정책에도 맞습니다.",
+      "reversal_conditions": [
+        "SRC001·SRC003·SRC022 중 하나의 본문이 이미 Q068를 정확히 end-to-end로 답하고 있어 단순 소폭 개정만 필요하다고 확인되면 범위를 축소합니다.",
+        "제품 확인 결과 웹사이트 문의의 CRM 리드 자동 등록이 명시적으로 지원되지 않는다면, 자동 등록 홍보 문구 제작을 중단하고 검증된 운영 절차 안내 문서로 전환합니다.",
+        "새로운 verified integration receipt가 제공되면, 공개 콘텐츠보다 워크플로우 검증 개입의 우선순위를 다시 평가할 수 있습니다."
+      ]
+    }
+  },
+  "execution_contracts": [
+    {
+      "action_index": 0,
+      "version": "paired-measurement.v1",
+      "scope": {
+        "topic_id": "lead",
+        "snapshot_id": "SNAP-2",
+        "target_brand_id": "BR001"
+      },
+      "action_scope": {
+        "question_ids": [
+          "Q068"
+        ],
+        "channels": [
+          "ChatGPT",
+          "Gemini",
+          "Perplexity"
+        ],
+        "question_channel_pairs": [
+          {
+            "question_id": "Q068",
+            "channel": "ChatGPT"
+          },
+          {
+            "question_id": "Q068",
+            "channel": "Gemini"
+          },
+          {
+            "question_id": "Q068",
+            "channel": "Perplexity"
+          }
+        ]
+      },
+      "primary_metrics": [
+        {
+          "metric_id": "question.Q068.target_mentions",
+          "numerator": 0,
+          "denominator": 3,
+          "question_channel_pairs": [
+            {
+              "question_id": "Q068",
+              "channel": "ChatGPT"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Gemini"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Perplexity"
+            }
+          ],
+          "baseline_observation_ids": [
+            "OBS0406",
+            "OBS0407",
+            "OBS0408"
+          ],
+          "baseline_supporting_observation_ids": [],
+          "role": "primary",
+          "selector": {
+            "kind": "mentions",
+            "brand_id": "BR001"
+          },
+          "scope_relation": "within_action"
+        },
+        {
+          "metric_id": "question.Q068.target_recommendations",
+          "numerator": 0,
+          "denominator": 3,
+          "question_channel_pairs": [
+            {
+              "question_id": "Q068",
+              "channel": "ChatGPT"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Gemini"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Perplexity"
+            }
+          ],
+          "baseline_observation_ids": [
+            "OBS0406",
+            "OBS0407",
+            "OBS0408"
+          ],
+          "baseline_supporting_observation_ids": [],
+          "role": "primary",
+          "selector": {
+            "kind": "recommendations",
+            "brand_id": "BR001"
+          },
+          "scope_relation": "within_action"
+        }
+      ],
+      "secondary_metrics": [
+        {
+          "metric_id": "question.Q068.target_owned_citations",
+          "numerator": 0,
+          "denominator": 3,
+          "question_channel_pairs": [
+            {
+              "question_id": "Q068",
+              "channel": "ChatGPT"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Gemini"
+            },
+            {
+              "question_id": "Q068",
+              "channel": "Perplexity"
+            }
+          ],
+          "baseline_observation_ids": [
+            "OBS0406",
+            "OBS0407",
+            "OBS0408"
+          ],
+          "baseline_supporting_observation_ids": [],
+          "role": "secondary",
+          "selector": {
+            "kind": "owned_citations",
+            "brand_id": "BR001"
+          },
+          "scope_relation": "within_action"
+        }
+      ],
+      "sampling_plan": [
+        {
+          "question_id": "Q068",
+          "channel": "ChatGPT",
+          "query": "웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?",
+          "response_language": "ko",
+          "country": "KR",
+          "baseline_observation_id": "OBS0406"
+        },
+        {
+          "question_id": "Q068",
+          "channel": "Gemini",
+          "query": "웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?",
+          "response_language": "ko",
+          "country": "KR",
+          "baseline_observation_id": "OBS0407"
+        },
+        {
+          "question_id": "Q068",
+          "channel": "Perplexity",
+          "query": "웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?",
+          "response_language": "ko",
+          "country": "KR",
+          "baseline_observation_id": "OBS0408"
+        }
+      ],
+      "source_citation_check": {
+        "source_ids": [
+          "SRC001",
+          "SRC003",
+          "SRC022"
+        ],
+        "requires_final_source_selection": true,
+        "new_asset_requires_source_id_registration": true,
+        "registration_rule": "Before publication, register the exact published URL and its target-owned source_id; if revising, confirm the selected existing source_id. Candidate source IDs are not a final selection.",
+        "status": "pending_asset_selection_or_registration",
+        "question_channel_pairs": [
+          {
+            "question_id": "Q068",
+            "channel": "ChatGPT"
+          },
+          {
+            "question_id": "Q068",
+            "channel": "Gemini"
+          },
+          {
+            "question_id": "Q068",
+            "channel": "Perplexity"
+          }
+        ],
+        "baseline_observation_ids": [
+          "OBS0406",
+          "OBS0407",
+          "OBS0408"
+        ],
+        "baseline_citing_observation_ids": [],
+        "denominator": 3,
+        "interpretation": "Track citations to the selected published source IDs separately from any target-owned citation; one response contributes at most one citation hit."
+      },
+      "cadence": {
+        "anchor": "confirmed_publication_at",
+        "days_after_publication": [
+          7,
+          14
+        ],
+        "collections_per_pair_per_scheduled_day": 1,
+        "pairs_per_round": 3,
+        "total_scheduled_observations": 6
+      },
+      "normalization_rules": {
+        "group_by": [
+          "question_id",
+          "channel",
+          "follow_up_round"
+        ],
+        "canonical_preference": [
+          "complete_over_partial_over_failed",
+          "matching_question_language",
+          "latest_collected_at",
+          "greatest_observation_id"
+        ],
+        "eligible": "complete with response_language equal to the baseline question language",
+        "exclude": [
+          "superseded",
+          "partial",
+          "failed",
+          "language_mismatch"
+        ],
+        "missing_is_absence": false,
+        "count_unit": "one eligible response, not mention or citation rows",
+        "paired_denominator": "Compare the exact baseline question/channel pairs. Missing pairs produce insufficient_data; never keep a larger denominator or replace a missing response with zero.",
+        "hold_constant": [
+          "question query",
+          "question language",
+          "country",
+          "AI channel",
+          "available model and collection settings; record any change"
+        ]
+      },
+      "interpretation_rules": {
+        "primary_positive_signal": "At least one primary metric increases on a complete paired sample; secondary-only change does not satisfy action success.",
+        "secondary_positive_signal": "Context only; collect every listed pair and report separately from primary action outcomes.",
+        "unchanged": "Equal numerator on an unchanged paired denominator is no observed improvement; unchanged zero exposure is not a positive signal.",
+        "after_day_14": "If primary metrics show no observed improvement, review the selected asset and hypothesis. Missing data require recollection, not an effectiveness conclusion.",
+        "attribution": "Descriptive before/after signal only; two small rounds do not establish causality or statistical significance."
+      },
+      "outcome_policy": {
+        "version": "brand-visibility.v1",
+        "objective": "Increase mentions or recommendations of the target brand for the selected question.",
+        "model_selected_primary_ids": [
+          "question.Q068.target_mentions",
+          "question.Q068.target_recommendations",
+          "question.Q068.target_owned_citations"
+        ],
+        "citation_only_improvement_is_success": false
+      },
+      "execution_policy": {
+        "version": "execution-policy.v2",
+        "scope": {
+          "topic_id": "lead",
+          "snapshot_id": "SNAP-2",
+          "target_brand_id": "BR001"
+        },
+        "asset_selection": {
+          "applicability": "applicable",
+          "candidate_source_ids": [
+            "SRC001",
+            "SRC003",
+            "SRC022"
+          ],
+          "supporting_source_ids": [
+            "SRC004",
+            "SRC021"
+          ],
+          "excluded_source_ids": [
+            "SRC002"
+          ],
+          "mandatory_criteria": [
+            {
+              "criterion_id": "reuse_1",
+              "description": "OrbitCRM 소유 자산이어야 한다."
+            },
+            {
+              "criterion_id": "reuse_2",
+              "description": "웹사이트 문의 접수부터 CRM 리드 생성까지의 end-to-end 흐름을 직접 다뤄야 한다."
+            },
+            {
+              "criterion_id": "reuse_3",
+              "description": "Q068에 맞는 한국어 직답 구조로 개정 가능해야 한다."
+            },
+            {
+              "criterion_id": "reuse_4",
+              "description": "미확인 기능·경로·정책을 사실처럼 채우지 않고, 공개 전 모두 검증하거나 제거할 수 있어야 한다."
+            }
+          ],
+          "assessment_state": "pending_body_inspection",
+          "supporting_sources_are_editable": false,
+          "required_inspection": "every_candidate_against_every_mandatory_criterion",
+          "decision_table": [
+            {
+              "condition": "any_candidate_has_unknown_criterion",
+              "decision": "inspect_remaining",
+              "may_select_or_create": false
+            },
+            {
+              "condition": "candidate_fails_any_mandatory_criterion",
+              "decision": "exclude_that_candidate",
+              "may_revise_failed_candidate": false
+            },
+            {
+              "condition": "all_candidates_inspected_and_at_least_one_passes_all",
+              "decision": "choose_one_passing_candidate_and_revise",
+              "may_create": false
+            },
+            {
+              "condition": "all_candidates_inspected_and_none_pass_all",
+              "decision": "create_new_asset",
+              "may_revise_failed_candidate": false
+            }
+          ],
+          "tie_break": "Compare direct question fit and estimated edit effort among passing candidates; record the choice and rejection reasons. Do not infer unseen body content."
+        },
+        "publication_gate": {
+          "applicability": "applicable",
+          "operator": "all",
+          "required": [
+            "asset_selection_complete",
+            "task_content_acceptance_met",
+            "claims_verified_or_removed",
+            "no_unresolved_public_placeholders"
+          ],
+          "unknown_claim_resolution": [
+            "verify_with_receipt",
+            "remove_from_public_content"
+          ],
+          "unresolved_essential_information": "hold_publication",
+          "placeholder_scope": "internal_draft_or_verification_register_only",
+          "maximum_unresolved_public_placeholders": 0
+        },
+        "follow_up_gate": {
+          "applicability": "applicable",
+          "operator": "all",
+          "required_fields": [
+            "exact_published_url",
+            "target_owned_source_id",
+            "confirmed_publication_at"
+          ],
+          "target_brand_id": "BR001",
+          "url_source_identity": "The registered source_id must identify the exact final published URL and belong to target_brand_id.",
+          "registration_status": "completed",
+          "candidate_ids_are_final_selection": false,
+          "pending_registration_or_missing_field": "hold_follow_up_collection"
+        },
+        "provenance": {
+          "mandatory_criteria": "model_selected_task_specific_criteria",
+          "operational_rules": "deterministic_product_policy",
+          "source_body_inspection_performed": false,
+          "publication_or_collection_executed": false
+        }
+      }
+    }
+  ],
+  "priority": [
+    {
+      "question_id": "Q068",
+      "score": 83.0,
+      "metric_id": "question.Q068.target_recommendations",
+      "importance": 83,
+      "coverage": 1.0,
+      "recommendation_gap": 1.0,
+      "reason": "Q068 기준: 중요도 83 × 추천 공백 1.00 × 유효 수집률 1.00 = 83.0"
+    },
+    {
+      "question_id": "Q066",
+      "score": 65.33,
+      "metric_id": "question.Q066.target_recommendations",
+      "importance": 98,
+      "coverage": 1.0,
+      "recommendation_gap": 0.6666666666666667,
+      "reason": "Q066 기준: 중요도 98 × 추천 공백 0.67 × 유효 수집률 1.00 = 65.33"
+    },
+    {
+      "question_id": "Q067",
+      "score": 63.33,
+      "metric_id": "question.Q067.target_recommendations",
+      "importance": 95,
+      "coverage": 1.0,
+      "recommendation_gap": 0.6666666666666667,
+      "reason": "Q067 기준: 중요도 95 × 추천 공백 0.67 × 유효 수집률 1.00 = 63.33"
+    },
+    {
+      "question_id": "Q069",
+      "score": 58.67,
+      "metric_id": "question.Q069.target_recommendations",
+      "importance": 88,
+      "coverage": 1.0,
+      "recommendation_gap": 0.6666666666666667,
+      "reason": "Q069 기준: 중요도 88 × 추천 공백 0.67 × 유효 수집률 1.00 = 58.67"
+    },
+    {
+      "question_id": "Q070",
+      "score": 30.67,
+      "metric_id": "question.Q070.target_recommendations",
+      "importance": 92,
+      "coverage": 1.0,
+      "recommendation_gap": 0.33333333333333337,
+      "reason": "Q070 기준: 중요도 92 × 추천 공백 0.33 × 유효 수집률 1.00 = 30.67"
+    }
+  ],
+  "reason": "실제 생성 응답을 현재 정책으로 재검증했습니다. 새 모델 호출은 하지 않았습니다.",
+  "requires_human_review": true,
+  "errors": [],
+  "events": [],
+  "evidence_summary": {
+    "quality": {
+      "eligible": 15,
+      "expected": 15,
+      "coverage": 1.0,
+      "canonical_observations": 15,
+      "superseded_attempts": 0,
+      "by_channel": {
+        "ChatGPT": {
+          "eligible": 5,
+          "expected": 5,
+          "coverage": 1.0
+        },
+        "Gemini": {
+          "eligible": 5,
+          "expected": 5,
+          "coverage": 1.0
+        },
+        "Perplexity": {
+          "eligible": 5,
+          "expected": 5,
+          "coverage": 1.0
+        }
+      }
+    },
+    "metrics": {
+      "topic.target_mentions": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "topic.target_recommendations": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "topic.target_owned_citations": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401"
+        ]
+      },
+      "topic.target_cited_without_mention": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Responses citing a target-owned source without mentioning the target brand.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "channel.ChatGPT.target_mentions": {
+        "numerator": 2,
+        "denominator": 5,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0400",
+          "OBS0406",
+          "OBS0412",
+          "OBS0418"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0418"
+        ]
+      },
+      "channel.ChatGPT.target_recommendations": {
+        "numerator": 2,
+        "denominator": 5,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0400",
+          "OBS0406",
+          "OBS0412",
+          "OBS0418"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0418"
+        ]
+      },
+      "channel.ChatGPT.target_owned_citations": {
+        "numerator": 1,
+        "denominator": 5,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0400",
+          "OBS0406",
+          "OBS0412",
+          "OBS0418"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394"
+        ]
+      },
+      "channel.Gemini.target_mentions": {
+        "numerator": 3,
+        "denominator": 5,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0395",
+          "OBS0401",
+          "OBS0407",
+          "OBS0413",
+          "OBS0419"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401",
+          "OBS0413",
+          "OBS0419"
+        ]
+      },
+      "channel.Gemini.target_recommendations": {
+        "numerator": 3,
+        "denominator": 5,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0395",
+          "OBS0401",
+          "OBS0407",
+          "OBS0413",
+          "OBS0419"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401",
+          "OBS0413",
+          "OBS0419"
+        ]
+      },
+      "channel.Gemini.target_owned_citations": {
+        "numerator": 1,
+        "denominator": 5,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0395",
+          "OBS0401",
+          "OBS0407",
+          "OBS0413",
+          "OBS0419"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "channel.Perplexity.target_mentions": {
+        "numerator": 0,
+        "denominator": 5,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0396",
+          "OBS0402",
+          "OBS0408",
+          "OBS0414",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "channel.Perplexity.target_recommendations": {
+        "numerator": 0,
+        "denominator": 5,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0396",
+          "OBS0402",
+          "OBS0408",
+          "OBS0414",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "channel.Perplexity.target_owned_citations": {
+        "numerator": 0,
+        "denominator": 5,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0396",
+          "OBS0402",
+          "OBS0408",
+          "OBS0414",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "question.Q066.target_mentions": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394"
+        ]
+      },
+      "question.Q066.target_recommendations": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394"
+        ]
+      },
+      "question.Q066.target_owned_citations": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394"
+        ]
+      },
+      "question.Q067.target_mentions": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0400",
+          "OBS0401",
+          "OBS0402"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "question.Q067.target_recommendations": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0400",
+          "OBS0401",
+          "OBS0402"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "question.Q067.target_owned_citations": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0400",
+          "OBS0401",
+          "OBS0402"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "question.Q068.target_mentions": {
+        "numerator": 0,
+        "denominator": 3,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0406",
+          "OBS0407",
+          "OBS0408"
+        ],
+        "supporting_observation_ids": []
+      },
+      "question.Q068.target_recommendations": {
+        "numerator": 0,
+        "denominator": 3,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0406",
+          "OBS0407",
+          "OBS0408"
+        ],
+        "supporting_observation_ids": []
+      },
+      "question.Q068.target_owned_citations": {
+        "numerator": 0,
+        "denominator": 3,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0406",
+          "OBS0407",
+          "OBS0408"
+        ],
+        "supporting_observation_ids": []
+      },
+      "question.Q069.target_mentions": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0412",
+          "OBS0413",
+          "OBS0414"
+        ],
+        "supporting_observation_ids": [
+          "OBS0413"
+        ]
+      },
+      "question.Q069.target_recommendations": {
+        "numerator": 1,
+        "denominator": 3,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0412",
+          "OBS0413",
+          "OBS0414"
+        ],
+        "supporting_observation_ids": [
+          "OBS0413"
+        ]
+      },
+      "question.Q069.target_owned_citations": {
+        "numerator": 0,
+        "denominator": 3,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0412",
+          "OBS0413",
+          "OBS0414"
+        ],
+        "supporting_observation_ids": []
+      },
+      "question.Q070.target_mentions": {
+        "numerator": 2,
+        "denominator": 3,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "question.Q070.target_recommendations": {
+        "numerator": 2,
+        "denominator": 3,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "question.Q070.target_owned_citations": {
+        "numerator": 0,
+        "denominator": 3,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "brand.BR001.mentions": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Eligible responses mentioning OrbitCRM.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "brand.BR001.recommendations": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Eligible responses recommending OrbitCRM.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "brand.BR001.owned_citations": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible responses citing at least one source explicitly owned by OrbitCRM; count each response once, not each citation, and exclude unresolved ownership.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401"
+        ]
+      },
+      "brand.BR002.mentions": {
+        "numerator": 7,
+        "denominator": 15,
+        "description": "Eligible responses mentioning NovaDesk.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0402",
+          "OBS0407",
+          "OBS0408",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "brand.BR002.recommendations": {
+        "numerator": 6,
+        "denominator": 15,
+        "description": "Eligible responses recommending NovaDesk.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0402",
+          "OBS0407",
+          "OBS0408",
+          "OBS0414",
+          "OBS0419"
+        ]
+      },
+      "brand.BR002.owned_citations": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible responses citing at least one source explicitly owned by NovaDesk; count each response once, not each citation, and exclude unresolved ownership.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "brand.BR003.mentions": {
+        "numerator": 10,
+        "denominator": 15,
+        "description": "Eligible responses mentioning LeadFlow.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0408",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ]
+      },
+      "brand.BR003.recommendations": {
+        "numerator": 10,
+        "denominator": 15,
+        "description": "Eligible responses recommending LeadFlow.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0408",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ]
+      },
+      "brand.BR003.owned_citations": {
+        "numerator": 7,
+        "denominator": 15,
+        "description": "Eligible responses citing at least one source explicitly owned by LeadFlow; count each response once, not each citation, and exclude unresolved ownership.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395",
+          "OBS0396",
+          "OBS0402",
+          "OBS0408",
+          "OBS0413",
+          "OBS0414",
+          "OBS0420"
+        ]
+      },
+      "brand.BR004.mentions": {
+        "numerator": 8,
+        "denominator": 15,
+        "description": "Eligible responses mentioning ClientNest.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0406",
+          "OBS0407",
+          "OBS0412",
+          "OBS0420"
+        ]
+      },
+      "brand.BR004.recommendations": {
+        "numerator": 6,
+        "denominator": 15,
+        "description": "Eligible responses recommending ClientNest.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395",
+          "OBS0401",
+          "OBS0406",
+          "OBS0407",
+          "OBS0412",
+          "OBS0420"
+        ]
+      },
+      "brand.BR004.owned_citations": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible responses citing at least one source explicitly owned by ClientNest; count each response once, not each citation, and exclude unresolved ownership.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0406"
+        ]
+      },
+      "brand.BR005.mentions": {
+        "numerator": 8,
+        "denominator": 15,
+        "description": "Eligible responses mentioning PicoSales.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0413",
+          "OBS0414"
+        ]
+      },
+      "brand.BR005.recommendations": {
+        "numerator": 8,
+        "denominator": 15,
+        "description": "Eligible responses recommending PicoSales.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0413",
+          "OBS0414"
+        ]
+      },
+      "brand.BR005.owned_citations": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible responses citing at least one source explicitly owned by PicoSales; count each response once, not each citation, and exclude unresolved ownership.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0402",
+          "OBS0414"
+        ]
+      },
+      "comparison.previous.target_mentions": {
+        "numerator": 8,
+        "denominator": 15,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0391",
+          "OBS0392",
+          "OBS0393",
+          "OBS0397",
+          "OBS0398",
+          "OBS0399",
+          "OBS0403",
+          "OBS0404",
+          "OBS0405",
+          "OBS0409",
+          "OBS0410",
+          "OBS0411",
+          "OBS0415",
+          "OBS0416",
+          "OBS0417"
+        ],
+        "supporting_observation_ids": [
+          "OBS0392",
+          "OBS0393",
+          "OBS0397",
+          "OBS0399",
+          "OBS0405",
+          "OBS0410",
+          "OBS0411",
+          "OBS0417"
+        ]
+      },
+      "comparison.previous.target_recommendations": {
+        "numerator": 7,
+        "denominator": 15,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0391",
+          "OBS0392",
+          "OBS0393",
+          "OBS0397",
+          "OBS0398",
+          "OBS0399",
+          "OBS0403",
+          "OBS0404",
+          "OBS0405",
+          "OBS0409",
+          "OBS0410",
+          "OBS0411",
+          "OBS0415",
+          "OBS0416",
+          "OBS0417"
+        ],
+        "supporting_observation_ids": [
+          "OBS0392",
+          "OBS0393",
+          "OBS0399",
+          "OBS0405",
+          "OBS0410",
+          "OBS0411",
+          "OBS0417"
+        ]
+      },
+      "comparison.previous.target_owned_citations": {
+        "numerator": 7,
+        "denominator": 15,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0391",
+          "OBS0392",
+          "OBS0393",
+          "OBS0397",
+          "OBS0398",
+          "OBS0399",
+          "OBS0403",
+          "OBS0404",
+          "OBS0405",
+          "OBS0409",
+          "OBS0410",
+          "OBS0411",
+          "OBS0415",
+          "OBS0416",
+          "OBS0417"
+        ],
+        "supporting_observation_ids": [
+          "OBS0392",
+          "OBS0393",
+          "OBS0399",
+          "OBS0405",
+          "OBS0410",
+          "OBS0411",
+          "OBS0417"
+        ]
+      },
+      "comparison.current.target_mentions": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Responses with a target-brand mention, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "comparison.current.target_recommendations": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Responses recommending the target brand, divided by eligible responses.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "comparison.current.target_owned_citations": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401"
+        ]
+      },
+      "source.SRC001.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "source.SRC002.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC003.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC004.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC005.citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0418",
+          "OBS0419"
+        ]
+      },
+      "source.SRC006.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC007.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC008.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC009.citation_responses": {
+        "numerator": 3,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395",
+          "OBS0413",
+          "OBS0420"
+        ]
+      },
+      "source.SRC010.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC011.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC012.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC013.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC014.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC015.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC016.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0406"
+        ]
+      },
+      "source.SRC017.citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0402",
+          "OBS0414"
+        ]
+      },
+      "source.SRC018.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0402"
+        ]
+      },
+      "source.SRC019.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC020.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0414"
+        ]
+      },
+      "source.SRC021.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC022.citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0394",
+          "OBS0401"
+        ]
+      },
+      "source.SRC023.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC024.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC025.citation_responses": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0396",
+          "OBS0402",
+          "OBS0408",
+          "OBS0414",
+          "OBS0420"
+        ]
+      },
+      "source.SRC027.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "source.SRC028.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0413"
+        ]
+      },
+      "source.SRC029.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC032.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395"
+        ]
+      },
+      "source.SRC033.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC034.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0401"
+        ]
+      },
+      "source.SRC035.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC036.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC037.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC038.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0419"
+        ]
+      },
+      "source.SRC039.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC040.citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0402",
+          "OBS0407"
+        ]
+      },
+      "source.SRC041.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC042.citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0396",
+          "OBS0408"
+        ]
+      },
+      "source.SRC043.citation_responses": {
+        "numerator": 5,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0406",
+          "OBS0413",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ]
+      },
+      "source.SRC044.citation_responses": {
+        "numerator": 6,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0395",
+          "OBS0396",
+          "OBS0406",
+          "OBS0407",
+          "OBS0413",
+          "OBS0414"
+        ]
+      },
+      "source.SRC045.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0408"
+        ]
+      },
+      "source.SRC047.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC048.citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": []
+      },
+      "source.SRC049.citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+        "observation_ids": [
+          "OBS0394",
+          "OBS0395",
+          "OBS0396",
+          "OBS0400",
+          "OBS0401",
+          "OBS0402",
+          "OBS0406",
+          "OBS0407",
+          "OBS0408",
+          "OBS0412",
+          "OBS0413",
+          "OBS0414",
+          "OBS0418",
+          "OBS0419",
+          "OBS0420"
+        ],
+        "supporting_observation_ids": [
+          "OBS0414"
+        ]
+      }
+    },
+    "excluded_pairs": [],
+    "relations": {
+      "dataset_version": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034",
+      "backend": "latticedb",
+      "paths": [
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0394",
+          "source_id": "SRC022",
+          "brand_id": "BR001"
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0395",
+          "source_id": "SRC009",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0395",
+          "source_id": "SRC032",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0395",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0396",
+          "source_id": "SRC025",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0396",
+          "source_id": "SRC042",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q066",
+          "observation_id": "OBS0396",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0401",
+          "source_id": "SRC001",
+          "brand_id": "BR001"
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0401",
+          "source_id": "SRC022",
+          "brand_id": "BR001"
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0401",
+          "source_id": "SRC027",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0401",
+          "source_id": "SRC034",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0402",
+          "source_id": "SRC017",
+          "brand_id": "BR005"
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0402",
+          "source_id": "SRC018",
+          "brand_id": "BR005"
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0402",
+          "source_id": "SRC025",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q067",
+          "observation_id": "OBS0402",
+          "source_id": "SRC040",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0406",
+          "source_id": "SRC016",
+          "brand_id": "BR004"
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0406",
+          "source_id": "SRC043",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0406",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0407",
+          "source_id": "SRC040",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0407",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0408",
+          "source_id": "SRC025",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0408",
+          "source_id": "SRC042",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q068",
+          "observation_id": "OBS0408",
+          "source_id": "SRC045",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0413",
+          "source_id": "SRC009",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0413",
+          "source_id": "SRC028",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0413",
+          "source_id": "SRC043",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0413",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0414",
+          "source_id": "SRC017",
+          "brand_id": "BR005"
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0414",
+          "source_id": "SRC020",
+          "brand_id": "BR005"
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0414",
+          "source_id": "SRC025",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0414",
+          "source_id": "SRC044",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q069",
+          "observation_id": "OBS0414",
+          "source_id": "SRC049",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0418",
+          "source_id": "SRC005",
+          "brand_id": "BR002"
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0418",
+          "source_id": "SRC043",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0419",
+          "source_id": "SRC005",
+          "brand_id": "BR002"
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0419",
+          "source_id": "SRC038",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0419",
+          "source_id": "SRC043",
+          "brand_id": null
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0420",
+          "source_id": "SRC009",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0420",
+          "source_id": "SRC025",
+          "brand_id": "BR003"
+        },
+        {
+          "question_id": "Q070",
+          "observation_id": "OBS0420",
+          "source_id": "SRC043",
+          "brand_id": null
+        }
+      ]
+    }
+  },
+  "usage": {
+    "model_calls": 0,
+    "external_api_calls": 0,
+    "actual_vendor_cost_usd": 0,
+    "assignment_cost_usd": 0,
+    "cache_hit": false
+  },
+  "source_generation_receipt": {
+    "provider": "openrouter",
+    "invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+    "stage": "design",
+    "requested_model": "openai/gpt-5.4",
+    "started_at": "2026-10-15T04:16:01.767485+00:00",
+    "prompt_hash": "c9e29091c21799dea60f445b66d1a7ff727f381a993ec1755a11c3305d015089",
+    "status": "completed",
+    "actual_provider_calls": 1,
+    "assignment_model_calls": 1,
+    "sdk_max_retries": 0,
+    "provider_allow_fallbacks": false,
+    "max_output_tokens": 16000,
+    "reasoning_effort": "medium",
+    "actual_cost_usd": 0.1628975,
+    "assignment_model_cost_usd": 0.018,
+    "actual_cost_source": "OpenRouter response usage.cost",
+    "response_id": "gen-1792037762-dMPm33zzWc5LUTQWI8hg",
+    "request_id": null,
+    "model": "openai/gpt-5.4",
+    "upstream_provider": "OpenAI",
+    "usage": {
+      "input_tokens": 24809,
+      "output_tokens": 10373,
+      "total_tokens": 35182,
+      "input_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 24320,
+        "video_tokens": 0
+      },
+      "output_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 6632,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      }
+    },
+    "raw_usage": {
+      "completion_tokens": 10373,
+      "prompt_tokens": 24809,
+      "total_tokens": 35182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 6632,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 24320,
+        "video_tokens": 0
+      },
+      "cost": 0.1628975,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.1628975,
+        "upstream_inference_prompt_cost": 0.0073025,
+        "upstream_inference_completions_cost": 0.155595
+      }
+    },
+    "finish_reason": "stop",
+    "finished_at": "2026-10-15T04:18:02.718606+00:00",
+    "latency_ms": 120953.353,
+    "actual_cost_status": "known",
+    "observation_context": {
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "question_id": "Q068",
+      "policy_version": "product-one-call.v2.2",
+      "dataset_version": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034",
+      "run_key_hash": "4792fb3c205373baeb9f5ea72a70db53e5a1ce0c9ac2504ebf123ce4d8fbf396"
+    },
+    "observability": {
+      "enabled": true,
+      "status": "accepted",
+      "trace_id": "737c13fb049f4db49e338fb935aa39b6",
+      "observation_id": "8561533761fd6196"
+    },
+    "trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/737c13fb049f4db49e338fb935aa39b6.json"
+  },
+  "revalidation": {
+    "kind": "deterministic_recompilation_of_prior_real_model_response",
+    "original_file": "/Users/sangyi/workspace/private/bubbleshare/output/product-v2-run3/lead.json",
+    "new_model_calls": 0
+  }
+}

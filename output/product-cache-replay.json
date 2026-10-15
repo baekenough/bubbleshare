@@ -1,0 +1,25 @@
+{
+  "scenario": "Four identical requests after four cold generations, before action edits. Not a production cache-hit estimate.",
+  "replays": [
+    {
+      "case": "lead",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "case": "unsupported",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "case": "confirmed",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "case": "security",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    }
+  ]
+}

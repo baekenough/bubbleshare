@@ -1,0 +1,44 @@
+version: 1
+title: 데이터와 저장소
+repository_root: ../..
+path_base: 저장소 루트
+no_secrets: true
+guide:
+  path: llm-wiki/data/guide.md
+  title: 데이터 흐름
+  purpose: 정제된 근거와 저장소별 책임
+sources:
+- path: VIVI_MVP_Sample_Dataset/manifest.json
+  title: 원본 명세
+  purpose: 제공 데이터 범위
+- path: src/vivi_agent/evidence.py
+  title: 근거 구성
+  purpose: 대표 관측 선정과 지표·맥락 정규화
+- path: src/vivi_agent/analytics.py
+  title: 정형 집계
+  purpose: DuckDB 지표와 질문 우선순위
+- path: src/vivi_agent/relations.py
+  title: 관계 조회
+  purpose: LatticeDB 원본 식별자 경로
+- path: src/vivi_agent/store.py
+  title: 사용자 상태
+  purpose: 액션·제안·변경 이력과 중복 방지
+- path: src/vivi_agent/ledger.py
+  title: 과제 호출 원장
+  purpose: 고정 단가 예산과 호출 결과
+- path: src/vivi_agent/actual_budget.py
+  title: 실제 비용 원장
+  purpose: 달러 예약과 정산
+related:
+- path: tests/test_evidence.py
+  title: 정제 회귀
+  purpose: 대표 응답·제외 사유·분모 확인
+- path: tests/test_analytics.py
+  title: 집계 회귀
+  purpose: 원본 근거와 분석 결과 일치
+- path: tests/test_relations.py
+  title: 관계 회귀
+  purpose: 버전·경로·잠금 검사
+- path: tests/test_store.py
+  title: 상태 회귀
+  purpose: 저장·수정·중복·이력 검사

@@ -1,0 +1,348 @@
+{
+  "status": "complete",
+  "reviewer": "independent Codex subagent /root/selection_ui; not an external human or paid model reviewer",
+  "reviewed_at": "2026-10-15T07:02:09.124398+00:00",
+  "rubric": {
+    "fixed_before_outputs": true,
+    "axes": [
+      "evidence_problem_fit",
+      "same_problem_candidate_selection",
+      "execution_feasibility",
+      "fact_asset_publication_consistency",
+      "measurement"
+    ],
+    "score_range": [
+      0,
+      2
+    ],
+    "pass_threshold": 8,
+    "minimum_each_axis": 1,
+    "no_P1_or_P2": true,
+    "all_mandatory_regressions": true,
+    "fallback_is_success": false,
+    "optimization_requires_each_case_at_least_baseline": {
+      "lead": 9,
+      "unsupported": 9,
+      "security": 10,
+      "confirmed": 9
+    }
+  },
+  "cases": [
+    {
+      "case": "lead",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-compact-mini-low/lead.json",
+      "artifact_sha256": "7f823c11b0732579eb5f46ecbf0ed98a4df12f73bf89cb6a6b9245caadad533b",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/e88d4e1a33754524af749fb64f053725.json",
+      "raw_result_sha256": "b018c44a28cbf60b3c402fc8b633bd84cbbb89b3983b3d1038a29eaa475dfd94",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.02601075,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 0/3 관측과 기능 unknown을 연결해 검증 우선 문제를 잡는다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "동일 문제의 검증·신규·재사용을 비용/위험/전제와 함께 비교한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "표는 구체적이지만 미확인 필수 필드와 처리 결과를 기대값으로 고정한다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 0,
+          "reason": "미지원 시 미확인 수동 경로를 대안으로 제시하고 필수값 정책을 단정한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "내부 작업의 완료·검증 기준으로 평가하고 노출 기준선과 게시 측정을 분리한다."
+        }
+      },
+      "total": 7,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "findings": [
+        {
+          "id": "lead-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.reversal_conditions[2]",
+            "plan.action_selection.reversal_conditions[2]"
+          ],
+          "evidence_quote": "자동 등록이 지원되지 않거나 필수 전제 조건이 충족되지 않으면, 가이드 작성 대신 수동 운영 절차 안내로 전략을 전환한다.",
+          "impact": "수동 등록 경로가 검증되지 않았는데 미지원의 대안으로 확정한다. 지원 여부 unknown을 보존해야 하는 필수 회귀 위반이다."
+        },
+        {
+          "id": "lead-02",
+          "priority": "P2",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "plan.actions[0].deliverables[0].example_content"
+          ],
+          "evidence_quote": "missing_required_field | 이메일 누락 | 필수값 검증 | 제출이 막히거나 오류 메시지 표시",
+          "impact": "이메일 필수 여부와 누락 처리 정책이 unknown인데 특정 필드와 차단/오류를 기대값으로 고정한다. 테스트 전에 운영자 확인된 필수 필드 및 정책을 정해야 한다."
+        },
+        {
+          "id": "lead-03",
+          "priority": "P3",
+          "paths": [
+            "raw.action.deliverable.name"
+          ],
+          "evidence_quote": "내부 검증용 테스트 جدول",
+          "impact": "한국어 산출물 이름에 무관한 언어가 섞여 편집이 필요하다."
+        }
+      ],
+      "mandatory_regressions": {
+        "supporting_SRC021_not_edit_or_final_target": true,
+        "unknown_capability_or_route_not_invented": false,
+        "required_field_policy_not_assumed": false,
+        "operational_measurement_not_applicable": true
+      },
+      "review_method": "Read raw compact response plus compiled plan and execution_contracts; compiler policy text does not erase contradictory model prose."
+    },
+    {
+      "case": "unsupported",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-compact-mini-low/unsupported.json",
+      "artifact_sha256": "7c6b622e03837ccfe50802fb93b9579ed784c81a1293736153f00c2da569e744",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/55b616b8a2c24c46931c8110a47571d4.json",
+      "raw_result_sha256": "09b6a69fc7acb4f18da49d0831599e80f48e82b4a7dfea19f212d4ab45ea5986",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.024681,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 노출 공백과 확인된 미지원 사실을 올바르게 식별한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "후보는 3개이나 미검사 자산 재사용을 배제하고 검증되지 않은 우회 안내를 신규 선택 이유로 삼는다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "초안과 FAQ는 구체적이나 실제로 가능한 경로가 없어 그대로 실행할 수 없다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 0,
+          "reason": "미확인 수동/반자동 경로를 가능하다고 단정하고 본문 미확인을 부적합 판정으로 사용한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 Q068 3페어와 게시 후 D7/14, 결측 및 등록 조건은 결정적 정책으로 명확하다."
+        }
+      },
+      "total": 6,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "findings": [
+        {
+          "id": "unsupported-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "plan.actions[0].deliverables[0].example_content"
+          ],
+          "evidence_quote": "가능한 흐름: 문의 접수 → 담당자 확인 → CRM에 리드 수동 등록 또는 [제품 확인 후 입력] 방식의 반자동 처리",
+          "impact": "known-false 자동 등록을 다른 미확인 기능으로 대체한다. FAQ도 이 우회 흐름을 사용한다고 단정하여 placeholder/일반 검수 게이트로 오류가 사라지지 않는다."
+        },
+        {
+          "id": "unsupported-02",
+          "priority": "P2",
+          "paths": [
+            "raw.action.asset.assessments",
+            "raw.action_selection.selection_reason",
+            "plan.actions[0].target_asset"
+          ],
+          "evidence_quote": "제목만으로 Q068의 본문 적합성을 판단할 수 없어 본 작업의 직접 편집 대상으로 삼을 수 없다.",
+          "impact": "SRC001/SRC003의 본문 미확인을 이유로 검사 대상에서 제외하고 신규 작성을 선택한다. unknown은 미충족이 아니며 재사용 비용/적합성 비교가 실제 검사 없이 끝난다."
+        }
+      ],
+      "mandatory_regressions": {
+        "known_false_auto_registration_not_promoted": true,
+        "no_invented_alternative_route": false,
+        "unknown_body_not_treated_as_failed": false,
+        "public_placeholders_resolved_removed_else_hold_policy": true,
+        "URL_AND_owned_source_ID_AND_publication_time": true,
+        "primary_three_pairs_and_missing_not_zero": true
+      },
+      "review_method": "Read raw compact response plus compiled plan and execution_contracts; compiler policy text does not erase contradictory model prose."
+    },
+    {
+      "case": "security",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-compact-mini-low/security.json",
+      "artifact_sha256": "3780e485de92203cd245d4d20be2888dfa947fb1289bea6a3d717efda852da9b",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/10f89fefa3c6419a9aeb394c3b42df0d.json",
+      "raw_result_sha256": "e662ca39b98cae609f469558f5b4e84e9bf860d5abac23fddde4f22bfea1532a",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.026328,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 10,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q026의 언급/추천 0/3과 인용 1/3에 맞는 보안 비교 문제를 선택한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "신규·검증·관찰을 비교하지만 실제 재사용 검사 후보가 있는데 신규 결정을 우선 확정한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "편집 가능한 표와 검증 항목은 있으나 자산 선정의 선행 조건과 최종 선택이 충돌한다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 1,
+          "reason": "기능 placeholder와 최종 게시 정책은 안전하지만 create와 전체 검사 후 선택 규칙이 충돌한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 3페어·보조 인용 3/12페어·D7/14·결측·보조만 개선 성공 금지 모두 유지된다."
+        }
+      },
+      "total": 7,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "findings": [
+        {
+          "id": "security-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.selected_candidate_id",
+            "raw.action_selection.selection_reason",
+            "raw.action.asset.assessments[0]",
+            "plan.actions[0].action_type",
+            "plan.actions[0].target_asset.mode",
+            "plan.actions[0].target_asset.selection_rule"
+          ],
+          "evidence_quote": "새 한국어 비교 초안은 바로 활용 가능한 산출물을 제공하면서도 미확인 항목을 자리표시자로 관리할 수 있어, 지금 시점의 균형이 가장 좋다.",
+          "impact": "create_new/create를 선정하면서 SRC021은 inspect_for_reuse이며 본문 미검사다. compiler는 전체 후보 ALL 기준 검사 완료 후 전체 실패일 때만 신규를 허용하므로 상단 선정 근거와 실행 규칙이 서로 다른 결정을 안내한다."
+        },
+        {
+          "id": "security-02",
+          "priority": "P3",
+          "paths": [
+            "raw.action.asset.assessments[3].rationale"
+          ],
+          "evidence_quote": "보안·권한 비교의 मुख्य 자료",
+          "impact": "한국어 문장에 무관한 언어가 혼입되어 편집이 필요하다."
+        }
+      ],
+      "mandatory_regressions": {
+        "all_owned_assets_assessed": true,
+        "ALL_criteria_and_whole_inventory_policy": true,
+        "no_creation_selected_before_inspection_complete": false,
+        "no_failed_candidate_revision": true,
+        "no_fabricated_security_capability": true,
+        "Q026_0of3_0of3_1of3_and_topic_citation6of12": true,
+        "primary_mentions_recommendations_and_secondary_citations": true,
+        "publication_AND_registration_gate": true
+      },
+      "review_method": "Read raw compact response plus compiled plan and execution_contracts; compiler policy text does not erase contradictory model prose."
+    },
+    {
+      "case": "confirmed",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-compact-mini-low/confirmed.json",
+      "artifact_sha256": "07dced1483a851b29da10d174bbb80d2b0a75387dadedb72fa1eb72412fe68ed",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/701cda541eb247b2a576f9e0d21ef3c9.json",
+      "raw_result_sha256": "cee0fb4eb16ac5b08ca3e3d34973a73b4124675724b29de943a4c38b63271a2b",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.030651,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068 문제와 실제 제공된 검증 경로/수령증을 연결한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "재사용·신규·검증의 비용과 불확실성을 비교해 내부 검증을 선정한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "6단계 및 기록 산출물이 있으나 필수 필드가 unknown인데 이메일 누락을 필수값 테스트로 특정한다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 1,
+          "reason": "확인된 경로와 unknown 분리는 대체로 적절하나 공개 전 placeholder 유지 허용 문장이 회귀한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "내부 검증 완료 기준을 사용하고 게시/노출 측정은 적용하지 않는다."
+        }
+      },
+      "total": 8,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "findings": [
+        {
+          "id": "confirmed-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action.integration_procedure.release_checks[3]",
+            "plan.actions[0].integration_procedure.release_checks[3]"
+          ],
+          "evidence_quote": "대외 공개 전에 모든 미확인 항목을 제거하거나 자리표시자로 유지했는가",
+          "impact": "현재 액션은 내부 작업이지만 명시된 향후 공개 체크가 unresolved placeholder를 허용한다. 공개 전 확정/삭제, 해결 불가 시 보류라는 고정 기준과 충돌한다."
+        },
+        {
+          "id": "confirmed-02",
+          "priority": "P3",
+          "paths": [
+            "raw.action.integration_procedure.steps[4]",
+            "plan.actions[0].integration_procedure.steps[4]"
+          ],
+          "evidence_quote": "이름과 문의 내용만 있고 이메일이 없는 제출",
+          "impact": "필수 필드 규칙은 prerequisites_unknown인데 이메일을 필수값 테스트의 고정 예시로 사용한다. 운영자가 확인한 필수 필드를 먼저 선택한다는 단계가 필요하다."
+        }
+      ],
+      "mandatory_regressions": {
+        "exact_verified_route_and_receipt": true,
+        "all_six_integration_phases": true,
+        "no_fabricated_native_support": true,
+        "required_field_example_operator_confirmed": false,
+        "no_public_unresolved_placeholders": false,
+        "operational_measurement_not_applicable": true
+      },
+      "review_method": "Read raw compact response plus compiled plan and execution_contracts; compiler policy text does not erase contradictory model prose."
+    }
+  ],
+  "summary": {
+    "quality_passed": 0,
+    "reviewed": 4,
+    "adoptable": false,
+    "total_actual_generation_cost_usd": 0.10767075000000001,
+    "reviewer_paid_calls": 0,
+    "reason": "All four schema-valid one-call outputs contain P2 semantic regressions; lower cost does not preserve baseline quality."
+  },
+  "limitations": [
+    "One generation per independent case; no statistical reliability claim.",
+    "Provided assignment data is synthetic; unsupported and confirmed use synthetic product fact contexts.",
+    "No source body inspection, publication, real integration execution or business-outcome verification performed.",
+    "Only this audit was written; generation outputs/source files unchanged.",
+    "Assignment fixed S/M/L unit cost is distinct from actual provider token cost."
+  ]
+}

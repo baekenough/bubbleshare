@@ -1,0 +1,411 @@
+{
+  "status": "complete",
+  "reviewer": "Independent Codex subagent /root/ci_palette_review; model-based artifact review, not external human validation",
+  "reviewed_at": "2026-10-15T07:13:17.995024+00:00",
+  "rubric": {
+    "source": "docs/cost-quality-review.md",
+    "source_sha256": "44e6af8e2c3015a33c477715a6a0fdd52fa58185a0e3043395010732ab1796cb",
+    "fixed_before_outputs": true,
+    "axes": [
+      "evidence_problem_fit",
+      "same_problem_candidate_selection",
+      "execution_feasibility",
+      "fact_asset_publication_consistency",
+      "measurement"
+    ],
+    "score_range": [
+      0,
+      2
+    ],
+    "pass_threshold": 8,
+    "minimum_each_axis": 1,
+    "no_P1_or_P2": true,
+    "all_mandatory_regressions": true,
+    "fallback_is_success": false,
+    "optimization_requires_each_case_at_least_baseline": {
+      "lead": 9,
+      "unsupported": 9,
+      "security": 10,
+      "confirmed": 9
+    }
+  },
+  "cases": [
+    {
+      "case": "lead",
+      "artifact": "output/cost-table-mini-medium/lead.json",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-mini-medium/lead.json",
+      "artifact_sha256": "fccd07d22d52dcd85cb3289438a41ae789a94773b5592fcb56352cc539ddec80",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/d4e780dbe8f948ab8c8628951a7025b1.json",
+      "raw_trace_sha256": "9aabc328760904945aba6f8930c827347c5c2c2fa07235a715f59725c51af9bf",
+      "raw_result_sha256": "808e5b342b2fa3c46ce29f24aa825055d67f6f5d3829c1da0c8cb0ce1441da1e",
+      "generation_invocation_id": "d4e780dbe8f948ab8c8628951a7025b1",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.04638225,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_artifact": "output/product-v2-final/lead.json",
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 1,
+          "reason": "Q068 언급·추천 0/3을 짚지만 타깃 브랜드와 검증된 경로가 없는 일반 답변이 노출 공백을 메울 근거는 약하다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "동일 질문의 세 개입을 비교하지만 본문 미확인을 재사용 불가로 취급해 신규가 더 안전하다는 순위를 만든다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "가상 입력과 세 테스트 행은 있으나 약속한 매핑표가 없고 미확인 필드·정책을 고정한 기대값이 남는다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 0,
+          "reason": "검사할 주편집 후보를 제거하고 이메일 필수·리드 상태·미지원 시 수동 대체를 검증 없이 정한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "컴파일된 계약은 Q068 3페어 언급·추천을 주요 지표로 고정하고 D7/D14, 결측 보류, 인용 단독 성공 금지를 유지한다."
+        }
+      },
+      "total": 5,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "passed": false,
+      "findings": [
+        {
+          "id": "lead-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.candidates[0].decision_reason",
+            "raw.action.asset.assessments[SRC003]",
+            "plan.actions[0].target_asset"
+          ],
+          "evidence_quote": "본문 미확인이라 메인 편집 후보로 둘 수 없음.",
+          "impact": "본문 미확인은 검사 전 상태이지 재사용 부적합 판정이 아니다. 메타데이터상 관련된 후보를 전부 보조로 빼고 mandatory_reuse_criteria=[]로 신규를 선택하여, 전체 후보를 ALL 기준으로 검사한 뒤 모두 실패해야 신규를 만드는 기준을 우회한다."
+        },
+        {
+          "id": "lead-02",
+          "priority": "P2",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "plan.actions[0].deliverables[0].example_content"
+          ],
+          "evidence_quote": "필수값 누락 | 이메일 비움 | 생성 차단 또는 오류 표시",
+          "impact": "필수 필드와 누락 처리 정책은 미확인이다. 본문은 소스=웹사이트 문의·상태=신규와 CRM 리드 1건 생성도 예시 결과로 고정한다. 실제 운영자 확인 전에는 성공/실패 기대값을 이렇게 지정할 수 없다."
+        },
+        {
+          "id": "lead-03",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.reversal_conditions[2]",
+            "plan.action_selection.reversal_conditions[2]"
+          ],
+          "evidence_quote": "제품이 이 흐름을 지원하지 않는 것으로 확인되면 제품 관련 문장은 모두 제거하고 일반적인 수동 프로세스만 남긴다.",
+          "impact": "수동 등록 경로도 확인된 제품 사실이 아니다. 미지원일 때 정직한 미지원 고지/추가 확인으로 전환해야 하며, 검증되지 않은 다른 경로를 남기는 것이 해결책이라는 근거는 없다."
+        },
+        {
+          "id": "lead-04",
+          "priority": "P3",
+          "paths": [
+            "raw.action.deliverable.outline[1]",
+            "raw.action.content_steps[1]",
+            "raw.action.deliverable.example_content"
+          ],
+          "evidence_quote": "문의 폼 항목 ↔ CRM 리드 필드 매핑표",
+          "impact": "약속한 매핑표는 예시 산출물에 없고 필드 대응은 문장으로만 제공된다. 실제 필드 ID를 채울 재사용 가능한 매핑표가 필요하다."
+        }
+      ],
+      "mandatory_regressions": {
+        "same_question_three_interventions": true,
+        "supporting_SRC021_not_edit_or_final_target": true,
+        "unknown_capability_and_manual_route_not_invented": false,
+        "operator_confirmed_required_fields_and_policies": false,
+        "body_unknown_not_used_to_bypass_all_reuse_inspections": false,
+        "publication_url_AND_owned_id_AND_time": true,
+        "primary_3_pairs_missingness_and_day7_day14": true,
+        "citation_only_improvement_not_success": true
+      },
+      "review_method": "Read original compact response, compiled plan and measurement/execution contracts. Verify that model content remains in the compiled artifact; compiler gate prose does not erase contradictory content.",
+      "raw_content_equals_compiled": true
+    },
+    {
+      "case": "unsupported",
+      "artifact": "output/cost-table-mini-medium/unsupported.json",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-mini-medium/unsupported.json",
+      "artifact_sha256": "916ac9dc9e10d40670ff8fe17c774f48dac01a1039477137709631e931d89bb1",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/4b5848f9f3184ffab4888008880224b7.json",
+      "raw_trace_sha256": "96970ad3039964ae6cce2e7c9c4de356abace3c3f53636de7fd1e7f10f1e4820",
+      "raw_result_sha256": "d8c868d56679dbdf46f5d3c414a0f45fcf147ca50247bfc4f9d7d95b20b5f709",
+      "generation_invocation_id": "4b5848f9f3184ffab4888008880224b7",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.0440265,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_artifact": "output/product-v2-final/unsupported.json",
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 0/3 공백과 공식 평가 fixture의 자동 등록 미지원 사실을 직접 연결한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "신규·검증·제품 변경을 비교하지만 즉시 답변이라는 목표를 앞세워 미지원 사실 확인과 미확인 외부 경로 검증을 섞는다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "구체적인 지원 답변과 담당 역할은 있으나 실제로 확인되지 않은 수동 등록·배정을 즉시 쓸 운영 절차로 제공한다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 0,
+          "reason": "미지원은 처음에는 명시하지만 미확인 수동 대체를 사실처럼 쓰고, 이미 false인 자동등록을 확인 질문으로 다시 남긴다. 자산 검사도 우회한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "컴파일된 게시 게이트와 Q068 3페어 D7/D14·결측·주요 지표 규칙은 유지한다."
+        }
+      },
+      "total": 6,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "passed": false,
+      "findings": [
+        {
+          "id": "unsupported-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "raw.action.content_steps[1]",
+            "plan.actions[0].deliverables[0].example_content"
+          ],
+          "evidence_quote": "대신 아래처럼 운영할 수 있습니다. ... CRM 등록: 담당자가 수동으로 리드를 생성하거나",
+          "impact": "확인된 사실은 자동 등록 미지원뿐이다. 수동 CRM 생성·상태/담당자 배정 경로는 검증되지 않았는데 즉시 가능한 대안으로 안내한다. 뒤의 일반 게시 확인표는 이 단정 문장을 제거하지 않는다."
+        },
+        {
+          "id": "unsupported-02",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.candidates[1].effect_hypothesis",
+            "raw.action.deliverable.example_content"
+          ],
+          "evidence_quote": "[제품 확인 후 입력] CRM에 웹 폼 자동 등록용 공식 기능이 있는가",
+          "impact": "이미 미지원으로 확인된 동일 기능을 미확인 질문으로 되돌린다. 알려진 false 사실과 검증되지 않은 외부 연동 가능성은 분리해야 한다."
+        },
+        {
+          "id": "unsupported-03",
+          "priority": "P2",
+          "paths": [
+            "raw.action.asset.assessments",
+            "plan.actions[0].target_asset"
+          ],
+          "evidence_quote": "본문은 보이지 않아 Q068의 직접 해법으로는 확인 불가하다. 일반 제품 맥락을 보조하는 용도만 가능하다.",
+          "impact": "본문 미확인만으로 관련 소스를 보조 처리하고 후보·필수 기준을 비운다. 기존 제품/가이드에 정확한 미지원 고지를 반영할 수 있는지 운영자가 검사할 분기가 사라져 신규 작성 근거가 충분하지 않다."
+        }
+      ],
+      "mandatory_regressions": {
+        "same_question_three_interventions": true,
+        "known_unsupported_fact_retained_without_recasting_unknown": false,
+        "unverified_manual_or_external_route_not_invented": false,
+        "body_unknown_not_used_to_bypass_all_reuse_inspections": false,
+        "claims_resolved_or_removed_and_hold_if_essential": true,
+        "publication_url_AND_owned_id_AND_time": true,
+        "primary_3_pairs_missingness_and_day7_day14": true,
+        "citation_only_improvement_not_success": true
+      },
+      "review_method": "Read original compact response, compiled plan and measurement/execution contracts. Verify that model content remains in the compiled artifact; compiler gate prose does not erase contradictory content.",
+      "raw_content_equals_compiled": true
+    },
+    {
+      "case": "security",
+      "artifact": "output/cost-table-mini-medium/security.json",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-mini-medium/security.json",
+      "artifact_sha256": "7fedeef3dcbb9ca12e51c91859ea8bcc21d8fe13bef19e0787821cd0553dd066",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/b528dc34abf4480494b6a1b6fa866b0c.json",
+      "raw_trace_sha256": "78364769547dfbf4e0617a885a897525eaa0a3f29ccfc350beead39765f79791",
+      "raw_result_sha256": "8a83839ef02f27c441f40c154f2b123c180be7dc7c32253f2a6e77c8fda13125",
+      "generation_invocation_id": "b528dc34abf4480494b6a1b6fa866b0c",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.0557565,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_artifact": "output/product-v2-final/security.json",
+      "baseline_score": 10,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 1,
+          "reason": "Q026 추천 0/3은 정확하지만 기존 자사 정책 인용 1/3이라는 핵심 단서를 판단에 활용하지 않아 왜 신규가 필요한지 근거가 약해졌다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "재사용·신규·검증 세 후보는 있으나 본문 미확인을 재사용 차단으로 간주해 신규 우선 판단을 만든다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "보안 비교표와 확인 항목은 usable 내부 초안이지만 관련 자산 본문 검사를 건너뛰는 실행 순서여서 기준선의 검증 가능한 첫 작업이 사라졌다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 1,
+          "reason": "미확인 보안 기능은 placeholder로 보존하고 게시 게이트도 유지한다. 다만 직접 관련된 보안 정책까지 보조로만 처리해 ALL 재사용 분기를 우회한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 Q026 언급·추천 3페어, 보조 인용 단독 성공 금지, D7/D14와 결측 규칙을 유지한다. 토픽 12분모를 질문 3분모로 오인하지 않는다."
+        }
+      },
+      "total": 6,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "passed": false,
+      "findings": [
+        {
+          "id": "security-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action_selection.candidates[0].decision_reason",
+            "raw.action_selection.selection_reason",
+            "raw.action.asset.assessments[SRC021]",
+            "plan.actions[0].target_asset"
+          ],
+          "evidence_quote": "직접 재사용이 가장 이상적이지만 현재는 본문 접근이 없어 막혀 있다. 그래서 지금은 선택하지 않는다.",
+          "impact": "운영자가 수행할 본문 검사를 대신 완료한 것으로 볼 수 없다. SRC021은 Q026과 직접 관련되고 현재 인용된 보안 자료인데도 main 후보에서 제외하고 모든 필수 기준을 비워 신규로 간다. 기준선의 전체 후보×전체 기준 검사 및 모두 실패 후 신규 조건을 보존하지 못했다."
+        },
+        {
+          "id": "security-02",
+          "priority": "P3",
+          "paths": [
+            "raw.action_selection.selection_reason",
+            "raw.action_selection.candidates[1].effect_hypothesis"
+          ],
+          "evidence_quote": "본문 미확인 때문에 재사용형은 막혀 있고",
+          "impact": "새 문서도 검증된 제품 사실·승인이 필요하다. 재사용의 의존성만 차단 요인으로 잡고 신규의 같은 의존성을 placeholder로 해결된 듯 비교하여 실행 가능성 판단이 비대칭이다."
+        }
+      ],
+      "mandatory_regressions": {
+        "same_question_three_interventions": true,
+        "all_possible_main_candidates_considered_for_inspection": false,
+        "all_candidates_all_criteria_before_selection": false,
+        "all_fail_only_then_create": false,
+        "unknown_security_facts_not_asserted": true,
+        "Q026_primary_3_and_topic_12_not_conflated": true,
+        "citation_only_improvement_not_success": true,
+        "exact_url_AND_owned_source_id_AND_publication_time": true
+      },
+      "review_method": "Read original compact response, compiled plan and measurement/execution contracts. Verify that model content remains in the compiled artifact; compiler gate prose does not erase contradictory content.",
+      "raw_content_equals_compiled": true
+    },
+    {
+      "case": "confirmed",
+      "artifact": "output/cost-table-mini-medium/confirmed.json",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-mini-medium/confirmed.json",
+      "artifact_sha256": "1471f8870fbbb119963b5d897802f48252b99e514f797d28447c2f8b384f53b0",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/da953691ef7a4b37a06665cee3cf13c8.json",
+      "raw_trace_sha256": "848c3f6eb1881ef59e2b23d54601223982499f89116c3e14ab96b898814ae6d6",
+      "raw_result_sha256": "d82edeb314bd88262617ecfb657d55adca55dc85bd8be98f99f43bcb1c300fc6",
+      "generation_invocation_id": "da953691ef7a4b37a06665cee3cf13c8",
+      "model": "openai/gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.0551175,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_artifact": "output/product-v2-final/confirmed.json",
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 0/3 관측과 확인된 평가용 경로 A/receipt를 연결하여 운영 검증을 선택한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 1,
+          "reason": "세 개입의 위험·노력을 비교하지만 재사용은 본문 미확인으로 blocked, 동일하게 선행 정보가 미확정인 검증은 바로 실행 가능으로 묘사한다. 컴파일러가 feasibility를 보수 교정해도 선정 이유는 남는다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "경로 A를 이용하는 입력·매핑·정상·중복·누락·대조의 6단계와 기록표가 있다. 그러나 누락 테스트가 실제 확인된 필수 필드를 선택하지 않고 이메일로 고정되어 실행 검증에 구멍이 있다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 1,
+          "reason": "확인된 경로/receipt만 사용하며 공개 액션을 강제하지 않는다. 반면 미확인 이메일 필수성을 표와 상세 절차 양쪽에서 암묵적으로 가정한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "operational 작업으로 표시하고 게시/노출 수집을 시작하지 않으며 완료 기준·검증 기록으로만 내부 작업을 평가한다."
+        }
+      },
+      "total": 7,
+      "base_rubric_pass": false,
+      "baseline_maintained": false,
+      "adoptable": false,
+      "passed": false,
+      "findings": [
+        {
+          "id": "confirmed-01",
+          "priority": "P2",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "raw.action.integration_procedure.steps[phase=missing_required_field].input_example",
+            "plan.actions[0].integration_procedure.steps[phase=missing_required_field].input_example"
+          ],
+          "evidence_quote": "이메일을 비워 두고 제출",
+          "impact": "실제 필수 필드 정책은 prerequisites_unknown인데 표와 상세 단계 모두 이메일 누락을 필수값 누락으로 고정한다. 이메일이 선택 필드라면 필수값 누락 검증을 하지 않고도 6단계가 완료된다. 기준선의 P3 사례는 상세 절차에서 운영자가 확인한 필수값을 선택하도록 제한했으나, 이번은 상세 절차에도 그 선택 조건이 없다."
+        },
+        {
+          "id": "confirmed-02",
+          "priority": "P3",
+          "paths": [
+            "raw.action_selection.candidates[0].feasibility",
+            "raw.action_selection.selection_reason",
+            "plan.action_selection.selection_reason"
+          ],
+          "evidence_quote": "가장 안전하고 바로 실행 가능한 선택이다.",
+          "impact": "접근 권한·실제 필드·중복/필수 정책이 미확정이다. 컴파일러는 needs_verification/needs_input으로 보정하지만 서술은 즉시 실행 가능으로 남는다. 첫 단계에서 확인할 입력과 승인 조건을 함께 표현해야 한다."
+        }
+      ],
+      "mandatory_regressions": {
+        "same_question_three_interventions": true,
+        "verified_route_and_receipt_only": true,
+        "six_integration_phases": true,
+        "required_field_test_uses_operator_confirmed_required_field": false,
+        "duplicate_policy_and_identity_reconciliation": true,
+        "no_native_or_additional_unverified_route_claim": true,
+        "operational_work_does_not_start_publication_measurement": true
+      },
+      "review_method": "Read original compact response, compiled plan and measurement/execution contracts. Verify that model content remains in the compiled artifact; compiler gate prose does not erase contradictory content.",
+      "raw_content_equals_compiled": true
+    }
+  ],
+  "summary": {
+    "schema_propose_count": 4,
+    "base_rubric_pass_count": 0,
+    "baseline_maintained_count": 0,
+    "adoptable_count": 0,
+    "case_count": 4,
+    "setting_adoptable": false,
+    "scores": {
+      "lead": 5,
+      "unsupported": 6,
+      "security": 6,
+      "confirmed": 7
+    },
+    "conclusion": "mini-medium 유지 실패. 구조 검사는 4/4 통과했지만 lead/unsupported/security의 자산 검토 우회와 lead/unsupported의 미확인 경로·정책, confirmed의 필수필드 테스트 가정 때문에 0/4가 기존 품질 기준을 유지했다."
+  },
+  "limitations": [
+    "제공된 합성 분석 데이터와 평가용 제품 사실 fixture의 실제 생성 결과에 대한 독립 모델 검토다. 외부 사람의 채택이나 실제 사업 효과를 검증하지 않았다.",
+    "본문 열람, CRM 테스트, 게시, D7/D14 수집은 실행하지 않았다.",
+    "다른 모델/더 큰 반복 표본의 품질을 일반화하지 않는다.",
+    "추가 유료 모델·critic 호출, production 코드 변경, 결과 수정 또는 커밋을 하지 않았다."
+  ]
+}

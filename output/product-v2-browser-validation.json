@@ -1,0 +1,15 @@
+{
+  "url": "http://localhost:8000/",
+  "policy_version": "product-one-call.v2.3",
+  "topic": "security",
+  "observed_result": "cache_hit",
+  "checks": [
+    "actual cached proposal rendered",
+    "same-question Q026 three candidates",
+    "selection and rejection reasons visible",
+    "reversal conditions visible",
+    "human review before save maintained"
+  ],
+  "saved_new_action": false,
+  "screenshot": "output/product-v2-candidate-comparison.png"
+}

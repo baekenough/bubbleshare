@@ -1,0 +1,317 @@
+{
+  "reviewer": "independent Codex subagent /root/selection_ui; not an external human or paid model reviewer",
+  "rubric": {
+    "fixed_before_outputs": true,
+    "axes": [
+      "evidence_problem_fit",
+      "same_problem_candidate_selection",
+      "execution_feasibility",
+      "fact_asset_publication_consistency",
+      "measurement"
+    ],
+    "score_range": [
+      0,
+      2
+    ],
+    "pass_threshold": 8,
+    "minimum_each_axis": 1,
+    "no_P1_or_P2": true,
+    "all_mandatory_regressions": true,
+    "fallback_is_success": false,
+    "optimization_requires_each_case_at_least_baseline": {
+      "lead": 9,
+      "unsupported": 9,
+      "security": 10,
+      "confirmed": 9
+    }
+  },
+  "limitations": [
+    "One generation per independent case; no statistical reliability claim.",
+    "Provided assignment data is synthetic; unsupported and confirmed use synthetic product fact contexts.",
+    "No source body inspection, publication, real integration execution or business-outcome verification performed.",
+    "Only this audit was written; generation outputs/source files unchanged.",
+    "Assignment fixed S/M/L unit cost is distinct from actual provider token cost.",
+    "Passing this small fixed regression sample supports this profile for the evaluated task; it does not establish universal model quality or measured business improvement.",
+    "Three selected actions are internal verification and are not immediately publishable external content. No model repair/retry was used."
+  ],
+  "status": "complete",
+  "reviewed_at": "2026-10-15T07:11:14.174270+00:00",
+  "cases": [
+    {
+      "case": "lead",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-gpt54-low/lead.json",
+      "artifact_sha256": "ca9fc04448ab05e37fcfdd3a860a23f7e8fc51ded08a570875fe2de2ff2be68b",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/2fb924a21afb46ae96fc3ffaeef12dec.json",
+      "raw_result_sha256": "66b99c73d076b0ae4090abb914dfc486244a412f3aa2eb8f542d71917fb3f5ed",
+      "model": "openai/gpt-5.4",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.0984475,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068의 0/3 공백과 body_access=false, 제품 사실 unknown을 분리하고 확인 가능한 다음 행동을 고른다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "검증·재사용·신규의 전제/노력/위험을 비교한다. 신규는 전체 후보 검사 후 전체 실패와 정직한 설명 경로 확보 조건으로 보류한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "편집 가능한 검토표와 안전 초안, 담당자와 확인 항목은 있으나 예시 표가 SRC002를 생략하고 주 후보의 판정 항목이 통일되지 않았다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "SRC021은 보조로 한정한다. unknown 경로는 placeholder이며 미지원 시 임의 우회 경로를 만들지 않고 보류한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "내부 검증 완료 기준과 근거 기록으로 평가하며 게시/노출 측정은 적용하지 않는다. Q068 3페어는 맥락 기준선으로만 보존한다."
+        }
+      },
+      "total": 9,
+      "base_rubric_pass": true,
+      "baseline_maintained": true,
+      "adoptable": true,
+      "findings": [
+        {
+          "id": "lead-01",
+          "priority": "P3",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "raw.action.acceptance_criteria[0]"
+          ],
+          "evidence_quote": "SRC001, SRC002, SRC003, SRC004, SRC021, SRC022가 각각 한 번씩만 평가표에 포함된다.",
+          "impact": "asset.assessments에는 6개가 모두 있지만 예시 판정표는 제외 대상 SRC002를 생략한다. SRC001/SRC003의 확인 항목도 다른 문장이라 실제 운영자가 공통 기준을 통일해야 한다. 내부 검토 준비 산출물이며 최종 편집/신규 선택을 확정하지 않아 P2 자산 선택 회귀로 분류하지 않는다."
+        }
+      ],
+      "mandatory_regressions": {
+        "all_owned_assets_assessed_once": true,
+        "supporting_SRC021_not_edit_or_final_target": true,
+        "unknown_capability_or_route_not_invented": true,
+        "no_final_asset_selection_before_inspection": true,
+        "new_creation_only_after_whole_inventory_failure_in_candidate_prerequisites": true,
+        "concrete_internal_artifact": true,
+        "operational_publication_followup_not_applicable": true
+      },
+      "selected_intervention": "verify_workflow",
+      "execution_mode": "operational",
+      "measurement_status": "context_baseline_only",
+      "raw_compiled_consistency": {
+        "content_identical": true,
+        "integration_identical": true,
+        "selection_reason_identical": true
+      },
+      "review_method": "Raw response plus compiled plan and execution contracts, against unchanged frozen rubric and per-case baselines. Operational actions are evaluated for internal artifact completion, not publication or visibility gains."
+    },
+    {
+      "case": "unsupported",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-gpt54-low/unsupported.json",
+      "artifact_sha256": "838f29afb5f877bfffcec173e3bbe4935d8d94574869d5da808afb2f1cd3c6cf",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/6636b8dbf92441fcb6555853e2718d53.json",
+      "raw_result_sha256": "21e5603ec2509b472be5fca893398afdd890ae2b2a28e46bfb1390648839954c",
+      "model": "openai/gpt-5.4",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.095335,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068 0/3과 미지원 영수증을 그대로 연결해 허위 기능 위험을 해소하는 문제를 정의한다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "내부 사실기반 응답, 외부 신규 가이드, 관찰의 비용/준비도/리스크를 비교하고 사실 변경·자산 확인·공백 해소에 따른 전략 전환을 제시한다."
+        },
+        "execution_feasibility": {
+          "score": 2,
+          "reason": "확정 사실/금지표현/허용표현/미확인 항목/보류 조건이 담긴 실제 한국어 초안을 제공해 내부 작업으로 실행 가능하다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "known-false를 unknown으로 되돌리지 않는다. 수동 입력, API, 폼 연결 등은 확인 필요로만 남기고 어떤 대체 경로도 지원한다고 단정하지 않는다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "내부 검토 결과와 사실 검증으로 평가하며 게시·D7/D14 노출 개선으로 오인하지 않게 분리한다."
+        }
+      },
+      "total": 10,
+      "base_rubric_pass": true,
+      "baseline_maintained": true,
+      "adoptable": true,
+      "findings": [],
+      "mandatory_regressions": {
+        "known_false_not_downgraded_or_promoted": true,
+        "no_invented_manual_or_alternative_route": true,
+        "supporting_SRC021_not_edit_or_final_target": true,
+        "concrete_fact_and_forbidden_claim_artifact": true,
+        "essential_unknowns_hold_external_publication": true,
+        "operational_publication_followup_not_applicable": true
+      },
+      "selected_intervention": "verify_workflow",
+      "execution_mode": "operational",
+      "measurement_status": "context_baseline_only",
+      "raw_compiled_consistency": {
+        "content_identical": true,
+        "integration_identical": true,
+        "selection_reason_identical": true
+      },
+      "review_method": "Raw response plus compiled plan and execution contracts, against unchanged frozen rubric and per-case baselines. Operational actions are evaluated for internal artifact completion, not publication or visibility gains."
+    },
+    {
+      "case": "security",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-gpt54-low/security.json",
+      "artifact_sha256": "cbaccfe749a9f1b6517b17f1f77f658e67b501c85696ff68eccb2e9f68f54bf4",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/e59bcde00ad1494999a51a569652b766.json",
+      "raw_result_sha256": "d653d31c3aa42054aaff437f17de7af41407c71e0c2d8f2c383b8fcaed6858c0",
+      "model": "openai/gpt-5.4",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.093605,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 10,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q026 언급0/3·추천0/3·인용1/3과 자사 인용만 발생하는 현상을 구분한다. 본문과 원인을 확정하지 않는다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "재사용 medium·신규 large·관찰 small의 비용과 불확실성을 비교해 재사용 검사 우선을 선정한다. 신규는 전체 검사 후 전부 탈락인 경우로 명확히 보류한다."
+        },
+        "execution_feasibility": {
+          "score": 2,
+          "reason": "담당자, 후보별 필수 기준, 평가표와 답변 블록이 구체적이며 최종 자산 선택과 사실 확인이 선행된다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "후보 SRC001/SRC021에 같은 5개 필수 기준을 전부 적용한다. 실패 후보를 개정하지 않고 전체 검사 후 1건을 선정한다. 기능 단정 없이 최종 공개 전 placeholder 확정/삭제 또는 보류를 지킨다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "주요 Q026 3페어와 보조 인용1/3·인용만 존재6/12를 분리한다. D7/D14 12페어, 결측≠0, 보조만 개선 성공 금지, 정확 URL AND 자사 sourceID AND 게시일시를 유지한다."
+        }
+      },
+      "total": 10,
+      "base_rubric_pass": true,
+      "baseline_maintained": true,
+      "adoptable": true,
+      "findings": [],
+      "mandatory_regressions": {
+        "all_owned_assets_assessed_once": true,
+        "same_ALL_criteria_for_all_candidates": true,
+        "all_candidates_inspected_before_selection": true,
+        "failed_candidate_never_revised": true,
+        "new_only_after_all_inspected_none_pass_all": true,
+        "metadata_only_asset_rationale": true,
+        "no_fabricated_security_capability": true,
+        "Q026_mentions0of3_recommendations0of3_citation1of3": true,
+        "topic_cited_without_mention6of12_separate": true,
+        "primary_mentions_recommendations_and_citation_secondary": true,
+        "D7_D14_missing_not_zero_secondary_only_not_success": true,
+        "public_placeholder_resolution_and_URL_AND_sourceID_AND_pubtime": true
+      },
+      "selected_intervention": "reuse_before_create",
+      "execution_mode": "verify_then_choose",
+      "measurement_status": "publication_followup",
+      "raw_compiled_consistency": {
+        "content_identical": true,
+        "integration_identical": true,
+        "selection_reason_identical": true
+      },
+      "review_method": "Raw response plus compiled plan and execution contracts, against unchanged frozen rubric and per-case baselines. Operational actions are evaluated for internal artifact completion, not publication or visibility gains."
+    },
+    {
+      "case": "confirmed",
+      "artifact_path": "/Users/sangyi/workspace/private/bubbleshare/output/cost-table-gpt54-low/confirmed.json",
+      "artifact_sha256": "8a04fad4cdb2da0a6f48d88e15fb97a735aa7e712a5a104779b1346f734ed096",
+      "raw_trace_path": "/Users/sangyi/workspace/private/bubbleshare/.vivi/traces/5c76ad5ebeb642f785796c54989a83d8.json",
+      "raw_result_sha256": "ea0e18e58a503962d99522f9844285b656533d6ca58d0fa68042664945b9f8e2",
+      "model": "openai/gpt-5.4",
+      "reasoning_effort": "low",
+      "actual_provider_calls": 1,
+      "actual_cost_usd": 0.12218,
+      "finish_reason": "stop",
+      "schema_result": "propose",
+      "schema_errors": [],
+      "baseline_score": 9,
+      "scores": {
+        "evidence_problem_fit": {
+          "score": 2,
+          "reason": "Q068 공백과 synthetic_eval_fixture의 부분 검증 범위를 구분하며 경로 A와 receipt만 확인 사실로 쓴다."
+        },
+        "same_problem_candidate_selection": {
+          "score": 2,
+          "reason": "재현 검증·기존 자산 편집·제품 변경을 비교한다. 노출 부재를 기능 결함으로 보지 않고 검증 권한/자산 확인/범위 변경 시 전략 전환을 명시한다."
+        },
+        "execution_feasibility": {
+          "score": 1,
+          "reason": "6단계 테스트 표·가상 입력·기대 관찰·증빙이 구체적이다. 표의 이메일 필수 예시는 실제 필수 필드 확인 후 바꿀 편집점이 남는다."
+        },
+        "fact_asset_publication_consistency": {
+          "score": 2,
+          "reason": "확인된 연동 경로만 사용하고 native 확대를 막는다. unknown 정책은 운영자 확인 대상으로 둔다. 현재 산출물은 내부용이며 대외 문구에는 확인된 범위만 남기도록 한다."
+        },
+        "measurement": {
+          "score": 2,
+          "reason": "내부 테스트 acceptance와 근거 기록만 평가한다. 기준선 인용을 노출 성공으로 쓰지 않고 게시 후 측정은 적용하지 않는다."
+        }
+      },
+      "total": 9,
+      "base_rubric_pass": true,
+      "baseline_maintained": true,
+      "adoptable": true,
+      "findings": [
+        {
+          "id": "confirmed-01",
+          "priority": "P3",
+          "paths": [
+            "raw.action.deliverable.example_content",
+            "raw.action.integration_procedure.steps[4]"
+          ],
+          "evidence_quote": "이메일 공란 등 필수값 누락 예시 / 이메일을 비워둔 가상 문의 또는 운영자가 지정한 필수값 누락 사례",
+          "impact": "이메일 필수 여부는 unknown이다. integration_procedure는 운영자 지정 사례를 허용하고 필수값 정책을 사전 확인 대상으로 명시하므로 P2 기능 단정은 아니지만, 표도 운영자가 확인한 필수 필드 1개를 누락한다고 통일해야 한다. 기존 baseline confirmed와 같은 실행가능성 편집 한계다."
+        }
+      ],
+      "mandatory_regressions": {
+        "exact_verified_route_and_receipt": true,
+        "all_six_integration_phases_and_artifacts": true,
+        "operator_confirmation_of_unknown_fields_permissions_policies": true,
+        "no_fabricated_native_capability": true,
+        "supporting_SRC021_not_edit_or_final_target": true,
+        "internal_draft_scope_and_verified_only_external_claims": true,
+        "operational_publication_followup_not_applicable": true
+      },
+      "selected_intervention": "verify_workflow",
+      "execution_mode": "operational",
+      "measurement_status": "context_baseline_only",
+      "raw_compiled_consistency": {
+        "content_identical": true,
+        "integration_identical": true,
+        "selection_reason_identical": true
+      },
+      "review_method": "Raw response plus compiled plan and execution contracts, against unchanged frozen rubric and per-case baselines. Operational actions are evaluated for internal artifact completion, not publication or visibility gains."
+    }
+  ],
+  "summary": {
+    "quality_passed": 4,
+    "baseline_maintained_and_passed": 4,
+    "reviewed": 4,
+    "adoptable": true,
+    "total_actual_generation_cost_usd": 0.4095675,
+    "reviewer_paid_calls": 0,
+    "P1_P2_count": 0,
+    "reason": "All four independent one-call outputs meet or exceed their frozen case baseline. Two P3 editing limitations remain; lead/unsupported/confirmed select internal verification, security selects reuse-before-create."
+  }
+}

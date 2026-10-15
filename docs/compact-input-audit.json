@@ -1,0 +1,193 @@
+{
+  "kind": "lossless_columnar_transport_offline_audit",
+  "recorded_at": "2026-10-15T07:04:53.256909+00:00",
+  "comparison": "Current production table transport versus exact mini-low generation input payloads. Same output schema and same full evidence values.",
+  "measurement": "Unicode characters, not tokens or measured dollar savings",
+  "model_calls_for_this_audit": 0,
+  "production_code_sha256": "18656c687d63146e344cdbfae943c542f9429850fdfb0a0cc2b3e06aab6d7409",
+  "additional_transport_instruction_characters": 518,
+  "cases": [
+    {
+      "case": "lead",
+      "source_invocation_id": "e88d4e1a33754524af749fb64f053725",
+      "prompt_chars_before": 48134,
+      "prompt_chars_after": 32797,
+      "schema_chars_unchanged": 15403,
+      "combined_chars_before": 63537,
+      "combined_chars_after": 48200,
+      "combined_char_reduction": 15337,
+      "combined_char_reduction_percent": 24.1387,
+      "exact_decoded_payload_equality": true,
+      "schema_unchanged": true,
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "sources": 45,
+        "metrics": 94,
+        "mentions": 38,
+        "citations": 40
+      },
+      "table_breakdown": {
+        "questions": {
+          "before_chars": 1089,
+          "after_row_chars": 429,
+          "header_chars": 133
+        },
+        "metrics": {
+          "before_chars": 8607,
+          "after_row_chars": 4565,
+          "header_chars": 56
+        },
+        "observations": {
+          "before_chars": 13986,
+          "after_row_chars": 7499,
+          "header_chars": 96
+        },
+        "sources": {
+          "before_chars": 8667,
+          "after_row_chars": 5202,
+          "header_chars": 78
+        }
+      }
+    },
+    {
+      "case": "unsupported",
+      "source_invocation_id": "55b616b8a2c24c46931c8110a47571d4",
+      "prompt_chars_before": 48419,
+      "prompt_chars_after": 33082,
+      "schema_chars_unchanged": 15440,
+      "combined_chars_before": 63859,
+      "combined_chars_after": 48522,
+      "combined_char_reduction": 15337,
+      "combined_char_reduction_percent": 24.017,
+      "exact_decoded_payload_equality": true,
+      "schema_unchanged": true,
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "sources": 45,
+        "metrics": 94,
+        "mentions": 38,
+        "citations": 40
+      },
+      "table_breakdown": {
+        "questions": {
+          "before_chars": 1089,
+          "after_row_chars": 429,
+          "header_chars": 133
+        },
+        "metrics": {
+          "before_chars": 8607,
+          "after_row_chars": 4565,
+          "header_chars": 56
+        },
+        "observations": {
+          "before_chars": 13986,
+          "after_row_chars": 7499,
+          "header_chars": 96
+        },
+        "sources": {
+          "before_chars": 8667,
+          "after_row_chars": 5202,
+          "header_chars": 78
+        }
+      }
+    },
+    {
+      "case": "confirmed",
+      "source_invocation_id": "701cda541eb247b2a576f9e0d21ef3c9",
+      "prompt_chars_before": 48572,
+      "prompt_chars_after": 33235,
+      "schema_chars_unchanged": 17119,
+      "combined_chars_before": 65691,
+      "combined_chars_after": 50354,
+      "combined_char_reduction": 15337,
+      "combined_char_reduction_percent": 23.3472,
+      "exact_decoded_payload_equality": true,
+      "schema_unchanged": true,
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "sources": 45,
+        "metrics": 94,
+        "mentions": 38,
+        "citations": 40
+      },
+      "table_breakdown": {
+        "questions": {
+          "before_chars": 1089,
+          "after_row_chars": 429,
+          "header_chars": 133
+        },
+        "metrics": {
+          "before_chars": 8607,
+          "after_row_chars": 4565,
+          "header_chars": 56
+        },
+        "observations": {
+          "before_chars": 13986,
+          "after_row_chars": 7499,
+          "header_chars": 96
+        },
+        "sources": {
+          "before_chars": 8667,
+          "after_row_chars": 5202,
+          "header_chars": 78
+        }
+      }
+    },
+    {
+      "case": "security",
+      "source_invocation_id": "10f89fefa3c6419a9aeb394c3b42df0d",
+      "prompt_chars_before": 40529,
+      "prompt_chars_after": 28706,
+      "schema_chars_unchanged": 14146,
+      "combined_chars_before": 54675,
+      "combined_chars_after": 42852,
+      "combined_char_reduction": 11823,
+      "combined_char_reduction_percent": 21.6241,
+      "exact_decoded_payload_equality": true,
+      "schema_unchanged": true,
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 12,
+        "sources": 37,
+        "metrics": 86,
+        "mentions": 22,
+        "citations": 28
+      },
+      "table_breakdown": {
+        "questions": {
+          "before_chars": 1128,
+          "after_row_chars": 468,
+          "header_chars": 133
+        },
+        "metrics": {
+          "before_chars": 7869,
+          "after_row_chars": 4171,
+          "header_chars": 56
+        },
+        "observations": {
+          "before_chars": 9269,
+          "after_row_chars": 4903,
+          "header_chars": 96
+        },
+        "sources": {
+          "before_chars": 7122,
+          "after_row_chars": 4273,
+          "header_chars": 78
+        }
+      }
+    }
+  ],
+  "combined_char_reduction_percent": 23.3426,
+  "strategy_guards": [
+    "All topic questions and observations retained",
+    "Full source inventory retained, including competitors and supporting references",
+    "No source text, IDs, facts, criteria or generation output fields changed",
+    "Uniform record tables only; heterogeneous records remain objects",
+    "Explicit null stays distinct from missing attribute",
+    "Exact same output schema and complete contextual enum choices",
+    "Decoded input payload equals the prior real generation payload for all four cases"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "independent_codex_read_only_review_not_human_or_effectiveness_evaluation",
+  "reviewed_cases": 4,
+  "cases_without_detected_p1_p2": 1,
+  "cases_needing_revision": 3,
+  "findings": {
+    "lead": [
+      "SRC021 is described as supplementary only yet appears in final asset/source-citation candidates. Separate supporting references from editable targets."
+    ],
+    "unsupported": [
+      "Publication instructions allow unresolved placeholders and URL OR source_id, conflicting with the canonical precollection URL AND owned source ID gate. Resolve/remove unknown sections or hold publication."
+    ],
+    "security": [
+      "Asset selection table instructs editing failed candidates and can skip checking remaining candidates, contrary to the main selection rule.",
+      "Summary says non-mentions 0/12; correct is mentions 0/12 or non-mentions 12/12."
+    ],
+    "confirmed": []
+  },
+  "interpretation": "All four pass deterministic schema/reference/measurement checks but those checks do not establish semantic quality. All are explicitly human-review drafts. No automatic semantic approval is claimed."
+}

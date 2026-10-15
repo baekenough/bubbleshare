@@ -1,0 +1,5744 @@
+{
+  "scope": {
+    "topic_id": "lead",
+    "snapshot_id": "SNAP-2",
+    "target_brand_id": "BR001"
+  },
+  "dataset_hash": "584ece16a2c95df93d875ac293655fe8d8bb22ab98cba784799356c4931f3034",
+  "business_context": {
+    "verified_product_facts": [],
+    "verified_product_facts_status": "unknown"
+  },
+  "context_hash": "456de3ffc596b8830121c7d0c9dc7235ee259f077e9e65e175a7c00b6659fb3c",
+  "questions": [
+    {
+      "question_id": "Q066",
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "query": "잠재고객 관리에 강한 CRM 추천해줘",
+      "search_intent": "commercial",
+      "importance_score": 98,
+      "estimated_monthly_interest": 1100,
+      "language": "ko",
+      "country": "KR"
+    },
+    {
+      "question_id": "Q067",
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "query": "리드 관리를 잘하는 CRM 추천해줘",
+      "search_intent": "commercial",
+      "importance_score": 95,
+      "estimated_monthly_interest": 1100,
+      "language": "ko",
+      "country": "KR"
+    },
+    {
+      "question_id": "Q068",
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "query": "웹사이트 문의를 CRM 리드로 자동 등록하는 방법은?",
+      "search_intent": "informational",
+      "importance_score": 83,
+      "estimated_monthly_interest": 1100,
+      "language": "ko",
+      "country": "KR"
+    },
+    {
+      "question_id": "Q069",
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "query": "리드를 영업 기회로 전환하는 비율을 높이려면 어떻게 해야 해?",
+      "search_intent": "informational",
+      "importance_score": 88,
+      "estimated_monthly_interest": 1100,
+      "language": "ko",
+      "country": "KR"
+    },
+    {
+      "question_id": "Q070",
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "query": "리드 관리 CRM을 무료로 써볼 수 있는 곳 알려줘",
+      "search_intent": "transactional",
+      "importance_score": 92,
+      "estimated_monthly_interest": 720,
+      "language": "ko",
+      "country": "KR"
+    }
+  ],
+  "metrics": {
+    "topic.target_mentions": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "topic.target_recommendations": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "topic.target_owned_citations": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401"
+      ]
+    },
+    "topic.target_cited_without_mention": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Responses citing a target-owned source without mentioning the target brand.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "channel.ChatGPT.target_mentions": {
+      "numerator": 2,
+      "denominator": 5,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0400",
+        "OBS0406",
+        "OBS0412",
+        "OBS0418"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0418"
+      ]
+    },
+    "channel.ChatGPT.target_recommendations": {
+      "numerator": 2,
+      "denominator": 5,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0400",
+        "OBS0406",
+        "OBS0412",
+        "OBS0418"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0418"
+      ]
+    },
+    "channel.ChatGPT.target_owned_citations": {
+      "numerator": 1,
+      "denominator": 5,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0400",
+        "OBS0406",
+        "OBS0412",
+        "OBS0418"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394"
+      ]
+    },
+    "channel.Gemini.target_mentions": {
+      "numerator": 3,
+      "denominator": 5,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0395",
+        "OBS0401",
+        "OBS0407",
+        "OBS0413",
+        "OBS0419"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401",
+        "OBS0413",
+        "OBS0419"
+      ]
+    },
+    "channel.Gemini.target_recommendations": {
+      "numerator": 3,
+      "denominator": 5,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0395",
+        "OBS0401",
+        "OBS0407",
+        "OBS0413",
+        "OBS0419"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401",
+        "OBS0413",
+        "OBS0419"
+      ]
+    },
+    "channel.Gemini.target_owned_citations": {
+      "numerator": 1,
+      "denominator": 5,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0395",
+        "OBS0401",
+        "OBS0407",
+        "OBS0413",
+        "OBS0419"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "channel.Perplexity.target_mentions": {
+      "numerator": 0,
+      "denominator": 5,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0396",
+        "OBS0402",
+        "OBS0408",
+        "OBS0414",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "channel.Perplexity.target_recommendations": {
+      "numerator": 0,
+      "denominator": 5,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0396",
+        "OBS0402",
+        "OBS0408",
+        "OBS0414",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "channel.Perplexity.target_owned_citations": {
+      "numerator": 0,
+      "denominator": 5,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0396",
+        "OBS0402",
+        "OBS0408",
+        "OBS0414",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "question.Q066.target_mentions": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394"
+      ]
+    },
+    "question.Q066.target_recommendations": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394"
+      ]
+    },
+    "question.Q066.target_owned_citations": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394"
+      ]
+    },
+    "question.Q067.target_mentions": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0400",
+        "OBS0401",
+        "OBS0402"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "question.Q067.target_recommendations": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0400",
+        "OBS0401",
+        "OBS0402"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "question.Q067.target_owned_citations": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0400",
+        "OBS0401",
+        "OBS0402"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "question.Q068.target_mentions": {
+      "numerator": 0,
+      "denominator": 3,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0406",
+        "OBS0407",
+        "OBS0408"
+      ],
+      "supporting_observation_ids": []
+    },
+    "question.Q068.target_recommendations": {
+      "numerator": 0,
+      "denominator": 3,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0406",
+        "OBS0407",
+        "OBS0408"
+      ],
+      "supporting_observation_ids": []
+    },
+    "question.Q068.target_owned_citations": {
+      "numerator": 0,
+      "denominator": 3,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0406",
+        "OBS0407",
+        "OBS0408"
+      ],
+      "supporting_observation_ids": []
+    },
+    "question.Q069.target_mentions": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0412",
+        "OBS0413",
+        "OBS0414"
+      ],
+      "supporting_observation_ids": [
+        "OBS0413"
+      ]
+    },
+    "question.Q069.target_recommendations": {
+      "numerator": 1,
+      "denominator": 3,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0412",
+        "OBS0413",
+        "OBS0414"
+      ],
+      "supporting_observation_ids": [
+        "OBS0413"
+      ]
+    },
+    "question.Q069.target_owned_citations": {
+      "numerator": 0,
+      "denominator": 3,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0412",
+        "OBS0413",
+        "OBS0414"
+      ],
+      "supporting_observation_ids": []
+    },
+    "question.Q070.target_mentions": {
+      "numerator": 2,
+      "denominator": 3,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "question.Q070.target_recommendations": {
+      "numerator": 2,
+      "denominator": 3,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "question.Q070.target_owned_citations": {
+      "numerator": 0,
+      "denominator": 3,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "brand.BR001.mentions": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Eligible responses mentioning OrbitCRM.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "brand.BR001.recommendations": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Eligible responses recommending OrbitCRM.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "brand.BR002.mentions": {
+      "numerator": 7,
+      "denominator": 15,
+      "description": "Eligible responses mentioning NovaDesk.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0402",
+        "OBS0407",
+        "OBS0408",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "brand.BR002.recommendations": {
+      "numerator": 6,
+      "denominator": 15,
+      "description": "Eligible responses recommending NovaDesk.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0402",
+        "OBS0407",
+        "OBS0408",
+        "OBS0414",
+        "OBS0419"
+      ]
+    },
+    "brand.BR003.mentions": {
+      "numerator": 10,
+      "denominator": 15,
+      "description": "Eligible responses mentioning LeadFlow.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0408",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ]
+    },
+    "brand.BR003.recommendations": {
+      "numerator": 10,
+      "denominator": 15,
+      "description": "Eligible responses recommending LeadFlow.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0408",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ]
+    },
+    "brand.BR004.mentions": {
+      "numerator": 8,
+      "denominator": 15,
+      "description": "Eligible responses mentioning ClientNest.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0406",
+        "OBS0407",
+        "OBS0412",
+        "OBS0420"
+      ]
+    },
+    "brand.BR004.recommendations": {
+      "numerator": 6,
+      "denominator": 15,
+      "description": "Eligible responses recommending ClientNest.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0395",
+        "OBS0401",
+        "OBS0406",
+        "OBS0407",
+        "OBS0412",
+        "OBS0420"
+      ]
+    },
+    "brand.BR005.mentions": {
+      "numerator": 8,
+      "denominator": 15,
+      "description": "Eligible responses mentioning PicoSales.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0413",
+        "OBS0414"
+      ]
+    },
+    "brand.BR005.recommendations": {
+      "numerator": 8,
+      "denominator": 15,
+      "description": "Eligible responses recommending PicoSales.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0413",
+        "OBS0414"
+      ]
+    },
+    "comparison.previous.target_mentions": {
+      "numerator": 8,
+      "denominator": 15,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0391",
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0398",
+        "OBS0399",
+        "OBS0403",
+        "OBS0404",
+        "OBS0405",
+        "OBS0409",
+        "OBS0410",
+        "OBS0411",
+        "OBS0415",
+        "OBS0416",
+        "OBS0417"
+      ],
+      "supporting_observation_ids": [
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0399",
+        "OBS0405",
+        "OBS0410",
+        "OBS0411",
+        "OBS0417"
+      ]
+    },
+    "comparison.previous.target_recommendations": {
+      "numerator": 7,
+      "denominator": 15,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0391",
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0398",
+        "OBS0399",
+        "OBS0403",
+        "OBS0404",
+        "OBS0405",
+        "OBS0409",
+        "OBS0410",
+        "OBS0411",
+        "OBS0415",
+        "OBS0416",
+        "OBS0417"
+      ],
+      "supporting_observation_ids": [
+        "OBS0392",
+        "OBS0393",
+        "OBS0399",
+        "OBS0405",
+        "OBS0410",
+        "OBS0411",
+        "OBS0417"
+      ]
+    },
+    "comparison.previous.target_owned_citations": {
+      "numerator": 7,
+      "denominator": 15,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0391",
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0398",
+        "OBS0399",
+        "OBS0403",
+        "OBS0404",
+        "OBS0405",
+        "OBS0409",
+        "OBS0410",
+        "OBS0411",
+        "OBS0415",
+        "OBS0416",
+        "OBS0417"
+      ],
+      "supporting_observation_ids": [
+        "OBS0392",
+        "OBS0393",
+        "OBS0399",
+        "OBS0405",
+        "OBS0410",
+        "OBS0411",
+        "OBS0417"
+      ]
+    },
+    "comparison.current.target_mentions": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "comparison.current.target_recommendations": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Responses recommending the target brand, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "comparison.current.target_owned_citations": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Responses citing a source explicitly owned by the target brand, divided by eligible responses; unresolved ownership is excluded.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401"
+      ]
+    },
+    "source.SRC001.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "source.SRC002.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC003.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC004.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC005.citation_responses": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "source.SRC006.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC007.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC008.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC009.citation_responses": {
+      "numerator": 3,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0395",
+        "OBS0413",
+        "OBS0420"
+      ]
+    },
+    "source.SRC010.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC011.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC012.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC013.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC014.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC015.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC016.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0406"
+      ]
+    },
+    "source.SRC017.citation_responses": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0402",
+        "OBS0414"
+      ]
+    },
+    "source.SRC018.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0402"
+      ]
+    },
+    "source.SRC019.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC020.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0414"
+      ]
+    },
+    "source.SRC021.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC022.citation_responses": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401"
+      ]
+    },
+    "source.SRC023.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC024.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC025.citation_responses": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0396",
+        "OBS0402",
+        "OBS0408",
+        "OBS0414",
+        "OBS0420"
+      ]
+    },
+    "source.SRC027.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "source.SRC028.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0413"
+      ]
+    },
+    "source.SRC029.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC032.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0395"
+      ]
+    },
+    "source.SRC033.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC034.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0401"
+      ]
+    },
+    "source.SRC035.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC036.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC037.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC038.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0419"
+      ]
+    },
+    "source.SRC039.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC040.citation_responses": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0402",
+        "OBS0407"
+      ]
+    },
+    "source.SRC041.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC042.citation_responses": {
+      "numerator": 2,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0396",
+        "OBS0408"
+      ]
+    },
+    "source.SRC043.citation_responses": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0406",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ]
+    },
+    "source.SRC044.citation_responses": {
+      "numerator": 6,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0395",
+        "OBS0396",
+        "OBS0406",
+        "OBS0407",
+        "OBS0413",
+        "OBS0414"
+      ]
+    },
+    "source.SRC045.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0408"
+      ]
+    },
+    "source.SRC047.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC048.citation_responses": {
+      "numerator": 0,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": []
+    },
+    "source.SRC049.citation_responses": {
+      "numerator": 1,
+      "denominator": 15,
+      "description": "Eligible current responses citing this source; metadata does not establish what its body says.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0414"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "observation_id": "OBS0394",
+      "question_id": "Q066",
+      "channel": "ChatGPT",
+      "collected_at": "2026-10-06T09:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) NovaDesk: 리드 자동 배정이 특히 좋은 평가를 받습니다. 2) LeadFlow: 리드 스코어링이 강점으로 꼽힙니다. 3) OrbitCRM: 웹 문의 자동 등록이 특히 좋은 평가를 받습니다. 4) PicoSales: 유입 경로 추적이 특히 좋은 평가를 받습니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 4,
+      "citation_count": 1,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00841",
+          "observation_id": "OBS0394",
+          "brand_id": "BR002",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        },
+        {
+          "mention_id": "M00842",
+          "observation_id": "OBS0394",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00843",
+          "observation_id": "OBS0394",
+          "brand_id": "BR001",
+          "mention_rank": 3,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        },
+        {
+          "mention_id": "M00844",
+          "observation_id": "OBS0394",
+          "brand_id": "BR005",
+          "mention_rank": 4,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00945",
+          "observation_id": "OBS0394",
+          "source_id": "SRC022",
+          "citation_rank": 1,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC022",
+            "domain": "orbitcrm.example",
+            "url": "https://orbitcrm.example/guides/lead-scoring",
+            "source_type": "guide",
+            "title": "OrbitCRM 리드 스코어링 가이드",
+            "is_brand_owned": true,
+            "brand_id": "BR001"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": true,
+        "mention_count": 4,
+        "citation_count": 1
+      }
+    },
+    {
+      "observation_id": "OBS0395",
+      "question_id": "Q066",
+      "channel": "Gemini",
+      "collected_at": "2026-10-06T10:30:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. ClientNest는 리드 스코어링을 갖추고 있어 검토할 만합니다. 또한 LeadFlow는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 다만 ClientNest는 일부 사용자는 초기 설정이 복잡하다고 평가합니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00845",
+          "observation_id": "OBS0395",
+          "brand_id": "BR004",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "negative"
+        },
+        {
+          "mention_id": "M00846",
+          "observation_id": "OBS0395",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00946",
+          "observation_id": "OBS0395",
+          "source_id": "SRC032",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC032",
+            "domain": "techguide.example",
+            "url": "https://techguide.example/crm/checklist",
+            "source_type": "editorial",
+            "title": "CRM 도입 체크리스트",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00947",
+          "observation_id": "OBS0395",
+          "source_id": "SRC044",
+          "citation_rank": 2,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00948",
+          "observation_id": "OBS0395",
+          "source_id": "SRC009",
+          "citation_rank": 3,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC009",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/features",
+            "source_type": "product",
+            "title": "LeadFlow 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 3
+      }
+    },
+    {
+      "observation_id": "OBS0396",
+      "question_id": "Q066",
+      "channel": "Perplexity",
+      "collected_at": "2026-10-06T14:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 여러 비교 자료에서는 PicoSales, LeadFlow가 자주 언급됩니다. PicoSales는 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[1]. LeadFlow는 유입 경로 추적 측면에서 좋은 평가를 받습니다[2]. 그 밖에 ClientNest도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 3,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00847",
+          "observation_id": "OBS0396",
+          "brand_id": "BR005",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00848",
+          "observation_id": "OBS0396",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00849",
+          "observation_id": "OBS0396",
+          "brand_id": "BR004",
+          "mention_rank": 3,
+          "mention_context": "listed",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00949",
+          "observation_id": "OBS0396",
+          "source_id": "SRC044",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00950",
+          "observation_id": "OBS0396",
+          "source_id": "SRC025",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC025",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/blog/lead-routing",
+            "source_type": "blog",
+            "title": "LeadFlow 리드 자동 배정 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C00951",
+          "observation_id": "OBS0396",
+          "source_id": "SRC042",
+          "citation_rank": 3,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC042",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/retention",
+            "source_type": "report",
+            "title": "고객 이탈 관리 트렌드",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 3,
+        "citation_count": 3
+      }
+    },
+    {
+      "observation_id": "OBS0400",
+      "question_id": "Q067",
+      "channel": "ChatGPT",
+      "collected_at": "2026-10-06T09:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) PicoSales: 웹 문의 자동 등록이 강점으로 꼽힙니다. 2) LeadFlow: 유입 경로 추적이 강점으로 꼽힙니다. 그 밖에 ClientNest도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 3,
+      "citation_count": 0,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00860",
+          "observation_id": "OBS0400",
+          "brand_id": "BR005",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00861",
+          "observation_id": "OBS0400",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00862",
+          "observation_id": "OBS0400",
+          "brand_id": "BR004",
+          "mention_rank": 3,
+          "mention_context": "listed",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 3,
+        "citation_count": 0
+      }
+    },
+    {
+      "observation_id": "OBS0401",
+      "question_id": "Q067",
+      "channel": "Gemini",
+      "collected_at": "2026-10-06T10:30:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. OrbitCRM은 리드 스코어링을 갖추고 있어 검토할 만합니다. 또한 LeadFlow는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 이와 함께 ClientNest는 리드 자동 배정을 갖추고 있어 검토할 만합니다. 이 밖에 PicoSales는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 4,
+      "citation_count": 4,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00863",
+          "observation_id": "OBS0401",
+          "brand_id": "BR001",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00864",
+          "observation_id": "OBS0401",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00865",
+          "observation_id": "OBS0401",
+          "brand_id": "BR004",
+          "mention_rank": 3,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00866",
+          "observation_id": "OBS0401",
+          "brand_id": "BR005",
+          "mention_rank": 4,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00960",
+          "observation_id": "OBS0401",
+          "source_id": "SRC034",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC034",
+            "domain": "techguide.example",
+            "url": "https://techguide.example/crm/dashboard",
+            "source_type": "editorial",
+            "title": "영업 대시보드 설계법",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00961",
+          "observation_id": "OBS0401",
+          "source_id": "SRC001",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC001",
+            "domain": "orbitcrm.example",
+            "url": "https://orbitcrm.example/features",
+            "source_type": "product",
+            "title": "OrbitCRM 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR001"
+          }
+        },
+        {
+          "citation_id": "C00962",
+          "observation_id": "OBS0401",
+          "source_id": "SRC027",
+          "citation_rank": 3,
+          "citation_context": "user_review",
+          "source": {
+            "source_id": "SRC027",
+            "domain": "bizreview.example",
+            "url": "https://bizreview.example/review/crm-mobile",
+            "source_type": "review",
+            "title": "CRM 모바일 앱 실사용 리뷰",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00963",
+          "observation_id": "OBS0401",
+          "source_id": "SRC022",
+          "citation_rank": 4,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC022",
+            "domain": "orbitcrm.example",
+            "url": "https://orbitcrm.example/guides/lead-scoring",
+            "source_type": "guide",
+            "title": "OrbitCRM 리드 스코어링 가이드",
+            "is_brand_owned": true,
+            "brand_id": "BR001"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": true,
+        "mention_count": 4,
+        "citation_count": 4
+      }
+    },
+    {
+      "observation_id": "OBS0402",
+      "question_id": "Q067",
+      "channel": "Perplexity",
+      "collected_at": "2026-10-06T14:00:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 여러 비교 자료에서는 PicoSales, NovaDesk가 자주 언급됩니다. PicoSales는 리드 스코어링 측면에서 좋은 평가를 받습니다[1]. NovaDesk는 유입 경로 추적 측면에서 좋은 평가를 받습니다[2]. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 4,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00867",
+          "observation_id": "OBS0402",
+          "brand_id": "BR005",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        },
+        {
+          "mention_id": "M00868",
+          "observation_id": "OBS0402",
+          "brand_id": "BR002",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00964",
+          "observation_id": "OBS0402",
+          "source_id": "SRC040",
+          "citation_rank": 1,
+          "citation_context": "user_review",
+          "source": {
+            "source_id": "SRC040",
+            "domain": "startupnotes.example",
+            "url": "https://startupnotes.example/community/churn",
+            "source_type": "community",
+            "title": null,
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00965",
+          "observation_id": "OBS0402",
+          "source_id": "SRC018",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC018",
+            "domain": "picosales.example",
+            "url": "https://picosales.example/pricing",
+            "source_type": "pricing",
+            "title": "PicoSales 요금 안내",
+            "is_brand_owned": true,
+            "brand_id": "BR005"
+          }
+        },
+        {
+          "citation_id": "C00966",
+          "observation_id": "OBS0402",
+          "source_id": "SRC025",
+          "citation_rank": 3,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC025",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/blog/lead-routing",
+            "source_type": "blog",
+            "title": "LeadFlow 리드 자동 배정 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C00967",
+          "observation_id": "OBS0402",
+          "source_id": "SRC017",
+          "citation_rank": 4,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC017",
+            "domain": "picosales.example",
+            "url": "https://picosales.example/features",
+            "source_type": "product",
+            "title": "PicoSales 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR005"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 4
+      }
+    },
+    {
+      "observation_id": "OBS0406",
+      "question_id": "Q068",
+      "channel": "ChatGPT",
+      "collected_at": "2026-10-06T09:00:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 검토해 볼 만한 서비스는 다음과 같습니다. 1) ClientNest: 리드 자동 배정이 강점으로 꼽힙니다. 2) PicoSales: 리드 스코어링이 특히 좋은 평가를 받습니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00874",
+          "observation_id": "OBS0406",
+          "brand_id": "BR004",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00875",
+          "observation_id": "OBS0406",
+          "brand_id": "BR005",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00978",
+          "observation_id": "OBS0406",
+          "source_id": "SRC043",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC043",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/lead-benchmark",
+            "source_type": "report",
+            "title": "B2B 리드 전환 벤치마크",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00979",
+          "observation_id": "OBS0406",
+          "source_id": "SRC044",
+          "citation_rank": 2,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00980",
+          "observation_id": "OBS0406",
+          "source_id": "SRC016",
+          "citation_rank": 3,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC016",
+            "domain": "clientnest.example",
+            "url": "https://clientnest.example/stories/customer",
+            "source_type": "case-study",
+            "title": "ClientNest 고객 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR004"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 3
+      }
+    },
+    {
+      "observation_id": "OBS0407",
+      "question_id": "Q068",
+      "channel": "Gemini",
+      "collected_at": "2026-10-06T10:30:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. NovaDesk는 리드 스코어링을 갖추고 있어 검토할 만합니다. 또한 ClientNest는 리드 자동 배정을 갖추고 있어 검토할 만합니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 2,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00876",
+          "observation_id": "OBS0407",
+          "brand_id": "BR002",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00877",
+          "observation_id": "OBS0407",
+          "brand_id": "BR004",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00981",
+          "observation_id": "OBS0407",
+          "source_id": "SRC044",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00982",
+          "observation_id": "OBS0407",
+          "source_id": "SRC040",
+          "citation_rank": 2,
+          "citation_context": "user_review",
+          "source": {
+            "source_id": "SRC040",
+            "domain": "startupnotes.example",
+            "url": "https://startupnotes.example/community/churn",
+            "source_type": "community",
+            "title": null,
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 2
+      }
+    },
+    {
+      "observation_id": "OBS0408",
+      "question_id": "Q068",
+      "channel": "Perplexity",
+      "collected_at": "2026-10-06T14:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 여러 비교 자료에서는 LeadFlow, NovaDesk가 자주 언급됩니다. LeadFlow는 리드 스코어링 측면에서 좋은 평가를 받습니다[1]. NovaDesk는 유입 경로 추적 측면에서 좋은 평가를 받습니다[2]. 다만 NovaDesk는 일부 사용자는 초기 설정이 복잡하다고 평가합니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00878",
+          "observation_id": "OBS0408",
+          "brand_id": "BR003",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00879",
+          "observation_id": "OBS0408",
+          "brand_id": "BR002",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "negative"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00983",
+          "observation_id": "OBS0408",
+          "source_id": "SRC042",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC042",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/retention",
+            "source_type": "report",
+            "title": "고객 이탈 관리 트렌드",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00984",
+          "observation_id": "OBS0408",
+          "source_id": "SRC025",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC025",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/blog/lead-routing",
+            "source_type": "blog",
+            "title": "LeadFlow 리드 자동 배정 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C00985",
+          "observation_id": "OBS0408",
+          "source_id": "SRC045",
+          "citation_rank": 3,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC045",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/privacy-law",
+            "source_type": "editorial",
+            "title": "개인정보보호법과 CRM",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 3
+      }
+    },
+    {
+      "observation_id": "OBS0412",
+      "question_id": "Q069",
+      "channel": "ChatGPT",
+      "collected_at": "2026-10-06T09:00:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 검토해 볼 만한 서비스는 다음과 같습니다. 1) ClientNest: 리드 스코어링이 특히 좋은 평가를 받습니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 1,
+      "citation_count": 0,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00885",
+          "observation_id": "OBS0412",
+          "brand_id": "BR004",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        }
+      ],
+      "citations": [],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 1,
+        "citation_count": 0
+      }
+    },
+    {
+      "observation_id": "OBS0413",
+      "question_id": "Q069",
+      "channel": "Gemini",
+      "collected_at": "2026-10-06T10:30:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. PicoSales는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 또한 OrbitCRM은 리드 스코어링을 갖추고 있어 검토할 만합니다. 이와 함께 LeadFlow는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 3,
+      "citation_count": 4,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00886",
+          "observation_id": "OBS0413",
+          "brand_id": "BR005",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00887",
+          "observation_id": "OBS0413",
+          "brand_id": "BR001",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00888",
+          "observation_id": "OBS0413",
+          "brand_id": "BR003",
+          "mention_rank": 3,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C00996",
+          "observation_id": "OBS0413",
+          "source_id": "SRC009",
+          "citation_rank": 1,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC009",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/features",
+            "source_type": "product",
+            "title": "LeadFlow 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C00997",
+          "observation_id": "OBS0413",
+          "source_id": "SRC043",
+          "citation_rank": 2,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC043",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/lead-benchmark",
+            "source_type": "report",
+            "title": "B2B 리드 전환 벤치마크",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00998",
+          "observation_id": "OBS0413",
+          "source_id": "SRC044",
+          "citation_rank": 3,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C00999",
+          "observation_id": "OBS0413",
+          "source_id": "SRC028",
+          "citation_rank": 4,
+          "citation_context": "user_review",
+          "source": {
+            "source_id": "SRC028",
+            "domain": "bizreview.example",
+            "url": "https://bizreview.example/review/crm-security",
+            "source_type": "review",
+            "title": "CRM 보안 기능 리뷰",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": true,
+        "mention_count": 3,
+        "citation_count": 4
+      }
+    },
+    {
+      "observation_id": "OBS0414",
+      "question_id": "Q069",
+      "channel": "Perplexity",
+      "collected_at": "2026-10-06T14:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 여러 비교 자료에서는 NovaDesk, PicoSales가 자주 언급됩니다. NovaDesk는 유입 경로 추적 측면에서 좋은 평가를 받습니다[1]. PicoSales는 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[2]. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 5,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00889",
+          "observation_id": "OBS0414",
+          "brand_id": "BR002",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00890",
+          "observation_id": "OBS0414",
+          "brand_id": "BR005",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C01000",
+          "observation_id": "OBS0414",
+          "source_id": "SRC049",
+          "citation_rank": 1,
+          "citation_context": "comparison_table",
+          "source": {
+            "source_id": "SRC049",
+            "domain": "work-tools.example",
+            "url": "https://work-tools.example/compare/agency-crm",
+            "source_type": "comparison",
+            "title": null,
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C01001",
+          "observation_id": "OBS0414",
+          "source_id": "SRC025",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC025",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/blog/lead-routing",
+            "source_type": "blog",
+            "title": "LeadFlow 리드 자동 배정 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C01002",
+          "observation_id": "OBS0414",
+          "source_id": "SRC044",
+          "citation_rank": 3,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC044",
+            "domain": "crm-insights.example",
+            "url": "https://crm-insights.example/lead-scoring-101",
+            "source_type": "editorial",
+            "title": "리드 스코어링 입문",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C01003",
+          "observation_id": "OBS0414",
+          "source_id": "SRC020",
+          "citation_rank": 4,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC020",
+            "domain": "picosales.example",
+            "url": "https://picosales.example/stories/customer",
+            "source_type": "case-study",
+            "title": "PicoSales 고객 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR005"
+          }
+        },
+        {
+          "citation_id": "C01004",
+          "observation_id": "OBS0414",
+          "source_id": "SRC017",
+          "citation_rank": 5,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC017",
+            "domain": "picosales.example",
+            "url": "https://picosales.example/features",
+            "source_type": "product",
+            "title": "PicoSales 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR005"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 5
+      }
+    },
+    {
+      "observation_id": "OBS0418",
+      "question_id": "Q070",
+      "channel": "ChatGPT",
+      "collected_at": "2026-10-06T09:00:00+09:00",
+      "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) OrbitCRM: 리드 스코어링이 특히 좋은 평가를 받습니다. 2) LeadFlow: 웹 문의 자동 등록이 강점으로 꼽힙니다. 그 밖에 NovaDesk도 후보로 거론됩니다. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 3,
+      "citation_count": 2,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00898",
+          "observation_id": "OBS0418",
+          "brand_id": "BR001",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "positive"
+        },
+        {
+          "mention_id": "M00899",
+          "observation_id": "OBS0418",
+          "brand_id": "BR003",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00900",
+          "observation_id": "OBS0418",
+          "brand_id": "BR002",
+          "mention_rank": 3,
+          "mention_context": "listed",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C01015",
+          "observation_id": "OBS0418",
+          "source_id": "SRC043",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC043",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/lead-benchmark",
+            "source_type": "report",
+            "title": "B2B 리드 전환 벤치마크",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C01016",
+          "observation_id": "OBS0418",
+          "source_id": "SRC005",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC005",
+            "domain": "novadesk.example",
+            "url": "https://novadesk.example/features",
+            "source_type": "product",
+            "title": "NovaDesk 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR002"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": true,
+        "mention_count": 3,
+        "citation_count": 2
+      }
+    },
+    {
+      "observation_id": "OBS0419",
+      "question_id": "Q070",
+      "channel": "Gemini",
+      "collected_at": "2026-10-06T10:30:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. OrbitCRM은 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 또한 NovaDesk는 리드 스코어링을 갖추고 있어 검토할 만합니다. 이와 함께 LeadFlow는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+      "collection_status": "complete",
+      "target_mentioned": true,
+      "mention_count": 3,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00901",
+          "observation_id": "OBS0419",
+          "brand_id": "BR001",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00902",
+          "observation_id": "OBS0419",
+          "brand_id": "BR002",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00903",
+          "observation_id": "OBS0419",
+          "brand_id": "BR003",
+          "mention_rank": 3,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C01017",
+          "observation_id": "OBS0419",
+          "source_id": "SRC043",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC043",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/lead-benchmark",
+            "source_type": "report",
+            "title": "B2B 리드 전환 벤치마크",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C01018",
+          "observation_id": "OBS0419",
+          "source_id": "SRC005",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC005",
+            "domain": "novadesk.example",
+            "url": "https://novadesk.example/features",
+            "source_type": "product",
+            "title": "NovaDesk 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR002"
+          }
+        },
+        {
+          "citation_id": "C01019",
+          "observation_id": "OBS0419",
+          "source_id": "SRC038",
+          "citation_rank": 3,
+          "citation_context": "user_review",
+          "source": {
+            "source_id": "SRC038",
+            "domain": "startupnotes.example",
+            "url": "https://startupnotes.example/community/crm-pick",
+            "source_type": "community",
+            "title": "스타트업 CRM 추천 스레드",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": true,
+        "mention_count": 3,
+        "citation_count": 3
+      }
+    },
+    {
+      "observation_id": "OBS0420",
+      "question_id": "Q070",
+      "channel": "Perplexity",
+      "collected_at": "2026-10-06T14:00:00+09:00",
+      "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 여러 비교 자료에서는 LeadFlow, ClientNest가 자주 언급됩니다. LeadFlow는 리드 자동 배정 측면에서 좋은 평가를 받습니다[1]. ClientNest는 유입 경로 추적 측면에서 좋은 평가를 받습니다[2]. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+      "collection_status": "complete",
+      "target_mentioned": false,
+      "mention_count": 2,
+      "citation_count": 3,
+      "response_language": "ko",
+      "source_snapshot_id": "SNAP-2",
+      "quality_flag": null,
+      "mentions": [
+        {
+          "mention_id": "M00904",
+          "observation_id": "OBS0420",
+          "brand_id": "BR003",
+          "mention_rank": 1,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        },
+        {
+          "mention_id": "M00905",
+          "observation_id": "OBS0420",
+          "brand_id": "BR004",
+          "mention_rank": 2,
+          "mention_context": "recommended",
+          "sentiment": "neutral"
+        }
+      ],
+      "citations": [
+        {
+          "citation_id": "C01020",
+          "observation_id": "OBS0420",
+          "source_id": "SRC043",
+          "citation_rank": 1,
+          "citation_context": "supporting_reference",
+          "source": {
+            "source_id": "SRC043",
+            "domain": "marketbrief.example",
+            "url": "https://marketbrief.example/report/lead-benchmark",
+            "source_type": "report",
+            "title": "B2B 리드 전환 벤치마크",
+            "is_brand_owned": false,
+            "brand_id": null
+          }
+        },
+        {
+          "citation_id": "C01021",
+          "observation_id": "OBS0420",
+          "source_id": "SRC025",
+          "citation_rank": 2,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC025",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/blog/lead-routing",
+            "source_type": "blog",
+            "title": "LeadFlow 리드 자동 배정 사례",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        },
+        {
+          "citation_id": "C01022",
+          "observation_id": "OBS0420",
+          "source_id": "SRC009",
+          "citation_rank": 3,
+          "citation_context": "brand_official",
+          "source": {
+            "source_id": "SRC009",
+            "domain": "leadflow.example",
+            "url": "https://leadflow.example/features",
+            "source_type": "product",
+            "title": "LeadFlow 제품 기능",
+            "is_brand_owned": true,
+            "brand_id": "BR003"
+          }
+        }
+      ],
+      "recomputed": {
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 3
+      }
+    }
+  ],
+  "excluded": [],
+  "sources": [
+    {
+      "source_id": "SRC001",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/features",
+      "source_type": "product",
+      "title": "OrbitCRM 제품 기능",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC002",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/pricing",
+      "source_type": "pricing",
+      "title": "OrbitCRM 요금 안내",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC003",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/guides/crm",
+      "source_type": "guide",
+      "title": "OrbitCRM CRM 활용 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC004",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/stories/customer",
+      "source_type": "case-study",
+      "title": "OrbitCRM 고객 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC005",
+      "domain": "novadesk.example",
+      "url": "https://novadesk.example/features",
+      "source_type": "product",
+      "title": "NovaDesk 제품 기능",
+      "is_brand_owned": true,
+      "brand_id": "BR002"
+    },
+    {
+      "source_id": "SRC006",
+      "domain": "novadesk.example",
+      "url": "https://novadesk.example/pricing",
+      "source_type": "pricing",
+      "title": "NovaDesk 요금 안내",
+      "is_brand_owned": true,
+      "brand_id": "BR002"
+    },
+    {
+      "source_id": "SRC007",
+      "domain": "novadesk.example",
+      "url": "https://novadesk.example/guides/crm",
+      "source_type": "guide",
+      "title": "NovaDesk CRM 활용 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR002"
+    },
+    {
+      "source_id": "SRC008",
+      "domain": "novadesk.example",
+      "url": "https://novadesk.example/stories/customer",
+      "source_type": "case-study",
+      "title": "NovaDesk 고객 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR002"
+    },
+    {
+      "source_id": "SRC009",
+      "domain": "leadflow.example",
+      "url": "https://leadflow.example/features",
+      "source_type": "product",
+      "title": "LeadFlow 제품 기능",
+      "is_brand_owned": true,
+      "brand_id": "BR003"
+    },
+    {
+      "source_id": "SRC010",
+      "domain": "leadflow.example",
+      "url": "https://leadflow.example/pricing",
+      "source_type": "pricing",
+      "title": "LeadFlow 요금 안내",
+      "is_brand_owned": true,
+      "brand_id": "BR003"
+    },
+    {
+      "source_id": "SRC011",
+      "domain": "leadflow.example",
+      "url": "https://leadflow.example/guides/crm",
+      "source_type": "guide",
+      "title": "LeadFlow CRM 활용 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR003"
+    },
+    {
+      "source_id": "SRC012",
+      "domain": "leadflow.example",
+      "url": "https://leadflow.example/stories/customer",
+      "source_type": "case-study",
+      "title": "LeadFlow 고객 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR003"
+    },
+    {
+      "source_id": "SRC013",
+      "domain": "clientnest.example",
+      "url": "https://clientnest.example/features",
+      "source_type": "product",
+      "title": "ClientNest 제품 기능",
+      "is_brand_owned": true,
+      "brand_id": "BR004"
+    },
+    {
+      "source_id": "SRC014",
+      "domain": "clientnest.example",
+      "url": "https://clientnest.example/pricing",
+      "source_type": "pricing",
+      "title": "ClientNest 요금 안내",
+      "is_brand_owned": true,
+      "brand_id": "BR004"
+    },
+    {
+      "source_id": "SRC015",
+      "domain": "clientnest.example",
+      "url": "https://clientnest.example/guides/crm",
+      "source_type": "guide",
+      "title": "ClientNest CRM 활용 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR004"
+    },
+    {
+      "source_id": "SRC016",
+      "domain": "clientnest.example",
+      "url": "https://clientnest.example/stories/customer",
+      "source_type": "case-study",
+      "title": "ClientNest 고객 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR004"
+    },
+    {
+      "source_id": "SRC017",
+      "domain": "picosales.example",
+      "url": "https://picosales.example/features",
+      "source_type": "product",
+      "title": "PicoSales 제품 기능",
+      "is_brand_owned": true,
+      "brand_id": "BR005"
+    },
+    {
+      "source_id": "SRC018",
+      "domain": "picosales.example",
+      "url": "https://picosales.example/pricing",
+      "source_type": "pricing",
+      "title": "PicoSales 요금 안내",
+      "is_brand_owned": true,
+      "brand_id": "BR005"
+    },
+    {
+      "source_id": "SRC019",
+      "domain": "picosales.example",
+      "url": "https://picosales.example/guides/crm",
+      "source_type": "guide",
+      "title": "PicoSales CRM 활용 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR005"
+    },
+    {
+      "source_id": "SRC020",
+      "domain": "picosales.example",
+      "url": "https://picosales.example/stories/customer",
+      "source_type": "case-study",
+      "title": "PicoSales 고객 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR005"
+    },
+    {
+      "source_id": "SRC021",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/security",
+      "source_type": "guide",
+      "title": "OrbitCRM 보안·개인정보 보호 정책",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC022",
+      "domain": "orbitcrm.example",
+      "url": "https://orbitcrm.example/guides/lead-scoring",
+      "source_type": "guide",
+      "title": "OrbitCRM 리드 스코어링 가이드",
+      "is_brand_owned": true,
+      "brand_id": "BR001"
+    },
+    {
+      "source_id": "SRC023",
+      "domain": "clientnest.example",
+      "url": "https://clientnest.example/guides/migration",
+      "source_type": "guide",
+      "title": "ClientNest 데이터 이전 가이드: 엑셀에서 CRM으로",
+      "is_brand_owned": true,
+      "brand_id": "BR004"
+    },
+    {
+      "source_id": "SRC024",
+      "domain": "blog.orbitcrm.example",
+      "url": "https://blog.orbitcrm.example/automation-recipes",
+      "source_type": "blog",
+      "title": "영업 자동화 레시피 20선",
+      "is_brand_owned": true,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC025",
+      "domain": "leadflow.example",
+      "url": "https://leadflow.example/blog/lead-routing",
+      "source_type": "blog",
+      "title": "LeadFlow 리드 자동 배정 사례",
+      "is_brand_owned": true,
+      "brand_id": "BR003"
+    },
+    {
+      "source_id": "SRC027",
+      "domain": "bizreview.example",
+      "url": "https://bizreview.example/review/crm-mobile",
+      "source_type": "review",
+      "title": "CRM 모바일 앱 실사용 리뷰",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC028",
+      "domain": "bizreview.example",
+      "url": "https://bizreview.example/review/crm-security",
+      "source_type": "review",
+      "title": "CRM 보안 기능 리뷰",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC029",
+      "domain": "saascompare.example",
+      "url": "https://saascompare.example/compare/crm-pricing",
+      "source_type": "comparison",
+      "title": "CRM 요금제 비교표 2026",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC032",
+      "domain": "techguide.example",
+      "url": "https://techguide.example/crm/checklist",
+      "source_type": "editorial",
+      "title": "CRM 도입 체크리스트",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC033",
+      "domain": "techguide.example",
+      "url": "https://techguide.example/crm/migration",
+      "source_type": "editorial",
+      "title": "CRM 데이터 마이그레이션 가이드",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC034",
+      "domain": "techguide.example",
+      "url": "https://techguide.example/crm/dashboard",
+      "source_type": "editorial",
+      "title": "영업 대시보드 설계법",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC035",
+      "domain": "workflowhub.example",
+      "url": "https://workflowhub.example/blog/crm-automation",
+      "source_type": "blog",
+      "title": "CRM 업무 자동화 시나리오 모음",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC036",
+      "domain": "workflowhub.example",
+      "url": "https://workflowhub.example/blog/slack-calendar",
+      "source_type": "blog",
+      "title": "슬랙·캘린더 연동 실전",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC037",
+      "domain": "workflowhub.example",
+      "url": "https://workflowhub.example/blog/team-crm",
+      "source_type": "blog",
+      "title": "팀 협업을 위한 CRM 활용법",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC038",
+      "domain": "startupnotes.example",
+      "url": "https://startupnotes.example/community/crm-pick",
+      "source_type": "community",
+      "title": "스타트업 CRM 추천 스레드",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC039",
+      "domain": "startupnotes.example",
+      "url": "https://startupnotes.example/community/crm-mobile-issues",
+      "source_type": "community",
+      "title": "CRM 모바일 앱 불편 사항 모음",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC040",
+      "domain": "startupnotes.example",
+      "url": "https://startupnotes.example/community/churn",
+      "source_type": "community",
+      "title": null,
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC041",
+      "domain": "marketbrief.example",
+      "url": "https://marketbrief.example/report/crm-market-2026",
+      "source_type": "report",
+      "title": "2026 국내 CRM 시장 리포트",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC042",
+      "domain": "marketbrief.example",
+      "url": "https://marketbrief.example/report/retention",
+      "source_type": "report",
+      "title": "고객 이탈 관리 트렌드",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC043",
+      "domain": "marketbrief.example",
+      "url": "https://marketbrief.example/report/lead-benchmark",
+      "source_type": "report",
+      "title": "B2B 리드 전환 벤치마크",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC044",
+      "domain": "crm-insights.example",
+      "url": "https://crm-insights.example/lead-scoring-101",
+      "source_type": "editorial",
+      "title": "리드 스코어링 입문",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC045",
+      "domain": "crm-insights.example",
+      "url": "https://crm-insights.example/privacy-law",
+      "source_type": "editorial",
+      "title": "개인정보보호법과 CRM",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC047",
+      "domain": "work-tools.example",
+      "url": "https://work-tools.example/compare/scalable-crm",
+      "source_type": "comparison",
+      "title": "확장형 CRM 비교",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC048",
+      "domain": "work-tools.example",
+      "url": "https://work-tools.example/compare/crm-training",
+      "source_type": "comparison",
+      "title": "교육 지원이 좋은 CRM",
+      "is_brand_owned": false,
+      "brand_id": null
+    },
+    {
+      "source_id": "SRC049",
+      "domain": "work-tools.example",
+      "url": "https://work-tools.example/compare/agency-crm",
+      "source_type": "comparison",
+      "title": null,
+      "is_brand_owned": false,
+      "brand_id": null
+    }
+  ],
+  "previous_comparison": {
+    "previous_snapshot_id": "SNAP-1",
+    "current_snapshot_id": "SNAP-2",
+    "matched_count": 15,
+    "pairs": [
+      {
+        "question_id": "Q066",
+        "channel": "ChatGPT",
+        "previous_observation_id": "OBS0391",
+        "current_observation_id": "OBS0394",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": true
+      },
+      {
+        "question_id": "Q066",
+        "channel": "Gemini",
+        "previous_observation_id": "OBS0392",
+        "current_observation_id": "OBS0395",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q066",
+        "channel": "Perplexity",
+        "previous_observation_id": "OBS0393",
+        "current_observation_id": "OBS0396",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q067",
+        "channel": "ChatGPT",
+        "previous_observation_id": "OBS0397",
+        "current_observation_id": "OBS0400",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q067",
+        "channel": "Gemini",
+        "previous_observation_id": "OBS0398",
+        "current_observation_id": "OBS0401",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": true
+      },
+      {
+        "question_id": "Q067",
+        "channel": "Perplexity",
+        "previous_observation_id": "OBS0399",
+        "current_observation_id": "OBS0402",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q068",
+        "channel": "ChatGPT",
+        "previous_observation_id": "OBS0403",
+        "current_observation_id": "OBS0406",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q068",
+        "channel": "Gemini",
+        "previous_observation_id": "OBS0404",
+        "current_observation_id": "OBS0407",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q068",
+        "channel": "Perplexity",
+        "previous_observation_id": "OBS0405",
+        "current_observation_id": "OBS0408",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q069",
+        "channel": "ChatGPT",
+        "previous_observation_id": "OBS0409",
+        "current_observation_id": "OBS0412",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q069",
+        "channel": "Gemini",
+        "previous_observation_id": "OBS0410",
+        "current_observation_id": "OBS0413",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": true
+      },
+      {
+        "question_id": "Q069",
+        "channel": "Perplexity",
+        "previous_observation_id": "OBS0411",
+        "current_observation_id": "OBS0414",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      },
+      {
+        "question_id": "Q070",
+        "channel": "ChatGPT",
+        "previous_observation_id": "OBS0415",
+        "current_observation_id": "OBS0418",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": true
+      },
+      {
+        "question_id": "Q070",
+        "channel": "Gemini",
+        "previous_observation_id": "OBS0416",
+        "current_observation_id": "OBS0419",
+        "previous_target_mentioned": false,
+        "current_target_mentioned": true
+      },
+      {
+        "question_id": "Q070",
+        "channel": "Perplexity",
+        "previous_observation_id": "OBS0417",
+        "current_observation_id": "OBS0420",
+        "previous_target_mentioned": true,
+        "current_target_mentioned": false
+      }
+    ],
+    "previous_observations": [
+      {
+        "observation_id": "OBS0391",
+        "question_id": "Q066",
+        "channel": "ChatGPT",
+        "collected_at": "2026-09-15T09:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) ClientNest: 리드 스코어링이 강점으로 꼽힙니다. 2) LeadFlow: 리드 자동 배정이 강점으로 꼽힙니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 3,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00831",
+            "observation_id": "OBS0391",
+            "brand_id": "BR004",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00832",
+            "observation_id": "OBS0391",
+            "brand_id": "BR003",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00935",
+            "observation_id": "OBS0391",
+            "source_id": "SRC044",
+            "citation_rank": 1,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC044",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/lead-scoring-101",
+              "source_type": "editorial",
+              "title": "리드 스코어링 입문",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00936",
+            "observation_id": "OBS0391",
+            "source_id": "SRC029",
+            "citation_rank": 2,
+            "citation_context": "comparison_table",
+            "source": {
+              "source_id": "SRC029",
+              "domain": "saascompare.example",
+              "url": "https://saascompare.example/compare/crm-pricing",
+              "source_type": "comparison",
+              "title": "CRM 요금제 비교표 2026",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00937",
+            "observation_id": "OBS0391",
+            "source_id": "SRC033",
+            "citation_rank": 3,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC033",
+              "domain": "techguide.example",
+              "url": "https://techguide.example/crm/migration",
+              "source_type": "editorial",
+              "title": "CRM 데이터 마이그레이션 가이드",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 2,
+          "citation_count": 3
+        }
+      },
+      {
+        "observation_id": "OBS0392",
+        "question_id": "Q066",
+        "channel": "Gemini",
+        "collected_at": "2026-09-15T10:30:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. OrbitCRM은 리드 스코어링을 갖추고 있어 검토할 만합니다. 또한 PicoSales는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 이와 함께 LeadFlow는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 이 밖에 ClientNest는 리드 자동 배정을 갖추고 있어 검토할 만합니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 4,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00833",
+            "observation_id": "OBS0392",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "positive"
+          },
+          {
+            "mention_id": "M00834",
+            "observation_id": "OBS0392",
+            "brand_id": "BR005",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00835",
+            "observation_id": "OBS0392",
+            "brand_id": "BR003",
+            "mention_rank": 3,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00836",
+            "observation_id": "OBS0392",
+            "brand_id": "BR004",
+            "mention_rank": 4,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00938",
+            "observation_id": "OBS0392",
+            "source_id": "SRC039",
+            "citation_rank": 1,
+            "citation_context": "user_review",
+            "source": {
+              "source_id": "SRC039",
+              "domain": "startupnotes.example",
+              "url": "https://startupnotes.example/community/crm-mobile-issues",
+              "source_type": "community",
+              "title": "CRM 모바일 앱 불편 사항 모음",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00939",
+            "observation_id": "OBS0392",
+            "source_id": "SRC001",
+            "citation_rank": 2,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC001",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/features",
+              "source_type": "product",
+              "title": "OrbitCRM 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00940",
+            "observation_id": "OBS0392",
+            "source_id": "SRC003",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC003",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/crm",
+              "source_type": "guide",
+              "title": "OrbitCRM CRM 활용 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00941",
+            "observation_id": "OBS0392",
+            "source_id": "SRC011",
+            "citation_rank": 4,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC011",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/guides/crm",
+              "source_type": "guide",
+              "title": "LeadFlow CRM 활용 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 4,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0393",
+        "question_id": "Q066",
+        "channel": "Perplexity",
+        "collected_at": "2026-09-15T14:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 여러 비교 자료에서는 OrbitCRM, ClientNest가 자주 언급됩니다. OrbitCRM은 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[1]. ClientNest는 리드 자동 배정 측면에서 좋은 평가를 받습니다[2]. 그 밖에 NovaDesk, LeadFlow도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 4,
+        "citation_count": 3,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00837",
+            "observation_id": "OBS0393",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00838",
+            "observation_id": "OBS0393",
+            "brand_id": "BR004",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00839",
+            "observation_id": "OBS0393",
+            "brand_id": "BR002",
+            "mention_rank": 3,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00840",
+            "observation_id": "OBS0393",
+            "brand_id": "BR003",
+            "mention_rank": 4,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00942",
+            "observation_id": "OBS0393",
+            "source_id": "SRC022",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00943",
+            "observation_id": "OBS0393",
+            "source_id": "SRC038",
+            "citation_rank": 2,
+            "citation_context": "user_review",
+            "source": {
+              "source_id": "SRC038",
+              "domain": "startupnotes.example",
+              "url": "https://startupnotes.example/community/crm-pick",
+              "source_type": "community",
+              "title": "스타트업 CRM 추천 스레드",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00944",
+            "observation_id": "OBS0393",
+            "source_id": "SRC043",
+            "citation_rank": 3,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 4,
+          "citation_count": 3
+        }
+      },
+      {
+        "observation_id": "OBS0397",
+        "question_id": "Q067",
+        "channel": "ChatGPT",
+        "collected_at": "2026-09-15T09:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) NovaDesk: 웹 문의 자동 등록이 강점으로 꼽힙니다. 2) ClientNest: 리드 자동 배정이 강점으로 꼽힙니다. 그 밖에 OrbitCRM도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 3,
+        "citation_count": 0,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00850",
+            "observation_id": "OBS0397",
+            "brand_id": "BR002",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00851",
+            "observation_id": "OBS0397",
+            "brand_id": "BR004",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00852",
+            "observation_id": "OBS0397",
+            "brand_id": "BR001",
+            "mention_rank": 3,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 3,
+          "citation_count": 0
+        }
+      },
+      {
+        "observation_id": "OBS0398",
+        "question_id": "Q067",
+        "channel": "Gemini",
+        "collected_at": "2026-09-15T10:30:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. LeadFlow는 리드 자동 배정을 갖추고 있어 검토할 만합니다. 또한 NovaDesk는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 그 밖에 ClientNest도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 3,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00853",
+            "observation_id": "OBS0398",
+            "brand_id": "BR003",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00854",
+            "observation_id": "OBS0398",
+            "brand_id": "BR002",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00855",
+            "observation_id": "OBS0398",
+            "brand_id": "BR004",
+            "mention_rank": 3,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00952",
+            "observation_id": "OBS0398",
+            "source_id": "SRC044",
+            "citation_rank": 1,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC044",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/lead-scoring-101",
+              "source_type": "editorial",
+              "title": "리드 스코어링 입문",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00953",
+            "observation_id": "OBS0398",
+            "source_id": "SRC009",
+            "citation_rank": 2,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC009",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/features",
+              "source_type": "product",
+              "title": "LeadFlow 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          },
+          {
+            "citation_id": "C00954",
+            "observation_id": "OBS0398",
+            "source_id": "SRC007",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC007",
+              "domain": "novadesk.example",
+              "url": "https://novadesk.example/guides/crm",
+              "source_type": "guide",
+              "title": "NovaDesk CRM 활용 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR002"
+            }
+          },
+          {
+            "citation_id": "C00955",
+            "observation_id": "OBS0398",
+            "source_id": "SRC043",
+            "citation_rank": 4,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 3,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0399",
+        "question_id": "Q067",
+        "channel": "Perplexity",
+        "collected_at": "2026-09-15T14:00:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 여러 비교 자료에서는 OrbitCRM, LeadFlow가 자주 언급됩니다. OrbitCRM은 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[1]. LeadFlow는 리드 자동 배정 측면에서 좋은 평가를 받습니다[2]. 그 밖에 PicoSales, NovaDesk도 후보로 거론됩니다. 팀 규모와 예산에 맞춰 2~3개 서비스를 무료 체험으로 비교해 보세요.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 4,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00856",
+            "observation_id": "OBS0399",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00857",
+            "observation_id": "OBS0399",
+            "brand_id": "BR003",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00858",
+            "observation_id": "OBS0399",
+            "brand_id": "BR005",
+            "mention_rank": 3,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00859",
+            "observation_id": "OBS0399",
+            "brand_id": "BR002",
+            "mention_rank": 4,
+            "mention_context": "listed",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00956",
+            "observation_id": "OBS0399",
+            "source_id": "SRC010",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC010",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/pricing",
+              "source_type": "pricing",
+              "title": "LeadFlow 요금 안내",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          },
+          {
+            "citation_id": "C00957",
+            "observation_id": "OBS0399",
+            "source_id": "SRC037",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC037",
+              "domain": "workflowhub.example",
+              "url": "https://workflowhub.example/blog/team-crm",
+              "source_type": "blog",
+              "title": "팀 협업을 위한 CRM 활용법",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00958",
+            "observation_id": "OBS0399",
+            "source_id": "SRC022",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00959",
+            "observation_id": "OBS0399",
+            "source_id": "SRC005",
+            "citation_rank": 4,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC005",
+              "domain": "novadesk.example",
+              "url": "https://novadesk.example/features",
+              "source_type": "product",
+              "title": "NovaDesk 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR002"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 4,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0403",
+        "question_id": "Q068",
+        "channel": "ChatGPT",
+        "collected_at": "2026-09-15T09:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) ClientNest: 웹 문의 자동 등록이 강점으로 꼽힙니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 1,
+        "citation_count": 3,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00869",
+            "observation_id": "OBS0403",
+            "brand_id": "BR004",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00968",
+            "observation_id": "OBS0403",
+            "source_id": "SRC013",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC013",
+              "domain": "clientnest.example",
+              "url": "https://clientnest.example/features",
+              "source_type": "product",
+              "title": "ClientNest 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR004"
+            }
+          },
+          {
+            "citation_id": "C00969",
+            "observation_id": "OBS0403",
+            "source_id": "SRC042",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC042",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/retention",
+              "source_type": "report",
+              "title": "고객 이탈 관리 트렌드",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00970",
+            "observation_id": "OBS0403",
+            "source_id": "SRC014",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC014",
+              "domain": "clientnest.example",
+              "url": "https://clientnest.example/pricing",
+              "source_type": "pricing",
+              "title": "ClientNest 요금 안내",
+              "is_brand_owned": true,
+              "brand_id": "BR004"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 1,
+          "citation_count": 3
+        }
+      },
+      {
+        "observation_id": "OBS0404",
+        "question_id": "Q068",
+        "channel": "Gemini",
+        "collected_at": "2026-09-15T10:30:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. LeadFlow는 리드 스코어링을 갖추고 있어 검토할 만합니다. 또한 ClientNest는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00870",
+            "observation_id": "OBS0404",
+            "brand_id": "BR003",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00871",
+            "observation_id": "OBS0404",
+            "brand_id": "BR004",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00971",
+            "observation_id": "OBS0404",
+            "source_id": "SRC014",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC014",
+              "domain": "clientnest.example",
+              "url": "https://clientnest.example/pricing",
+              "source_type": "pricing",
+              "title": "ClientNest 요금 안내",
+              "is_brand_owned": true,
+              "brand_id": "BR004"
+            }
+          },
+          {
+            "citation_id": "C00972",
+            "observation_id": "OBS0404",
+            "source_id": "SRC034",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC034",
+              "domain": "techguide.example",
+              "url": "https://techguide.example/crm/dashboard",
+              "source_type": "editorial",
+              "title": "영업 대시보드 설계법",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00973",
+            "observation_id": "OBS0404",
+            "source_id": "SRC044",
+            "citation_rank": 3,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC044",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/lead-scoring-101",
+              "source_type": "editorial",
+              "title": "리드 스코어링 입문",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00974",
+            "observation_id": "OBS0404",
+            "source_id": "SRC047",
+            "citation_rank": 4,
+            "citation_context": "comparison_table",
+            "source": {
+              "source_id": "SRC047",
+              "domain": "work-tools.example",
+              "url": "https://work-tools.example/compare/scalable-crm",
+              "source_type": "comparison",
+              "title": "확장형 CRM 비교",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 2,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0405",
+        "question_id": "Q068",
+        "channel": "Perplexity",
+        "collected_at": "2026-09-15T14:00:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 여러 비교 자료에서는 OrbitCRM, LeadFlow가 자주 언급됩니다. OrbitCRM은 리드 스코어링 측면에서 좋은 평가를 받습니다[1]. LeadFlow는 리드 자동 배정 측면에서 좋은 평가를 받습니다[2]. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 2,
+        "citation_count": 3,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00872",
+            "observation_id": "OBS0405",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00873",
+            "observation_id": "OBS0405",
+            "brand_id": "BR003",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00975",
+            "observation_id": "OBS0405",
+            "source_id": "SRC022",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00976",
+            "observation_id": "OBS0405",
+            "source_id": "SRC035",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC035",
+              "domain": "workflowhub.example",
+              "url": "https://workflowhub.example/blog/crm-automation",
+              "source_type": "blog",
+              "title": "CRM 업무 자동화 시나리오 모음",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00977",
+            "observation_id": "OBS0405",
+            "source_id": "SRC012",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC012",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/stories/customer",
+              "source_type": "case-study",
+              "title": "LeadFlow 고객 사례",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 2,
+          "citation_count": 3
+        }
+      },
+      {
+        "observation_id": "OBS0409",
+        "question_id": "Q069",
+        "channel": "ChatGPT",
+        "collected_at": "2026-09-15T09:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) LeadFlow: 리드 자동 배정이 강점으로 꼽힙니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 1,
+        "citation_count": 1,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00880",
+            "observation_id": "OBS0409",
+            "brand_id": "BR003",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00986",
+            "observation_id": "OBS0409",
+            "source_id": "SRC009",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC009",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/features",
+              "source_type": "product",
+              "title": "LeadFlow 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 1,
+          "citation_count": 1
+        }
+      },
+      {
+        "observation_id": "OBS0410",
+        "question_id": "Q069",
+        "channel": "Gemini",
+        "collected_at": "2026-09-15T10:30:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. OrbitCRM은 유입 경로 추적을 갖추고 있어 검토할 만합니다. 또한 PicoSales는 리드 스코어링을 갖추고 있어 검토할 만합니다. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 2,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00881",
+            "observation_id": "OBS0410",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00882",
+            "observation_id": "OBS0410",
+            "brand_id": "BR005",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "positive"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00987",
+            "observation_id": "OBS0410",
+            "source_id": "SRC036",
+            "citation_rank": 1,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC036",
+              "domain": "workflowhub.example",
+              "url": "https://workflowhub.example/blog/slack-calendar",
+              "source_type": "blog",
+              "title": "슬랙·캘린더 연동 실전",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00988",
+            "observation_id": "OBS0410",
+            "source_id": "SRC001",
+            "citation_rank": 2,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC001",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/features",
+              "source_type": "product",
+              "title": "OrbitCRM 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00989",
+            "observation_id": "OBS0410",
+            "source_id": "SRC022",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00990",
+            "observation_id": "OBS0410",
+            "source_id": "SRC043",
+            "citation_rank": 4,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 2,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0411",
+        "question_id": "Q069",
+        "channel": "Perplexity",
+        "collected_at": "2026-09-15T14:00:00+09:00",
+        "response_text": "문의 폼과 CRM을 연결하고, 점수 기준을 정해 상위 리드부터 연락하세요. 여러 비교 자료에서는 OrbitCRM, ClientNest가 자주 언급됩니다. OrbitCRM은 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[1]. ClientNest는 리드 자동 배정 측면에서 좋은 평가를 받습니다[2]. 현재 업무 흐름을 정리한 뒤 필요한 기능을 정하는 것이 좋습니다.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 2,
+        "citation_count": 5,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00883",
+            "observation_id": "OBS0411",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00884",
+            "observation_id": "OBS0411",
+            "brand_id": "BR004",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C00991",
+            "observation_id": "OBS0411",
+            "source_id": "SRC013",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC013",
+              "domain": "clientnest.example",
+              "url": "https://clientnest.example/features",
+              "source_type": "product",
+              "title": "ClientNest 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR004"
+            }
+          },
+          {
+            "citation_id": "C00992",
+            "observation_id": "OBS0411",
+            "source_id": "SRC048",
+            "citation_rank": 2,
+            "citation_context": "comparison_table",
+            "source": {
+              "source_id": "SRC048",
+              "domain": "work-tools.example",
+              "url": "https://work-tools.example/compare/crm-training",
+              "source_type": "comparison",
+              "title": "교육 지원이 좋은 CRM",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00993",
+            "observation_id": "OBS0411",
+            "source_id": "SRC043",
+            "citation_rank": 3,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C00994",
+            "observation_id": "OBS0411",
+            "source_id": "SRC022",
+            "citation_rank": 4,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C00995",
+            "observation_id": "OBS0411",
+            "source_id": "SRC045",
+            "citation_rank": 5,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC045",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/privacy-law",
+              "source_type": "editorial",
+              "title": "개인정보보호법과 CRM",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 2,
+          "citation_count": 5
+        }
+      },
+      {
+        "observation_id": "OBS0415",
+        "question_id": "Q070",
+        "channel": "ChatGPT",
+        "collected_at": "2026-09-15T09:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 검토해 볼 만한 서비스는 다음과 같습니다. 1) LeadFlow: 유입 경로 추적이 특히 좋은 평가를 받습니다. 2) NovaDesk: 웹 문의 자동 등록이 특히 좋은 평가를 받습니다. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 2,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00891",
+            "observation_id": "OBS0415",
+            "brand_id": "BR003",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "positive"
+          },
+          {
+            "mention_id": "M00892",
+            "observation_id": "OBS0415",
+            "brand_id": "BR002",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "positive"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C01005",
+            "observation_id": "OBS0415",
+            "source_id": "SRC012",
+            "citation_rank": 1,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC012",
+              "domain": "leadflow.example",
+              "url": "https://leadflow.example/stories/customer",
+              "source_type": "case-study",
+              "title": "LeadFlow 고객 사례",
+              "is_brand_owned": true,
+              "brand_id": "BR003"
+            }
+          },
+          {
+            "citation_id": "C01006",
+            "observation_id": "OBS0415",
+            "source_id": "SRC044",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC044",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/lead-scoring-101",
+              "source_type": "editorial",
+              "title": "리드 스코어링 입문",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 2,
+          "citation_count": 2
+        }
+      },
+      {
+        "observation_id": "OBS0416",
+        "question_id": "Q070",
+        "channel": "Gemini",
+        "collected_at": "2026-09-15T10:30:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. PicoSales는 유입 경로 추적을 갖추고 있어 검토할 만합니다. 또한 NovaDesk는 웹 문의 자동 등록을 갖추고 있어 검토할 만합니다. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+        "collection_status": "complete",
+        "target_mentioned": false,
+        "mention_count": 2,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00893",
+            "observation_id": "OBS0416",
+            "brand_id": "BR005",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "positive"
+          },
+          {
+            "mention_id": "M00894",
+            "observation_id": "OBS0416",
+            "brand_id": "BR002",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C01007",
+            "observation_id": "OBS0416",
+            "source_id": "SRC043",
+            "citation_rank": 1,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C01008",
+            "observation_id": "OBS0416",
+            "source_id": "SRC044",
+            "citation_rank": 2,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC044",
+              "domain": "crm-insights.example",
+              "url": "https://crm-insights.example/lead-scoring-101",
+              "source_type": "editorial",
+              "title": "리드 스코어링 입문",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C01009",
+            "observation_id": "OBS0416",
+            "source_id": "SRC007",
+            "citation_rank": 3,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC007",
+              "domain": "novadesk.example",
+              "url": "https://novadesk.example/guides/crm",
+              "source_type": "guide",
+              "title": "NovaDesk CRM 활용 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR002"
+            }
+          },
+          {
+            "citation_id": "C01010",
+            "observation_id": "OBS0416",
+            "source_id": "SRC017",
+            "citation_rank": 4,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC017",
+              "domain": "picosales.example",
+              "url": "https://picosales.example/features",
+              "source_type": "product",
+              "title": "PicoSales 제품 기능",
+              "is_brand_owned": true,
+              "brand_id": "BR005"
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": false,
+          "mention_count": 2,
+          "citation_count": 4
+        }
+      },
+      {
+        "observation_id": "OBS0417",
+        "question_id": "Q070",
+        "channel": "Perplexity",
+        "collected_at": "2026-09-15T14:00:00+09:00",
+        "response_text": "리드 관리는 유입 경로 기록, 리드 점수, 자동 배정이 한 흐름으로 이어지는지가 핵심입니다. 여러 비교 자료에서는 OrbitCRM, LeadFlow, PicoSales가 자주 언급됩니다. OrbitCRM은 웹 문의 자동 등록 측면에서 좋은 평가를 받습니다[1]. LeadFlow는 유입 경로 추적 측면에서 좋은 평가를 받습니다[2]. PicoSales는 리드 자동 배정 측면에서 좋은 평가를 받습니다[3]. 각 서비스의 공식 사이트에서 체험 신청이나 상담 예약을 할 수 있습니다.",
+        "collection_status": "complete",
+        "target_mentioned": true,
+        "mention_count": 3,
+        "citation_count": 4,
+        "response_language": "ko",
+        "source_snapshot_id": "SNAP-1",
+        "quality_flag": null,
+        "mentions": [
+          {
+            "mention_id": "M00895",
+            "observation_id": "OBS0417",
+            "brand_id": "BR001",
+            "mention_rank": 1,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00896",
+            "observation_id": "OBS0417",
+            "brand_id": "BR003",
+            "mention_rank": 2,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          },
+          {
+            "mention_id": "M00897",
+            "observation_id": "OBS0417",
+            "brand_id": "BR005",
+            "mention_rank": 3,
+            "mention_context": "recommended",
+            "sentiment": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "citation_id": "C01011",
+            "observation_id": "OBS0417",
+            "source_id": "SRC032",
+            "citation_rank": 1,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC032",
+              "domain": "techguide.example",
+              "url": "https://techguide.example/crm/checklist",
+              "source_type": "editorial",
+              "title": "CRM 도입 체크리스트",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C01012",
+            "observation_id": "OBS0417",
+            "source_id": "SRC022",
+            "citation_rank": 2,
+            "citation_context": "brand_official",
+            "source": {
+              "source_id": "SRC022",
+              "domain": "orbitcrm.example",
+              "url": "https://orbitcrm.example/guides/lead-scoring",
+              "source_type": "guide",
+              "title": "OrbitCRM 리드 스코어링 가이드",
+              "is_brand_owned": true,
+              "brand_id": "BR001"
+            }
+          },
+          {
+            "citation_id": "C01013",
+            "observation_id": "OBS0417",
+            "source_id": "SRC041",
+            "citation_rank": 3,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC041",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/crm-market-2026",
+              "source_type": "report",
+              "title": "2026 국내 CRM 시장 리포트",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          },
+          {
+            "citation_id": "C01014",
+            "observation_id": "OBS0417",
+            "source_id": "SRC043",
+            "citation_rank": 4,
+            "citation_context": "supporting_reference",
+            "source": {
+              "source_id": "SRC043",
+              "domain": "marketbrief.example",
+              "url": "https://marketbrief.example/report/lead-benchmark",
+              "source_type": "report",
+              "title": "B2B 리드 전환 벤치마크",
+              "is_brand_owned": false,
+              "brand_id": null
+            }
+          }
+        ],
+        "recomputed": {
+          "target_mentioned": true,
+          "mention_count": 3,
+          "citation_count": 4
+        }
+      }
+    ],
+    "previous_target_mentions": {
+      "numerator": 8,
+      "denominator": 15,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0391",
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0398",
+        "OBS0399",
+        "OBS0403",
+        "OBS0404",
+        "OBS0405",
+        "OBS0409",
+        "OBS0410",
+        "OBS0411",
+        "OBS0415",
+        "OBS0416",
+        "OBS0417"
+      ],
+      "supporting_observation_ids": [
+        "OBS0392",
+        "OBS0393",
+        "OBS0397",
+        "OBS0399",
+        "OBS0405",
+        "OBS0410",
+        "OBS0411",
+        "OBS0417"
+      ]
+    },
+    "current_target_mentions": {
+      "numerator": 5,
+      "denominator": 15,
+      "description": "Responses with a target-brand mention, divided by eligible responses.",
+      "observation_ids": [
+        "OBS0394",
+        "OBS0395",
+        "OBS0396",
+        "OBS0400",
+        "OBS0401",
+        "OBS0402",
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0412",
+        "OBS0413",
+        "OBS0414",
+        "OBS0418",
+        "OBS0419",
+        "OBS0420"
+      ],
+      "supporting_observation_ids": [
+        "OBS0394",
+        "OBS0401",
+        "OBS0413",
+        "OBS0418",
+        "OBS0419"
+      ]
+    },
+    "interpretation": "Same question/channel pairs eligible at both snapshots; descriptive association, not a causal effect."
+  },
+  "quality": {
+    "eligible": 15,
+    "expected": 15,
+    "coverage": 1.0,
+    "canonical_observations": 15,
+    "superseded_attempts": 0,
+    "by_channel": {
+      "ChatGPT": {
+        "eligible": 5,
+        "expected": 5,
+        "coverage": 1.0
+      },
+      "Gemini": {
+        "eligible": 5,
+        "expected": 5,
+        "coverage": 1.0
+      },
+      "Perplexity": {
+        "eligible": 5,
+        "expected": 5,
+        "coverage": 1.0
+      }
+    }
+  },
+  "capabilities": {
+    "body_access": false
+  },
+  "allowed_evidence_ids": [
+    "C00935",
+    "C00936",
+    "C00937",
+    "C00938",
+    "C00939",
+    "C00940",
+    "C00941",
+    "C00942",
+    "C00943",
+    "C00944",
+    "C00945",
+    "C00946",
+    "C00947",
+    "C00948",
+    "C00949",
+    "C00950",
+    "C00951",
+    "C00952",
+    "C00953",
+    "C00954",
+    "C00955",
+    "C00956",
+    "C00957",
+    "C00958",
+    "C00959",
+    "C00960",
+    "C00961",
+    "C00962",
+    "C00963",
+    "C00964",
+    "C00965",
+    "C00966",
+    "C00967",
+    "C00968",
+    "C00969",
+    "C00970",
+    "C00971",
+    "C00972",
+    "C00973",
+    "C00974",
+    "C00975",
+    "C00976",
+    "C00977",
+    "C00978",
+    "C00979",
+    "C00980",
+    "C00981",
+    "C00982",
+    "C00983",
+    "C00984",
+    "C00985",
+    "C00986",
+    "C00987",
+    "C00988",
+    "C00989",
+    "C00990",
+    "C00991",
+    "C00992",
+    "C00993",
+    "C00994",
+    "C00995",
+    "C00996",
+    "C00997",
+    "C00998",
+    "C00999",
+    "C01000",
+    "C01001",
+    "C01002",
+    "C01003",
+    "C01004",
+    "C01005",
+    "C01006",
+    "C01007",
+    "C01008",
+    "C01009",
+    "C01010",
+    "C01011",
+    "C01012",
+    "C01013",
+    "C01014",
+    "C01015",
+    "C01016",
+    "C01017",
+    "C01018",
+    "C01019",
+    "C01020",
+    "C01021",
+    "C01022",
+    "M00831",
+    "M00832",
+    "M00833",
+    "M00834",
+    "M00835",
+    "M00836",
+    "M00837",
+    "M00838",
+    "M00839",
+    "M00840",
+    "M00841",
+    "M00842",
+    "M00843",
+    "M00844",
+    "M00845",
+    "M00846",
+    "M00847",
+    "M00848",
+    "M00849",
+    "M00850",
+    "M00851",
+    "M00852",
+    "M00853",
+    "M00854",
+    "M00855",
+    "M00856",
+    "M00857",
+    "M00858",
+    "M00859",
+    "M00860",
+    "M00861",
+    "M00862",
+    "M00863",
+    "M00864",
+    "M00865",
+    "M00866",
+    "M00867",
+    "M00868",
+    "M00869",
+    "M00870",
+    "M00871",
+    "M00872",
+    "M00873",
+    "M00874",
+    "M00875",
+    "M00876",
+    "M00877",
+    "M00878",
+    "M00879",
+    "M00880",
+    "M00881",
+    "M00882",
+    "M00883",
+    "M00884",
+    "M00885",
+    "M00886",
+    "M00887",
+    "M00888",
+    "M00889",
+    "M00890",
+    "M00891",
+    "M00892",
+    "M00893",
+    "M00894",
+    "M00895",
+    "M00896",
+    "M00897",
+    "M00898",
+    "M00899",
+    "M00900",
+    "M00901",
+    "M00902",
+    "M00903",
+    "M00904",
+    "M00905",
+    "OBS0391",
+    "OBS0392",
+    "OBS0393",
+    "OBS0394",
+    "OBS0395",
+    "OBS0396",
+    "OBS0397",
+    "OBS0398",
+    "OBS0399",
+    "OBS0400",
+    "OBS0401",
+    "OBS0402",
+    "OBS0403",
+    "OBS0404",
+    "OBS0405",
+    "OBS0406",
+    "OBS0407",
+    "OBS0408",
+    "OBS0409",
+    "OBS0410",
+    "OBS0411",
+    "OBS0412",
+    "OBS0413",
+    "OBS0414",
+    "OBS0415",
+    "OBS0416",
+    "OBS0417",
+    "OBS0418",
+    "OBS0419",
+    "OBS0420",
+    "Q066",
+    "Q067",
+    "Q068",
+    "Q069",
+    "Q070",
+    "SRC001",
+    "SRC002",
+    "SRC003",
+    "SRC004",
+    "SRC005",
+    "SRC006",
+    "SRC007",
+    "SRC008",
+    "SRC009",
+    "SRC010",
+    "SRC011",
+    "SRC012",
+    "SRC013",
+    "SRC014",
+    "SRC015",
+    "SRC016",
+    "SRC017",
+    "SRC018",
+    "SRC019",
+    "SRC020",
+    "SRC021",
+    "SRC022",
+    "SRC023",
+    "SRC024",
+    "SRC025",
+    "SRC027",
+    "SRC028",
+    "SRC029",
+    "SRC032",
+    "SRC033",
+    "SRC034",
+    "SRC035",
+    "SRC036",
+    "SRC037",
+    "SRC038",
+    "SRC039",
+    "SRC040",
+    "SRC041",
+    "SRC042",
+    "SRC043",
+    "SRC044",
+    "SRC045",
+    "SRC047",
+    "SRC048",
+    "SRC049",
+    "brand.BR001.mentions",
+    "brand.BR001.recommendations",
+    "brand.BR002.mentions",
+    "brand.BR002.recommendations",
+    "brand.BR003.mentions",
+    "brand.BR003.recommendations",
+    "brand.BR004.mentions",
+    "brand.BR004.recommendations",
+    "brand.BR005.mentions",
+    "brand.BR005.recommendations",
+    "channel.ChatGPT.target_mentions",
+    "channel.ChatGPT.target_owned_citations",
+    "channel.ChatGPT.target_recommendations",
+    "channel.Gemini.target_mentions",
+    "channel.Gemini.target_owned_citations",
+    "channel.Gemini.target_recommendations",
+    "channel.Perplexity.target_mentions",
+    "channel.Perplexity.target_owned_citations",
+    "channel.Perplexity.target_recommendations",
+    "comparison.current.target_mentions",
+    "comparison.current.target_owned_citations",
+    "comparison.current.target_recommendations",
+    "comparison.previous.target_mentions",
+    "comparison.previous.target_owned_citations",
+    "comparison.previous.target_recommendations",
+    "question.Q066.target_mentions",
+    "question.Q066.target_owned_citations",
+    "question.Q066.target_recommendations",
+    "question.Q067.target_mentions",
+    "question.Q067.target_owned_citations",
+    "question.Q067.target_recommendations",
+    "question.Q068.target_mentions",
+    "question.Q068.target_owned_citations",
+    "question.Q068.target_recommendations",
+    "question.Q069.target_mentions",
+    "question.Q069.target_owned_citations",
+    "question.Q069.target_recommendations",
+    "question.Q070.target_mentions",
+    "question.Q070.target_owned_citations",
+    "question.Q070.target_recommendations",
+    "source.SRC001.citation_responses",
+    "source.SRC002.citation_responses",
+    "source.SRC003.citation_responses",
+    "source.SRC004.citation_responses",
+    "source.SRC005.citation_responses",
+    "source.SRC006.citation_responses",
+    "source.SRC007.citation_responses",
+    "source.SRC008.citation_responses",
+    "source.SRC009.citation_responses",
+    "source.SRC010.citation_responses",
+    "source.SRC011.citation_responses",
+    "source.SRC012.citation_responses",
+    "source.SRC013.citation_responses",
+    "source.SRC014.citation_responses",
+    "source.SRC015.citation_responses",
+    "source.SRC016.citation_responses",
+    "source.SRC017.citation_responses",
+    "source.SRC018.citation_responses",
+    "source.SRC019.citation_responses",
+    "source.SRC020.citation_responses",
+    "source.SRC021.citation_responses",
+    "source.SRC022.citation_responses",
+    "source.SRC023.citation_responses",
+    "source.SRC024.citation_responses",
+    "source.SRC025.citation_responses",
+    "source.SRC027.citation_responses",
+    "source.SRC028.citation_responses",
+    "source.SRC029.citation_responses",
+    "source.SRC032.citation_responses",
+    "source.SRC033.citation_responses",
+    "source.SRC034.citation_responses",
+    "source.SRC035.citation_responses",
+    "source.SRC036.citation_responses",
+    "source.SRC037.citation_responses",
+    "source.SRC038.citation_responses",
+    "source.SRC039.citation_responses",
+    "source.SRC040.citation_responses",
+    "source.SRC041.citation_responses",
+    "source.SRC042.citation_responses",
+    "source.SRC043.citation_responses",
+    "source.SRC044.citation_responses",
+    "source.SRC045.citation_responses",
+    "source.SRC047.citation_responses",
+    "source.SRC048.citation_responses",
+    "source.SRC049.citation_responses",
+    "topic.target_cited_without_mention",
+    "topic.target_mentions",
+    "topic.target_owned_citations",
+    "topic.target_recommendations"
+  ]
+}

@@ -1,0 +1,62 @@
+version: 1
+title: 실행과 비용 운영
+repository_root: ../..
+path_base: 저장소 루트
+no_secrets: true
+guide:
+  path: llm-wiki/runtime/guide.md
+  title: 실행 안내
+  purpose: 로컬·컨테이너·비용·관측
+sources:
+- path: src/vivi_agent/api.py
+  title: HTTP 진입점
+  purpose: 요청 검증과 UI 제공
+- path: src/vivi_agent/cli.py
+  title: CLI 진입점
+  purpose: 근거 조회·운영 생성·심화 검토
+- path: frontend/src/App.tsx
+  title: 화면 흐름
+  purpose: 조회·검토·저장·상태 변경
+- path: frontend/src/ActionComparison.tsx
+  title: 후보 비교 화면
+  purpose: 선정·배제 이유 표시
+- path: frontend/src/ExecutionDetails.tsx
+  title: 실행 상세 화면
+  purpose: 작업별 계약 표시
+- path: frontend/src/types.ts
+  title: 화면 타입
+  purpose: 저장 결과와 서버 응답 구조
+- path: frontend/src/styles.css
+  title: 화면 스타일
+  purpose: 과제 CI 색상과 배치
+- path: frontend/vite.config.ts
+  title: 개발 서버
+  purpose: API 전달과 빌드 출력
+- path: Dockerfile
+  title: 앱 이미지
+  purpose: UI와 Python 다단계 빌드
+- path: compose.yaml
+  title: 앱 실행
+  purpose: 로컬 포트와 상태 볼륨
+- path: compose.langfuse.yaml
+  title: 관측 스택
+  purpose: 선택형 Langfuse 의존 서비스
+- path: compose.observability.yaml
+  title: 관측 연결
+  purpose: 앱과 관측 스택의 네트워크
+- path: .env.example
+  title: 환경 설정 예제
+  purpose: 값이 비어 있는 인증 항목과 운영 프로필
+- path: src/vivi_agent/provider.py
+  title: 모델 연결
+  purpose: 단일 시도·설정·호출 영수증
+- path: src/vivi_agent/observability.py
+  title: 호출 관측
+  purpose: 비용·토큰·지연 전송
+- path: docs/langfuse.md
+  title: 관측 운영
+  purpose: 설정과 확인 절차
+related:
+- path: docs/cost-optimization-results.md
+  title: 비용 실험 결과
+  purpose: 채택 설정과 탈락 사례의 근거

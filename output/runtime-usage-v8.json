@@ -1,0 +1,52 @@
+{
+  "source": "local SQLite paid-call receipts; OpenRouter response usage.cost. No vendor price estimate. Assignment cost is a separate fictional per-call amount.",
+  "final_full_suite": {
+    "attempted_calls": 32,
+    "statuses": {
+      "completed": 32
+    },
+    "assignment_variable_cost_usd": 0.576,
+    "provider_reported_cost_usd": 2.98791,
+    "receipts_with_reported_cost": 32,
+    "actual_cost_complete": true,
+    "input_tokens": 647597,
+    "output_tokens": 126666
+  },
+  "final_two_case_suite": {
+    "attempted_calls": 10,
+    "statuses": {
+      "completed": 10
+    },
+    "assignment_variable_cost_usd": 0.18,
+    "provider_reported_cost_usd": 1.187934,
+    "receipts_with_reported_cost": 10,
+    "actual_cost_complete": true,
+    "input_tokens": 234953,
+    "output_tokens": 50328
+  },
+  "final_suites_union_no_double_count": {
+    "attempted_calls": 34,
+    "statuses": {
+      "completed": 34
+    },
+    "assignment_variable_cost_usd": 0.612,
+    "provider_reported_cost_usd": 3.091588,
+    "receipts_with_reported_cost": 34,
+    "actual_cost_complete": true,
+    "input_tokens": 696376,
+    "output_tokens": 129672
+  },
+  "all_openrouter_calls_in_local_ledger_including_intermediate_versions": {
+    "attempted_calls": 70,
+    "statuses": {
+      "completed": 70
+    },
+    "assignment_variable_cost_usd": 1.26,
+    "provider_reported_cost_usd": 6.742284,
+    "receipts_with_reported_cost": 70,
+    "actual_cost_complete": true,
+    "input_tokens": 1428055,
+    "output_tokens": 260782
+  },
+  "pending_reservations": 0
+}

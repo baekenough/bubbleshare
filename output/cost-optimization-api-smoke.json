@@ -1,0 +1,68 @@
+{
+  "profile": {
+    "provider": "openrouter",
+    "model": "openai/gpt-5.4",
+    "reasoning_effort": "low",
+    "max_output_tokens": 16000,
+    "reasoning_exclude": true,
+    "sdk_max_retries": 0,
+    "provider_allow_fallbacks": false
+  },
+  "api_cases": [
+    {
+      "topic": "lead",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "topic": "security",
+      "result_type": "cache_hit",
+      "model_calls": 0
+    },
+    {
+      "topic": "automation",
+      "result_type": "no_action",
+      "model_calls": 0
+    },
+    {
+      "topic": "scale",
+      "result_type": "insufficient_evidence",
+      "model_calls": 0
+    }
+  ],
+  "actual_budget_before": {
+    "month": "2026-10",
+    "currency": "USD",
+    "precision": "nano-USD; reservations/charges round up",
+    "confirmed_actual_cost_usd": "3.692744250",
+    "held_cost_usd": "0.000000000",
+    "accounted_cost_usd": "3.692744250",
+    "fixed_monthly_cost_usd": "10.500000000",
+    "incremental_langfuse_cost_usd": "0.000000000",
+    "monthly_total_cogs_usd": "14.192744250",
+    "max_monthly_cogs_usd": "20.000000000",
+    "remaining_budget_usd": "5.807255750",
+    "over_budget": false,
+    "unknown_cost_calls": 0,
+    "held_calls": 0,
+    "confirmed_calls_this_month": 34
+  },
+  "actual_budget_after": {
+    "month": "2026-10",
+    "currency": "USD",
+    "precision": "nano-USD; reservations/charges round up",
+    "confirmed_actual_cost_usd": "3.692744250",
+    "held_cost_usd": "0.000000000",
+    "accounted_cost_usd": "3.692744250",
+    "fixed_monthly_cost_usd": "10.500000000",
+    "incremental_langfuse_cost_usd": "0.000000000",
+    "monthly_total_cogs_usd": "14.192744250",
+    "max_monthly_cogs_usd": "20.000000000",
+    "remaining_budget_usd": "5.807255750",
+    "over_budget": false,
+    "unknown_cost_calls": 0,
+    "held_calls": 0,
+    "confirmed_calls_this_month": 34
+  },
+  "additional_provider_calls": 0
+}

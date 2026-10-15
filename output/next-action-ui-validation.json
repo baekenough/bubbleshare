@@ -1,0 +1,25 @@
+{
+  "scenario": "Recommendation-first UI with real local API and previously generated model draft",
+  "topic": "security",
+  "result_type": "cache_hit",
+  "model_calls": 0,
+  "saved_action_id": "act_6bbc1f6509b94d47abb85fcacd589201",
+  "proposal_id": "prp_f110850a6c354461b84b0554d17843b0",
+  "verified": [
+    "Recommendation entry point precedes analysis details",
+    "Generated action title, reason, first step and output visible in summary",
+    "Full plan and evidence available in disclosures",
+    "Title and notes edited and saved through UI",
+    "Saved action appears in management and dismissed status persists after re-fetch",
+    "390px viewport: recommendation before topic list; document width 390px; no horizontal overflow",
+    "TypeScript and production build pass",
+    "Docker image rebuilt"
+  ],
+  "final_status": "dismissed",
+  "outcome": "not_observed",
+  "quality_note": "UI verification only; existing single-call draft quality limitations still apply",
+  "screenshots": [
+    "next-action-preview.png",
+    "next-action-mobile.png"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "report_type": "observed_host_development_usage",
+  "snapshot_at": "2026-10-14T19:50:26.013746+09:00",
+  "timezone": "Asia/Seoul",
+  "source_ledger": ".vivi/usage.sqlite",
+  "source_method": "Read-only SQLite transaction; only ledger metadata and provider receipt usage were aggregated.",
+  "period": {
+    "first_reservation_at": "2026-10-14T18:59:28.388878+09:00",
+    "last_reservation_at": "2026-10-14T19:47:06.391665+09:00",
+    "last_completed_receipt_at": "2026-10-14T10:47:32.367410+00:00"
+  },
+  "status_counts": {
+    "completed": 179,
+    "failed": 0,
+    "reserved": 0,
+    "released": 1
+  },
+  "ledger_records_including_released": 180,
+  "charged_attempts": 179,
+  "charged_reservations": 179,
+  "in_progress_started_attempts": 0,
+  "unstarted_reserved_slots": 0,
+  "no_in_progress_reservations": true,
+  "completed_provider_receipts": 179,
+  "completed_calls_missing_provider_receipt": 0,
+  "completed_receipts_with_usage": 179,
+  "completed_usage_totals": {
+    "input_tokens": 2803415,
+    "cached_input_tokens": 317056,
+    "output_tokens": 431082,
+    "reasoning_output_tokens": 183923,
+    "total_tokens": 3234497
+  },
+  "by_requested_model": [
+    {
+      "requested_model": "gpt-4.1",
+      "completed_calls": 34,
+      "provider_reported_api_attempts": 34,
+      "input_tokens": 488902,
+      "cached_input_tokens": 12160,
+      "output_tokens": 42301,
+      "reasoning_output_tokens": 0,
+      "total_tokens": 531203,
+      "receipts_with_usage": 34,
+      "resolved_models": [
+        "gpt-4.1-2025-04-14"
+      ],
+      "assignment_cost_usd": 0.612,
+      "actual_vendor_cost_usd": null
+    },
+    {
+      "requested_model": "gpt-5.4-2026-03-05",
+      "completed_calls": 145,
+      "provider_reported_api_attempts": 145,
+      "input_tokens": 2314513,
+      "cached_input_tokens": 304896,
+      "output_tokens": 388781,
+      "reasoning_output_tokens": 183923,
+      "total_tokens": 2703294,
+      "receipts_with_usage": 145,
+      "resolved_models": [
+        "gpt-5.4-2026-03-05"
+      ],
+      "assignment_cost_usd": 2.61,
+      "actual_vendor_cost_usd": null
+    }
+  ],
+  "by_stage": [
+    {
+      "stage": "design",
+      "status": "completed",
+      "calls": 31
+    },
+    {
+      "stage": "diagnose",
+      "status": "completed",
+      "calls": 40
+    },
+    {
+      "stage": "evaluate",
+      "status": "completed",
+      "calls": 44
+    },
+    {
+      "stage": "re_review",
+      "status": "completed",
+      "calls": 16
+    },
+    {
+      "stage": "review",
+      "status": "completed",
+      "calls": 31
+    },
+    {
+      "stage": "revise",
+      "status": "completed",
+      "calls": 17
+    }
+  ],
+  "assignment_unit_cost_usd": 0.018,
+  "assignment_call_cost_usd": 3.222,
+  "actual_vendor_cost_usd": null,
+  "shipped_evaluation_subset": {
+    "source": "output/evaluation.shipped.json",
+    "included_in_host_totals": true,
+    "suite_state": "completed",
+    "evaluated_cases": 8,
+    "passed_cases": 6,
+    "failed_cases": 2,
+    "calls": 32,
+    "assignment_cost_usd": 0.576
+  },
+  "excluded_docker_smoke": {
+    "separately_reported_real_api_calls": 3,
+    "included_in_host_totals": false,
+    "verification": "Count supplied by the task owner; the separate container ledger was not read for this host report.",
+    "token_usage": null,
+    "actual_vendor_cost_usd": null
+  },
+  "limitations": [
+    "These totals include all host development, debugging, prompt iterations, reasoning comparisons, generation runs, and evaluation calls. They are not one customer's production usage or cost.",
+    "The $0.018 per attempted model call is the assignment's fixed AI-M conversion for every requested model. It is not OpenAI vendor pricing or an actual invoice.",
+    "The assignment call-cost total excludes projected collection and infrastructure allocations; those belong to the separate monthly product-cost projection.",
+    "Cached input tokens are included within input_tokens, and reasoning output tokens are included within output_tokens. Do not add these subsets again.",
+    "Token counts are provider-reported usage from completed receipts. No missing usage or vendor charges were inferred.",
+    "Released unused reservations are excluded from charged attempts and costs; no active reservations remain in this snapshot.",
+    "Three separately reported real Docker smoke API calls are outside the host ledger and excluded from every host total above."
+  ]
+}

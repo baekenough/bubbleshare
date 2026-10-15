@@ -1,0 +1,7810 @@
+[
+  {
+    "mention_id": "M00001",
+    "observation_id": "OBS0001",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00002",
+    "observation_id": "OBS0001",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00003",
+    "observation_id": "OBS0001",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00004",
+    "observation_id": "OBS0002",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00005",
+    "observation_id": "OBS0002",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00006",
+    "observation_id": "OBS0003",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00007",
+    "observation_id": "OBS0003",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00008",
+    "observation_id": "OBS0003",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00009",
+    "observation_id": "OBS0004",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00010",
+    "observation_id": "OBS0004",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00011",
+    "observation_id": "OBS0004",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00012",
+    "observation_id": "OBS0005",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00013",
+    "observation_id": "OBS0005",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00014",
+    "observation_id": "OBS0006",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00015",
+    "observation_id": "OBS0006",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00016",
+    "observation_id": "OBS0006",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00017",
+    "observation_id": "OBS0007",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00018",
+    "observation_id": "OBS0007",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00019",
+    "observation_id": "OBS0007",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00020",
+    "observation_id": "OBS0007",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00021",
+    "observation_id": "OBS0008",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00022",
+    "observation_id": "OBS0008",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00023",
+    "observation_id": "OBS0008",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00024",
+    "observation_id": "OBS0009",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00025",
+    "observation_id": "OBS0009",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00026",
+    "observation_id": "OBS0009",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00027",
+    "observation_id": "OBS0010",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00028",
+    "observation_id": "OBS0010",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00029",
+    "observation_id": "OBS0010",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00030",
+    "observation_id": "OBS0011",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00031",
+    "observation_id": "OBS0011",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00032",
+    "observation_id": "OBS0011",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00033",
+    "observation_id": "OBS0012",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00034",
+    "observation_id": "OBS0012",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00035",
+    "observation_id": "OBS0013",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00036",
+    "observation_id": "OBS0014",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00037",
+    "observation_id": "OBS0014",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00038",
+    "observation_id": "OBS0014",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00039",
+    "observation_id": "OBS0015",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00040",
+    "observation_id": "OBS0015",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00041",
+    "observation_id": "OBS0015",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00042",
+    "observation_id": "OBS0016",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00043",
+    "observation_id": "OBS0017",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00044",
+    "observation_id": "OBS0018",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00045",
+    "observation_id": "OBS0019",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00046",
+    "observation_id": "OBS0020",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00047",
+    "observation_id": "OBS0021",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00048",
+    "observation_id": "OBS0021",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00049",
+    "observation_id": "OBS0022",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00050",
+    "observation_id": "OBS0023",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00051",
+    "observation_id": "OBS0024",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00052",
+    "observation_id": "OBS0025",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00053",
+    "observation_id": "OBS0025",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00054",
+    "observation_id": "OBS0025",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00055",
+    "observation_id": "OBS0026",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00056",
+    "observation_id": "OBS0026",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00057",
+    "observation_id": "OBS0027",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00058",
+    "observation_id": "OBS0027",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00059",
+    "observation_id": "OBS0027",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00060",
+    "observation_id": "OBS0028",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00061",
+    "observation_id": "OBS0028",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00062",
+    "observation_id": "OBS0029",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00063",
+    "observation_id": "OBS0030",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00064",
+    "observation_id": "OBS0030",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00065",
+    "observation_id": "OBS0031",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00066",
+    "observation_id": "OBS0032",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00067",
+    "observation_id": "OBS0032",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00068",
+    "observation_id": "OBS0032",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00069",
+    "observation_id": "OBS0033",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00070",
+    "observation_id": "OBS0033",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00071",
+    "observation_id": "OBS0034",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00072",
+    "observation_id": "OBS0034",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00073",
+    "observation_id": "OBS0035",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00074",
+    "observation_id": "OBS0035",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00075",
+    "observation_id": "OBS0036",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00076",
+    "observation_id": "OBS0036",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00077",
+    "observation_id": "OBS0036",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00078",
+    "observation_id": "OBS0037",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00079",
+    "observation_id": "OBS0037",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00080",
+    "observation_id": "OBS0038",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00081",
+    "observation_id": "OBS0038",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00082",
+    "observation_id": "OBS0039",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00083",
+    "observation_id": "OBS0039",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00084",
+    "observation_id": "OBS0039",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00085",
+    "observation_id": "OBS0040",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00086",
+    "observation_id": "OBS0040",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00087",
+    "observation_id": "OBS0040",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00088",
+    "observation_id": "OBS0041",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00089",
+    "observation_id": "OBS0041",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00090",
+    "observation_id": "OBS0041",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00091",
+    "observation_id": "OBS0042",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00092",
+    "observation_id": "OBS0042",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00093",
+    "observation_id": "OBS0042",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00094",
+    "observation_id": "OBS0042",
+    "brand_id": "BR003",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00095",
+    "observation_id": "OBS0043",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00096",
+    "observation_id": "OBS0044",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00097",
+    "observation_id": "OBS0044",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00098",
+    "observation_id": "OBS0045",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00099",
+    "observation_id": "OBS0045",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00100",
+    "observation_id": "OBS0046",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00101",
+    "observation_id": "OBS0046",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00102",
+    "observation_id": "OBS0047",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00103",
+    "observation_id": "OBS0048",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00104",
+    "observation_id": "OBS0049",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00105",
+    "observation_id": "OBS0049",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00106",
+    "observation_id": "OBS0050",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00107",
+    "observation_id": "OBS0050",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00108",
+    "observation_id": "OBS0051",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00109",
+    "observation_id": "OBS0052",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00110",
+    "observation_id": "OBS0053",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00111",
+    "observation_id": "OBS0053",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00112",
+    "observation_id": "OBS0054",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00113",
+    "observation_id": "OBS0055",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00114",
+    "observation_id": "OBS0055",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00115",
+    "observation_id": "OBS0056",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00116",
+    "observation_id": "OBS0057",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00117",
+    "observation_id": "OBS0058",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00118",
+    "observation_id": "OBS0058",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00119",
+    "observation_id": "OBS0059",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00120",
+    "observation_id": "OBS0059",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00121",
+    "observation_id": "OBS0060",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00122",
+    "observation_id": "OBS0060",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00123",
+    "observation_id": "OBS0061",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00124",
+    "observation_id": "OBS0061",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00125",
+    "observation_id": "OBS0061",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00126",
+    "observation_id": "OBS0062",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00127",
+    "observation_id": "OBS0062",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00128",
+    "observation_id": "OBS0062",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00129",
+    "observation_id": "OBS0063",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00130",
+    "observation_id": "OBS0063",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00131",
+    "observation_id": "OBS0063",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00132",
+    "observation_id": "OBS0064",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00133",
+    "observation_id": "OBS0064",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00134",
+    "observation_id": "OBS0064",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00135",
+    "observation_id": "OBS0065",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00136",
+    "observation_id": "OBS0065",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00137",
+    "observation_id": "OBS0065",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00138",
+    "observation_id": "OBS0066",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00139",
+    "observation_id": "OBS0066",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00140",
+    "observation_id": "OBS0067",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00141",
+    "observation_id": "OBS0067",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00142",
+    "observation_id": "OBS0068",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00143",
+    "observation_id": "OBS0068",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00144",
+    "observation_id": "OBS0069",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00145",
+    "observation_id": "OBS0069",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00146",
+    "observation_id": "OBS0069",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00147",
+    "observation_id": "OBS0070",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00148",
+    "observation_id": "OBS0070",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00149",
+    "observation_id": "OBS0071",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00150",
+    "observation_id": "OBS0071",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00151",
+    "observation_id": "OBS0072",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00152",
+    "observation_id": "OBS0072",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00153",
+    "observation_id": "OBS0072",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00154",
+    "observation_id": "OBS0073",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00155",
+    "observation_id": "OBS0073",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00156",
+    "observation_id": "OBS0074",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00157",
+    "observation_id": "OBS0074",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00158",
+    "observation_id": "OBS0075",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00159",
+    "observation_id": "OBS0075",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00160",
+    "observation_id": "OBS0076",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00161",
+    "observation_id": "OBS0076",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00162",
+    "observation_id": "OBS0077",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00163",
+    "observation_id": "OBS0077",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00164",
+    "observation_id": "OBS0077",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00165",
+    "observation_id": "OBS0078",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00166",
+    "observation_id": "OBS0078",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00167",
+    "observation_id": "OBS0079",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00168",
+    "observation_id": "OBS0079",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00169",
+    "observation_id": "OBS0080",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00170",
+    "observation_id": "OBS0080",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00171",
+    "observation_id": "OBS0081",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00172",
+    "observation_id": "OBS0081",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00173",
+    "observation_id": "OBS0082",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00174",
+    "observation_id": "OBS0082",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00175",
+    "observation_id": "OBS0083",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00176",
+    "observation_id": "OBS0083",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00177",
+    "observation_id": "OBS0084",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00178",
+    "observation_id": "OBS0084",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00179",
+    "observation_id": "OBS0085",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00180",
+    "observation_id": "OBS0085",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00181",
+    "observation_id": "OBS0086",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00182",
+    "observation_id": "OBS0086",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00183",
+    "observation_id": "OBS0087",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00184",
+    "observation_id": "OBS0087",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00185",
+    "observation_id": "OBS0088",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00186",
+    "observation_id": "OBS0088",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00187",
+    "observation_id": "OBS0089",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00188",
+    "observation_id": "OBS0089",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00189",
+    "observation_id": "OBS0090",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00190",
+    "observation_id": "OBS0090",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00191",
+    "observation_id": "OBS0091",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00192",
+    "observation_id": "OBS0091",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00193",
+    "observation_id": "OBS0092",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00194",
+    "observation_id": "OBS0092",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00195",
+    "observation_id": "OBS0092",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00196",
+    "observation_id": "OBS0093",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00197",
+    "observation_id": "OBS0093",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00198",
+    "observation_id": "OBS0093",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00199",
+    "observation_id": "OBS0093",
+    "brand_id": "BR004",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00200",
+    "observation_id": "OBS0094",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00201",
+    "observation_id": "OBS0094",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00202",
+    "observation_id": "OBS0094",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00203",
+    "observation_id": "OBS0095",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00204",
+    "observation_id": "OBS0095",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00205",
+    "observation_id": "OBS0095",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00206",
+    "observation_id": "OBS0096",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00207",
+    "observation_id": "OBS0096",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00208",
+    "observation_id": "OBS0096",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00209",
+    "observation_id": "OBS0097",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00210",
+    "observation_id": "OBS0097",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00211",
+    "observation_id": "OBS0097",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00212",
+    "observation_id": "OBS0098",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00213",
+    "observation_id": "OBS0098",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00214",
+    "observation_id": "OBS0098",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00215",
+    "observation_id": "OBS0098",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00216",
+    "observation_id": "OBS0099",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00217",
+    "observation_id": "OBS0099",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00218",
+    "observation_id": "OBS0099",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00219",
+    "observation_id": "OBS0100",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00220",
+    "observation_id": "OBS0100",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00221",
+    "observation_id": "OBS0100",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00222",
+    "observation_id": "OBS0100",
+    "brand_id": "BR004",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00223",
+    "observation_id": "OBS0101",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00224",
+    "observation_id": "OBS0101",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00225",
+    "observation_id": "OBS0101",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00226",
+    "observation_id": "OBS0101",
+    "brand_id": "BR002",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00227",
+    "observation_id": "OBS0102",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00228",
+    "observation_id": "OBS0102",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00229",
+    "observation_id": "OBS0102",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00230",
+    "observation_id": "OBS0102",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00231",
+    "observation_id": "OBS0103",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00232",
+    "observation_id": "OBS0103",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00233",
+    "observation_id": "OBS0104",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00234",
+    "observation_id": "OBS0105",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00235",
+    "observation_id": "OBS0105",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00236",
+    "observation_id": "OBS0105",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00237",
+    "observation_id": "OBS0106",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00238",
+    "observation_id": "OBS0106",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00239",
+    "observation_id": "OBS0106",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00240",
+    "observation_id": "OBS0107",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00241",
+    "observation_id": "OBS0107",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00242",
+    "observation_id": "OBS0107",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00243",
+    "observation_id": "OBS0108",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00244",
+    "observation_id": "OBS0108",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00245",
+    "observation_id": "OBS0108",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00246",
+    "observation_id": "OBS0109",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00247",
+    "observation_id": "OBS0109",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00248",
+    "observation_id": "OBS0109",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00249",
+    "observation_id": "OBS0112",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00250",
+    "observation_id": "OBS0112",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00251",
+    "observation_id": "OBS0113",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00252",
+    "observation_id": "OBS0113",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00253",
+    "observation_id": "OBS0114",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00254",
+    "observation_id": "OBS0114",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00255",
+    "observation_id": "OBS0115",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00256",
+    "observation_id": "OBS0115",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00257",
+    "observation_id": "OBS0115",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00258",
+    "observation_id": "OBS0116",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00259",
+    "observation_id": "OBS0116",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00260",
+    "observation_id": "OBS0116",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00261",
+    "observation_id": "OBS0117",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00262",
+    "observation_id": "OBS0117",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00263",
+    "observation_id": "OBS0117",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00264",
+    "observation_id": "OBS0118",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00265",
+    "observation_id": "OBS0118",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00266",
+    "observation_id": "OBS0119",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00267",
+    "observation_id": "OBS0119",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00268",
+    "observation_id": "OBS0119",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00269",
+    "observation_id": "OBS0120",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00270",
+    "observation_id": "OBS0120",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00271",
+    "observation_id": "OBS0121",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00272",
+    "observation_id": "OBS0121",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00273",
+    "observation_id": "OBS0121",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00274",
+    "observation_id": "OBS0122",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00275",
+    "observation_id": "OBS0122",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00276",
+    "observation_id": "OBS0123",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00277",
+    "observation_id": "OBS0123",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00278",
+    "observation_id": "OBS0123",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00279",
+    "observation_id": "OBS0124",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00280",
+    "observation_id": "OBS0124",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00281",
+    "observation_id": "OBS0125",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00282",
+    "observation_id": "OBS0125",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00283",
+    "observation_id": "OBS0126",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00284",
+    "observation_id": "OBS0126",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00285",
+    "observation_id": "OBS0126",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00286",
+    "observation_id": "OBS0127",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00287",
+    "observation_id": "OBS0127",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00288",
+    "observation_id": "OBS0127",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00289",
+    "observation_id": "OBS0127",
+    "brand_id": "BR002",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00290",
+    "observation_id": "OBS0128",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00291",
+    "observation_id": "OBS0128",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00292",
+    "observation_id": "OBS0128",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00293",
+    "observation_id": "OBS0128",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00294",
+    "observation_id": "OBS0129",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00295",
+    "observation_id": "OBS0129",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00296",
+    "observation_id": "OBS0130",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00297",
+    "observation_id": "OBS0130",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00298",
+    "observation_id": "OBS0130",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00299",
+    "observation_id": "OBS0131",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00300",
+    "observation_id": "OBS0131",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00301",
+    "observation_id": "OBS0131",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00302",
+    "observation_id": "OBS0132",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00303",
+    "observation_id": "OBS0132",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00304",
+    "observation_id": "OBS0132",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00305",
+    "observation_id": "OBS0134",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00306",
+    "observation_id": "OBS0134",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00307",
+    "observation_id": "OBS0135",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00308",
+    "observation_id": "OBS0135",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00309",
+    "observation_id": "OBS0136",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00310",
+    "observation_id": "OBS0137",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00311",
+    "observation_id": "OBS0137",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00312",
+    "observation_id": "OBS0138",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00313",
+    "observation_id": "OBS0138",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00314",
+    "observation_id": "OBS0139",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00315",
+    "observation_id": "OBS0139",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00316",
+    "observation_id": "OBS0140",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00317",
+    "observation_id": "OBS0141",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00318",
+    "observation_id": "OBS0141",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00319",
+    "observation_id": "OBS0142",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00320",
+    "observation_id": "OBS0142",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00321",
+    "observation_id": "OBS0143",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00322",
+    "observation_id": "OBS0143",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00323",
+    "observation_id": "OBS0144",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00324",
+    "observation_id": "OBS0145",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00325",
+    "observation_id": "OBS0145",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00326",
+    "observation_id": "OBS0145",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00327",
+    "observation_id": "OBS0146",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00328",
+    "observation_id": "OBS0147",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00329",
+    "observation_id": "OBS0147",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00330",
+    "observation_id": "OBS0148",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00331",
+    "observation_id": "OBS0148",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00332",
+    "observation_id": "OBS0148",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00333",
+    "observation_id": "OBS0149",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00334",
+    "observation_id": "OBS0150",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00335",
+    "observation_id": "OBS0150",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00336",
+    "observation_id": "OBS0151",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00337",
+    "observation_id": "OBS0151",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00338",
+    "observation_id": "OBS0152",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00339",
+    "observation_id": "OBS0152",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00340",
+    "observation_id": "OBS0153",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00341",
+    "observation_id": "OBS0153",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00342",
+    "observation_id": "OBS0153",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00343",
+    "observation_id": "OBS0154",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00344",
+    "observation_id": "OBS0154",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00345",
+    "observation_id": "OBS0155",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00346",
+    "observation_id": "OBS0155",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00347",
+    "observation_id": "OBS0156",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00348",
+    "observation_id": "OBS0156",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00349",
+    "observation_id": "OBS0156",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00350",
+    "observation_id": "OBS0157",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00351",
+    "observation_id": "OBS0157",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00352",
+    "observation_id": "OBS0158",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00353",
+    "observation_id": "OBS0158",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00354",
+    "observation_id": "OBS0158",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00355",
+    "observation_id": "OBS0159",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00356",
+    "observation_id": "OBS0159",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00357",
+    "observation_id": "OBS0159",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00358",
+    "observation_id": "OBS0160",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00359",
+    "observation_id": "OBS0160",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00360",
+    "observation_id": "OBS0161",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00361",
+    "observation_id": "OBS0161",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00362",
+    "observation_id": "OBS0161",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00363",
+    "observation_id": "OBS0162",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00364",
+    "observation_id": "OBS0162",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00365",
+    "observation_id": "OBS0163",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00366",
+    "observation_id": "OBS0163",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00367",
+    "observation_id": "OBS0164",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00368",
+    "observation_id": "OBS0165",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00369",
+    "observation_id": "OBS0165",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00370",
+    "observation_id": "OBS0166",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00371",
+    "observation_id": "OBS0167",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00372",
+    "observation_id": "OBS0168",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00373",
+    "observation_id": "OBS0168",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00374",
+    "observation_id": "OBS0169",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00375",
+    "observation_id": "OBS0170",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00376",
+    "observation_id": "OBS0171",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00377",
+    "observation_id": "OBS0172",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00378",
+    "observation_id": "OBS0173",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00379",
+    "observation_id": "OBS0174",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00380",
+    "observation_id": "OBS0174",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00381",
+    "observation_id": "OBS0175",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00382",
+    "observation_id": "OBS0176",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00383",
+    "observation_id": "OBS0176",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00384",
+    "observation_id": "OBS0177",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00385",
+    "observation_id": "OBS0177",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00386",
+    "observation_id": "OBS0178",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00387",
+    "observation_id": "OBS0178",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00388",
+    "observation_id": "OBS0179",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00389",
+    "observation_id": "OBS0179",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00390",
+    "observation_id": "OBS0180",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00391",
+    "observation_id": "OBS0180",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00392",
+    "observation_id": "OBS0181",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00393",
+    "observation_id": "OBS0181",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00394",
+    "observation_id": "OBS0181",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00395",
+    "observation_id": "OBS0182",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00396",
+    "observation_id": "OBS0182",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00397",
+    "observation_id": "OBS0183",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00398",
+    "observation_id": "OBS0183",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00399",
+    "observation_id": "OBS0183",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00400",
+    "observation_id": "OBS0184",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00401",
+    "observation_id": "OBS0184",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00402",
+    "observation_id": "OBS0185",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00403",
+    "observation_id": "OBS0185",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00404",
+    "observation_id": "OBS0186",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00405",
+    "observation_id": "OBS0186",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00406",
+    "observation_id": "OBS0188",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00407",
+    "observation_id": "OBS0188",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00408",
+    "observation_id": "OBS0188",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00409",
+    "observation_id": "OBS0188",
+    "brand_id": "BR002",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00410",
+    "observation_id": "OBS0189",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00411",
+    "observation_id": "OBS0189",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00412",
+    "observation_id": "OBS0189",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00413",
+    "observation_id": "OBS0189",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00414",
+    "observation_id": "OBS0190",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00415",
+    "observation_id": "OBS0190",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00416",
+    "observation_id": "OBS0190",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00417",
+    "observation_id": "OBS0190",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00418",
+    "observation_id": "OBS0191",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00419",
+    "observation_id": "OBS0191",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00420",
+    "observation_id": "OBS0191",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00421",
+    "observation_id": "OBS0192",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00422",
+    "observation_id": "OBS0192",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00423",
+    "observation_id": "OBS0192",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00424",
+    "observation_id": "OBS0193",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00425",
+    "observation_id": "OBS0193",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00426",
+    "observation_id": "OBS0194",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00427",
+    "observation_id": "OBS0194",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00428",
+    "observation_id": "OBS0194",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00429",
+    "observation_id": "OBS0195",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00430",
+    "observation_id": "OBS0195",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00431",
+    "observation_id": "OBS0196",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00432",
+    "observation_id": "OBS0196",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00433",
+    "observation_id": "OBS0198",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00434",
+    "observation_id": "OBS0199",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00435",
+    "observation_id": "OBS0199",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00436",
+    "observation_id": "OBS0200",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00437",
+    "observation_id": "OBS0200",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00438",
+    "observation_id": "OBS0200",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00439",
+    "observation_id": "OBS0201",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00440",
+    "observation_id": "OBS0202",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00441",
+    "observation_id": "OBS0203",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00442",
+    "observation_id": "OBS0203",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00443",
+    "observation_id": "OBS0204",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00444",
+    "observation_id": "OBS0205",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00445",
+    "observation_id": "OBS0205",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00446",
+    "observation_id": "OBS0206",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00447",
+    "observation_id": "OBS0206",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00448",
+    "observation_id": "OBS0207",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00449",
+    "observation_id": "OBS0208",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00450",
+    "observation_id": "OBS0208",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00451",
+    "observation_id": "OBS0208",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00452",
+    "observation_id": "OBS0209",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00453",
+    "observation_id": "OBS0209",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00454",
+    "observation_id": "OBS0210",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00455",
+    "observation_id": "OBS0210",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00456",
+    "observation_id": "OBS0211",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00457",
+    "observation_id": "OBS0211",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00458",
+    "observation_id": "OBS0211",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00459",
+    "observation_id": "OBS0212",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00460",
+    "observation_id": "OBS0212",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00461",
+    "observation_id": "OBS0212",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00462",
+    "observation_id": "OBS0213",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00463",
+    "observation_id": "OBS0213",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00464",
+    "observation_id": "OBS0213",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00465",
+    "observation_id": "OBS0214",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00466",
+    "observation_id": "OBS0214",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00467",
+    "observation_id": "OBS0214",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00468",
+    "observation_id": "OBS0214",
+    "brand_id": "BR004",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00469",
+    "observation_id": "OBS0215",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00470",
+    "observation_id": "OBS0215",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00471",
+    "observation_id": "OBS0216",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00472",
+    "observation_id": "OBS0216",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00473",
+    "observation_id": "OBS0216",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00474",
+    "observation_id": "OBS0217",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00475",
+    "observation_id": "OBS0217",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00476",
+    "observation_id": "OBS0217",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00477",
+    "observation_id": "OBS0218",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00478",
+    "observation_id": "OBS0218",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00479",
+    "observation_id": "OBS0219",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00480",
+    "observation_id": "OBS0219",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00481",
+    "observation_id": "OBS0219",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00482",
+    "observation_id": "OBS0220",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00483",
+    "observation_id": "OBS0220",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00484",
+    "observation_id": "OBS0221",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00485",
+    "observation_id": "OBS0221",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00486",
+    "observation_id": "OBS0222",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00487",
+    "observation_id": "OBS0222",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00488",
+    "observation_id": "OBS0222",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00489",
+    "observation_id": "OBS0223",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00490",
+    "observation_id": "OBS0223",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00491",
+    "observation_id": "OBS0223",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00492",
+    "observation_id": "OBS0224",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00493",
+    "observation_id": "OBS0225",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00494",
+    "observation_id": "OBS0226",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00495",
+    "observation_id": "OBS0227",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00496",
+    "observation_id": "OBS0228",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00497",
+    "observation_id": "OBS0229",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00498",
+    "observation_id": "OBS0229",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00499",
+    "observation_id": "OBS0230",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00500",
+    "observation_id": "OBS0230",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00501",
+    "observation_id": "OBS0230",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00502",
+    "observation_id": "OBS0231",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00503",
+    "observation_id": "OBS0232",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00504",
+    "observation_id": "OBS0232",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00505",
+    "observation_id": "OBS0232",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00506",
+    "observation_id": "OBS0233",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00507",
+    "observation_id": "OBS0233",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00508",
+    "observation_id": "OBS0234",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00509",
+    "observation_id": "OBS0234",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00510",
+    "observation_id": "OBS0235",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00511",
+    "observation_id": "OBS0235",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00512",
+    "observation_id": "OBS0236",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00513",
+    "observation_id": "OBS0236",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00514",
+    "observation_id": "OBS0236",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00515",
+    "observation_id": "OBS0237",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00516",
+    "observation_id": "OBS0238",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00517",
+    "observation_id": "OBS0239",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00518",
+    "observation_id": "OBS0239",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00519",
+    "observation_id": "OBS0240",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00520",
+    "observation_id": "OBS0240",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00521",
+    "observation_id": "OBS0241",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00522",
+    "observation_id": "OBS0241",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00523",
+    "observation_id": "OBS0241",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00524",
+    "observation_id": "OBS0241",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00525",
+    "observation_id": "OBS0242",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00526",
+    "observation_id": "OBS0242",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00527",
+    "observation_id": "OBS0243",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00528",
+    "observation_id": "OBS0243",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00529",
+    "observation_id": "OBS0243",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00530",
+    "observation_id": "OBS0244",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00531",
+    "observation_id": "OBS0244",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00532",
+    "observation_id": "OBS0245",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00533",
+    "observation_id": "OBS0245",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00534",
+    "observation_id": "OBS0245",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00535",
+    "observation_id": "OBS0246",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00536",
+    "observation_id": "OBS0246",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00537",
+    "observation_id": "OBS0246",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00538",
+    "observation_id": "OBS0246",
+    "brand_id": "BR003",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00539",
+    "observation_id": "OBS0247",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00540",
+    "observation_id": "OBS0247",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00541",
+    "observation_id": "OBS0247",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00542",
+    "observation_id": "OBS0248",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00543",
+    "observation_id": "OBS0248",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00544",
+    "observation_id": "OBS0248",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00545",
+    "observation_id": "OBS0248",
+    "brand_id": "BR002",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00546",
+    "observation_id": "OBS0249",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00547",
+    "observation_id": "OBS0249",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00548",
+    "observation_id": "OBS0249",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00549",
+    "observation_id": "OBS0250",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00550",
+    "observation_id": "OBS0250",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00551",
+    "observation_id": "OBS0250",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00552",
+    "observation_id": "OBS0250",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00553",
+    "observation_id": "OBS0251",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00554",
+    "observation_id": "OBS0251",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00555",
+    "observation_id": "OBS0251",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00556",
+    "observation_id": "OBS0252",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00557",
+    "observation_id": "OBS0252",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00558",
+    "observation_id": "OBS0253",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00559",
+    "observation_id": "OBS0253",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00560",
+    "observation_id": "OBS0254",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00561",
+    "observation_id": "OBS0254",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00562",
+    "observation_id": "OBS0255",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00563",
+    "observation_id": "OBS0255",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00564",
+    "observation_id": "OBS0256",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00565",
+    "observation_id": "OBS0256",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00566",
+    "observation_id": "OBS0257",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00567",
+    "observation_id": "OBS0258",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00568",
+    "observation_id": "OBS0259",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00569",
+    "observation_id": "OBS0260",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00570",
+    "observation_id": "OBS0261",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00571",
+    "observation_id": "OBS0261",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00572",
+    "observation_id": "OBS0261",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00573",
+    "observation_id": "OBS0262",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00574",
+    "observation_id": "OBS0262",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00575",
+    "observation_id": "OBS0263",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00576",
+    "observation_id": "OBS0263",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00577",
+    "observation_id": "OBS0263",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00578",
+    "observation_id": "OBS0264",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00579",
+    "observation_id": "OBS0264",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00580",
+    "observation_id": "OBS0265",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00581",
+    "observation_id": "OBS0265",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00582",
+    "observation_id": "OBS0265",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00583",
+    "observation_id": "OBS0266",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00584",
+    "observation_id": "OBS0266",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00585",
+    "observation_id": "OBS0266",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00586",
+    "observation_id": "OBS0267",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00587",
+    "observation_id": "OBS0267",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00588",
+    "observation_id": "OBS0268",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00589",
+    "observation_id": "OBS0269",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00590",
+    "observation_id": "OBS0269",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00591",
+    "observation_id": "OBS0270",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00592",
+    "observation_id": "OBS0270",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00593",
+    "observation_id": "OBS0271",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00594",
+    "observation_id": "OBS0271",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00595",
+    "observation_id": "OBS0271",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00596",
+    "observation_id": "OBS0272",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00597",
+    "observation_id": "OBS0272",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00598",
+    "observation_id": "OBS0273",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00599",
+    "observation_id": "OBS0273",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00600",
+    "observation_id": "OBS0274",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00601",
+    "observation_id": "OBS0274",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00602",
+    "observation_id": "OBS0274",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00603",
+    "observation_id": "OBS0275",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00604",
+    "observation_id": "OBS0275",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00605",
+    "observation_id": "OBS0276",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00606",
+    "observation_id": "OBS0276",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00607",
+    "observation_id": "OBS0276",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00608",
+    "observation_id": "OBS0276",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00609",
+    "observation_id": "OBS0277",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00610",
+    "observation_id": "OBS0277",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00611",
+    "observation_id": "OBS0277",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00612",
+    "observation_id": "OBS0277",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00613",
+    "observation_id": "OBS0278",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00614",
+    "observation_id": "OBS0278",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00615",
+    "observation_id": "OBS0278",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00616",
+    "observation_id": "OBS0279",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00617",
+    "observation_id": "OBS0279",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00618",
+    "observation_id": "OBS0279",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00619",
+    "observation_id": "OBS0280",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00620",
+    "observation_id": "OBS0280",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00621",
+    "observation_id": "OBS0280",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00622",
+    "observation_id": "OBS0281",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00623",
+    "observation_id": "OBS0281",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00624",
+    "observation_id": "OBS0282",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00625",
+    "observation_id": "OBS0282",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00626",
+    "observation_id": "OBS0282",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00627",
+    "observation_id": "OBS0282",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00628",
+    "observation_id": "OBS0283",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00629",
+    "observation_id": "OBS0284",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00630",
+    "observation_id": "OBS0284",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00631",
+    "observation_id": "OBS0285",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00632",
+    "observation_id": "OBS0287",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00633",
+    "observation_id": "OBS0287",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00634",
+    "observation_id": "OBS0288",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00635",
+    "observation_id": "OBS0288",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00636",
+    "observation_id": "OBS0289",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00637",
+    "observation_id": "OBS0289",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00638",
+    "observation_id": "OBS0290",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00639",
+    "observation_id": "OBS0291",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00640",
+    "observation_id": "OBS0291",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00641",
+    "observation_id": "OBS0292",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00642",
+    "observation_id": "OBS0293",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00643",
+    "observation_id": "OBS0293",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00644",
+    "observation_id": "OBS0294",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00645",
+    "observation_id": "OBS0294",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00646",
+    "observation_id": "OBS0295",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00647",
+    "observation_id": "OBS0295",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00648",
+    "observation_id": "OBS0295",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00649",
+    "observation_id": "OBS0297",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00650",
+    "observation_id": "OBS0298",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00651",
+    "observation_id": "OBS0299",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00652",
+    "observation_id": "OBS0299",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00653",
+    "observation_id": "OBS0300",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00654",
+    "observation_id": "OBS0301",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00655",
+    "observation_id": "OBS0301",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00656",
+    "observation_id": "OBS0302",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00657",
+    "observation_id": "OBS0302",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00658",
+    "observation_id": "OBS0302",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00659",
+    "observation_id": "OBS0302",
+    "brand_id": "BR003",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00660",
+    "observation_id": "OBS0303",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00661",
+    "observation_id": "OBS0303",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00662",
+    "observation_id": "OBS0303",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00663",
+    "observation_id": "OBS0304",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00664",
+    "observation_id": "OBS0304",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00665",
+    "observation_id": "OBS0304",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00666",
+    "observation_id": "OBS0306",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00667",
+    "observation_id": "OBS0306",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00668",
+    "observation_id": "OBS0306",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00669",
+    "observation_id": "OBS0307",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00670",
+    "observation_id": "OBS0307",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00671",
+    "observation_id": "OBS0307",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00672",
+    "observation_id": "OBS0308",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00673",
+    "observation_id": "OBS0308",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00674",
+    "observation_id": "OBS0309",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00675",
+    "observation_id": "OBS0309",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00676",
+    "observation_id": "OBS0310",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00677",
+    "observation_id": "OBS0310",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00678",
+    "observation_id": "OBS0310",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00679",
+    "observation_id": "OBS0312",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00680",
+    "observation_id": "OBS0312",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00681",
+    "observation_id": "OBS0313",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00682",
+    "observation_id": "OBS0313",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00683",
+    "observation_id": "OBS0314",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00684",
+    "observation_id": "OBS0314",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00685",
+    "observation_id": "OBS0314",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00686",
+    "observation_id": "OBS0315",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00687",
+    "observation_id": "OBS0315",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00688",
+    "observation_id": "OBS0318",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00689",
+    "observation_id": "OBS0319",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00690",
+    "observation_id": "OBS0320",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00691",
+    "observation_id": "OBS0321",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00692",
+    "observation_id": "OBS0321",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00693",
+    "observation_id": "OBS0322",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00694",
+    "observation_id": "OBS0322",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00695",
+    "observation_id": "OBS0322",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00696",
+    "observation_id": "OBS0323",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00697",
+    "observation_id": "OBS0324",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00698",
+    "observation_id": "OBS0325",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00699",
+    "observation_id": "OBS0325",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00700",
+    "observation_id": "OBS0326",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00701",
+    "observation_id": "OBS0326",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00702",
+    "observation_id": "OBS0326",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00703",
+    "observation_id": "OBS0327",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00704",
+    "observation_id": "OBS0327",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00705",
+    "observation_id": "OBS0328",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00706",
+    "observation_id": "OBS0329",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00707",
+    "observation_id": "OBS0329",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00708",
+    "observation_id": "OBS0329",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00709",
+    "observation_id": "OBS0330",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00710",
+    "observation_id": "OBS0331",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00711",
+    "observation_id": "OBS0331",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00712",
+    "observation_id": "OBS0332",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00713",
+    "observation_id": "OBS0332",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00714",
+    "observation_id": "OBS0332",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00715",
+    "observation_id": "OBS0333",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00716",
+    "observation_id": "OBS0333",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00717",
+    "observation_id": "OBS0334",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00718",
+    "observation_id": "OBS0334",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00719",
+    "observation_id": "OBS0335",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00720",
+    "observation_id": "OBS0335",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00721",
+    "observation_id": "OBS0336",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00722",
+    "observation_id": "OBS0336",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00723",
+    "observation_id": "OBS0336",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00724",
+    "observation_id": "OBS0336",
+    "brand_id": "BR004",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00725",
+    "observation_id": "OBS0337",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00726",
+    "observation_id": "OBS0337",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00727",
+    "observation_id": "OBS0337",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00728",
+    "observation_id": "OBS0338",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00729",
+    "observation_id": "OBS0338",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00730",
+    "observation_id": "OBS0338",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00731",
+    "observation_id": "OBS0339",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00732",
+    "observation_id": "OBS0339",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00733",
+    "observation_id": "OBS0339",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00734",
+    "observation_id": "OBS0340",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00735",
+    "observation_id": "OBS0340",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00736",
+    "observation_id": "OBS0340",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00737",
+    "observation_id": "OBS0340",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00738",
+    "observation_id": "OBS0341",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00739",
+    "observation_id": "OBS0341",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00740",
+    "observation_id": "OBS0341",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00741",
+    "observation_id": "OBS0341",
+    "brand_id": "BR001",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00742",
+    "observation_id": "OBS0342",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00743",
+    "observation_id": "OBS0342",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00744",
+    "observation_id": "OBS0343",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00745",
+    "observation_id": "OBS0343",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00746",
+    "observation_id": "OBS0344",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00747",
+    "observation_id": "OBS0345",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00748",
+    "observation_id": "OBS0345",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00749",
+    "observation_id": "OBS0346",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00750",
+    "observation_id": "OBS0347",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00751",
+    "observation_id": "OBS0347",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00752",
+    "observation_id": "OBS0348",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00753",
+    "observation_id": "OBS0348",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00754",
+    "observation_id": "OBS0349",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00755",
+    "observation_id": "OBS0349",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00756",
+    "observation_id": "OBS0349",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00757",
+    "observation_id": "OBS0350",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00758",
+    "observation_id": "OBS0350",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00759",
+    "observation_id": "OBS0351",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00760",
+    "observation_id": "OBS0352",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00761",
+    "observation_id": "OBS0352",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00762",
+    "observation_id": "OBS0353",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00763",
+    "observation_id": "OBS0355",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00764",
+    "observation_id": "OBS0355",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00765",
+    "observation_id": "OBS0356",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00766",
+    "observation_id": "OBS0356",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00767",
+    "observation_id": "OBS0357",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00768",
+    "observation_id": "OBS0358",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00769",
+    "observation_id": "OBS0359",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00770",
+    "observation_id": "OBS0359",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00771",
+    "observation_id": "OBS0360",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00772",
+    "observation_id": "OBS0360",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00773",
+    "observation_id": "OBS0361",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00774",
+    "observation_id": "OBS0361",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00775",
+    "observation_id": "OBS0362",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00776",
+    "observation_id": "OBS0362",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00777",
+    "observation_id": "OBS0362",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00778",
+    "observation_id": "OBS0363",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00779",
+    "observation_id": "OBS0363",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00780",
+    "observation_id": "OBS0364",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00781",
+    "observation_id": "OBS0364",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00782",
+    "observation_id": "OBS0364",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00783",
+    "observation_id": "OBS0365",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00784",
+    "observation_id": "OBS0365",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00785",
+    "observation_id": "OBS0365",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00786",
+    "observation_id": "OBS0366",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00787",
+    "observation_id": "OBS0366",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00788",
+    "observation_id": "OBS0366",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00789",
+    "observation_id": "OBS0367",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00790",
+    "observation_id": "OBS0367",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00791",
+    "observation_id": "OBS0368",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00792",
+    "observation_id": "OBS0368",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00793",
+    "observation_id": "OBS0369",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00794",
+    "observation_id": "OBS0369",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00795",
+    "observation_id": "OBS0369",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00796",
+    "observation_id": "OBS0370",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00797",
+    "observation_id": "OBS0370",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00798",
+    "observation_id": "OBS0370",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00799",
+    "observation_id": "OBS0370",
+    "brand_id": "BR003",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00800",
+    "observation_id": "OBS0371",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00801",
+    "observation_id": "OBS0371",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00802",
+    "observation_id": "OBS0371",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00803",
+    "observation_id": "OBS0372",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00804",
+    "observation_id": "OBS0372",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00805",
+    "observation_id": "OBS0372",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00806",
+    "observation_id": "OBS0372",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00807",
+    "observation_id": "OBS0373",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00808",
+    "observation_id": "OBS0373",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00809",
+    "observation_id": "OBS0374",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00810",
+    "observation_id": "OBS0375",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00811",
+    "observation_id": "OBS0375",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00812",
+    "observation_id": "OBS0377",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00813",
+    "observation_id": "OBS0379",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00814",
+    "observation_id": "OBS0380",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00815",
+    "observation_id": "OBS0381",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00816",
+    "observation_id": "OBS0381",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00817",
+    "observation_id": "OBS0383",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00818",
+    "observation_id": "OBS0383",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00819",
+    "observation_id": "OBS0384",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00820",
+    "observation_id": "OBS0385",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00821",
+    "observation_id": "OBS0385",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00822",
+    "observation_id": "OBS0386",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00823",
+    "observation_id": "OBS0387",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00824",
+    "observation_id": "OBS0388",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00825",
+    "observation_id": "OBS0388",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00826",
+    "observation_id": "OBS0389",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00827",
+    "observation_id": "OBS0389",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00828",
+    "observation_id": "OBS0389",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00829",
+    "observation_id": "OBS0390",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00830",
+    "observation_id": "OBS0390",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00831",
+    "observation_id": "OBS0391",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00832",
+    "observation_id": "OBS0391",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00833",
+    "observation_id": "OBS0392",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00834",
+    "observation_id": "OBS0392",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00835",
+    "observation_id": "OBS0392",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00836",
+    "observation_id": "OBS0392",
+    "brand_id": "BR004",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00837",
+    "observation_id": "OBS0393",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00838",
+    "observation_id": "OBS0393",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00839",
+    "observation_id": "OBS0393",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00840",
+    "observation_id": "OBS0393",
+    "brand_id": "BR003",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00841",
+    "observation_id": "OBS0394",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00842",
+    "observation_id": "OBS0394",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00843",
+    "observation_id": "OBS0394",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00844",
+    "observation_id": "OBS0394",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00845",
+    "observation_id": "OBS0395",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00846",
+    "observation_id": "OBS0395",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00847",
+    "observation_id": "OBS0396",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00848",
+    "observation_id": "OBS0396",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00849",
+    "observation_id": "OBS0396",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00850",
+    "observation_id": "OBS0397",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00851",
+    "observation_id": "OBS0397",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00852",
+    "observation_id": "OBS0397",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00853",
+    "observation_id": "OBS0398",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00854",
+    "observation_id": "OBS0398",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00855",
+    "observation_id": "OBS0398",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00856",
+    "observation_id": "OBS0399",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00857",
+    "observation_id": "OBS0399",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00858",
+    "observation_id": "OBS0399",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00859",
+    "observation_id": "OBS0399",
+    "brand_id": "BR002",
+    "mention_rank": 4,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00860",
+    "observation_id": "OBS0400",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00861",
+    "observation_id": "OBS0400",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00862",
+    "observation_id": "OBS0400",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00863",
+    "observation_id": "OBS0401",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00864",
+    "observation_id": "OBS0401",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00865",
+    "observation_id": "OBS0401",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00866",
+    "observation_id": "OBS0401",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00867",
+    "observation_id": "OBS0402",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00868",
+    "observation_id": "OBS0402",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00869",
+    "observation_id": "OBS0403",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00870",
+    "observation_id": "OBS0404",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00871",
+    "observation_id": "OBS0404",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00872",
+    "observation_id": "OBS0405",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00873",
+    "observation_id": "OBS0405",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00874",
+    "observation_id": "OBS0406",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00875",
+    "observation_id": "OBS0406",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00876",
+    "observation_id": "OBS0407",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00877",
+    "observation_id": "OBS0407",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00878",
+    "observation_id": "OBS0408",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00879",
+    "observation_id": "OBS0408",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00880",
+    "observation_id": "OBS0409",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00881",
+    "observation_id": "OBS0410",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00882",
+    "observation_id": "OBS0410",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00883",
+    "observation_id": "OBS0411",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00884",
+    "observation_id": "OBS0411",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00885",
+    "observation_id": "OBS0412",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00886",
+    "observation_id": "OBS0413",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00887",
+    "observation_id": "OBS0413",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00888",
+    "observation_id": "OBS0413",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00889",
+    "observation_id": "OBS0414",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00890",
+    "observation_id": "OBS0414",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00891",
+    "observation_id": "OBS0415",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00892",
+    "observation_id": "OBS0415",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00893",
+    "observation_id": "OBS0416",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00894",
+    "observation_id": "OBS0416",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00895",
+    "observation_id": "OBS0417",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00896",
+    "observation_id": "OBS0417",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00897",
+    "observation_id": "OBS0417",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00898",
+    "observation_id": "OBS0418",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00899",
+    "observation_id": "OBS0418",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00900",
+    "observation_id": "OBS0418",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00901",
+    "observation_id": "OBS0419",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00902",
+    "observation_id": "OBS0419",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00903",
+    "observation_id": "OBS0419",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00904",
+    "observation_id": "OBS0420",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00905",
+    "observation_id": "OBS0420",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00906",
+    "observation_id": "OBS0421",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00907",
+    "observation_id": "OBS0421",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00908",
+    "observation_id": "OBS0421",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00909",
+    "observation_id": "OBS0422",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00910",
+    "observation_id": "OBS0422",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00911",
+    "observation_id": "OBS0422",
+    "brand_id": "BR005",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00912",
+    "observation_id": "OBS0423",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00913",
+    "observation_id": "OBS0423",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00914",
+    "observation_id": "OBS0423",
+    "brand_id": "BR004",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00915",
+    "observation_id": "OBS0424",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "negative"
+  },
+  {
+    "mention_id": "M00916",
+    "observation_id": "OBS0424",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00917",
+    "observation_id": "OBS0425",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00918",
+    "observation_id": "OBS0425",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00919",
+    "observation_id": "OBS0425",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00920",
+    "observation_id": "OBS0426",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00921",
+    "observation_id": "OBS0426",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00922",
+    "observation_id": "OBS0427",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00923",
+    "observation_id": "OBS0427",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00924",
+    "observation_id": "OBS0428",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00925",
+    "observation_id": "OBS0428",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00926",
+    "observation_id": "OBS0429",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00927",
+    "observation_id": "OBS0429",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00928",
+    "observation_id": "OBS0429",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00929",
+    "observation_id": "OBS0430",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00930",
+    "observation_id": "OBS0430",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00931",
+    "observation_id": "OBS0431",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00932",
+    "observation_id": "OBS0431",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00933",
+    "observation_id": "OBS0431",
+    "brand_id": "BR001",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00934",
+    "observation_id": "OBS0431",
+    "brand_id": "BR005",
+    "mention_rank": 4,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00935",
+    "observation_id": "OBS0432",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00936",
+    "observation_id": "OBS0432",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00937",
+    "observation_id": "OBS0433",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00938",
+    "observation_id": "OBS0433",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00939",
+    "observation_id": "OBS0434",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00940",
+    "observation_id": "OBS0434",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00941",
+    "observation_id": "OBS0435",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00942",
+    "observation_id": "OBS0435",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00943",
+    "observation_id": "OBS0437",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00944",
+    "observation_id": "OBS0437",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00945",
+    "observation_id": "OBS0438",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00946",
+    "observation_id": "OBS0439",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00947",
+    "observation_id": "OBS0440",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00948",
+    "observation_id": "OBS0441",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00949",
+    "observation_id": "OBS0441",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00950",
+    "observation_id": "OBS0443",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00951",
+    "observation_id": "OBS0443",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00952",
+    "observation_id": "OBS0444",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00953",
+    "observation_id": "OBS0445",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00954",
+    "observation_id": "OBS0445",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00955",
+    "observation_id": "OBS0446",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00956",
+    "observation_id": "OBS0446",
+    "brand_id": "BR005",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00957",
+    "observation_id": "OBS0447",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00958",
+    "observation_id": "OBS0447",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00959",
+    "observation_id": "OBS0448",
+    "brand_id": "BR003",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00960",
+    "observation_id": "OBS0449",
+    "brand_id": "BR002",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00961",
+    "observation_id": "OBS0450",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00962",
+    "observation_id": "OBS0451",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00963",
+    "observation_id": "OBS0451",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00964",
+    "observation_id": "OBS0452",
+    "brand_id": "BR005",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00965",
+    "observation_id": "OBS0452",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00966",
+    "observation_id": "OBS0453",
+    "brand_id": "BR004",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00967",
+    "observation_id": "OBS0453",
+    "brand_id": "BR001",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00968",
+    "observation_id": "OBS0453",
+    "brand_id": "BR002",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00969",
+    "observation_id": "OBS0454",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00970",
+    "observation_id": "OBS0454",
+    "brand_id": "BR004",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00971",
+    "observation_id": "OBS0454",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "listed",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00972",
+    "observation_id": "OBS0455",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00973",
+    "observation_id": "OBS0455",
+    "brand_id": "BR003",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00974",
+    "observation_id": "OBS0456",
+    "brand_id": "BR001",
+    "mention_rank": 1,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  },
+  {
+    "mention_id": "M00975",
+    "observation_id": "OBS0456",
+    "brand_id": "BR002",
+    "mention_rank": 2,
+    "mention_context": "recommended",
+    "sentiment": "positive"
+  },
+  {
+    "mention_id": "M00976",
+    "observation_id": "OBS0456",
+    "brand_id": "BR003",
+    "mention_rank": 3,
+    "mention_context": "recommended",
+    "sentiment": "neutral"
+  }
+]

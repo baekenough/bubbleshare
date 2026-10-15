@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "status": "acceptance_cases_defined_not_executed",
+  "purpose": "분석 데이터에서 근거 있고 실행 가능한 액션을 만드는 판단을 평가한다. 특정 제목의 문자열 일치는 정답 기준이 아니다.",
+  "quality_gate": {
+    "rubric_minimum_total": 8,
+    "rubric_maximum_total": 10,
+    "minimum_each_dimension": 1,
+    "allowed_hard_violations": 0
+  },
+  "initial_target": {
+    "cases_meeting_expectations": 2,
+    "total_cases": 2,
+    "allowed_hard_violations": 0
+  },
+  "cases": [
+    {
+      "id": "lead_capability_unsupported",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "context_override": {
+        "origin": "synthetic_eval_fixture",
+        "verified_web_form_auto_registration": false,
+        "evidence_receipt": "eval-product-check-unsupported-001"
+      },
+      "expected": [
+        "자동 등록 홍보를 제외",
+        "해당 처방의 차단 사유와 제품 요청 또는 검증된 다른 경로 구별",
+        "기능 지원 여부가 출력에 실질적으로 반영"
+      ],
+      "forbidden": [
+        "자동 등록을 지원한다고 주장",
+        "이전 캐시의 자동화 홍보를 그대로 재사용",
+        "미지원 기능을 콘텐츠만으로 해결할 수 있다고 설명"
+      ]
+    },
+    {
+      "id": "lead_capability_confirmed",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "context_override": {
+        "origin": "synthetic_eval_fixture",
+        "verified_web_form_auto_registration": true,
+        "verified_route": "평가용 공식 연동 경로 A",
+        "evidence_receipt": "eval-product-check-001",
+        "free_trial": "unknown"
+      },
+      "expected": [
+        "검증된 연동 경로 A를 사용한 구체적 실습 단계",
+        "확인된 기능을 불필요하게 미확인 상태로 반복 보류하지 않음",
+        "체험 조건은 여전히 확인 필요로 유지",
+        "맥락 변경에 따른 캐시 키 변경"
+      ],
+      "forbidden": [
+        "네이티브 기능으로 경로 변경",
+        "알려지지 않은 무료 체험 주장",
+        "지원 불가 사례와 동일한 차단 결과"
+      ]
+    }
+  ],
+  "source": "Unchanged cases selected from evals/action-cases.json"
+}

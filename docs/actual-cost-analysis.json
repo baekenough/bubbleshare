@@ -1,0 +1,1210 @@
+{
+  "kind": "saved_real_provider_receipt_economics_separate_from_assignment_tariffs",
+  "decimal_encoding": "Exact finite monetary amounts and Decimal ratios are JSON strings; division uses 40-digit Decimal precision. Token counts are integers.",
+  "reproduce": "python3 scripts/analyze_actual_costs.py --langfuse-monthly-per-customer 0",
+  "sources": [
+    {
+      "file": "output/product-v2-langfuse.json",
+      "sha256": "3ab0ecb30a7e9f54988ab607d041b6becf2ad98579e913ce063aeb677e8b9934"
+    },
+    {
+      "file": "output/product-v2-quality-audit.json",
+      "sha256": "90cf128b7e172564519f8b39194e0c5c72590580ef62e9ae3dd988f4886c971d"
+    },
+    {
+      "file": "VIVI_MVP_Sample_Dataset/pricing_assumptions.json",
+      "sha256": "9ed4c3cf2d3caa87d08a93f01b9592e68e7024854c6728a1eaee7e73b0cbe765"
+    }
+  ],
+  "scope": {
+    "paid_calls": 10,
+    "final_quality_approved_cases": 4,
+    "all_selected_receipts_reconciled_with_langfuse": true,
+    "additional_model_calls_in_this_analysis": 0,
+    "reads_environment_or_credentials": false,
+    "all_failed_paid_attempts_included": true,
+    "unrelated_test_traces_excluded": true
+  },
+  "observed_provider_rates": {
+    "basis": "Inferred exactly from these provider-reported prompt/completion costs and token counts; not a future tariff promise.",
+    "uncached_input_per_million_usd": "2.5000000",
+    "cached_input_per_million_usd": "0.25000000",
+    "output_including_reasoning_per_million_usd": "15.000000",
+    "partition_caveat": "Cached-input and reasoning money are derived allocations. The provider directly reports only prompt, completion, and total money; reasoning is included in completion, not an extra fee."
+  },
+  "calls": [
+    {
+      "artifact": "output/product-v2-run1/lead.json",
+      "sha256": "bb95a6f122a536ffacafc0c095a97c32a6c7dffeb9b7c7e9cbd88e4fc3894fab",
+      "invocation_id": "5aa941f648d74975924a24aa19fc3618",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2",
+      "product_result_type": "fallback",
+      "provider_receipt_status": "failed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 24809,
+        "input_uncached": 24809,
+        "input_cached": 0,
+        "output_including_reasoning": 10000,
+        "output_nonreasoning": 4494,
+        "output_reasoning": 5506
+      },
+      "reported_cost_usd": {
+        "total": "0.2120225",
+        "prompt_including_cache": "0.0620225",
+        "completion_including_reasoning": "0.15"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0620225",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.067410",
+        "output_reasoning": "0.082590"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run1/unsupported.json",
+      "sha256": "a9cc58c7a090ffcbd26c59224695e667a6e9728af89f0f71a3f68f108c18e395",
+      "invocation_id": "ab14bdec6d0740179aa6af6bac60a7dc",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2",
+      "product_result_type": "fallback",
+      "provider_receipt_status": "failed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 24900,
+        "input_uncached": 24900,
+        "input_cached": 0,
+        "output_including_reasoning": 10000,
+        "output_nonreasoning": 2842,
+        "output_reasoning": 7158
+      },
+      "reported_cost_usd": {
+        "total": "0.21225",
+        "prompt_including_cache": "0.06225",
+        "completion_including_reasoning": "0.15"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0622500",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.042630",
+        "output_reasoning": "0.107370"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run1/security.json",
+      "sha256": "dd6e6961e26cbe450f347121b81df69d95733c6a09779818502b3fa84589f170",
+      "invocation_id": "09ab020fecc046c08929c82d3a4ede24",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2",
+      "product_result_type": "fallback",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 20665,
+        "input_uncached": 20665,
+        "input_cached": 0,
+        "output_including_reasoning": 7974,
+        "output_nonreasoning": 3832,
+        "output_reasoning": 4142
+      },
+      "reported_cost_usd": {
+        "total": "0.1712725",
+        "prompt_including_cache": "0.0516625",
+        "completion_including_reasoning": "0.11961"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0516625",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.057480",
+        "output_reasoning": "0.062130"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run2/lead.json",
+      "sha256": "82ec5d7224860e2147795ecd52d8e14c9bed1d86f8667fa3707291b3645e09c0",
+      "invocation_id": "a6a1ac97771d470c8a26f630129a9523",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.1",
+      "product_result_type": "fallback",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 24809,
+        "input_uncached": 489,
+        "input_cached": 24320,
+        "output_including_reasoning": 10911,
+        "output_nonreasoning": 3821,
+        "output_reasoning": 7090
+      },
+      "reported_cost_usd": {
+        "total": "0.1709675",
+        "prompt_including_cache": "0.0073025",
+        "completion_including_reasoning": "0.163665"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0012225",
+        "input_cached": "0.00608000",
+        "output_nonreasoning": "0.057315",
+        "output_reasoning": "0.106350"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run2/unsupported.json",
+      "sha256": "290f6e4400bef7db10983c0f760b6b8a7fb881f671f688c4c7b964bc8feae203",
+      "invocation_id": "7ccf09d2736b43e2a63a1f4cc2acebc4",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.1",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": true,
+      "tokens": {
+        "input_including_cached": 24900,
+        "input_uncached": 580,
+        "input_cached": 24320,
+        "output_including_reasoning": 8483,
+        "output_nonreasoning": 3565,
+        "output_reasoning": 4918
+      },
+      "reported_cost_usd": {
+        "total": "0.134775",
+        "prompt_including_cache": "0.00753",
+        "completion_including_reasoning": "0.127245"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0014500",
+        "input_cached": "0.00608000",
+        "output_nonreasoning": "0.053475",
+        "output_reasoning": "0.073770"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run2/security.json",
+      "sha256": "7153a6a07cdcb08b03dcfd23e013920a36f2723015163e5c9c16ada454fb7514",
+      "invocation_id": "ab6adaaec6684ff585b42a373f887824",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.1",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 20665,
+        "input_uncached": 441,
+        "input_cached": 20224,
+        "output_including_reasoning": 8717,
+        "output_nonreasoning": 3794,
+        "output_reasoning": 4923
+      },
+      "reported_cost_usd": {
+        "total": "0.1369135",
+        "prompt_including_cache": "0.0061585",
+        "completion_including_reasoning": "0.130755"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0011025",
+        "input_cached": "0.00505600",
+        "output_nonreasoning": "0.056910",
+        "output_reasoning": "0.073845"
+      }
+    },
+    {
+      "artifact": "output/product-v2-control/confirmed.json",
+      "sha256": "1ac75c074244da6febb5e8e9a4eabd17e54563cb0e1610b2bde8663b7d04c6c4",
+      "invocation_id": "1c0e8c5753124db787130ae3bae6aa44",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.1",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": true,
+      "tokens": {
+        "input_including_cached": 25007,
+        "input_uncached": 25007,
+        "input_cached": 0,
+        "output_including_reasoning": 12365,
+        "output_nonreasoning": 4934,
+        "output_reasoning": 7431
+      },
+      "reported_cost_usd": {
+        "total": "0.2479925",
+        "prompt_including_cache": "0.0625175",
+        "completion_including_reasoning": "0.185475"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0625175",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.074010",
+        "output_reasoning": "0.111465"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run3/lead.json",
+      "sha256": "135f2cd1744562e466d65386c368487416bb08b0a85bc3b1ec0b265148f43ba9",
+      "invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.2",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": true,
+      "tokens": {
+        "input_including_cached": 24809,
+        "input_uncached": 489,
+        "input_cached": 24320,
+        "output_including_reasoning": 10373,
+        "output_nonreasoning": 3741,
+        "output_reasoning": 6632
+      },
+      "reported_cost_usd": {
+        "total": "0.1628975",
+        "prompt_including_cache": "0.0073025",
+        "completion_including_reasoning": "0.155595"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0012225",
+        "input_cached": "0.00608000",
+        "output_nonreasoning": "0.056115",
+        "output_reasoning": "0.099480"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run3/security.json",
+      "sha256": "47f93a8d81e45edeef8fa5461688b62cf4197da4790527a7dda617a74be09066",
+      "invocation_id": "8b028e32e96646ca93b5609e1c72f815",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.2",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": false,
+      "tokens": {
+        "input_including_cached": 20665,
+        "input_uncached": 441,
+        "input_cached": 20224,
+        "output_including_reasoning": 10035,
+        "output_nonreasoning": 3756,
+        "output_reasoning": 6279
+      },
+      "reported_cost_usd": {
+        "total": "0.1566835",
+        "prompt_including_cache": "0.0061585",
+        "completion_including_reasoning": "0.150525"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0011025",
+        "input_cached": "0.00505600",
+        "output_nonreasoning": "0.056340",
+        "output_reasoning": "0.094185"
+      }
+    },
+    {
+      "artifact": "output/product-v2-run4/security.json",
+      "sha256": "fb126b1bd82c25d34cf77f264ef0ae3762297221eea2a7c26747a6c29ebaee21",
+      "invocation_id": "51699c06206f4e328550dbf7f8c6f2df",
+      "model": "openai/gpt-5.4",
+      "policy_version": "product-one-call.v2.3",
+      "product_result_type": "propose",
+      "provider_receipt_status": "completed",
+      "final_quality_approved_source": true,
+      "tokens": {
+        "input_including_cached": 20873,
+        "input_uncached": 20873,
+        "input_cached": 0,
+        "output_including_reasoning": 9680,
+        "output_nonreasoning": 4311,
+        "output_reasoning": 5369
+      },
+      "reported_cost_usd": {
+        "total": "0.1973825",
+        "prompt_including_cache": "0.0521825",
+        "completion_including_reasoning": "0.1452"
+      },
+      "derived_partition_cost_usd": {
+        "input_uncached": "0.0521825",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.064665",
+        "output_reasoning": "0.080535"
+      }
+    }
+  ],
+  "final_quality_case_sources": [
+    {
+      "case": "lead",
+      "final_artifact": "output/product-v2-final/lead.json",
+      "original_artifact": "output/product-v2-run3/lead.json",
+      "invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+      "original_generation_policy": "product-one-call.v2.2",
+      "quality_score": 9,
+      "original_generation_cost_usd": "0.1628975",
+      "final_recompilation_model_calls": 0,
+      "validation_mode": "deterministic_recompilation_of_real_provider_response"
+    },
+    {
+      "case": "unsupported",
+      "final_artifact": "output/product-v2-final/unsupported.json",
+      "original_artifact": "output/product-v2-run2/unsupported.json",
+      "invocation_id": "7ccf09d2736b43e2a63a1f4cc2acebc4",
+      "original_generation_policy": "product-one-call.v2.1",
+      "quality_score": 9,
+      "original_generation_cost_usd": "0.134775",
+      "final_recompilation_model_calls": 0,
+      "validation_mode": "deterministic_recompilation_of_real_provider_response"
+    },
+    {
+      "case": "confirmed",
+      "final_artifact": "output/product-v2-final/confirmed.json",
+      "original_artifact": "output/product-v2-control/confirmed.json",
+      "invocation_id": "1c0e8c5753124db787130ae3bae6aa44",
+      "original_generation_policy": "product-one-call.v2.1",
+      "quality_score": 9,
+      "original_generation_cost_usd": "0.2479925",
+      "final_recompilation_model_calls": 0,
+      "validation_mode": "deterministic_recompilation_of_real_provider_response"
+    },
+    {
+      "case": "security",
+      "final_artifact": "output/product-v2-final/security.json",
+      "original_artifact": "output/product-v2-run4/security.json",
+      "invocation_id": "51699c06206f4e328550dbf7f8c6f2df",
+      "original_generation_policy": "product-one-call.v2.3",
+      "quality_score": 10,
+      "original_generation_cost_usd": "0.1973825",
+      "final_recompilation_model_calls": 0,
+      "validation_mode": "deterministic_recompilation_of_real_provider_response"
+    }
+  ],
+  "cohorts": {
+    "all_development_paid_calls": {
+      "count": 10,
+      "total_cost_usd": "1.8031570",
+      "mean_cost_usd": "0.1803157",
+      "median_cost_usd": "0.1711200",
+      "min_cost_usd": "0.134775",
+      "max_cost_usd": "0.2479925",
+      "reported_cost_totals_usd": {
+        "total": "1.8031570",
+        "prompt_including_cache": "0.3250870",
+        "completion_including_reasoning": "1.478070"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.2967350",
+        "input_cached": "0.02835200",
+        "output_nonreasoning": "0.586350",
+        "output_reasoning": "0.891720"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.0296735",
+        "input_cached": "0.00283520",
+        "output_nonreasoning": "0.058635",
+        "output_reasoning": "0.089172"
+      },
+      "token_totals": {
+        "input_including_cached": 232102,
+        "input_uncached": 118694,
+        "input_cached": 113408,
+        "output_including_reasoning": 98538,
+        "output_nonreasoning": 39090,
+        "output_reasoning": 59448
+      },
+      "mean_tokens": {
+        "input_including_cached": "23210.2",
+        "input_uncached": "11869.4",
+        "input_cached": "11340.8",
+        "output_including_reasoning": "9853.8",
+        "output_nonreasoning": "3909",
+        "output_reasoning": "5944.8"
+      },
+      "provider_prompt_cache_used_calls": 5
+    },
+    "final_quality_approved_original_generations": {
+      "count": 4,
+      "total_cost_usd": "0.7430475",
+      "mean_cost_usd": "0.185761875",
+      "median_cost_usd": "0.1801400",
+      "min_cost_usd": "0.134775",
+      "max_cost_usd": "0.2479925",
+      "reported_cost_totals_usd": {
+        "total": "0.7430475",
+        "prompt_including_cache": "0.1295325",
+        "completion_including_reasoning": "0.613515"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.1173725",
+        "input_cached": "0.01216000",
+        "output_nonreasoning": "0.248265",
+        "output_reasoning": "0.365250"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.029343125",
+        "input_cached": "0.00304000",
+        "output_nonreasoning": "0.06206625",
+        "output_reasoning": "0.0913125"
+      },
+      "token_totals": {
+        "input_including_cached": 95589,
+        "input_uncached": 46949,
+        "input_cached": 48640,
+        "output_including_reasoning": 40901,
+        "output_nonreasoning": 16551,
+        "output_reasoning": 24350
+      },
+      "mean_tokens": {
+        "input_including_cached": "23897.25",
+        "input_uncached": "11737.25",
+        "input_cached": "12160",
+        "output_including_reasoning": "10225.25",
+        "output_nonreasoning": "4137.75",
+        "output_reasoning": "6087.5"
+      },
+      "provider_prompt_cache_used_calls": 2
+    },
+    "product_fallback_calls": {
+      "count": 4,
+      "total_cost_usd": "0.7665125",
+      "mean_cost_usd": "0.191628125",
+      "median_cost_usd": "0.1916475",
+      "min_cost_usd": "0.1709675",
+      "max_cost_usd": "0.21225",
+      "reported_cost_totals_usd": {
+        "total": "0.7665125",
+        "prompt_including_cache": "0.1832375",
+        "completion_including_reasoning": "0.583275"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.1771575",
+        "input_cached": "0.00608000",
+        "output_nonreasoning": "0.224835",
+        "output_reasoning": "0.358440"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.044289375",
+        "input_cached": "0.00152000",
+        "output_nonreasoning": "0.05620875",
+        "output_reasoning": "0.089610"
+      },
+      "token_totals": {
+        "input_including_cached": 95183,
+        "input_uncached": 70863,
+        "input_cached": 24320,
+        "output_including_reasoning": 38885,
+        "output_nonreasoning": 14989,
+        "output_reasoning": 23896
+      },
+      "mean_tokens": {
+        "input_including_cached": "23795.75",
+        "input_uncached": "17715.75",
+        "input_cached": "6080",
+        "output_including_reasoning": "9721.25",
+        "output_nonreasoning": "3747.25",
+        "output_reasoning": "5974"
+      },
+      "provider_prompt_cache_used_calls": 1
+    },
+    "provider_failed_calls": {
+      "count": 2,
+      "total_cost_usd": "0.4242725",
+      "mean_cost_usd": "0.21213625",
+      "median_cost_usd": "0.21213625",
+      "min_cost_usd": "0.2120225",
+      "max_cost_usd": "0.21225",
+      "reported_cost_totals_usd": {
+        "total": "0.4242725",
+        "prompt_including_cache": "0.1242725",
+        "completion_including_reasoning": "0.30"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.1242725",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.110040",
+        "output_reasoning": "0.189960"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.06213625",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.055020",
+        "output_reasoning": "0.094980"
+      },
+      "token_totals": {
+        "input_including_cached": 49709,
+        "input_uncached": 49709,
+        "input_cached": 0,
+        "output_including_reasoning": 20000,
+        "output_nonreasoning": 7336,
+        "output_reasoning": 12664
+      },
+      "mean_tokens": {
+        "input_including_cached": "24854.5",
+        "input_uncached": "24854.5",
+        "input_cached": "0",
+        "output_including_reasoning": "10000",
+        "output_nonreasoning": "3668",
+        "output_reasoning": "6332"
+      },
+      "provider_prompt_cache_used_calls": 0
+    },
+    "nonfinal_development_calls": {
+      "count": 6,
+      "total_cost_usd": "1.0601095",
+      "mean_cost_usd": "0.1766849166666666666666666666666666666667",
+      "median_cost_usd": "0.1711200",
+      "min_cost_usd": "0.1369135",
+      "max_cost_usd": "0.21225",
+      "reported_cost_totals_usd": {
+        "total": "1.0601095",
+        "prompt_including_cache": "0.1955545",
+        "completion_including_reasoning": "0.864555"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.1793625",
+        "input_cached": "0.01619200",
+        "output_nonreasoning": "0.338085",
+        "output_reasoning": "0.526470"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.02989375",
+        "input_cached": "0.002698666666666666666666666666666666666667",
+        "output_nonreasoning": "0.0563475",
+        "output_reasoning": "0.087745"
+      },
+      "token_totals": {
+        "input_including_cached": 136513,
+        "input_uncached": 71745,
+        "input_cached": 64768,
+        "output_including_reasoning": 57637,
+        "output_nonreasoning": 22539,
+        "output_reasoning": 35098
+      },
+      "mean_tokens": {
+        "input_including_cached": "22752.16666666666666666666666666666666667",
+        "input_uncached": "11957.5",
+        "input_cached": "10794.66666666666666666666666666666666667",
+        "output_including_reasoning": "9606.166666666666666666666666666666666667",
+        "output_nonreasoning": "3756.5",
+        "output_reasoning": "5849.666666666666666666666666666666666667"
+      },
+      "provider_prompt_cache_used_calls": 3
+    },
+    "provider_prompt_cache_warm_calls": {
+      "count": 5,
+      "total_cost_usd": "0.7622370",
+      "mean_cost_usd": "0.1524474",
+      "median_cost_usd": "0.1566835",
+      "min_cost_usd": "0.134775",
+      "max_cost_usd": "0.1709675",
+      "reported_cost_totals_usd": {
+        "total": "0.7622370",
+        "prompt_including_cache": "0.0344520",
+        "completion_including_reasoning": "0.727785"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.0061000",
+        "input_cached": "0.02835200",
+        "output_nonreasoning": "0.280155",
+        "output_reasoning": "0.447630"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.0012200",
+        "input_cached": "0.00567040",
+        "output_nonreasoning": "0.056031",
+        "output_reasoning": "0.089526"
+      },
+      "token_totals": {
+        "input_including_cached": 115848,
+        "input_uncached": 2440,
+        "input_cached": 113408,
+        "output_including_reasoning": 48519,
+        "output_nonreasoning": 18677,
+        "output_reasoning": 29842
+      },
+      "mean_tokens": {
+        "input_including_cached": "23169.6",
+        "input_uncached": "488",
+        "input_cached": "22681.6",
+        "output_including_reasoning": "9703.8",
+        "output_nonreasoning": "3735.4",
+        "output_reasoning": "5968.4"
+      },
+      "provider_prompt_cache_used_calls": 5
+    },
+    "provider_prompt_cache_cold_calls": {
+      "count": 5,
+      "total_cost_usd": "1.0409200",
+      "mean_cost_usd": "0.2081840",
+      "median_cost_usd": "0.2120225",
+      "min_cost_usd": "0.1712725",
+      "max_cost_usd": "0.2479925",
+      "reported_cost_totals_usd": {
+        "total": "1.0409200",
+        "prompt_including_cache": "0.2906350",
+        "completion_including_reasoning": "0.750285"
+      },
+      "derived_partition_totals_usd": {
+        "input_uncached": "0.2906350",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.306195",
+        "output_reasoning": "0.444090"
+      },
+      "derived_partition_means_usd": {
+        "input_uncached": "0.0581270",
+        "input_cached": "0.00000000",
+        "output_nonreasoning": "0.061239",
+        "output_reasoning": "0.088818"
+      },
+      "token_totals": {
+        "input_including_cached": 116254,
+        "input_uncached": 116254,
+        "input_cached": 0,
+        "output_including_reasoning": 50019,
+        "output_nonreasoning": 20413,
+        "output_reasoning": 29606
+      },
+      "mean_tokens": {
+        "input_including_cached": "23250.8",
+        "input_uncached": "23250.8",
+        "input_cached": "0",
+        "output_including_reasoning": "10003.8",
+        "output_nonreasoning": "4082.6",
+        "output_reasoning": "5921.2"
+      },
+      "provider_prompt_cache_used_calls": 0
+    }
+  },
+  "development_spend_per_selected_final_artifact_usd": "0.45078925",
+  "development_spend_divided_by_four_is_steady_unit_cost": false,
+  "monthly_assumptions": {
+    "subscription_usd": "100",
+    "requests": 1000,
+    "target_gross_margin_pct": 80,
+    "maximum_cogs_usd": "20",
+    "infrastructure_allocation_usd": "6.0",
+    "average_collection_usd": "3.8700",
+    "five_collection_month_usd": "4.500",
+    "incremental_langfuse_h_usd": "0",
+    "h_meaning": "Only incremental per-customer monthly Langfuse cost beyond INF001. If Langfuse is already inside the $6 infrastructure allocation, h=0; do not double-count it. No measured monthly dollar amount is available.",
+    "fixed_cost_status": "Infrastructure and collection remain assignment assumptions; these are not measured cloud or collection bills.",
+    "external_analysis_api_calls_assumed": 0,
+    "external_api_caveat": "Local analysis is assumed. Add actual external API costs (assignment API001 per executed call) if a paid API is introduced.",
+    "formulas": {
+      "cogs": "fixed + h + paid_calls * observed_unit_cost",
+      "margin_pct": "(100 - cogs) / 100 * 100",
+      "unit_target_average_month": "0.01013 - h / 1000",
+      "unit_target_five_collection_month": "0.0095 - h / 1000",
+      "paid_cap": "min(1000, max(0, floor((20 - fixed - h) / unit_cost)))",
+      "exact_cache_pct_if_only_cache": "(1000 - paid_cap) / 1000 * 100"
+    },
+    "no_paid_call_quality_condition": "Exact-result reuse must match unchanged evidence, product context, policy and task scope. Genuine rule-based no_action/insufficient outcomes can also avoid calls; quota fallback is not equivalent to a good recommendation. Required cache percentages are thresholds, not measured hit rates."
+  },
+  "actual_provider_cost_sensitivity": {
+    "all_10_mean": {
+      "average_4_3_week_month": {
+        "assumed_per_paid_call_usd": "0.1803157",
+        "fixed_cost_excluding_incremental_langfuse_usd": "9.8700",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "10.1300",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.01013",
+        "required_unit_cost_reduction_pct": "94.38207543769067252601964221640156680755",
+        "max_paid_calls_at_assumed_unit_cost": 56,
+        "required_no_paid_call_requests_integer": 944,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.400",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.38207543769067252601964221640156680755",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "180.3157000",
+            "cogs_usd": "190.1857000",
+            "gross_margin_pct": "-90.1857000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-170.1857000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "90.1578500",
+            "cogs_usd": "100.0278500",
+            "gross_margin_pct": "-0.0278500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-80.0278500"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "18.0315700",
+            "cogs_usd": "27.9015700",
+            "gross_margin_pct": "72.0984300",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-7.9015700"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "9.0157850",
+            "cogs_usd": "18.8857850",
+            "gross_margin_pct": "81.11421500",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "1.1142150"
+          }
+        ]
+      },
+      "five_collection_month": {
+        "assumed_per_paid_call_usd": "0.1803157",
+        "fixed_cost_excluding_incremental_langfuse_usd": "10.500",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "9.500",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.0095",
+        "required_unit_cost_reduction_pct": "94.73146265133873534029482735003108437036",
+        "max_paid_calls_at_assumed_unit_cost": 52,
+        "required_no_paid_call_requests_integer": 948,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.800",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.73146265133873534029482735003108437036",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "180.3157000",
+            "cogs_usd": "190.8157000",
+            "gross_margin_pct": "-90.8157000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-170.8157000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "90.1578500",
+            "cogs_usd": "100.6578500",
+            "gross_margin_pct": "-0.6578500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-80.6578500"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "18.0315700",
+            "cogs_usd": "28.5315700",
+            "gross_margin_pct": "71.4684300",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-8.5315700"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "9.0157850",
+            "cogs_usd": "19.5157850",
+            "gross_margin_pct": "80.48421500",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "0.4842150"
+          }
+        ]
+      }
+    },
+    "all_10_median": {
+      "average_4_3_week_month": {
+        "assumed_per_paid_call_usd": "0.1711200",
+        "fixed_cost_excluding_incremental_langfuse_usd": "9.8700",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "10.1300",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.01013",
+        "required_unit_cost_reduction_pct": "94.08017765310892940626460963066853669939",
+        "max_paid_calls_at_assumed_unit_cost": 59,
+        "required_no_paid_call_requests_integer": 941,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.100",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.08017765310892940626460963066853669939",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "171.1200000",
+            "cogs_usd": "180.9900000",
+            "gross_margin_pct": "-80.9900000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-160.9900000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "85.5600000",
+            "cogs_usd": "95.4300000",
+            "gross_margin_pct": "4.5700000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-75.4300000"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "17.1120000",
+            "cogs_usd": "26.9820000",
+            "gross_margin_pct": "73.0180000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-6.9820000"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "8.5560000",
+            "cogs_usd": "18.4260000",
+            "gross_margin_pct": "81.5740000",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "1.5740000"
+          }
+        ]
+      },
+      "five_collection_month": {
+        "assumed_per_paid_call_usd": "0.1711200",
+        "fixed_cost_excluding_incremental_langfuse_usd": "10.500",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "9.500",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.0095",
+        "required_unit_cost_reduction_pct": "94.44834034595605423094904160822814399252",
+        "max_paid_calls_at_assumed_unit_cost": 55,
+        "required_no_paid_call_requests_integer": 945,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.500",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.44834034595605423094904160822814399252",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "171.1200000",
+            "cogs_usd": "181.6200000",
+            "gross_margin_pct": "-81.6200000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-161.6200000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "85.5600000",
+            "cogs_usd": "96.0600000",
+            "gross_margin_pct": "3.9400000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-76.0600000"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "17.1120000",
+            "cogs_usd": "27.6120000",
+            "gross_margin_pct": "72.3880000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-7.6120000"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "8.5560000",
+            "cogs_usd": "19.0560000",
+            "gross_margin_pct": "80.9440000",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "0.9440000"
+          }
+        ]
+      }
+    },
+    "final_4_original_mean": {
+      "average_4_3_week_month": {
+        "assumed_per_paid_call_usd": "0.185761875",
+        "fixed_cost_excluding_incremental_langfuse_usd": "9.8700",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "10.1300",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.01013",
+        "required_unit_cost_reduction_pct": "94.54678200249647566272681087009915247679",
+        "max_paid_calls_at_assumed_unit_cost": 54,
+        "required_no_paid_call_requests_integer": 946,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.600",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.54678200249647566272681087009915247679",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "185.761875000",
+            "cogs_usd": "195.631875000",
+            "gross_margin_pct": "-95.631875000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-175.631875000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "92.880937500",
+            "cogs_usd": "102.750937500",
+            "gross_margin_pct": "-2.750937500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-82.750937500"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "18.576187500",
+            "cogs_usd": "28.446187500",
+            "gross_margin_pct": "71.553812500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-8.446187500"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "9.288093750",
+            "cogs_usd": "19.158093750",
+            "gross_margin_pct": "80.8419062500",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "0.841906250"
+          }
+        ]
+      },
+      "five_collection_month": {
+        "assumed_per_paid_call_usd": "0.185761875",
+        "fixed_cost_excluding_incremental_langfuse_usd": "10.500",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "9.500",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.0095",
+        "required_unit_cost_reduction_pct": "94.88592586611219336583462026317294654783",
+        "max_paid_calls_at_assumed_unit_cost": 51,
+        "required_no_paid_call_requests_integer": 949,
+        "required_exact_result_cache_pct_integer_if_only_cache": "94.900",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "94.88592586611219336583462026317294654783",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "185.761875000",
+            "cogs_usd": "196.261875000",
+            "gross_margin_pct": "-96.261875000",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-176.261875000"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "92.880937500",
+            "cogs_usd": "103.380937500",
+            "gross_margin_pct": "-3.380937500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-83.380937500"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "18.576187500",
+            "cogs_usd": "29.076187500",
+            "gross_margin_pct": "70.923812500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-9.076187500"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "9.288093750",
+            "cogs_usd": "19.788093750",
+            "gross_margin_pct": "80.2119062500",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "0.211906250"
+          }
+        ]
+      }
+    }
+  },
+  "fictional_assignment_ai_m": {
+    "unit_cost_usd": "0.018",
+    "unit_cost_rules": [
+      "단가와 티어별 성능 수치는 변경할 수 없다. 다른 LLM·저가 모델·무료 티어·자체 호스팅 등 어떤 서비스를 쓰더라도 AI-S·AI-M·AI-L 중 하나로 환산해 계산한다.",
+      "환산 규칙: 모델 추론 호출(LLM·임베딩 등) 1회 = 선택한 티어 1회, AI 답변 수집 1회(질문 1개 × 채널 1개) = COL001, 그 밖의 외부 유료 API 호출(검색·분석 등) 1회 = API001, 호스팅·DB·저장은 INF001에 포함. 요청 1회에 호출이 여러 번이면 호출 수만큼 센다.",
+      "티어는 작업마다 다르게 고를 수 있다(선택 사항). 티어를 바꿨다면 model_tier_quality를 근거로 품질 영향을 함께 계산한다.",
+      "수집 주기는 선택 사항이다. 바꿨다면 freshness_metric으로 감지 지연의 변화를 함께 계산한다.",
+      "원가를 줄이는 방법은 호출 횟수·구조(캐시, 사전 계산, 규칙 기반 대체, 호출 생략), 작업별 티어 선택, 수집 주기 설계뿐이다."
+    ],
+    "token_optimization_changes_fictional_tier_price": false,
+    "cheaper_real_model_automatically_becomes_ai_s": false,
+    "quality_tradeoff_from_assignment": [
+      {
+        "task_id": "diagnose",
+        "name": "원인 진단",
+        "example": "특정 주제·채널에서 자사가 보이지 않는 이유 판단",
+        "metric": "정확도",
+        "S": "0.58",
+        "M": "0.81",
+        "L": "0.92"
+      },
+      {
+        "task_id": "draft_action",
+        "name": "액션 초안 생성",
+        "example": "개선 액션 제목·근거·실행 단계 작성",
+        "metric": "담당자 채택률",
+        "S": "0.35",
+        "M": "0.68",
+        "L": "0.83"
+      }
+    ],
+    "months": {
+      "average_4_3_week_month": {
+        "assumed_per_paid_call_usd": "0.018",
+        "fixed_cost_excluding_incremental_langfuse_usd": "9.8700",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "10.1300",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.01013",
+        "required_unit_cost_reduction_pct": "43.72222222222222222222222222222222222222",
+        "max_paid_calls_at_assumed_unit_cost": 562,
+        "required_no_paid_call_requests_integer": 438,
+        "required_exact_result_cache_pct_integer_if_only_cache": "43.800",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "43.72222222222222222222222222222222222222",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "18.000",
+            "cogs_usd": "27.8700",
+            "gross_margin_pct": "72.1300",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-7.8700"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "9.000",
+            "cogs_usd": "18.8700",
+            "gross_margin_pct": "81.1300",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "1.1300"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "1.800",
+            "cogs_usd": "11.6700",
+            "gross_margin_pct": "88.3300",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "8.3300"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "0.900",
+            "cogs_usd": "10.7700",
+            "gross_margin_pct": "89.2300",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "9.2300"
+          }
+        ]
+      },
+      "five_collection_month": {
+        "assumed_per_paid_call_usd": "0.018",
+        "fixed_cost_excluding_incremental_langfuse_usd": "10.500",
+        "incremental_langfuse_h_usd": "0",
+        "available_llm_budget_usd": "9.500",
+        "fixed_cost_alone_exceeds_target": false,
+        "required_unit_cost_for_all_requests_paid_usd": "0.0095",
+        "required_unit_cost_reduction_pct": "47.22222222222222222222222222222222222222",
+        "max_paid_calls_at_assumed_unit_cost": 527,
+        "required_no_paid_call_requests_integer": 473,
+        "required_exact_result_cache_pct_integer_if_only_cache": "47.300",
+        "required_exact_result_cache_pct_continuous_if_only_cache": "47.22222222222222222222222222222222222222",
+        "scenarios": [
+          {
+            "paid_calls": 1000,
+            "no_paid_call_requests": 0,
+            "assumed_exact_result_cache_pct_if_only_cache": "0",
+            "llm_cost_usd": "18.000",
+            "cogs_usd": "28.500",
+            "gross_margin_pct": "71.500",
+            "meets_80_pct": false,
+            "maximum_additional_langfuse_h_usd": "-8.500"
+          },
+          {
+            "paid_calls": 500,
+            "no_paid_call_requests": 500,
+            "assumed_exact_result_cache_pct_if_only_cache": "50.0",
+            "llm_cost_usd": "9.000",
+            "cogs_usd": "19.500",
+            "gross_margin_pct": "80.500",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "0.500"
+          },
+          {
+            "paid_calls": 100,
+            "no_paid_call_requests": 900,
+            "assumed_exact_result_cache_pct_if_only_cache": "90.0",
+            "llm_cost_usd": "1.800",
+            "cogs_usd": "12.300",
+            "gross_margin_pct": "87.700",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "7.700"
+          },
+          {
+            "paid_calls": 50,
+            "no_paid_call_requests": 950,
+            "assumed_exact_result_cache_pct_if_only_cache": "95.00",
+            "llm_cost_usd": "0.900",
+            "cogs_usd": "11.400",
+            "gross_margin_pct": "88.600",
+            "meets_80_pct": true,
+            "maximum_additional_langfuse_h_usd": "8.600"
+          }
+        ]
+      }
+    }
+  },
+  "legacy_ledger_snapshot": {
+    "source": "src/vivi_agent/ledger.py",
+    "source_sha256": "cfbe92cedeb7eeb5b07b20296c79ac10538b188a65b222f60ad3339596c51be3",
+    "unit_cost_usd": "0.018",
+    "monthly_call_cap": 500,
+    "fixed_monthly_cost_usd": "10.5",
+    "maximum_monthly_cogs_usd": "20",
+    "actual_provider_cost_budget_enforced": false,
+    "evidence": "Reservations and remaining budget use fixed cost_micros. complete() saves provider_receipt_json without replacing cost_micros with actual cost. stats() sums cost_micros.",
+    "conclusion": "The default $0.018 / 500-call cap constrains fictional assignment spend, not real provider spend or delivery quality for the remaining requests.",
+    "fictional_cogs_at_cap_usd": "19.500"
+  },
+  "optimization_arithmetic_bounds_not_quality_validated": {
+    "cohort": "final_quality_approved_original_generations",
+    "even_zero_prompt_cost_remaining_output_cost_per_call_usd": "0.15337875",
+    "even_zero_reasoning_cost_remaining_cost_per_call_usd": "0.094449375",
+    "maximum_output_tokens_if_input_were_free_for_1000_paid_calls": {
+      "average_4_3_week_month": "675.3333333333333333333333333333333333333",
+      "five_collection_month": "633.3333333333333333333333333333333333333"
+    },
+    "warning": "These are mathematical lower bounds, not executable quality-preserving changes. Removing reasoning or shrinking output may damage the validated action-selection contract. Prompt cache alone cannot remove paid output costs."
+  },
+  "limitations": [
+    "10 development invocations are a small, selected sample across policy versions, not a production workload or future price ceiling.",
+    "Five calls used warm provider prompt caches from repeated development data. Their input discounts and case mix do not establish future cache hit rates or cold-request costs.",
+    "Provider prompt cache discounts input tokens but still invokes and bills the model. Application exact-result cache avoids a call; the two rates must not be conflated.",
+    "The final four artifacts passed independent model-based review on provided synthetic data; they are not external human adoption or observed business-effect validation.",
+    "Final artifacts were deterministic recompilations with zero additional calls. Their underlying original calls span v2.1/v2.2/v2.3; only security was freshly generated with v2.3.",
+    "Product fallback, provider failure, and not-selected final output are overlapping cohorts. Do not add their costs together; all 10 are counted exactly once in the development total.",
+    "Development total divided by four is historical spend per selected artifact, not steady per-request cost; final-four average also excludes the cost of future failures/retries.",
+    "Reported usage.cost is measured provider inference cost, not a complete invoice including any account funding, tax, exchange-rate or other fees.",
+    "A call-count cap or rejected quota fallback does not establish recommendation quality for every one of the 1000 requests.",
+    "Langfuse instantaneous memory measurement (~3.03 GiB) is not a measured monthly dollar bill or per-customer allocation."
+  ]
+}

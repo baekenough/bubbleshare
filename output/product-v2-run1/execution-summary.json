@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-15T04:09:01.258077+00:00",
+  "policy_version": "product-one-call.v2",
+  "kind": "provided_synthetic_dataset_real_model_not_effectiveness_validation",
+  "customer": "demo",
+  "cases": [
+    {
+      "case": "lead",
+      "result_type": "fallback",
+      "model_calls": 1,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.018,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0.2120225,
+      "ledger": {
+        "run_key": "a714a13eec6000242bfeb8147c8532eb45f729b98bc88172249a123a2d3086aa",
+        "month": "2026-10",
+        "calls": 1,
+        "attempted_calls": 1,
+        "released": 0,
+        "completed": 0,
+        "failed": 1,
+        "reserved": 0,
+        "charged_cost_usd": 0.018,
+        "monthly_calls": 7,
+        "monthly_charged_cost_usd": 0.126,
+        "monthly_total_cogs_usd": 10.626,
+        "remaining": 0
+      },
+      "errors": [
+        "ProviderError"
+      ]
+    },
+    {
+      "case": "unsupported",
+      "result_type": "fallback",
+      "model_calls": 1,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.018,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0.21225,
+      "ledger": {
+        "run_key": "6dc807f4931b415d07d4c1093bb3d0807d137d5c25841af8d46d5aca2b91dc92",
+        "month": "2026-10",
+        "calls": 1,
+        "attempted_calls": 1,
+        "released": 0,
+        "completed": 0,
+        "failed": 1,
+        "reserved": 0,
+        "charged_cost_usd": 0.018,
+        "monthly_calls": 7,
+        "monthly_charged_cost_usd": 0.126,
+        "monthly_total_cogs_usd": 10.626,
+        "remaining": 0
+      },
+      "errors": [
+        "ProviderError"
+      ]
+    },
+    {
+      "case": "security",
+      "result_type": "fallback",
+      "model_calls": 1,
+      "external_api_calls": 0,
+      "assignment_cost_usd": 0.018,
+      "cache_hit": false,
+      "actual_vendor_cost_usd": 0.1712725,
+      "ledger": {
+        "run_key": "199ef3935e9c70043e80d759fb5a7b106d3d2d5d6849d526d416e4fda6af22c1",
+        "month": "2026-10",
+        "calls": 1,
+        "attempted_calls": 1,
+        "released": 0,
+        "completed": 1,
+        "failed": 0,
+        "reserved": 0,
+        "charged_cost_usd": 0.018,
+        "monthly_calls": 7,
+        "monthly_charged_cost_usd": 0.126,
+        "monthly_total_cogs_usd": 10.626,
+        "remaining": 0
+      },
+      "errors": [
+        "action_selection: selected prerequisites must be retained in the action"
+      ]
+    }
+  ],
+  "model_calls": 3,
+  "known_actual_vendor_cost_usd": 0.595545,
+  "unknown_cost_cases": []
+}

@@ -1,0 +1,3021 @@
+{
+  "kind": "offline_real_trace_token_and_character_cost_audit",
+  "created_at_utc": "2026-10-15T04:58:16.623729+00:00",
+  "scope": {
+    "real_trace_count": 10,
+    "final_artifact_trace_count": 4,
+    "source": "Explicit IDs in output/product-v2-langfuse.json; final IDs from output/product-v2-quality-audit.json. Unrelated/synthetic telemetry traces excluded.",
+    "final_four_are_not_four_new_v23_generations": "Original generations span v2.1, v2.2 and v2.3; final artifacts were deterministically recompiled under v2.3 with zero added model calls."
+  },
+  "measurement_method": {
+    "tiktoken_installed": false,
+    "overall_tokens": "Exact provider receipt counts, already reconciled with Langfuse.",
+    "component_sizes": "Unicode character counts of raw prompts or ensure_ascii=False compact JSON. Character shares are NOT token shares; no chars-to-token conversion was used.",
+    "schema_serialization": "Canonical compact JSON object size for comparisons, not a claim about the provider internal schema tokenization.",
+    "reasoning_accounting": "reasoning_tokens is a subset of output_tokens, cached_tokens is a subset of input_tokens; exclusive components subtract them once.",
+    "cost_decomposition": "The observed 10 receipts all exactly fit USD per 1M tokens: uncached input 2.5, cached input 0.25, inclusive output 15. These are an empirical decomposition of these receipts, not a live pricing assertion.",
+    "no_paid_calls": true,
+    "production_code_modified": false,
+    "unknown_cost_policy": "No unknown cost treated as zero; all ten audited receipts report usage.cost."
+  },
+  "aggregates": {
+    "all_ten": {
+      "case_count": 10,
+      "provider_calls": 10,
+      "actual_cost_usd": 1.803157,
+      "average_actual_cost_usd": 0.1803157,
+      "tokens_exact": {
+        "input_inclusive": 232102,
+        "input_cached_subset": 113408,
+        "input_uncached_exclusive": 118694,
+        "output_inclusive": 98538,
+        "output_reasoning_subset": 59448,
+        "output_non_reasoning_exclusive": 39090,
+        "total": 330640
+      },
+      "reasoning_share_of_output_tokens": 0.6033002496498813,
+      "provider_cached_share_of_input": 0.48861276507742285,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.296735,
+        "cached_input": 0.028352000000000002,
+        "non_reasoning_output": 0.58635,
+        "reasoning_output": 0.89172
+      },
+      "total_prompt_chars": 676430,
+      "total_schema_compact_chars": 258225,
+      "prompt_components_chars": {
+        "common_instructions": 22560,
+        "legacy_design_instructions": 64169,
+        "input_json_separator": 130,
+        "input_payload_json": 530815,
+        "extra_single_call_instructions": 6840,
+        "production_selection_instructions": 51916
+      },
+      "average_latency_ms": 114786.39050000001
+    },
+    "final_four": {
+      "case_count": 4,
+      "provider_calls": 4,
+      "actual_cost_usd": 0.7430475,
+      "average_actual_cost_usd": 0.185761875,
+      "tokens_exact": {
+        "input_inclusive": 95589,
+        "input_cached_subset": 48640,
+        "input_uncached_exclusive": 46949,
+        "output_inclusive": 40901,
+        "output_reasoning_subset": 24350,
+        "output_non_reasoning_exclusive": 16551,
+        "total": 136490
+      },
+      "reasoning_share_of_output_tokens": 0.5953399672379649,
+      "provider_cached_share_of_input": 0.5088451600079507,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.1173725,
+        "cached_input": 0.01216,
+        "non_reasoning_output": 0.248265,
+        "reasoning_output": 0.36524999999999996
+      },
+      "total_prompt_chars": 278167,
+      "total_schema_compact_chars": 104839,
+      "prompt_components_chars": {
+        "common_instructions": 9024,
+        "legacy_design_instructions": 25931,
+        "input_json_separator": 52,
+        "input_payload_json": 219324,
+        "extra_single_call_instructions": 2736,
+        "production_selection_instructions": 21100
+      },
+      "average_latency_ms": 116729.199,
+      "cost_component_shares": {
+        "uncached_input": 0.15796096481045965,
+        "cached_input": 0.016365037228440984,
+        "non_reasoning_output": 0.33411726706569905,
+        "reasoning_output": 0.4915567308954003
+      },
+      "total_output_cost_share": 0.8256739979610994
+    },
+    "final_four_output_redundancy": {
+      "raw_result_chars": 39519,
+      "overwritten_value_chars": 6041,
+      "share": 0.15286317973632937
+    },
+    "development_fallbacks": {
+      "calls": 4,
+      "actual_cost_usd": 0.7665124999999999,
+      "share_of_all_ten_cost": 0.42509470889112816,
+      "note": "Separate development invocations after policy/code changes, not automatic multi-call retries in a single product run."
+    },
+    "lossless_transport_proposal_final_four": {
+      "combined_prompt_and_schema_chars": 383006,
+      "chars_saved": 86127,
+      "fraction_saved": 0.2248711508435899,
+      "warning": "Character reduction is not a measured token or dollar saving. No model call or production modification performed."
+    }
+  },
+  "findings": [
+    {
+      "priority": 1,
+      "finding": "Stop asking the model to generate scalar prose and operational artifacts that deterministic code overwrites.",
+      "evidence": {
+        "final_four_result_chars": 39519,
+        "overwritten_value_chars": 6041,
+        "share": 0.15286317973632937
+      },
+      "safe_change_boundary": "Create a smaller model-output DTO and assemble ProductPlan afterward. Keep candidate comparison, content work, asset roles/mandatory criteria, product receipts and usable content unchanged. Do not merely make required legacy fields empty without updating validators."
+    },
+    {
+      "priority": 2,
+      "finding": "Remove duplicate relationship paths and the prompt-level evidence ID inventory; share identical reference enums in the schema.",
+      "evidence": {
+        "all_ten_relation_sets_reconstructed_exactly": true,
+        "final_four_saved_chars": 54331,
+        "final_four_combined_chars": 383006
+      },
+      "safe_change_boundary": "Keep the full evidence repository and graph for computation/audit. Removing their redundant textual serialization does not mean removing the graph. Keep strict allowed-reference validation and test $ref support."
+    },
+    {
+      "priority": 2,
+      "finding": "Intern repeated metric descriptions and inherit child observation IDs from their parent instead of restating them.",
+      "evidence": {
+        "final_four_chars_saved": 31796,
+        "lead_metrics": 94,
+        "security_metrics": 86,
+        "unique_descriptions_each": 20,
+        "all_ten_metric_dictionary_roundtrips_exact": true
+      },
+      "safe_change_boundary": "Keep every numerator/denominator and exact original description through a dictionary. Do not replace source metadata or metric meaning with guessed summaries."
+    },
+    {
+      "priority": 3,
+      "finding": "Replace stacked legacy DESIGN plus production instructions with one production-only contract.",
+      "evidence": {
+        "final_four_instruction_chars": 58791,
+        "duplicated_concepts": [
+          "one selected action and no extra question alternatives",
+          "all owned source assessments and role separation",
+          "all-candidate ALL-criteria inspection",
+          "unknown/supported/unsupported product claims",
+          "exact verified route and six integration phases",
+          "code-rendered measurement rules",
+          "readiness vs prerequisites"
+        ]
+      },
+      "safe_change_boundary": "Retain COMMON security/evidence rules and one copy of each business invariant. Legacy observe/needs_data plan-generation branches are unreachable after production gate, but operational observe can still be an intervention candidate and must remain distinct."
+    },
+    {
+      "priority": 4,
+      "finding": "Use selected-question detail with explicit cross-question counterevidence, rather than blindly passing or blindly deleting the entire topic.",
+      "evidence": {
+        "lead_final_uses_other_question_observations": [
+          "OBS0394",
+          "OBS0401"
+        ],
+        "security_final_uses_historical_comparison_metrics": true
+      },
+      "safe_change_boundary": "Always keep all owned asset metadata, selected question answer text/mentions/citations, quality/missingness, topic summary and known product facts. Deterministically select or summarize relevant other-question asset/counterevidence before the call; the hindsight compression numbers are not a deployable selection rule."
+    },
+    {
+      "priority": 5,
+      "finding": "Reasoning tokens dominate output cost, but lowering reasoning or the cap is a quality experiment, not a free optimization.",
+      "evidence": {
+        "final_four_reasoning_share": 0.5953399672379649,
+        "first_run_length_failures": 2,
+        "failed_cap": 10000,
+        "current_cap": 16000
+      },
+      "safe_change_boundary": "Keep the 16k safety cap until output DTO/prompt compaction is validated. Reducing the cap already truncated two real outputs. Lower effort/model choice needs a separately authorized paired quality/cost comparison, not an assumed saving."
+    },
+    {
+      "priority": 4,
+      "finding": "Observed token-cache savings come from repeated development prompts, not an established production hit rate.",
+      "evidence": {
+        "calls_with_cached_input": 5,
+        "all_calls": 10,
+        "final_calls_with_cached_input": 2
+      },
+      "safe_change_boundary": "Keep exact-result cache and provider prompt-cache accounting separate. Put invariant instructions/schema before request data when designing a compact prompt, but do not budget assuming this repeated-development cache rate."
+    }
+  ],
+  "must_preserve": [
+    "Three distinct interventions for the same selected question and explicit selected/deferred/rejected reasons, effort, feasibility and reversal conditions.",
+    "Candidate-specific evidence links and observed answer text supporting the proposed mechanism; preserve counterevidence rather than truncating by question ID alone.",
+    "All target-owned asset metadata and one role assessment per asset; supporting_only versus editable source separation; mandatory reuse criteria.",
+    "Verified product facts, unsupported/unknown flags, origin labels and exact receipt/route; preserve the six-phase integration procedure for a confirmed route.",
+    "At least one useful task-specific example_content plus content_work steps, owner, prerequisites and acceptance criteria.",
+    "Selected-question mention/recommendation baselines, eligible denominators, missingness, source ownership and metric identifiers; keep any consciously selected wider secondary metric scope.",
+    "Original traces, full repository/graph and post-generation reference/contract validators remain authoritative even if the LLM transport is smaller."
+  ],
+  "cases": [
+    {
+      "case": "product-v2-run1/lead",
+      "invocation_id": "5aa941f648d74975924a24aa19fc3618",
+      "trace_file": ".vivi/traces/5aa941f648d74975924a24aa19fc3618.json",
+      "trace_sha256": "e30e938d8e437e19283bc09afc64ec2ed5b610b358a676a38eb6c99a55b35b82",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2",
+      "provider_status": "failed",
+      "product_result_type": "fallback",
+      "actual_cost_usd": 0.2120225,
+      "provider_tokens_exact": {
+        "input_inclusive": 24809,
+        "input_cached_subset": 0,
+        "input_uncached_exclusive": 24809,
+        "output_inclusive": 10000,
+        "output_reasoning_subset": 5506,
+        "output_non_reasoning_exclusive": 4494,
+        "total": 34809
+      },
+      "reasoning_share_of_output_tokens": 0.5506,
+      "latency_ms": 118147.941,
+      "max_output_tokens": 10000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0620225,
+        "cached_input": 0.0,
+        "non_reasoning_output": 0.06741,
+        "reasoning_output": 0.08259
+      },
+      "prompt_chars": 71870,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57408,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 55938,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 71,
+        "allowed_evidence_ids": 5478,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 337,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26669,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7030,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7510,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15554,
+      "schema_repeated_reference_enum_chars": 10956,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21531,
+      "schema_without_titles_chars": 24473,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19171,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 98539,
+        "chars_saved": 14305,
+        "saved_fraction": 0.1452,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22619
+      },
+      "hindsight_scope_compression_proposal": null,
+      "raw_visible_model_response_chars": 12056,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": null,
+        "reason": "Provider output was truncated; valid parsed result unavailable."
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "length"
+    },
+    {
+      "case": "product-v2-run1/unsupported",
+      "invocation_id": "ab14bdec6d0740179aa6af6bac60a7dc",
+      "trace_file": ".vivi/traces/ab14bdec6d0740179aa6af6bac60a7dc.json",
+      "trace_sha256": "44040f1d686510996048705d65df983f0f4f6937fcd22628707bf712d856feb4",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2",
+      "provider_status": "failed",
+      "product_result_type": "fallback",
+      "actual_cost_usd": 0.21225,
+      "provider_tokens_exact": {
+        "input_inclusive": 24900,
+        "input_cached_subset": 0,
+        "input_uncached_exclusive": 24900,
+        "output_inclusive": 10000,
+        "output_reasoning_subset": 7158,
+        "output_non_reasoning_exclusive": 2842,
+        "total": 34900
+      },
+      "reasoning_share_of_output_tokens": 0.7158,
+      "latency_ms": 116250.805,
+      "max_output_tokens": 10000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.06225,
+        "cached_input": 0.0,
+        "non_reasoning_output": 0.04263,
+        "reasoning_output": 0.10737
+      },
+      "prompt_chars": 72192,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57730,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 56260,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 356,
+        "allowed_evidence_ids": 5515,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 338,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26743,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7067,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7547,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15628,
+      "schema_repeated_reference_enum_chars": 11030,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5515
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5515
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21568,
+      "schema_without_titles_chars": 24547,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19208,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 98935,
+        "chars_saved": 14379,
+        "saved_fraction": 0.1453,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22693
+      },
+      "hindsight_scope_compression_proposal": null,
+      "raw_visible_model_response_chars": 7436,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": null,
+        "reason": "Provider output was truncated; valid parsed result unavailable."
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "length"
+    },
+    {
+      "case": "product-v2-run1/security",
+      "invocation_id": "09ab020fecc046c08929c82d3a4ede24",
+      "trace_file": ".vivi/traces/09ab020fecc046c08929c82d3a4ede24.json",
+      "trace_sha256": "9242c0b6842b67b83b2ad729fa95f484fbc2c87830156de6c143615bdd80bace",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2",
+      "provider_status": "completed",
+      "product_result_type": "fallback",
+      "actual_cost_usd": 0.1712725,
+      "provider_tokens_exact": {
+        "input_inclusive": 20665,
+        "input_cached_subset": 0,
+        "input_uncached_exclusive": 20665,
+        "output_inclusive": 7974,
+        "output_reasoning_subset": 4142,
+        "output_non_reasoning_exclusive": 3832,
+        "total": 28639
+      },
+      "reasoning_share_of_output_tokens": 0.5194,
+      "latency_ms": 94858.028,
+      "max_output_tokens": 10000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0516625,
+        "cached_input": 0.0,
+        "non_reasoning_output": 0.05748,
+        "reasoning_output": 0.06213
+      },
+      "prompt_chars": 60777,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 46315,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 44837,
+        "priority": 1068,
+        "selected_question_id": 6,
+        "existing_actions": 335
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 72,
+        "business_context": 71,
+        "allowed_evidence_ids": 4501,
+        "questions": 1128,
+        "quality": 272,
+        "metrics": 14947,
+        "observations": 10619,
+        "sources": 7122,
+        "excluded": 277,
+        "previous_comparison": 2818,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 2593
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 12,
+        "selected_question_observations": 3,
+        "other_question_observations": 9,
+        "all_sources": 37,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 11,
+        "metrics": 86,
+        "allowed_evidence_ids": 252,
+        "relation_paths": 28,
+        "selected_question_relation_paths": 7
+      },
+      "scope_chars": {
+        "selected_question_observations": 2928,
+        "other_question_observations": 7692,
+        "owned_plus_selected_citation_sources": 2096
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 24435,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 6053,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4408,
+        "ProductAction": 6533,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 13320,
+      "schema_repeated_reference_enum_chars": 9002,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 86,
+          "value_chars": 2991
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 20274,
+      "schema_without_titles_chars": 22239,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 17914,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 85212,
+        "chars_saved": 11292,
+        "saved_fraction": 0.1325,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 18146
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 11,
+        "removed_observation_source_chars": 12717,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9297,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9297,
+        "code_overwritten_value_chars": 1404,
+        "code_overwritten_share_of_result_chars": 0.151,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 154
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 314
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 105
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 89
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 108
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 17
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 61
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 66
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 178
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 166
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 146
+          }
+        ],
+        "evidence_reference_positions": 34,
+        "unique_evidence_references": 11,
+        "evidence_reference_array_chars": 752,
+        "content_deliverable_chars": 1025,
+        "action_selection_chars": 3023,
+        "asset_roles_and_criteria_chars": 1242,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 86,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 5504,
+        "repeated_child_observation_ids_removed": 50,
+        "inherited_parent_observation_id_chars_saved": 1350,
+        "additional_chars_saved": 6854,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run2/lead",
+      "invocation_id": "a6a1ac97771d470c8a26f630129a9523",
+      "trace_file": ".vivi/traces/a6a1ac97771d470c8a26f630129a9523.json",
+      "trace_sha256": "375d51460918ba77ed73bdd512dd8e9f020f6be12b65cd07434a4205e6f31c9a",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2.1",
+      "provider_status": "completed",
+      "product_result_type": "fallback",
+      "actual_cost_usd": 0.1709675,
+      "provider_tokens_exact": {
+        "input_inclusive": 24809,
+        "input_cached_subset": 24320,
+        "input_uncached_exclusive": 489,
+        "output_inclusive": 10911,
+        "output_reasoning_subset": 7090,
+        "output_non_reasoning_exclusive": 3821,
+        "total": 35720
+      },
+      "reasoning_share_of_output_tokens": 0.6498,
+      "latency_ms": 127336.299,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0012225,
+        "cached_input": 0.00608,
+        "non_reasoning_output": 0.057315,
+        "reasoning_output": 0.10635
+      },
+      "prompt_chars": 71870,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57408,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 55938,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 71,
+        "allowed_evidence_ids": 5478,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 337,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26669,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7030,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7510,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15554,
+      "schema_repeated_reference_enum_chars": 10956,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21531,
+      "schema_without_titles_chars": 24473,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19171,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 98539,
+        "chars_saved": 14305,
+        "saved_fraction": 0.1452,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22619
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 13,
+        "removed_observation_source_chars": 19301,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9474,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9474,
+        "code_overwritten_value_chars": 1508,
+        "code_overwritten_share_of_result_chars": 0.1592,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 153
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 298
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 190
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 73
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 153
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 25
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 53
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 54
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 183
+          },
+          {
+            "path": "$.actions[0].steps[4]",
+            "role": "publication",
+            "json_value_chars": 137
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 189
+          }
+        ],
+        "evidence_reference_positions": 35,
+        "unique_evidence_references": 11,
+        "evidence_reference_array_chars": 655,
+        "content_deliverable_chars": 1008,
+        "action_selection_chars": 3103,
+        "asset_roles_and_criteria_chars": 1242,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run2/unsupported",
+      "invocation_id": "7ccf09d2736b43e2a63a1f4cc2acebc4",
+      "trace_file": ".vivi/traces/7ccf09d2736b43e2a63a1f4cc2acebc4.json",
+      "trace_sha256": "994cf53e111ecfb5ed5791a89b5db476848130fef5b7991ee29610892ecf22ed",
+      "final_case": "unsupported",
+      "policy_at_generation": "product-one-call.v2.1",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.134775,
+      "provider_tokens_exact": {
+        "input_inclusive": 24900,
+        "input_cached_subset": 24320,
+        "input_uncached_exclusive": 580,
+        "output_inclusive": 8483,
+        "output_reasoning_subset": 4918,
+        "output_non_reasoning_exclusive": 3565,
+        "total": 33383
+      },
+      "reasoning_share_of_output_tokens": 0.5797,
+      "latency_ms": 99577.765,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.00145,
+        "cached_input": 0.00608,
+        "non_reasoning_output": 0.053475,
+        "reasoning_output": 0.07377
+      },
+      "prompt_chars": 72192,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57730,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 56260,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 356,
+        "allowed_evidence_ids": 5515,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 338,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26743,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7067,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7547,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15628,
+      "schema_repeated_reference_enum_chars": 11030,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5515
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5515
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21568,
+      "schema_without_titles_chars": 24547,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19208,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 98935,
+        "chars_saved": 14379,
+        "saved_fraction": 0.1453,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22693
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 13,
+        "removed_observation_source_chars": 19301,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9167,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9167,
+        "code_overwritten_value_chars": 1728,
+        "code_overwritten_share_of_result_chars": 0.1885,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 104
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 324
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 199
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 165
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 203
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 17
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 115
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 79
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 165
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 162
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 195
+          }
+        ],
+        "evidence_reference_positions": 37,
+        "unique_evidence_references": 14,
+        "evidence_reference_array_chars": 752,
+        "content_deliverable_chars": 580,
+        "action_selection_chars": 3171,
+        "asset_roles_and_criteria_chars": 1296,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run2/security",
+      "invocation_id": "ab6adaaec6684ff585b42a373f887824",
+      "trace_file": ".vivi/traces/ab6adaaec6684ff585b42a373f887824.json",
+      "trace_sha256": "1ca535bdc278427ae98a831324a3c36c5152d940418486309ae1423c8254a6bb",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2.1",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.1369135,
+      "provider_tokens_exact": {
+        "input_inclusive": 20665,
+        "input_cached_subset": 20224,
+        "input_uncached_exclusive": 441,
+        "output_inclusive": 8717,
+        "output_reasoning_subset": 4923,
+        "output_non_reasoning_exclusive": 3794,
+        "total": 29382
+      },
+      "reasoning_share_of_output_tokens": 0.5648,
+      "latency_ms": 107122.785,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0011025,
+        "cached_input": 0.005056,
+        "non_reasoning_output": 0.05691,
+        "reasoning_output": 0.073845
+      },
+      "prompt_chars": 60777,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 46315,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 44837,
+        "priority": 1068,
+        "selected_question_id": 6,
+        "existing_actions": 335
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 72,
+        "business_context": 71,
+        "allowed_evidence_ids": 4501,
+        "questions": 1128,
+        "quality": 272,
+        "metrics": 14947,
+        "observations": 10619,
+        "sources": 7122,
+        "excluded": 277,
+        "previous_comparison": 2818,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 2593
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 12,
+        "selected_question_observations": 3,
+        "other_question_observations": 9,
+        "all_sources": 37,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 11,
+        "metrics": 86,
+        "allowed_evidence_ids": 252,
+        "relation_paths": 28,
+        "selected_question_relation_paths": 7
+      },
+      "scope_chars": {
+        "selected_question_observations": 2928,
+        "other_question_observations": 7692,
+        "owned_plus_selected_citation_sources": 2096
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 24435,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 6053,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4408,
+        "ProductAction": 6533,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 13320,
+      "schema_repeated_reference_enum_chars": 9002,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 86,
+          "value_chars": 2991
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 20274,
+      "schema_without_titles_chars": 22239,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 17914,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 85212,
+        "chars_saved": 11292,
+        "saved_fraction": 0.1325,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 18146
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 11,
+        "removed_observation_source_chars": 12717,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9360,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9360,
+        "code_overwritten_value_chars": 1496,
+        "code_overwritten_share_of_result_chars": 0.1598,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 112
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 301
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 92
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 75
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 161
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 25
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 72
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 74
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 218
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 195
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 171
+          }
+        ],
+        "evidence_reference_positions": 35,
+        "unique_evidence_references": 12,
+        "evidence_reference_array_chars": 674,
+        "content_deliverable_chars": 927,
+        "action_selection_chars": 3163,
+        "asset_roles_and_criteria_chars": 1261,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 86,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 5504,
+        "repeated_child_observation_ids_removed": 50,
+        "inherited_parent_observation_id_chars_saved": 1350,
+        "additional_chars_saved": 6854,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-control/confirmed",
+      "invocation_id": "1c0e8c5753124db787130ae3bae6aa44",
+      "trace_file": ".vivi/traces/1c0e8c5753124db787130ae3bae6aa44.json",
+      "trace_sha256": "60e8b5ac5f102ce4a21010bb5cc15f81aa042d0dfd9294f5e023630c50b49782",
+      "final_case": "confirmed",
+      "policy_at_generation": "product-one-call.v2.1",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.2479925,
+      "provider_tokens_exact": {
+        "input_inclusive": 25007,
+        "input_cached_subset": 0,
+        "input_uncached_exclusive": 25007,
+        "output_inclusive": 12365,
+        "output_reasoning_subset": 7431,
+        "output_non_reasoning_exclusive": 4934,
+        "total": 37372
+      },
+      "reasoning_share_of_output_tokens": 0.601,
+      "latency_ms": 136118.027,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0625175,
+        "cached_input": 0.0,
+        "non_reasoning_output": 0.07401,
+        "reasoning_output": 0.111465
+      },
+      "prompt_chars": 72333,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57871,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 56401,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 434,
+        "allowed_evidence_ids": 5503,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 104,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 338,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26779,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7055,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 642,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7535,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15648,
+      "schema_repeated_reference_enum_chars": 11006,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5503
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationProcedure.properties.verified_route",
+          "count": 1,
+          "value_chars": 18
+        },
+        {
+          "path": "$.$defs.IntegrationProcedure.properties.verification_ref",
+          "count": 1,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 338,
+          "value_chars": 5503
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21616,
+      "schema_without_titles_chars": 24583,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19370,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 99112,
+        "chars_saved": 14355,
+        "saved_fraction": 0.1448,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22669
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 13,
+        "removed_observation_source_chars": 19301,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 11715,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 11715,
+        "code_overwritten_value_chars": 1415,
+        "code_overwritten_share_of_result_chars": 0.1208,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 117
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 289
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 91
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 113
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 201
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 25
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 47
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 50
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 194
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 143
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 145
+          }
+        ],
+        "evidence_reference_positions": 39,
+        "unique_evidence_references": 12,
+        "evidence_reference_array_chars": 672,
+        "content_deliverable_chars": 1195,
+        "action_selection_chars": 3222,
+        "asset_roles_and_criteria_chars": 1290,
+        "integration_procedure_chars": 2034,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run3/lead",
+      "invocation_id": "737c13fb049f4db49e338fb935aa39b6",
+      "trace_file": ".vivi/traces/737c13fb049f4db49e338fb935aa39b6.json",
+      "trace_sha256": "332a2b74ab7c4c101477bfac365b644e725d5dc639e25f3bd154151ffda2bc6c",
+      "final_case": "lead",
+      "policy_at_generation": "product-one-call.v2.2",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.1628975,
+      "provider_tokens_exact": {
+        "input_inclusive": 24809,
+        "input_cached_subset": 24320,
+        "input_uncached_exclusive": 489,
+        "output_inclusive": 10373,
+        "output_reasoning_subset": 6632,
+        "output_non_reasoning_exclusive": 3741,
+        "total": 35182
+      },
+      "reasoning_share_of_output_tokens": 0.6394,
+      "latency_ms": 120953.353,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0012225,
+        "cached_input": 0.00608,
+        "non_reasoning_output": 0.056115,
+        "reasoning_output": 0.09948
+      },
+      "prompt_chars": 71870,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 57408,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 55938,
+        "priority": 1090,
+        "selected_question_id": 6,
+        "existing_actions": 305
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 68,
+        "business_context": 71,
+        "allowed_evidence_ids": 5478,
+        "questions": 1089,
+        "quality": 272,
+        "metrics": 16381,
+        "observations": 16092,
+        "sources": 8667,
+        "excluded": 2,
+        "previous_comparison": 3749,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 3652
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 15,
+        "selected_question_observations": 3,
+        "other_question_observations": 12,
+        "all_sources": 45,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 13,
+        "metrics": 94,
+        "allowed_evidence_ids": 337,
+        "relation_paths": 40,
+        "selected_question_relation_paths": 8
+      },
+      "scope_chars": {
+        "selected_question_observations": 2964,
+        "other_question_observations": 13129,
+        "owned_plus_selected_citation_sources": 2494
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 26669,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 7030,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4688,
+        "ProductAction": 7510,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 15554,
+      "schema_repeated_reference_enum_chars": 10956,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 94,
+          "value_chars": 3271
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 337,
+          "value_chars": 5478
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 21531,
+      "schema_without_titles_chars": 24473,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 19171,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 98539,
+        "chars_saved": 14305,
+        "saved_fraction": 0.1452,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 22619
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 5,
+        "retained_source_count": 15,
+        "removed_observation_source_chars": 16320,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9466,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9466,
+        "code_overwritten_value_chars": 1597,
+        "code_overwritten_share_of_result_chars": 0.1687,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 109
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 279
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 200
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 113
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 196
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 25
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 121
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 47
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 198
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 151
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 158
+          }
+        ],
+        "evidence_reference_positions": 43,
+        "unique_evidence_references": 14,
+        "evidence_reference_array_chars": 833,
+        "content_deliverable_chars": 897,
+        "action_selection_chars": 3371,
+        "asset_roles_and_criteria_chars": 1108,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": [
+          "OBS0394",
+          "OBS0401"
+        ]
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 94,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 6208,
+        "repeated_child_observation_ids_removed": 78,
+        "inherited_parent_observation_id_chars_saved": 2106,
+        "additional_chars_saved": 8314,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run3/security",
+      "invocation_id": "8b028e32e96646ca93b5609e1c72f815",
+      "trace_file": ".vivi/traces/8b028e32e96646ca93b5609e1c72f815.json",
+      "trace_sha256": "acdb801a4074218be04cd7b51e7ad4f24bee3f7df1c53caecbb82bde7572418f",
+      "final_case": null,
+      "policy_at_generation": "product-one-call.v2.2",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.1566835,
+      "provider_tokens_exact": {
+        "input_inclusive": 20665,
+        "input_cached_subset": 20224,
+        "input_uncached_exclusive": 441,
+        "output_inclusive": 10035,
+        "output_reasoning_subset": 6279,
+        "output_non_reasoning_exclusive": 3756,
+        "total": 30700
+      },
+      "reasoning_share_of_output_tokens": 0.6257,
+      "latency_ms": 117231.251,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0011025,
+        "cached_input": 0.005056,
+        "non_reasoning_output": 0.05634,
+        "reasoning_output": 0.094185
+      },
+      "prompt_chars": 60777,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6373,
+        "input_json_separator": 13,
+        "input_payload_json": 46315,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5136
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 44837,
+        "priority": 1068,
+        "selected_question_id": 6,
+        "existing_actions": 335
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 72,
+        "business_context": 71,
+        "allowed_evidence_ids": 4501,
+        "questions": 1128,
+        "quality": 272,
+        "metrics": 14947,
+        "observations": 10619,
+        "sources": 7122,
+        "excluded": 277,
+        "previous_comparison": 2818,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 2593
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 12,
+        "selected_question_observations": 3,
+        "other_question_observations": 9,
+        "all_sources": 37,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 11,
+        "metrics": 86,
+        "allowed_evidence_ids": 252,
+        "relation_paths": 28,
+        "selected_question_relation_paths": 7
+      },
+      "scope_chars": {
+        "selected_question_observations": 2928,
+        "other_question_observations": 7692,
+        "owned_plus_selected_citation_sources": 2096
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 24435,
+      "schema_definition_chars": {
+        "ActionSelection": 689,
+        "Alternative": 229,
+        "AssetAssessment": 579,
+        "Candidate": 6053,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4408,
+        "ProductAction": 6533,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 13320,
+      "schema_repeated_reference_enum_chars": 9002,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 86,
+          "value_chars": 2991
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 20274,
+      "schema_without_titles_chars": 22239,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 17914,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 85212,
+        "chars_saved": 11292,
+        "saved_fraction": 0.1325,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 18146
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 11,
+        "removed_observation_source_chars": 12717,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 9493,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9493,
+        "code_overwritten_value_chars": 1523,
+        "code_overwritten_share_of_result_chars": 0.1604,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 171
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 333
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 99
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 167
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 111
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 29
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 62
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 68
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 176
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 153
+          },
+          {
+            "path": "$.actions[0].deliverables[1]",
+            "role": "operational_checklist",
+            "json_value_chars": 154
+          }
+        ],
+        "evidence_reference_positions": 40,
+        "unique_evidence_references": 13,
+        "evidence_reference_array_chars": 832,
+        "content_deliverable_chars": 777,
+        "action_selection_chars": 3266,
+        "asset_roles_and_criteria_chars": 1376,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 86,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 5504,
+        "repeated_child_observation_ids_removed": 50,
+        "inherited_parent_observation_id_chars_saved": 1350,
+        "additional_chars_saved": 6854,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "case": "product-v2-run4/security",
+      "invocation_id": "51699c06206f4e328550dbf7f8c6f2df",
+      "trace_file": ".vivi/traces/51699c06206f4e328550dbf7f8c6f2df.json",
+      "trace_sha256": "91ef70b35e2b74d1de9cc0efcbc447c8d1c995016620832a036840e127ee5b63",
+      "final_case": "security",
+      "policy_at_generation": "product-one-call.v2.3",
+      "provider_status": "completed",
+      "product_result_type": "propose",
+      "actual_cost_usd": 0.1973825,
+      "provider_tokens_exact": {
+        "input_inclusive": 20873,
+        "input_cached_subset": 0,
+        "input_uncached_exclusive": 20873,
+        "output_inclusive": 9680,
+        "output_reasoning_subset": 5369,
+        "output_non_reasoning_exclusive": 4311,
+        "total": 30553
+      },
+      "reasoning_share_of_output_tokens": 0.5546,
+      "latency_ms": 110267.651,
+      "max_output_tokens": 16000,
+      "cost_decomposition_observed_rate_fit_usd": {
+        "uncached_input": 0.0521825,
+        "cached_input": 0.0,
+        "non_reasoning_output": 0.064665,
+        "reasoning_output": 0.080535
+      },
+      "prompt_chars": 61772,
+      "prompt_components_chars": {
+        "common_instructions": 2256,
+        "legacy_design_instructions": 6812,
+        "input_json_separator": 13,
+        "input_payload_json": 46315,
+        "extra_single_call_instructions": 684,
+        "production_selection_instructions": 5692
+      },
+      "payload_top_level_value_chars": {
+        "evidence": 44837,
+        "priority": 1068,
+        "selected_question_id": 6,
+        "existing_actions": 335
+      },
+      "evidence_top_level_value_chars": {
+        "scope": 72,
+        "business_context": 71,
+        "allowed_evidence_ids": 4501,
+        "questions": 1128,
+        "quality": 272,
+        "metrics": 14947,
+        "observations": 10619,
+        "sources": 7122,
+        "excluded": 277,
+        "previous_comparison": 2818,
+        "capabilities": 21,
+        "execution_requirements": 29,
+        "decision_policy": 142,
+        "relations": 2593
+      },
+      "evidence_counts": {
+        "questions": 5,
+        "observations": 12,
+        "selected_question_observations": 3,
+        "other_question_observations": 9,
+        "all_sources": 37,
+        "all_owned_sources": 6,
+        "owned_plus_selected_citation_sources": 11,
+        "metrics": 86,
+        "allowed_evidence_ids": 252,
+        "relation_paths": 28,
+        "selected_question_relation_paths": 7
+      },
+      "scope_chars": {
+        "selected_question_observations": 2928,
+        "other_question_observations": 7692,
+        "owned_plus_selected_citation_sources": 2096
+      },
+      "relations_losslessly_reconstructible_from_supplied_observations_and_sources": true,
+      "schema_compact_chars": 24648,
+      "schema_definition_chars": {
+        "ActionSelection": 832,
+        "Alternative": 229,
+        "AssetAssessment": 649,
+        "Candidate": 6053,
+        "DataTask": 502,
+        "Effort": 334,
+        "IntegrationProcedure": 582,
+        "IntegrationStep": 930,
+        "Measurement": 4408,
+        "ProductAction": 6533,
+        "ProductAsset": 1318,
+        "ProductDeliverable": 596,
+        "ProductStep": 461
+      },
+      "schema_enum_array_chars_total": 13320,
+      "schema_repeated_reference_enum_chars": 9002,
+      "schema_enums": [
+        {
+          "path": "$.$defs.AssetAssessment.properties.source_id",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.AssetAssessment.properties.reuse_decision",
+          "count": 3,
+          "value_chars": 63
+        },
+        {
+          "path": "$.$defs.Candidate.properties.intervention_type",
+          "count": 5,
+          "value_chars": 81
+        },
+        {
+          "path": "$.$defs.Candidate.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.Candidate.properties.feasibility",
+          "count": 3,
+          "value_chars": 40
+        },
+        {
+          "path": "$.$defs.Candidate.properties.disposition",
+          "count": 3,
+          "value_chars": 34
+        },
+        {
+          "path": "$.$defs.DataTask.properties.channel",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.Effort.properties.size",
+          "count": 3,
+          "value_chars": 26
+        },
+        {
+          "path": "$.$defs.IntegrationStep.properties.phase",
+          "count": 6,
+          "value_chars": 105
+        },
+        {
+          "path": "$.$defs.Measurement.properties.baseline_metric_ids.items",
+          "count": 15,
+          "value_chars": 551
+        },
+        {
+          "path": "$.$defs.Measurement.properties.secondary_metric_ids.items",
+          "count": 86,
+          "value_chars": 2991
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.question_ids.items",
+          "count": 5,
+          "value_chars": 36
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.channels.items",
+          "count": 3,
+          "value_chars": 33
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.evidence_ids.items",
+          "count": 252,
+          "value_chars": 4501
+        },
+        {
+          "path": "$.$defs.ProductAction.properties.readiness",
+          "count": 3,
+          "value_chars": 42
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.mode",
+          "count": 4,
+          "value_chars": 54
+        },
+        {
+          "path": "$.$defs.ProductAsset.properties.source_ids.items",
+          "count": 6,
+          "value_chars": 55
+        },
+        {
+          "path": "$.$defs.ProductDeliverable.properties.role",
+          "count": 2,
+          "value_chars": 35
+        },
+        {
+          "path": "$.$defs.ProductStep.properties.role",
+          "count": 3,
+          "value_chars": 48
+        },
+        {
+          "path": "$.properties.decision",
+          "count": 3,
+          "value_chars": 36
+        }
+      ],
+      "schema_shared_enum_chars": 20487,
+      "schema_without_titles_chars": 22452,
+      "schema_without_code_owned_scalar_fields_titles_and_shared_enums_chars": 18127,
+      "lossless_transport_dedup_proposal": {
+        "remove_relation_pack": true,
+        "remove_prompt_allowed_evidence_ids_with_schema_enums_retained": true,
+        "share_exact_repeated_schema_enums": true,
+        "combined_prompt_plus_schema_chars_before": 86420,
+        "chars_saved": 11292,
+        "saved_fraction": 0.1307,
+        "quality_caveat": "Facts and reference constraints are retained, but structured-output $ref support and model quality still require regression validation.",
+        "with_structural_roundtrip_chars_saved": 18146
+      },
+      "hindsight_scope_compression_proposal": {
+        "retained_observation_count": 3,
+        "retained_source_count": 11,
+        "removed_observation_source_chars": 12717,
+        "not_deployable_as_is": "Uses final answer references as a hindsight oracle; runtime must choose counterevidence before generation and prove retention quality."
+      },
+      "raw_visible_model_response_chars": 11664,
+      "output_detail": {
+        "raw_model_result_compact_json_chars": 9171,
+        "code_overwritten_value_chars": 1301,
+        "code_overwritten_share_of_result_chars": 0.1419,
+        "code_overwritten_fields": [
+          {
+            "path": "$.summary",
+            "json_value_chars": 106
+          },
+          {
+            "path": "$.rejected_alternatives",
+            "json_value_chars": 310
+          },
+          {
+            "path": "$.monitoring_plan",
+            "json_value_chars": 101
+          },
+          {
+            "path": "$.actions[0].priority_reason",
+            "json_value_chars": 51
+          },
+          {
+            "path": "$.actions[0].target_asset.selection_rule",
+            "json_value_chars": 234
+          },
+          {
+            "path": "$.actions[0].measurement.follow_up",
+            "json_value_chars": 35
+          },
+          {
+            "path": "$.actions[0].measurement.positive_signal",
+            "json_value_chars": 67
+          },
+          {
+            "path": "$.actions[0].measurement.stop_or_revise",
+            "json_value_chars": 71
+          },
+          {
+            "path": "$.actions[0].steps[0]",
+            "role": "asset_selection",
+            "json_value_chars": 167
+          },
+          {
+            "path": "$.actions[0].steps[3]",
+            "role": "publication",
+            "json_value_chars": 159
+          }
+        ],
+        "evidence_reference_positions": 38,
+        "unique_evidence_references": 14,
+        "evidence_reference_array_chars": 731,
+        "content_deliverable_chars": 737,
+        "action_selection_chars": 3393,
+        "asset_roles_and_criteria_chars": 1284,
+        "integration_procedure_chars": 0,
+        "out_of_question_observation_references": []
+      },
+      "lossless_structural_compression_proposal": {
+        "metric_count": 86,
+        "unique_metric_description_count": 20,
+        "metric_description_dictionary_roundtrip_exact": true,
+        "metric_description_dictionary_chars_saved": 5504,
+        "repeated_child_observation_ids_removed": 50,
+        "inherited_parent_observation_id_chars_saved": 1350,
+        "additional_chars_saved": 6854,
+        "caveat": "Transport representation only: restore the complete canonical objects before any computation/validation; model adherence still needs evaluation."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "source_code_locations": {
+    "prompt_construction": "src/vivi_agent/product.py:193",
+    "prompt_transport": "src/vivi_agent/graph.py:104",
+    "constrained_schema": "src/vivi_agent/graph.py:46",
+    "legacy_design": "src/vivi_agent/prompts.py:59",
+    "production_instructions": "src/vivi_agent/product_prompt.py:2",
+    "code_owned_output_compilation": "src/vivi_agent/product.py:82",
+    "summary_and_alternatives_rendering": "src/vivi_agent/selection.py:156"
+  }
+}

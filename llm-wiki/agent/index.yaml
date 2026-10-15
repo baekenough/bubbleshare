@@ -1,0 +1,41 @@
+version: 1
+title: 에이전트와 계약
+repository_root: ../..
+path_base: 저장소 루트
+no_secrets: true
+guide:
+  path: llm-wiki/agent/guide.md
+  title: 추천 흐름
+  purpose: 운영 분기와 모델·코드의 책임
+sources:
+- path: src/vivi_agent/product.py
+  title: 단일 호출 흐름
+  purpose: 정책·캐시·예약·생성·검증
+- path: src/vivi_agent/compact.py
+  title: 압축 생성 계약
+  purpose: 표 형식 근거와 구체 초안을 전체 계획으로 복원
+- path: src/vivi_agent/selection.py
+  title: 후보 선정
+  purpose: 같은 질문의 후보 비교와 선정 조건
+- path: src/vivi_agent/models.py
+  title: 공통 타입
+  purpose: 계획·작업·자산·연동 모델
+- path: src/vivi_agent/validation.py
+  title: 참조 검사
+  purpose: 근거와 지표 범위 검증
+- path: src/vivi_agent/integration.py
+  title: 연동 절차
+  purpose: 검증 경로와 영수증 범위
+- path: src/vivi_agent/execution_policy.py
+  title: 실행 계약
+  purpose: 자산·게시·수집의 선행 조건
+- path: src/vivi_agent/measurement.py
+  title: 측정 계약
+  purpose: 고정 표본·분모·주요 지표
+- path: src/vivi_agent/graph.py
+  title: 심화 검토
+  purpose: 운영 경로와 별도인 다중 호출 흐름
+related:
+- path: llm-wiki/validation/index.yaml
+  title: 관련 검증
+  purpose: 계약과 생성 품질 변경 시 확인

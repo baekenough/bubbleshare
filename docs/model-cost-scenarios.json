@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-10-15",
+  "kind": "counterfactual_price_sensitivity_not_model_benchmark",
+  "price_source": "docs/cost-model-catalog.json",
+  "basis": "The four earlier actual generations; input cached and output including reasoning are mutually correctly counted. Different models can use different token quantities.",
+  "scenarios": [
+    {
+      "model": "openai/gpt-5.4-nano",
+      "same_observed_token_counts_mean_cost_usd": "0.0153722125",
+      "actual_new_model_execution": false,
+      "quality_preservation_validated": false,
+      "hypothetical_compact_uncached_6000_in_3000_out_cost_usd": "0.00495000"
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "same_observed_token_counts_mean_cost_usd": "0.0557285625",
+      "actual_new_model_execution": false,
+      "quality_preservation_validated": false,
+      "hypothetical_compact_uncached_6000_in_3000_out_cost_usd": "0.01800000"
+    },
+    {
+      "model": "openai/gpt-5.4",
+      "same_observed_token_counts_mean_cost_usd": "0.185761875",
+      "actual_new_model_execution": false,
+      "quality_preservation_validated": false,
+      "hypothetical_compact_uncached_6000_in_3000_out_cost_usd": "0.0600000"
+    }
+  ],
+  "goal_profile": {
+    "candidate": "openai/gpt-5.4-mini",
+    "uncached_input_tokens": 6000,
+    "output_including_reasoning_tokens": 3000,
+    "modeled_cost_per_call_usd": "0.018",
+    "paid_calls": 500,
+    "eligible_exact_cache_requests": 500,
+    "cache_share_is_assumption": true,
+    "average_month_cogs_usd": "18.87",
+    "average_month_gross_margin_pct": "81.13",
+    "five_collection_month_cogs_usd": "19.50",
+    "five_collection_month_gross_margin_pct": "80.50",
+    "additional_infrastructure_headroom_five_collection_month_usd": "0.50",
+    "assignment_tier": "M",
+    "quality_and_token_target_validated": false
+  }
+}

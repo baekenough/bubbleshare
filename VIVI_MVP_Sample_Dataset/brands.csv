@@ -1,0 +1,6 @@
+﻿brand_id,name,role,domain,description
+BR001,OrbitCRM,target,orbitcrm.example,중소기업을 위한 CRM·영업 자동화 솔루션
+BR002,NovaDesk,competitor,novadesk.example,고객 관리 및 협업 도구
+BR003,LeadFlow,competitor,leadflow.example,리드 관리 자동화 도구
+BR004,ClientNest,competitor,clientnest.example,소규모 조직용 통합 CRM
+BR005,PicoSales,competitor,picosales.example,영업팀을 위한 고객 데이터 플랫폼

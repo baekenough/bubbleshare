@@ -1,0 +1,32 @@
+version: 1
+title: VIVI 코드 읽기 색인
+repository_root: ..
+path_base: 저장소 루트
+no_secrets: true
+entrypoints:
+- path: llm-wiki/index.md
+  title: 위키 진입점
+  purpose: 처음 읽는 순서와 문서 범위
+- path: src/vivi_agent/product.py
+  title: 운영 에이전트
+  purpose: 근거부터 단일 생성과 검증까지의 분기
+- path: README.md
+  title: 실행 안내
+  purpose: 설치와 시연의 시작점
+sections:
+- path: llm-wiki/agent/index.yaml
+  title: 에이전트
+  purpose: 후보 선정과 실행·측정 계약
+- path: llm-wiki/data/index.yaml
+  title: 데이터
+  purpose: 정제·집계·관계·영속 상태
+- path: llm-wiki/runtime/index.yaml
+  title: 실행
+  purpose: 화면·API·Docker·비용·관측
+- path: llm-wiki/validation/index.yaml
+  title: 검증
+  purpose: 회귀 테스트와 품질 기준
+rules:
+- 코드 역할과 변경 영향을 설명하고 원본 데이터·프롬프트·응답을 복제하지 않는다.
+- 환경 파일의 실제 키와 사용자 대화는 색인에 넣지 않는다.
+- 코드와 문서가 다르면 해당 모듈과 테스트를 확인한 뒤 문서를 수정한다.

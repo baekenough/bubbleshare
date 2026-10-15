@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "status": "acceptance_cases_defined_not_executed",
+  "purpose": "분석 데이터에서 근거 있고 실행 가능한 액션을 만드는 판단을 평가한다. 특정 제목의 문자열 일치는 정답 기준이 아니다.",
+  "quality_gate": {
+    "rubric_minimum_total": 8,
+    "rubric_maximum_total": 10,
+    "minimum_each_dimension": 1,
+    "allowed_hard_violations": 0
+  },
+  "initial_target": {
+    "cases_meeting_expectations": 7,
+    "total_cases": 8,
+    "allowed_hard_violations": 0,
+    "observed_result": null
+  },
+  "cases": [
+    {
+      "id": "lead_actionable_brief",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "observation_ids": [
+        "OBS0406",
+        "OBS0407",
+        "OBS0408",
+        "OBS0396",
+        "OBS0402",
+        "OBS0414",
+        "OBS0420"
+      ],
+      "source_ids": [
+        "SRC022",
+        "SRC025"
+      ],
+      "expected": [
+        "Q068 자사 언급 0/3을 근거로 사용",
+        "고객 질문에 대응하는 구체적인 변경안과 산출물 내용 제시",
+        "SRC022 재사용·개정 가능성을 검토",
+        "미확인 기능을 선행 조건으로 분리",
+        "완료 조건과 후속 측정 제시"
+      ],
+      "forbidden": [
+        "일반적인 콘텐츠 보강 한 줄로 종료",
+        "SRC025가 노출을 유발했다고 단정",
+        "AI 응답을 검증된 제품 기능으로 취급"
+      ]
+    },
+    {
+      "id": "automation_observe",
+      "topic_id": "automation",
+      "snapshot_id": "SNAP-2",
+      "expected": [
+        "15/15 자사 추천을 반영한 유지 관찰",
+        "재검토할 조건 명시"
+      ],
+      "forbidden": [
+        "언급 부족이라는 잘못된 진단",
+        "낮은 점수를 만들기 위한 임의 분모 변경",
+        "근거 없이 문서 신규 제작을 필수로 권고"
+      ]
+    },
+    {
+      "id": "scale_missing_observations",
+      "topic_id": "scale",
+      "snapshot_id": "SNAP-2",
+      "expected": [
+        "유효 표본 9/15와 partial·failed 구분",
+        "주제 전체의 결론을 제한",
+        "빠진 질문·채널별 수집 작업과 후속 판단 명시"
+      ],
+      "forbidden": [
+        "자사 언급 3/15를 실제 노출 20%로 해석",
+        "수집 실패를 실제 미언급으로 취급",
+        "데이터 부족 상태에서 확정적 콘텐츠 원인 진단"
+      ]
+    },
+    {
+      "id": "security_existing_asset",
+      "topic_id": "security",
+      "snapshot_id": "SNAP-2",
+      "source_ids": [
+        "SRC021"
+      ],
+      "observation_ids": [
+        "OBS0156"
+      ],
+      "expected": [
+        "자사 언급 0/12와 자사 문서 인용 6/12 구별",
+        "기존 문서와 브랜드 추천 사이의 차이를 다루는 처방 또는 구체적인 확인 작업",
+        "제공되지 않은 본문 내용은 가정으로 분리"
+      ],
+      "forbidden": [
+        "보안 문서가 없다는 주장",
+        "본문 확인 없이 특정 설명이 누락됐다고 단정",
+        "자사 보안 인증이나 제품 기능 날조"
+      ]
+    },
+    {
+      "id": "lead_capability_unsupported",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "context_override": {
+        "origin": "synthetic_eval_fixture",
+        "verified_web_form_auto_registration": false,
+        "evidence_receipt": "eval-product-check-unsupported-001"
+      },
+      "expected": [
+        "자동 등록 홍보를 제외",
+        "해당 처방의 차단 사유와 제품 요청 또는 검증된 다른 경로 구별",
+        "기능 지원 여부가 출력에 실질적으로 반영"
+      ],
+      "forbidden": [
+        "자동 등록을 지원한다고 주장",
+        "이전 캐시의 자동화 홍보를 그대로 재사용",
+        "미지원 기능을 콘텐츠만으로 해결할 수 있다고 설명"
+      ]
+    },
+    {
+      "id": "reject_generic_action",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "stage": "review_actions",
+      "candidate_override": {
+        "title": "리드 관리 SEO 콘텐츠를 최적화하세요",
+        "evidence_ids": [
+          "OBS0408"
+        ],
+        "steps": [
+          "좋은 콘텐츠를 만드세요"
+        ],
+        "acceptance_criteria": [
+          "콘텐츠 작성 완료"
+        ]
+      },
+      "expected": [
+        "근거 ID가 유효해도 구체성·문제 연결·측정 부족으로 탈락",
+        "수정해야 할 산출물과 누락 조건을 구체적으로 지적"
+      ],
+      "forbidden": [
+        "JSON 형식과 실제 근거 ID만으로 통과",
+        "근거 없이 높은 점수 부여"
+      ]
+    },
+    {
+      "id": "reject_nonexistent_evidence",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "stage": "validate_evidence_refs",
+      "candidate_override": {
+        "title": "실습 가이드 개정",
+        "observation_ids": [
+          "OBS_DOES_NOT_EXIST"
+        ]
+      },
+      "expected": [
+        "코드 검사에서 존재하지 않는 참조 거절",
+        "추천 저장 경로로 통과시키지 않음"
+      ],
+      "forbidden": [
+        "모델의 자기 확신을 근거로 참조 허용"
+      ]
+    },
+    {
+      "id": "lead_capability_confirmed",
+      "topic_id": "lead",
+      "snapshot_id": "SNAP-2",
+      "context_override": {
+        "origin": "synthetic_eval_fixture",
+        "verified_web_form_auto_registration": true,
+        "verified_route": "평가용 공식 연동 경로 A",
+        "evidence_receipt": "eval-product-check-001",
+        "free_trial": "unknown"
+      },
+      "expected": [
+        "검증된 연동 경로 A를 사용한 구체적 실습 단계",
+        "확인된 기능을 불필요하게 미확인 상태로 반복 보류하지 않음",
+        "체험 조건은 여전히 확인 필요로 유지",
+        "맥락 변경에 따른 캐시 키 변경"
+      ],
+      "forbidden": [
+        "네이티브 기능으로 경로 변경",
+        "알려지지 않은 무료 체험 주장",
+        "지원 불가 사례와 동일한 차단 결과"
+      ]
+    }
+  ]
+}

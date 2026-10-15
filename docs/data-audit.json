@@ -1,0 +1,2948 @@
+{
+  "audit_version": 1,
+  "dataset": {
+    "name": "VIVI MVP Synthetic AI Search Dataset",
+    "version": "2.0",
+    "fictional": true,
+    "target_brand_id": "BR001"
+  },
+  "policies": {
+    "canonical_key": [
+      "question_id",
+      "channel",
+      "source_snapshot_id"
+    ],
+    "missing_snapshot_fallback": "Use date:YYYY-MM-DD from collected_at in its recorded timezone. The date identifies the available collection round when no snapshot ID exists. Snapshot/date namespaces remain separate; this does not guess that a missing-snapshot row belongs to a populated snapshot. Production ingestion should supply a stable collection_run_id.",
+    "canonical_selection": "Prefer complete > partial > failed, then requested language match, then latest collected_at, then lexicographically greatest observation_id. Preserve every attempt and the canonical mapping. possible_duplicate alone does not disqualify a row.",
+    "metric_eligibility": "One canonical row per question/channel/batch; complete and response_language matches questions.language. Exclude partial, failed and language-mismatch rows from mention/citation denominators; show their coverage separately. Partial evidence remains inspectable but absence is not a negative observation.",
+    "summary_authority": "Recompute target_mentioned, mention_count and citation_count from mentions/citations; retain reported values in the audit.",
+    "source_metadata": "Missing title uses domain or URL for display. An external source with null brand_id is valid. An owned source with null brand_id remains unresolved in authoritative metrics; domain-match attribution is a separate candidate metric.",
+    "similar_questions": "Keep distinct question_id values; semantic similarity is not proof of duplicate collection. Do not sum synthetic interest as unique market demand.",
+    "interpretation": "Observed mentions/citations are associations in synthetic data, not proof of content quality, actual product capability, causal effect, market demand, or future improvement."
+  },
+  "record_counts": {
+    "brands": 5,
+    "questions": 75,
+    "observations": 456,
+    "mentions": 976,
+    "citations": 1118,
+    "sources": 49
+  },
+  "integrity": {
+    "duplicate_primary_keys": {
+      "brands": [],
+      "questions": [],
+      "observations": [],
+      "mentions": [],
+      "citations": [],
+      "sources": []
+    },
+    "invalid_foreign_keys": {
+      "observations.question_id": [],
+      "mentions.observation_id": [],
+      "mentions.brand_id": [],
+      "citations.observation_id": [],
+      "citations.source_id": [],
+      "sources.brand_id": []
+    },
+    "exact_duplicate_question_queries": 0,
+    "exact_duplicate_source_urls": 0
+  },
+  "raw_quality": {
+    "collection_status": {
+      "complete": 439,
+      "failed": 5,
+      "partial": 12
+    },
+    "quality_flag": {
+      "collection_failed": 5,
+      "language_mismatch": 3,
+      "none": 432,
+      "possible_duplicate": 4,
+      "truncated": 12
+    },
+    "missing_snapshot_observation_ids": []
+  },
+  "duplicates": {
+    "group_count": 6,
+    "excess_observation_count": 6,
+    "groups": [
+      {
+        "key": {
+          "question_id": "Q003",
+          "channel": "Perplexity",
+          "batch_id": "snapshot:SNAP-1"
+        },
+        "canonical_observation_id": "OBS0454",
+        "discarded_observation_ids": [
+          "OBS0015"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0015",
+            "collected_at": "2026-09-15T14:00:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0454",
+            "collected_at": "2026-09-15T14:05:00+09:00",
+            "quality_flag": "possible_duplicate",
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      },
+      {
+        "key": {
+          "question_id": "Q018",
+          "channel": "Gemini",
+          "batch_id": "snapshot:SNAP-2"
+        },
+        "canonical_observation_id": "OBS0456",
+        "discarded_observation_ids": [
+          "OBS0107"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0107",
+            "collected_at": "2026-10-06T10:30:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0456",
+            "collected_at": "2026-10-06T10:35:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      },
+      {
+        "key": {
+          "question_id": "Q020",
+          "channel": "ChatGPT",
+          "batch_id": "snapshot:SNAP-2"
+        },
+        "canonical_observation_id": "OBS0455",
+        "discarded_observation_ids": [
+          "OBS0118"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0118",
+            "collected_at": "2026-10-06T09:00:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0455",
+            "collected_at": "2026-10-06T09:05:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      },
+      {
+        "key": {
+          "question_id": "Q023",
+          "channel": "Gemini",
+          "batch_id": "snapshot:SNAP-2"
+        },
+        "canonical_observation_id": "OBS0452",
+        "discarded_observation_ids": [
+          "OBS0137"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0137",
+            "collected_at": "2026-10-06T10:30:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0452",
+            "collected_at": "2026-10-06T10:35:00+09:00",
+            "quality_flag": "possible_duplicate",
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      },
+      {
+        "key": {
+          "question_id": "Q036",
+          "channel": "Perplexity",
+          "batch_id": "snapshot:SNAP-1"
+        },
+        "canonical_observation_id": "OBS0453",
+        "discarded_observation_ids": [
+          "OBS0213"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0213",
+            "collected_at": "2026-09-15T14:00:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0453",
+            "collected_at": "2026-09-15T14:05:00+09:00",
+            "quality_flag": "possible_duplicate",
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      },
+      {
+        "key": {
+          "question_id": "Q054",
+          "channel": "Perplexity",
+          "batch_id": "snapshot:SNAP-1"
+        },
+        "canonical_observation_id": "OBS0451",
+        "discarded_observation_ids": [
+          "OBS0321"
+        ],
+        "attempts": [
+          {
+            "observation_id": "OBS0321",
+            "collected_at": "2026-09-15T14:00:00+09:00",
+            "quality_flag": null,
+            "collection_status": "complete"
+          },
+          {
+            "observation_id": "OBS0451",
+            "collected_at": "2026-09-15T14:05:00+09:00",
+            "quality_flag": "possible_duplicate",
+            "collection_status": "complete"
+          }
+        ],
+        "response_text_identical": true,
+        "mentions_identical_ignoring_ids": true,
+        "citations_identical_ignoring_ids": true
+      }
+    ]
+  },
+  "summary_mismatches": {
+    "target_mentioned": {
+      "count": 3,
+      "rows": [
+        {
+          "observation_id": "OBS0127",
+          "reported": false,
+          "recomputed": true,
+          "quality_flag": null
+        },
+        {
+          "observation_id": "OBS0286",
+          "reported": true,
+          "recomputed": false,
+          "quality_flag": null
+        },
+        {
+          "observation_id": "OBS0388",
+          "reported": true,
+          "recomputed": false,
+          "quality_flag": null
+        }
+      ]
+    },
+    "mention_count": {
+      "count": 2,
+      "rows": [
+        {
+          "observation_id": "OBS0226",
+          "reported": 2,
+          "recomputed": 1,
+          "quality_flag": null
+        },
+        {
+          "observation_id": "OBS0389",
+          "reported": 4,
+          "recomputed": 3,
+          "quality_flag": null
+        }
+      ]
+    },
+    "citation_count": {
+      "count": 0,
+      "rows": []
+    }
+  },
+  "metric_stages": {
+    "raw": {
+      "observation_count": 456,
+      "target_mentions_from_children": {
+        "numerator": 144,
+        "denominator": 456,
+        "rate": 0.315789
+      },
+      "target_mentions_from_summary": {
+        "numerator": 145,
+        "denominator": 456,
+        "rate": 0.317982
+      },
+      "mention_rows": 976,
+      "citation_rows": 1118
+    },
+    "canonical": {
+      "observation_count": 450,
+      "target_mentions_from_children": {
+        "numerator": 138,
+        "denominator": 450,
+        "rate": 0.306667
+      },
+      "target_mentions_from_summary": {
+        "numerator": 139,
+        "denominator": 450,
+        "rate": 0.308889
+      },
+      "mention_rows": 961,
+      "citation_rows": 1103
+    },
+    "canonical_complete": {
+      "observation_count": 433,
+      "target_mentions_from_children": {
+        "numerator": 137,
+        "denominator": 433,
+        "rate": 0.316397
+      },
+      "target_mentions_from_summary": {
+        "numerator": 138,
+        "denominator": 433,
+        "rate": 0.318707
+      },
+      "mention_rows": 944,
+      "citation_rows": 1094
+    },
+    "eligible": {
+      "observation_count": 430,
+      "target_mentions_from_children": {
+        "numerator": 136,
+        "denominator": 430,
+        "rate": 0.316279
+      },
+      "target_mentions_from_summary": {
+        "numerator": 137,
+        "denominator": 430,
+        "rate": 0.318605
+      },
+      "mention_rows": 936,
+      "citation_rows": 1088
+    }
+  },
+  "excluded_canonical_observations": {
+    "partial": {
+      "count": 12,
+      "observation_ids": [
+        "OBS0031",
+        "OBS0066",
+        "OBS0110",
+        "OBS0153",
+        "OBS0162",
+        "OBS0168",
+        "OBS0174",
+        "OBS0192",
+        "OBS0316",
+        "OBS0324",
+        "OBS0330",
+        "OBS0354"
+      ]
+    },
+    "failed": {
+      "count": 5,
+      "observation_ids": [
+        "OBS0187",
+        "OBS0296",
+        "OBS0305",
+        "OBS0311",
+        "OBS0317"
+      ]
+    },
+    "complete_language_mismatch": {
+      "count": 3,
+      "observation_ids": [
+        "OBS0131",
+        "OBS0218",
+        "OBS0236"
+      ]
+    }
+  },
+  "source_metadata": {
+    "missing_title": {
+      "count": 2,
+      "source_ids": [
+        "SRC040",
+        "SRC049"
+      ]
+    },
+    "null_brand_id_count": 25,
+    "external_null_brand_id_count": 24,
+    "owned_missing_brand_id": {
+      "count": 1,
+      "source_ids": [
+        "SRC024"
+      ]
+    },
+    "domain_attribution_candidates": {
+      "SRC024": "BR001"
+    },
+    "eligible_target_owned_citation_responses": 54,
+    "eligible_target_owned_citation_responses_with_domain_candidates": 57
+  },
+  "snapshots": [
+    {
+      "batch_id": "snapshot:SNAP-1",
+      "collection_date": "2026-09-15",
+      "expected_observations": 225,
+      "raw": {
+        "observation_count": 228,
+        "target_mentions_from_children": {
+          "numerator": 77,
+          "denominator": 228,
+          "rate": 0.337719
+        },
+        "target_mentions_from_summary": {
+          "numerator": 76,
+          "denominator": 228,
+          "rate": 0.333333
+        },
+        "mention_rows": 502,
+        "citation_rows": 585
+      },
+      "canonical": {
+        "observation_count": 225,
+        "target_mentions_from_children": {
+          "numerator": 74,
+          "denominator": 225,
+          "rate": 0.328889
+        },
+        "target_mentions_from_summary": {
+          "numerator": 73,
+          "denominator": 225,
+          "rate": 0.324444
+        },
+        "mention_rows": 494,
+        "citation_rows": 572
+      },
+      "eligible": {
+        "observation_count": 218,
+        "target_mentions_from_children": {
+          "numerator": 73,
+          "denominator": 218,
+          "rate": 0.334862
+        },
+        "target_mentions_from_summary": {
+          "numerator": 72,
+          "denominator": 218,
+          "rate": 0.330275
+        },
+        "mention_rows": 485,
+        "citation_rows": 567
+      },
+      "coverage": {
+        "numerator": 218,
+        "denominator": 225,
+        "rate": 0.968889
+      }
+    },
+    {
+      "batch_id": "snapshot:SNAP-2",
+      "collection_date": "2026-10-06",
+      "expected_observations": 225,
+      "raw": {
+        "observation_count": 228,
+        "target_mentions_from_children": {
+          "numerator": 67,
+          "denominator": 228,
+          "rate": 0.29386
+        },
+        "target_mentions_from_summary": {
+          "numerator": 69,
+          "denominator": 228,
+          "rate": 0.302632
+        },
+        "mention_rows": 474,
+        "citation_rows": 533
+      },
+      "canonical": {
+        "observation_count": 225,
+        "target_mentions_from_children": {
+          "numerator": 64,
+          "denominator": 225,
+          "rate": 0.284444
+        },
+        "target_mentions_from_summary": {
+          "numerator": 66,
+          "denominator": 225,
+          "rate": 0.293333
+        },
+        "mention_rows": 467,
+        "citation_rows": 531
+      },
+      "eligible": {
+        "observation_count": 212,
+        "target_mentions_from_children": {
+          "numerator": 63,
+          "denominator": 212,
+          "rate": 0.29717
+        },
+        "target_mentions_from_summary": {
+          "numerator": 65,
+          "denominator": 212,
+          "rate": 0.306604
+        },
+        "mention_rows": 451,
+        "citation_rows": 521
+      },
+      "coverage": {
+        "numerator": 212,
+        "denominator": 225,
+        "rate": 0.942222
+      }
+    }
+  ],
+  "latest_batch_id": "snapshot:SNAP-2",
+  "latest_topics": [
+    {
+      "topic_id": "crm_basics",
+      "topic_label": "CRM 도입",
+      "question_ids": [
+        "Q001",
+        "Q002",
+        "Q003",
+        "Q004",
+        "Q005"
+      ],
+      "importance_mean": 72.6,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 1,
+          "denominator": 15,
+          "rate": 0.066667
+        },
+        "target_mentions_from_summary": {
+          "numerator": 1,
+          "denominator": 15,
+          "rate": 0.066667
+        },
+        "mention_rows": 27,
+        "citation_rows": 42
+      },
+      "target_recommended": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "target_owned_citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 1,
+        "BR002": 6,
+        "BR003": 8,
+        "BR004": 4,
+        "BR005": 8
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC003": 1,
+        "SRC005": 1,
+        "SRC009": 1,
+        "SRC011": 2,
+        "SRC013": 2,
+        "SRC015": 3,
+        "SRC017": 2,
+        "SRC019": 1,
+        "SRC026": 4,
+        "SRC027": 1,
+        "SRC030": 8,
+        "SRC032": 5,
+        "SRC038": 5,
+        "SRC039": 1,
+        "SRC041": 1,
+        "SRC042": 1,
+        "SRC043": 1,
+        "SRC044": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0004",
+            "OBS0010",
+            "OBS0016",
+            "OBS0022",
+            "OBS0028"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0005",
+            "OBS0011",
+            "OBS0017",
+            "OBS0023",
+            "OBS0029"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0006",
+            "OBS0012",
+            "OBS0018",
+            "OBS0024",
+            "OBS0030"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 7,
+            "denominator": 15,
+            "rate": 0.466667
+          },
+          "target_mentions_from_summary": {
+            "numerator": 7,
+            "denominator": 15,
+            "rate": 0.466667
+          },
+          "mention_rows": 37,
+          "citation_rows": 39
+        }
+      ]
+    },
+    {
+      "topic_id": "pricing",
+      "topic_label": "가격·비용",
+      "question_ids": [
+        "Q006",
+        "Q007",
+        "Q008",
+        "Q009",
+        "Q010"
+      ],
+      "importance_mean": 82.0,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 3,
+          "denominator": 15,
+          "rate": 0.2
+        },
+        "target_mentions_from_summary": {
+          "numerator": 3,
+          "denominator": 15,
+          "rate": 0.2
+        },
+        "mention_rows": 31,
+        "citation_rows": 40
+      },
+      "target_recommended": {
+        "numerator": 3,
+        "denominator": 15,
+        "rate": 0.2
+      },
+      "target_owned_citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 3,
+        "BR002": 7,
+        "BR003": 7,
+        "BR004": 9,
+        "BR005": 5
+      },
+      "source_citation_counts": {
+        "SRC006": 1,
+        "SRC009": 1,
+        "SRC010": 2,
+        "SRC014": 1,
+        "SRC017": 3,
+        "SRC018": 1,
+        "SRC026": 11,
+        "SRC028": 1,
+        "SRC029": 9,
+        "SRC032": 1,
+        "SRC033": 1,
+        "SRC034": 1,
+        "SRC035": 1,
+        "SRC036": 1,
+        "SRC039": 1,
+        "SRC040": 1,
+        "SRC042": 1,
+        "SRC044": 1,
+        "SRC045": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0034",
+            "OBS0040",
+            "OBS0046",
+            "OBS0052",
+            "OBS0058"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0035",
+            "OBS0041",
+            "OBS0047",
+            "OBS0053",
+            "OBS0059"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0036",
+            "OBS0042",
+            "OBS0048",
+            "OBS0054",
+            "OBS0060"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 14,
+          "target_mentions_from_children": {
+            "numerator": 0,
+            "denominator": 14,
+            "rate": 0.0
+          },
+          "target_mentions_from_summary": {
+            "numerator": 0,
+            "denominator": 14,
+            "rate": 0.0
+          },
+          "mention_rows": 26,
+          "citation_rows": 33
+        }
+      ]
+    },
+    {
+      "topic_id": "migration",
+      "topic_label": "마이그레이션",
+      "question_ids": [
+        "Q011",
+        "Q012",
+        "Q013",
+        "Q014",
+        "Q015"
+      ],
+      "importance_mean": 77.0,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 14,
+        "denominator": 15,
+        "rate": 0.933333
+      },
+      "metrics": {
+        "observation_count": 14,
+        "target_mentions_from_children": {
+          "numerator": 2,
+          "denominator": 14,
+          "rate": 0.142857
+        },
+        "target_mentions_from_summary": {
+          "numerator": 2,
+          "denominator": 14,
+          "rate": 0.142857
+        },
+        "mention_rows": 32,
+        "citation_rows": 34
+      },
+      "target_recommended": {
+        "numerator": 1,
+        "denominator": 14,
+        "rate": 0.071429
+      },
+      "target_owned_citation_responses": {
+        "numerator": 0,
+        "denominator": 14,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 0,
+        "denominator": 14,
+        "rate": 0.0
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 2,
+        "BR002": 5,
+        "BR003": 4,
+        "BR004": 14,
+        "BR005": 7
+      },
+      "source_citation_counts": {
+        "SRC005": 1,
+        "SRC008": 1,
+        "SRC010": 1,
+        "SRC012": 1,
+        "SRC013": 4,
+        "SRC014": 1,
+        "SRC017": 4,
+        "SRC023": 6,
+        "SRC026": 1,
+        "SRC027": 1,
+        "SRC032": 2,
+        "SRC033": 4,
+        "SRC037": 1,
+        "SRC040": 1,
+        "SRC041": 1,
+        "SRC043": 2,
+        "SRC044": 1,
+        "SRC047": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0064",
+            "OBS0070",
+            "OBS0076",
+            "OBS0082",
+            "OBS0088"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0065",
+            "OBS0071",
+            "OBS0077",
+            "OBS0083",
+            "OBS0089"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 4,
+            "rate": 0.25
+          },
+          "observation_ids": [
+            "OBS0072",
+            "OBS0078",
+            "OBS0084",
+            "OBS0090"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0066",
+          "question_id": "Q011",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 0,
+            "denominator": 15,
+            "rate": 0.0
+          },
+          "target_mentions_from_summary": {
+            "numerator": 0,
+            "denominator": 15,
+            "rate": 0.0
+          },
+          "mention_rows": 34,
+          "citation_rows": 43
+        }
+      ]
+    },
+    {
+      "topic_id": "automation",
+      "topic_label": "업무 자동화",
+      "question_ids": [
+        "Q016",
+        "Q017",
+        "Q018",
+        "Q019",
+        "Q020"
+      ],
+      "importance_mean": 82.4,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 15,
+          "denominator": 15,
+          "rate": 1.0
+        },
+        "target_mentions_from_summary": {
+          "numerator": 15,
+          "denominator": 15,
+          "rate": 1.0
+        },
+        "mention_rows": 43,
+        "citation_rows": 39
+      },
+      "target_recommended": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "target_owned_citation_responses": {
+        "numerator": 4,
+        "denominator": 15,
+        "rate": 0.266667
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 6,
+        "denominator": 15,
+        "rate": 0.4
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 15,
+        "BR002": 9,
+        "BR003": 9,
+        "BR004": 6,
+        "BR005": 4
+      },
+      "source_citation_counts": {
+        "SRC001": 4,
+        "SRC005": 1,
+        "SRC006": 1,
+        "SRC012": 1,
+        "SRC013": 1,
+        "SRC014": 1,
+        "SRC015": 1,
+        "SRC016": 1,
+        "SRC017": 1,
+        "SRC019": 1,
+        "SRC024": 4,
+        "SRC026": 2,
+        "SRC027": 1,
+        "SRC029": 1,
+        "SRC034": 2,
+        "SRC035": 6,
+        "SRC036": 1,
+        "SRC038": 1,
+        "SRC039": 1,
+        "SRC040": 1,
+        "SRC041": 3,
+        "SRC044": 1,
+        "SRC046": 1,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "observation_ids": [
+            "OBS0094",
+            "OBS0100",
+            "OBS0106",
+            "OBS0112",
+            "OBS0455"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "observation_ids": [
+            "OBS0095",
+            "OBS0101",
+            "OBS0113",
+            "OBS0119",
+            "OBS0456"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "observation_ids": [
+            "OBS0096",
+            "OBS0102",
+            "OBS0108",
+            "OBS0114",
+            "OBS0120"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 14,
+          "target_mentions_from_children": {
+            "numerator": 11,
+            "denominator": 14,
+            "rate": 0.785714
+          },
+          "target_mentions_from_summary": {
+            "numerator": 11,
+            "denominator": 14,
+            "rate": 0.785714
+          },
+          "mention_rows": 37,
+          "citation_rows": 37
+        }
+      ]
+    },
+    {
+      "topic_id": "analytics",
+      "topic_label": "리포팅",
+      "question_ids": [
+        "Q021",
+        "Q022",
+        "Q023",
+        "Q024",
+        "Q025"
+      ],
+      "importance_mean": 63.6,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 14,
+        "denominator": 15,
+        "rate": 0.933333
+      },
+      "metrics": {
+        "observation_count": 14,
+        "target_mentions_from_children": {
+          "numerator": 6,
+          "denominator": 14,
+          "rate": 0.428571
+        },
+        "target_mentions_from_summary": {
+          "numerator": 6,
+          "denominator": 14,
+          "rate": 0.428571
+        },
+        "mention_rows": 29,
+        "citation_rows": 32
+      },
+      "target_recommended": {
+        "numerator": 4,
+        "denominator": 14,
+        "rate": 0.285714
+      },
+      "target_owned_citation_responses": {
+        "numerator": 2,
+        "denominator": 14,
+        "rate": 0.142857
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 2,
+        "denominator": 14,
+        "rate": 0.142857
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 6,
+        "BR002": 5,
+        "BR003": 6,
+        "BR004": 2,
+        "BR005": 10
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC004": 1,
+        "SRC005": 2,
+        "SRC006": 1,
+        "SRC010": 1,
+        "SRC013": 1,
+        "SRC017": 3,
+        "SRC018": 2,
+        "SRC019": 1,
+        "SRC026": 3,
+        "SRC031": 1,
+        "SRC032": 1,
+        "SRC034": 7,
+        "SRC036": 2,
+        "SRC037": 2,
+        "SRC045": 1,
+        "SRC048": 1,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 3,
+            "denominator": 5,
+            "rate": 0.6
+          },
+          "observation_ids": [
+            "OBS0124",
+            "OBS0130",
+            "OBS0136",
+            "OBS0142",
+            "OBS0148"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 4,
+            "rate": 0.25
+          },
+          "observation_ids": [
+            "OBS0125",
+            "OBS0143",
+            "OBS0149",
+            "OBS0452"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0126",
+            "OBS0132",
+            "OBS0138",
+            "OBS0144",
+            "OBS0150"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0131",
+          "question_id": "Q022",
+          "channel": "Gemini",
+          "collection_status": "complete",
+          "quality_flag": "language_mismatch"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 8,
+            "denominator": 15,
+            "rate": 0.533333
+          },
+          "target_mentions_from_summary": {
+            "numerator": 7,
+            "denominator": 15,
+            "rate": 0.466667
+          },
+          "mention_rows": 33,
+          "citation_rows": 39
+        }
+      ]
+    },
+    {
+      "topic_id": "security",
+      "topic_label": "보안·권한",
+      "question_ids": [
+        "Q026",
+        "Q027",
+        "Q028",
+        "Q029",
+        "Q030"
+      ],
+      "importance_mean": 76.4,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 12,
+        "denominator": 15,
+        "rate": 0.8
+      },
+      "metrics": {
+        "observation_count": 12,
+        "target_mentions_from_children": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "target_mentions_from_summary": {
+          "numerator": 0,
+          "denominator": 12,
+          "rate": 0.0
+        },
+        "mention_rows": 22,
+        "citation_rows": 28
+      },
+      "target_recommended": {
+        "numerator": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses": {
+        "numerator": 6,
+        "denominator": 12,
+        "rate": 0.5
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 6,
+        "denominator": 12,
+        "rate": 0.5
+      },
+      "competitor_and_target_mention_counts": {
+        "BR002": 5,
+        "BR003": 4,
+        "BR004": 8,
+        "BR005": 5
+      },
+      "source_citation_counts": {
+        "SRC005": 1,
+        "SRC011": 2,
+        "SRC013": 1,
+        "SRC014": 1,
+        "SRC020": 2,
+        "SRC021": 6,
+        "SRC026": 2,
+        "SRC028": 3,
+        "SRC030": 1,
+        "SRC035": 1,
+        "SRC038": 1,
+        "SRC039": 1,
+        "SRC042": 1,
+        "SRC043": 1,
+        "SRC044": 1,
+        "SRC045": 3
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0154",
+            "OBS0160",
+            "OBS0166",
+            "OBS0172",
+            "OBS0178"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0155",
+            "OBS0161",
+            "OBS0167",
+            "OBS0173",
+            "OBS0179"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0156",
+            "OBS0180"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0162",
+          "question_id": "Q027",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        },
+        {
+          "observation_id": "OBS0168",
+          "question_id": "Q028",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        },
+        {
+          "observation_id": "OBS0174",
+          "question_id": "Q029",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 14,
+          "target_mentions_from_children": {
+            "numerator": 0,
+            "denominator": 14,
+            "rate": 0.0
+          },
+          "target_mentions_from_summary": {
+            "numerator": 0,
+            "denominator": 14,
+            "rate": 0.0
+          },
+          "mention_rows": 25,
+          "citation_rows": 31
+        }
+      ]
+    },
+    {
+      "topic_id": "integration",
+      "topic_label": "연동",
+      "question_ids": [
+        "Q031",
+        "Q032",
+        "Q033",
+        "Q034",
+        "Q035"
+      ],
+      "importance_mean": 59.0,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 14,
+        "denominator": 15,
+        "rate": 0.933333
+      },
+      "metrics": {
+        "observation_count": 14,
+        "target_mentions_from_children": {
+          "numerator": 3,
+          "denominator": 14,
+          "rate": 0.214286
+        },
+        "target_mentions_from_summary": {
+          "numerator": 3,
+          "denominator": 14,
+          "rate": 0.214286
+        },
+        "mention_rows": 27,
+        "citation_rows": 30
+      },
+      "target_recommended": {
+        "numerator": 3,
+        "denominator": 14,
+        "rate": 0.214286
+      },
+      "target_owned_citation_responses": {
+        "numerator": 1,
+        "denominator": 14,
+        "rate": 0.071429
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 1,
+        "denominator": 14,
+        "rate": 0.071429
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 3,
+        "BR002": 9,
+        "BR003": 6,
+        "BR004": 5,
+        "BR005": 4
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC005": 2,
+        "SRC008": 1,
+        "SRC009": 2,
+        "SRC011": 1,
+        "SRC012": 1,
+        "SRC013": 1,
+        "SRC014": 1,
+        "SRC018": 1,
+        "SRC030": 3,
+        "SRC031": 5,
+        "SRC036": 6,
+        "SRC037": 2,
+        "SRC038": 1,
+        "SRC041": 1,
+        "SRC046": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0184",
+            "OBS0190",
+            "OBS0196",
+            "OBS0202",
+            "OBS0208"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0185",
+            "OBS0191",
+            "OBS0197",
+            "OBS0203",
+            "OBS0209"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 4,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0186",
+            "OBS0198",
+            "OBS0204",
+            "OBS0210"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0192",
+          "question_id": "Q032",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 14,
+          "target_mentions_from_children": {
+            "numerator": 6,
+            "denominator": 14,
+            "rate": 0.428571
+          },
+          "target_mentions_from_summary": {
+            "numerator": 6,
+            "denominator": 14,
+            "rate": 0.428571
+          },
+          "mention_rows": 34,
+          "citation_rows": 35
+        }
+      ]
+    },
+    {
+      "topic_id": "onboarding",
+      "topic_label": "도입·교육",
+      "question_ids": [
+        "Q036",
+        "Q037",
+        "Q038",
+        "Q039",
+        "Q040"
+      ],
+      "importance_mean": 56.6,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 3,
+          "denominator": 15,
+          "rate": 0.2
+        },
+        "target_mentions_from_summary": {
+          "numerator": 3,
+          "denominator": 15,
+          "rate": 0.2
+        },
+        "mention_rows": 31,
+        "citation_rows": 38
+      },
+      "target_recommended": {
+        "numerator": 2,
+        "denominator": 15,
+        "rate": 0.133333
+      },
+      "target_owned_citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 3,
+        "BR002": 5,
+        "BR003": 8,
+        "BR004": 10,
+        "BR005": 5
+      },
+      "source_citation_counts": {
+        "SRC005": 2,
+        "SRC006": 1,
+        "SRC009": 4,
+        "SRC010": 1,
+        "SRC011": 3,
+        "SRC013": 4,
+        "SRC015": 3,
+        "SRC017": 1,
+        "SRC026": 1,
+        "SRC028": 1,
+        "SRC029": 1,
+        "SRC032": 3,
+        "SRC035": 1,
+        "SRC038": 1,
+        "SRC042": 1,
+        "SRC043": 1,
+        "SRC047": 2,
+        "SRC048": 7
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0214",
+            "OBS0220",
+            "OBS0226",
+            "OBS0232",
+            "OBS0238"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0215",
+            "OBS0221",
+            "OBS0227",
+            "OBS0233",
+            "OBS0239"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0216",
+            "OBS0222",
+            "OBS0228",
+            "OBS0234",
+            "OBS0240"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 13,
+          "target_mentions_from_children": {
+            "numerator": 4,
+            "denominator": 13,
+            "rate": 0.307692
+          },
+          "target_mentions_from_summary": {
+            "numerator": 4,
+            "denominator": 13,
+            "rate": 0.307692
+          },
+          "mention_rows": 29,
+          "citation_rows": 30
+        }
+      ]
+    },
+    {
+      "topic_id": "mobile",
+      "topic_label": "모바일",
+      "question_ids": [
+        "Q041",
+        "Q042",
+        "Q043",
+        "Q044",
+        "Q045"
+      ],
+      "importance_mean": 69.4,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 8,
+          "denominator": 15,
+          "rate": 0.533333
+        },
+        "target_mentions_from_summary": {
+          "numerator": 8,
+          "denominator": 15,
+          "rate": 0.533333
+        },
+        "mention_rows": 34,
+        "citation_rows": 34
+      },
+      "target_recommended": {
+        "numerator": 8,
+        "denominator": 15,
+        "rate": 0.533333
+      },
+      "target_owned_citation_responses": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 8,
+        "BR002": 6,
+        "BR003": 7,
+        "BR004": 4,
+        "BR005": 9
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC013": 2,
+        "SRC017": 3,
+        "SRC027": 8,
+        "SRC028": 1,
+        "SRC029": 2,
+        "SRC031": 1,
+        "SRC037": 1,
+        "SRC039": 9,
+        "SRC040": 1,
+        "SRC041": 1,
+        "SRC042": 2,
+        "SRC044": 1,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0244",
+            "OBS0250",
+            "OBS0256",
+            "OBS0262",
+            "OBS0268"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "observation_ids": [
+            "OBS0245",
+            "OBS0251",
+            "OBS0257",
+            "OBS0263",
+            "OBS0269"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 3,
+            "denominator": 5,
+            "rate": 0.6
+          },
+          "observation_ids": [
+            "OBS0246",
+            "OBS0252",
+            "OBS0258",
+            "OBS0264",
+            "OBS0270"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 12,
+            "denominator": 15,
+            "rate": 0.8
+          },
+          "target_mentions_from_summary": {
+            "numerator": 12,
+            "denominator": 15,
+            "rate": 0.8
+          },
+          "mention_rows": 38,
+          "citation_rows": 36
+        }
+      ]
+    },
+    {
+      "topic_id": "collaboration",
+      "topic_label": "협업",
+      "question_ids": [
+        "Q046",
+        "Q047",
+        "Q048",
+        "Q049",
+        "Q050"
+      ],
+      "importance_mean": 61.2,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 2,
+          "denominator": 15,
+          "rate": 0.133333
+        },
+        "target_mentions_from_summary": {
+          "numerator": 3,
+          "denominator": 15,
+          "rate": 0.2
+        },
+        "mention_rows": 31,
+        "citation_rows": 31
+      },
+      "target_recommended": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "target_owned_citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 2,
+        "BR002": 8,
+        "BR003": 7,
+        "BR004": 7,
+        "BR005": 7
+      },
+      "source_citation_counts": {
+        "SRC005": 1,
+        "SRC007": 1,
+        "SRC009": 1,
+        "SRC010": 2,
+        "SRC013": 3,
+        "SRC014": 1,
+        "SRC015": 1,
+        "SRC016": 1,
+        "SRC017": 2,
+        "SRC027": 1,
+        "SRC028": 1,
+        "SRC030": 1,
+        "SRC033": 1,
+        "SRC037": 6,
+        "SRC041": 2,
+        "SRC045": 2,
+        "SRC046": 1,
+        "SRC048": 3
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0274",
+            "OBS0280",
+            "OBS0286",
+            "OBS0292",
+            "OBS0298"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0275",
+            "OBS0281",
+            "OBS0287",
+            "OBS0293",
+            "OBS0299"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0276",
+            "OBS0282",
+            "OBS0288",
+            "OBS0294",
+            "OBS0300"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 14,
+          "target_mentions_from_children": {
+            "numerator": 3,
+            "denominator": 14,
+            "rate": 0.214286
+          },
+          "target_mentions_from_summary": {
+            "numerator": 3,
+            "denominator": 14,
+            "rate": 0.214286
+          },
+          "mention_rows": 30,
+          "citation_rows": 39
+        }
+      ]
+    },
+    {
+      "topic_id": "scale",
+      "topic_label": "확장성",
+      "question_ids": [
+        "Q051",
+        "Q052",
+        "Q053",
+        "Q054",
+        "Q055"
+      ],
+      "importance_mean": 54.4,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 9,
+        "denominator": 15,
+        "rate": 0.6
+      },
+      "metrics": {
+        "observation_count": 9,
+        "target_mentions_from_children": {
+          "numerator": 3,
+          "denominator": 9,
+          "rate": 0.333333
+        },
+        "target_mentions_from_summary": {
+          "numerator": 3,
+          "denominator": 9,
+          "rate": 0.333333
+        },
+        "mention_rows": 20,
+        "citation_rows": 20
+      },
+      "target_recommended": {
+        "numerator": 3,
+        "denominator": 9,
+        "rate": 0.333333
+      },
+      "target_owned_citation_responses": {
+        "numerator": 1,
+        "denominator": 9,
+        "rate": 0.111111
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 1,
+        "denominator": 9,
+        "rate": 0.111111
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 3,
+        "BR002": 4,
+        "BR003": 6,
+        "BR004": 3,
+        "BR005": 4
+      },
+      "source_citation_counts": {
+        "SRC004": 1,
+        "SRC005": 1,
+        "SRC006": 1,
+        "SRC008": 1,
+        "SRC009": 2,
+        "SRC012": 1,
+        "SRC017": 1,
+        "SRC019": 1,
+        "SRC020": 2,
+        "SRC032": 1,
+        "SRC034": 1,
+        "SRC035": 1,
+        "SRC041": 3,
+        "SRC045": 1,
+        "SRC047": 2
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 4,
+            "rate": 0.5
+          },
+          "observation_ids": [
+            "OBS0304",
+            "OBS0310",
+            "OBS0322",
+            "OBS0328"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 2,
+            "rate": 0.5
+          },
+          "observation_ids": [
+            "OBS0323",
+            "OBS0329"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 3,
+            "denominator": 5,
+            "rate": 0.6
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0306",
+            "OBS0312",
+            "OBS0318"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0305",
+          "question_id": "Q051",
+          "channel": "Gemini",
+          "collection_status": "failed",
+          "quality_flag": "collection_failed"
+        },
+        {
+          "observation_id": "OBS0311",
+          "question_id": "Q052",
+          "channel": "Gemini",
+          "collection_status": "failed",
+          "quality_flag": "collection_failed"
+        },
+        {
+          "observation_id": "OBS0316",
+          "question_id": "Q053",
+          "channel": "ChatGPT",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        },
+        {
+          "observation_id": "OBS0317",
+          "question_id": "Q053",
+          "channel": "Gemini",
+          "collection_status": "failed",
+          "quality_flag": "collection_failed"
+        },
+        {
+          "observation_id": "OBS0324",
+          "question_id": "Q054",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        },
+        {
+          "observation_id": "OBS0330",
+          "question_id": "Q055",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 8,
+            "denominator": 15,
+            "rate": 0.533333
+          },
+          "target_mentions_from_summary": {
+            "numerator": 8,
+            "denominator": 15,
+            "rate": 0.533333
+          },
+          "mention_rows": 34,
+          "citation_rows": 40
+        }
+      ]
+    },
+    {
+      "topic_id": "comparison",
+      "topic_label": "제품 비교",
+      "question_ids": [
+        "Q056",
+        "Q057",
+        "Q058",
+        "Q059",
+        "Q060"
+      ],
+      "importance_mean": 84.2,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 14,
+        "denominator": 15,
+        "rate": 0.933333
+      },
+      "metrics": {
+        "observation_count": 14,
+        "target_mentions_from_children": {
+          "numerator": 5,
+          "denominator": 14,
+          "rate": 0.357143
+        },
+        "target_mentions_from_summary": {
+          "numerator": 5,
+          "denominator": 14,
+          "rate": 0.357143
+        },
+        "mention_rows": 31,
+        "citation_rows": 32
+      },
+      "target_recommended": {
+        "numerator": 4,
+        "denominator": 14,
+        "rate": 0.285714
+      },
+      "target_owned_citation_responses": {
+        "numerator": 1,
+        "denominator": 14,
+        "rate": 0.071429
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 1,
+        "denominator": 14,
+        "rate": 0.071429
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 5,
+        "BR002": 5,
+        "BR003": 7,
+        "BR004": 6,
+        "BR005": 8
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC010": 2,
+        "SRC012": 1,
+        "SRC017": 1,
+        "SRC018": 3,
+        "SRC019": 1,
+        "SRC020": 1,
+        "SRC026": 2,
+        "SRC027": 1,
+        "SRC028": 1,
+        "SRC030": 2,
+        "SRC032": 1,
+        "SRC037": 1,
+        "SRC038": 5,
+        "SRC041": 7,
+        "SRC045": 1,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0334",
+            "OBS0340",
+            "OBS0346",
+            "OBS0352",
+            "OBS0358"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0335",
+            "OBS0341",
+            "OBS0347",
+            "OBS0353",
+            "OBS0359"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 4,
+            "denominator": 5,
+            "rate": 0.8
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 4,
+            "rate": 0.5
+          },
+          "observation_ids": [
+            "OBS0336",
+            "OBS0342",
+            "OBS0348",
+            "OBS0360"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "observation_id": "OBS0354",
+          "question_id": "Q059",
+          "channel": "Perplexity",
+          "collection_status": "partial",
+          "quality_flag": "truncated"
+        }
+      ],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 4,
+            "denominator": 15,
+            "rate": 0.266667
+          },
+          "target_mentions_from_summary": {
+            "numerator": 4,
+            "denominator": 15,
+            "rate": 0.266667
+          },
+          "mention_rows": 32,
+          "citation_rows": 43
+        }
+      ]
+    },
+    {
+      "topic_id": "retention",
+      "topic_label": "고객 유지",
+      "question_ids": [
+        "Q061",
+        "Q062",
+        "Q063",
+        "Q064",
+        "Q065"
+      ],
+      "importance_mean": 66.8,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 6,
+          "denominator": 15,
+          "rate": 0.4
+        },
+        "target_mentions_from_summary": {
+          "numerator": 7,
+          "denominator": 15,
+          "rate": 0.466667
+        },
+        "mention_rows": 31,
+        "citation_rows": 38
+      },
+      "target_recommended": {
+        "numerator": 5,
+        "denominator": 15,
+        "rate": 0.333333
+      },
+      "target_owned_citation_responses": {
+        "numerator": 3,
+        "denominator": 15,
+        "rate": 0.2
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 3,
+        "denominator": 15,
+        "rate": 0.2
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 6,
+        "BR002": 8,
+        "BR003": 6,
+        "BR004": 4,
+        "BR005": 7
+      },
+      "source_citation_counts": {
+        "SRC001": 3,
+        "SRC005": 3,
+        "SRC006": 1,
+        "SRC009": 1,
+        "SRC011": 2,
+        "SRC017": 2,
+        "SRC027": 1,
+        "SRC028": 2,
+        "SRC031": 2,
+        "SRC037": 1,
+        "SRC038": 1,
+        "SRC039": 1,
+        "SRC040": 2,
+        "SRC042": 8,
+        "SRC044": 1,
+        "SRC045": 1,
+        "SRC046": 5,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0364",
+            "OBS0370",
+            "OBS0376",
+            "OBS0382",
+            "OBS0388"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 3,
+            "denominator": 5,
+            "rate": 0.6
+          },
+          "observation_ids": [
+            "OBS0365",
+            "OBS0371",
+            "OBS0377",
+            "OBS0383",
+            "OBS0389"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0366",
+            "OBS0372",
+            "OBS0378",
+            "OBS0384",
+            "OBS0390"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 2,
+            "denominator": 15,
+            "rate": 0.133333
+          },
+          "target_mentions_from_summary": {
+            "numerator": 2,
+            "denominator": 15,
+            "rate": 0.133333
+          },
+          "mention_rows": 27,
+          "citation_rows": 36
+        }
+      ]
+    },
+    {
+      "topic_id": "lead",
+      "topic_label": "리드 관리",
+      "question_ids": [
+        "Q066",
+        "Q067",
+        "Q068",
+        "Q069",
+        "Q070"
+      ],
+      "importance_mean": 91.2,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 5,
+          "denominator": 15,
+          "rate": 0.333333
+        },
+        "target_mentions_from_summary": {
+          "numerator": 5,
+          "denominator": 15,
+          "rate": 0.333333
+        },
+        "mention_rows": 38,
+        "citation_rows": 40
+      },
+      "target_recommended": {
+        "numerator": 5,
+        "denominator": 15,
+        "rate": 0.333333
+      },
+      "target_owned_citation_responses": {
+        "numerator": 2,
+        "denominator": 15,
+        "rate": 0.133333
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 2,
+        "denominator": 15,
+        "rate": 0.133333
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 5,
+        "BR002": 7,
+        "BR003": 10,
+        "BR004": 8,
+        "BR005": 8
+      },
+      "source_citation_counts": {
+        "SRC001": 1,
+        "SRC005": 2,
+        "SRC009": 3,
+        "SRC016": 1,
+        "SRC017": 2,
+        "SRC018": 1,
+        "SRC020": 1,
+        "SRC022": 2,
+        "SRC025": 5,
+        "SRC027": 1,
+        "SRC028": 1,
+        "SRC032": 1,
+        "SRC034": 1,
+        "SRC038": 1,
+        "SRC040": 2,
+        "SRC042": 2,
+        "SRC043": 5,
+        "SRC044": 6,
+        "SRC045": 1,
+        "SRC049": 1
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 2,
+            "denominator": 5,
+            "rate": 0.4
+          },
+          "observation_ids": [
+            "OBS0394",
+            "OBS0400",
+            "OBS0406",
+            "OBS0412",
+            "OBS0418"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 3,
+            "denominator": 5,
+            "rate": 0.6
+          },
+          "observation_ids": [
+            "OBS0395",
+            "OBS0401",
+            "OBS0407",
+            "OBS0413",
+            "OBS0419"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0396",
+            "OBS0402",
+            "OBS0408",
+            "OBS0414",
+            "OBS0420"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 8,
+            "denominator": 15,
+            "rate": 0.533333
+          },
+          "target_mentions_from_summary": {
+            "numerator": 8,
+            "denominator": 15,
+            "rate": 0.533333
+          },
+          "mention_rows": 37,
+          "citation_rows": 48
+        }
+      ]
+    },
+    {
+      "topic_id": "industry",
+      "topic_label": "업종별 활용",
+      "question_ids": [
+        "Q071",
+        "Q072",
+        "Q073",
+        "Q074",
+        "Q075"
+      ],
+      "importance_mean": 49.2,
+      "expected_observations": 15,
+      "coverage": {
+        "numerator": 15,
+        "denominator": 15,
+        "rate": 1.0
+      },
+      "metrics": {
+        "observation_count": 15,
+        "target_mentions_from_children": {
+          "numerator": 1,
+          "denominator": 15,
+          "rate": 0.066667
+        },
+        "target_mentions_from_summary": {
+          "numerator": 1,
+          "denominator": 15,
+          "rate": 0.066667
+        },
+        "mention_rows": 24,
+        "citation_rows": 43
+      },
+      "target_recommended": {
+        "numerator": 1,
+        "denominator": 15,
+        "rate": 0.066667
+      },
+      "target_owned_citation_responses": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "target_owned_citation_responses_with_domain_candidates": {
+        "numerator": 0,
+        "denominator": 15,
+        "rate": 0.0
+      },
+      "competitor_and_target_mention_counts": {
+        "BR001": 1,
+        "BR002": 4,
+        "BR003": 6,
+        "BR004": 7,
+        "BR005": 6
+      },
+      "source_citation_counts": {
+        "SRC008": 2,
+        "SRC009": 2,
+        "SRC010": 1,
+        "SRC012": 1,
+        "SRC013": 2,
+        "SRC014": 1,
+        "SRC016": 1,
+        "SRC017": 1,
+        "SRC020": 2,
+        "SRC027": 2,
+        "SRC028": 1,
+        "SRC029": 1,
+        "SRC031": 1,
+        "SRC032": 1,
+        "SRC034": 1,
+        "SRC036": 1,
+        "SRC037": 1,
+        "SRC041": 2,
+        "SRC042": 1,
+        "SRC043": 1,
+        "SRC045": 2,
+        "SRC046": 6,
+        "SRC049": 9
+      },
+      "channels": [
+        {
+          "channel": "ChatGPT",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0424",
+            "OBS0430",
+            "OBS0436",
+            "OBS0442",
+            "OBS0448"
+          ]
+        },
+        {
+          "channel": "Gemini",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 1,
+            "denominator": 5,
+            "rate": 0.2
+          },
+          "observation_ids": [
+            "OBS0425",
+            "OBS0431",
+            "OBS0437",
+            "OBS0443",
+            "OBS0449"
+          ]
+        },
+        {
+          "channel": "Perplexity",
+          "coverage": {
+            "numerator": 5,
+            "denominator": 5,
+            "rate": 1.0
+          },
+          "target_mentions": {
+            "numerator": 0,
+            "denominator": 5,
+            "rate": 0.0
+          },
+          "observation_ids": [
+            "OBS0426",
+            "OBS0432",
+            "OBS0438",
+            "OBS0444",
+            "OBS0450"
+          ]
+        }
+      ],
+      "excluded": [],
+      "prior_snapshots": [
+        {
+          "batch_id": "snapshot:SNAP-1",
+          "observation_count": 15,
+          "target_mentions_from_children": {
+            "numerator": 0,
+            "denominator": 15,
+            "rate": 0.0
+          },
+          "target_mentions_from_summary": {
+            "numerator": 0,
+            "denominator": 15,
+            "rate": 0.0
+          },
+          "mention_rows": 32,
+          "citation_rows": 38
+        }
+      ]
+    }
+  ]
+}

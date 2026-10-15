@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "case": "lead",
+      "result_type": "propose",
+      "model_calls": 1,
+      "actual_vendor_cost_usd": 0.2015975,
+      "errors": []
+    },
+    {
+      "case": "unsupported",
+      "result_type": "propose",
+      "model_calls": 1,
+      "actual_vendor_cost_usd": 0.192565,
+      "errors": []
+    },
+    {
+      "case": "confirmed",
+      "result_type": "propose",
+      "model_calls": 1,
+      "actual_vendor_cost_usd": 0.1824725,
+      "errors": []
+    },
+    {
+      "case": "security",
+      "result_type": "propose",
+      "model_calls": 1,
+      "actual_vendor_cost_usd": 0.170385,
+      "errors": []
+    },
+    {
+      "case": "automation",
+      "result_type": "no_action",
+      "model_calls": 0,
+      "actual_vendor_cost_usd": 0,
+      "errors": []
+    },
+    {
+      "case": "scale",
+      "result_type": "insufficient_evidence",
+      "model_calls": 0,
+      "actual_vendor_cost_usd": 0,
+      "errors": []
+    }
+  ],
+  "kind": "real_data_real_provider_execution_not_effectiveness_validation",
+  "provider": "openrouter:openai/gpt-5.4",
+  "policy": "product-one-call.v1"
+}
